@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Roles>
+  <Role culture="en-us" Id="1" value="Administrator"></Role>
+  <Role culture="es-es" Id="1" value="Administrador"></Role>
+  <Role culture="en-us" Id="7" value="Super Admin"></Role>
+  <Role culture="es-es" Id="7" value="Super Admin"></Role>
+</Roles>

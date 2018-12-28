@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="spartaneEntities-Web.config Connection String" description="spartaneEntities Cadena de conexión que usa la aplicación en web.config para obtener acceso a la base de datos." defaultValue="data source=JVILORIA\SQL;persist security info=False;initial catalog=STGeneticsv1_0_20;USER=sa;PWD=Sql_2012;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Proyectos\\Totaltech\\SpartaneTemplateFormatos\\Application\\MVC\\Spartane\.Web\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='spartaneEntities']/@connectionString" />
+  </parameter>
+</parameters>

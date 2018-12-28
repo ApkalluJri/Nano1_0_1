@@ -1,0 +1,8 @@
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\ObjectBussiness\MS_Observatorios\bin\Debug\MS_Observatorios.dll
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\ObjectBussiness\MS_Observatorios\bin\Debug\MS_Observatorios.pdb
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\ObjectBussiness\MS_Observatorios\bin\Debug\LibraryDLLObjectBusiness.dll
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\ObjectBussiness\MS_Observatorios\bin\Debug\Telerik.Web.UI.dll
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\ObjectBussiness\MS_Observatorios\bin\Debug\LibraryDLLObjectBusiness.pdb
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\ObjectBussiness\MS_Observatorios\obj\Debug\ResolveAssemblyReference.cache
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\ObjectBussiness\MS_Observatorios\obj\Debug\MS_Observatorios.dll
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\ObjectBussiness\MS_Observatorios\obj\Debug\MS_Observatorios.pdb

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<resources>
+  <resource culture="en-us" name="Spartan_Traduction_Process" value="Spartan Traduction Process"></resource>
+  <resource culture="en-us" name="IdTraduction" value="IdTraduction"></resource>
+  <resource culture="en-us" name="LanguageT" value="Language"></resource>
+  <resource culture="en-us" name="Object_Type" value="Object Type"></resource>
+  <resource culture="en-us" name="ObjectT" value="Object"></resource>
+  <resource culture="en-us" name="Traduction" value="Traduction"></resource>
+  <resource culture="en-us" name="TabDatos_Generales" value="General Data"></resource>
+</resources>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" standalone="yes"?>
+<resources>
+  <resource culture="es-es" name="Spartan_BR_Conditions_Detail" value="Business Rule Conditions Detail"></resource>
+  <resource culture="es-es" name="ConditionsDetailId" value="Id"></resource>
+  <resource culture="es-es" name="Condition_Operator" value="Condition Operator"></resource>
+  <resource culture="es-es" name="First_Operator_Type" value="First Operator Type"></resource>
+  <resource culture="es-es" name="First_Operator_Value" value="First Operator Value"></resource>
+  <resource culture="es-es" name="Condition" value="Condition"></resource>
+  <resource culture="es-es" name="Second_Operator_Type" value="Second Operator Type"></resource>
+  <resource culture="es-es" name="Second_Operator_Value" value="Second Operator Value"></resource>
+
+</resources>

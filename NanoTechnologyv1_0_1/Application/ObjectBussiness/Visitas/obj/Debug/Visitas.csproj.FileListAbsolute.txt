@@ -1,0 +1,8 @@
+c:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\ObjectBussiness\Visitas\bin\Debug\Visitas.dll
+c:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\ObjectBussiness\Visitas\bin\Debug\Visitas.pdb
+c:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\ObjectBussiness\Visitas\bin\Debug\LibraryDLLObjectBusiness.dll
+c:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\ObjectBussiness\Visitas\bin\Debug\Telerik.Web.UI.dll
+c:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\ObjectBussiness\Visitas\bin\Debug\LibraryDLLObjectBusiness.pdb
+c:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\ObjectBussiness\Visitas\obj\Debug\ResolveAssemblyReference.cache
+c:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\ObjectBussiness\Visitas\obj\Debug\Visitas.dll
+c:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\ObjectBussiness\Visitas\obj\Debug\Visitas.pdb

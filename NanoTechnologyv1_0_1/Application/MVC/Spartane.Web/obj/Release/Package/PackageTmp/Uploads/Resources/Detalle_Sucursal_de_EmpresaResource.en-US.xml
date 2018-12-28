@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" standalone="yes"?>
+<resources>
+  <resource culture="en-us" name="Detalle_Sucursal_de_Empresa" value="Detalle Sucursal de Empresa"></resource>
+  <resource culture="en-US" name="Folio" value="Folio"></resource>
+  <resource culture="en-US" name="Nombre" value="Nombre de la Sucursal"></resource>
+  <resource culture="en-US" name="Direccion" value="Dirección"></resource>
+  <resource culture="en-US" name="Ciudad" value="Ciudad"></resource>
+
+</resources>

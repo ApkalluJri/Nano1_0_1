@@ -1,0 +1,8 @@
+obj\Debug\ResolveAssemblyReference.cache
+bin\Debug\LibraryDLLObjectBusiness.dll
+bin\Debug\LibraryDLLObjectBusiness.pdb
+obj\Debug\LibraryDLLObjectBusiness.dll
+obj\Debug\LibraryDLLObjectBusiness.pdb
+bin\Debug\TTVersion.dll
+bin\Debug\TTTraductor.pdb
+bin\Debug\TTVersion.pdb

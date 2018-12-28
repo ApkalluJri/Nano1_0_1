@@ -1,0 +1,200 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{96C94BF8-90E8-4ABB-8A61-BDEA44467BD4}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>LibraryDLLObjectBusiness</RootNamespace>
+    <AssemblyName>LibraryDLLObjectBusiness</AssemblyName>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <PublishUrl>http://localhost/LibraryDLLObjectBusiness/</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ConexionCS, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="ControlsLibrary, Version=1.0.2805.29296, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Proyectos NET\Case NET 2007 v3\Jorge\Template case net\WindowsApplication3\ControlsLibrary\bin\Debug\ControlsLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions, Version=1.0.61025.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Telerik.Web.UI, Version=2009.2.701.35, Culture=neutral, PublicKeyToken=121fae78165ba3d4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\WebApplication1\WebApplication1\DLL\Telerik.Web.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="TTClassSpecials, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Proyectos NET\Case NET 2007 v3\Jorge\Template case net\WindowsApplication3\TTClassSpecials\bin\Debug\TTClassSpecials.dll</HintPath>
+    </Reference>
+    <Reference Include="TTFunctions, Version=1.0.2792.19869, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Proyectos NET\Case NET 2007 v3\Jorge\Template case net\WindowsApplication3\TTFunctions\bin\Debug\TTFunctions.dll</HintPath>
+    </Reference>
+    <Reference Include="TTSecurity, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Proyectos NET\Case NET 2007 v3\Jorge\Template case net\WindowsApplication3\TTSecurity\bin\Debug\TTSecurity.dll</HintPath>
+    </Reference>
+    <Reference Include="TTTraductor, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Case NET 2007 v4\Jorge\Template case net\WindowsApplication3\TTTraductor\TTTraductor\bin\Debug\TTTraductor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+<Compile Include="CeldaHtml.cs" />
+    <Compile Include="DockStateWithTemplate.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TTBitacoraLogIn_LogOff.cs" />
+    <Compile Include="TTBitacoraSQL.cs" />
+    <Compile Include="TTBusinessRules.cs" />
+    <Compile Include="TTBusinessRules_ActionParameterType.cs" />
+    <Compile Include="TTBusinessRules_ActionResultType.cs" />
+    <Compile Include="TTBusinessRules_ActionType.cs" />
+    <Compile Include="TTBusinessRules_ActionType_Relac_ParamTy.cs" />
+    <Compile Include="TTBusinessRules_Alcance.cs" />
+    <Compile Include="TTBusinessRules_CondicionOperator.cs" />
+    <Compile Include="TTBusinessRules_Condition.cs" />
+    <Compile Include="TTBusinessRules_FieldEvent.cs" />
+    <Compile Include="TTBusinessRules_Operacion.cs" />
+    <Compile Include="TTBusinessRules_ProcessEvent.cs" />
+    <Compile Include="TTBusinessRules_RelacionAccionesFalse.cs" />
+    <Compile Include="TTBusinessRules_RelacionAccionesTrue.cs" />
+    <Compile Include="TTBusinessRules_RelacionConditions.cs" />
+    <Compile Include="TTBusinessRules_RelacionFieldEvent.cs" />
+    <Compile Include="TTBusinessRules_RelacionOperacion.cs" />
+    <Compile Include="TTBusinessRules_RelacionProcessEvent.cs" />
+    <Compile Include="TTBusinessRules_TypeOperator.cs" />
+    <Compile Include="TTBusinessRules_TypeOperator2.cs" />
+    <Compile Include="TTConfigurationServers.cs" />
+    <Compile Include="TTConfigurationServers_TipoServidor.cs" />
+    <Compile Include="TTDashBoards.cs" />
+    <Compile Include="TTDashBoards_RelacionComponentes.cs" />
+    <Compile Include="TTDashBoards_RelacionGrupoUsuarios.cs" />
+    <Compile Include="TTDashBoard_ComponentType.cs" />
+    <Compile Include="TTDashBoard_Templates.cs" />
+    <Compile Include="TTDashBoard_TemplatesRelacionComponente.cs" />
+    <Compile Include="TTDNT.cs" />
+    <Compile Include="TTDominio.cs" />
+    <Compile Include="TTDominio_Tipo.cs" />
+    <Compile Include="TTenumDBOperations.cs" />
+    <Compile Include="TTenumToScreensConfigurations.cs" />
+    <Compile Include="TTFormatos.cs" />
+    <Compile Include="TTGrupoFuncional.cs" />
+    <Compile Include="TTGrupoFuncional_RelacionGrupoUsuarios.cs" />
+    <Compile Include="TTGrupoFuncional_RelacionUsuarios.cs" />
+    <Compile Include="TTGrupo_de_Usuario.cs" />
+    <Compile Include="TTGrupo_Reporte.cs" />
+    <Compile Include="TTLanguage.cs" />
+    <Compile Include="TTLanguageTraduction.cs" />
+    <Compile Include="TTMetadata.cs" />
+    <Compile Include="TTModulo.cs" />
+    <Compile Include="TTOperacion.cs" />
+    <Compile Include="TTPermisos_por_modulo.cs" />
+    <Compile Include="TTPermisos_por_proceso.cs" />
+    <Compile Include="TTProceso.cs" />
+    <Compile Include="TTProceso_del_Modulo.cs" />
+    <Compile Include="TTReportes.cs" />
+    <Compile Include="TTReportes_Columnas.cs" />
+    <Compile Include="TTReportes_Filas.cs" />
+    <Compile Include="TTReportes_Funciones.cs" />
+    <Compile Include="TTReportsConfigurations.cs" />
+    <Compile Include="TTReportsHeaderFooter.cs" />
+    <Compile Include="TTSearchAdvanced.cs" />
+    <Compile Include="TTTipo_de_Control.cs" />
+    <Compile Include="TTUsuarios.cs" />
+    <Compile Include="TTUsuarios_Por_Grupo.cs" />
+    <Compile Include="TTWorkFlow.cs" />
+    <Compile Include="TTWorkFlow_Condiciones_por_Estado.cs" />
+    <Compile Include="TTWorkFlow_Estados.cs" />
+    <Compile Include="TTWorkFlow_Estatus_de_Fase.cs" />
+    <Compile Include="TTWorkFlow_Estatus_de_WorkFlow.cs" />
+    <Compile Include="TTWorkFlow_Fases.cs" />
+    <Compile Include="TTWorkFlow_Frecuencia.cs" />
+    <Compile Include="TTWorkFlow_Informacion_por_Estado.cs" />
+    <Compile Include="TTWorkFlow_Matriz_de_Estados.cs" />
+    <Compile Include="TTWorkFlow_Metas_de_Fase.cs" />
+    <Compile Include="TTWorkFlow_Respuesta.cs" />
+    <Compile Include="TTWorkFlow_Roles_por_Estado.cs" />
+    <Compile Include="TTWorkFlow_Tipo_Control_Flujo.cs" />
+    <Compile Include="TTWorkFlow_Tipo_de_Fase.cs" />
+    <Compile Include="TTWorkFlow_Tipo_de_Meta.cs" />
+    <Compile Include="TTWorkFlow_Tipo_Distribucion_Trabajo.cs" />
+    <Compile Include="TTWorkFlow_Transicion_de_Fase.cs" />
+<!--@@Compile_Form@@-->
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

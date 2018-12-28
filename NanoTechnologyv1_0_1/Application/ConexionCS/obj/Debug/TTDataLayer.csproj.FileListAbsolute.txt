@@ -1,0 +1,25 @@
+D:\TotalCase\ASP NET\Template en Blanco\ConexionCS\bin\Debug\ConexionCS.dll
+D:\TotalCase\ASP NET\Template en Blanco\ConexionCS\bin\Debug\ConexionCS.pdb
+D:\TotalCase\ASP NET\Template en Blanco\ConexionCS\obj\Debug\ResolveAssemblyReference.cache
+D:\TotalCase\ASP NET\Template en Blanco\ConexionCS\obj\Debug\ConexionCS.dll
+D:\TotalCase\ASP NET\Template en Blanco\ConexionCS\obj\Debug\ConexionCS.pdb
+D:\TotalCase\ASP NET\Template en Blanco V55\ConexionCS\bin\Debug\ConexionCS.dll
+D:\TotalCase\ASP NET\Template en Blanco V55\ConexionCS\bin\Debug\ConexionCS.pdb
+D:\TotalCase\ASP NET\Template en Blanco V55\ConexionCS\obj\Debug\ResolveAssemblyReference.cache
+D:\TotalCase\ASP NET\Template en Blanco V55\ConexionCS\obj\Debug\ConexionCS.dll
+D:\TotalCase\ASP NET\Template en Blanco V55\ConexionCS\obj\Debug\ConexionCS.pdb
+C:\Inetpub\wwwroot\Projects\TOTALCASE\Template en Blanco V55\ConexionCS\bin\Debug\ConexionCS.dll
+C:\Inetpub\wwwroot\Projects\TOTALCASE\Template en Blanco V55\ConexionCS\bin\Debug\ConexionCS.pdb
+C:\Inetpub\wwwroot\Projects\TOTALCASE\Template en Blanco V55\ConexionCS\obj\Debug\ResolveAssemblyReference.cache
+C:\Inetpub\wwwroot\Projects\TOTALCASE\Template en Blanco V55\ConexionCS\obj\Debug\ConexionCS.dll
+C:\Inetpub\wwwroot\Projects\TOTALCASE\Template en Blanco V55\ConexionCS\obj\Debug\ConexionCS.pdb
+C:\Proyectos\TotalCASE\TotalCase v7.0\Template en Blanco V70\ConexionCS\bin\Debug\ConexionCS.dll
+C:\Proyectos\TotalCASE\TotalCase v7.0\Template en Blanco V70\ConexionCS\bin\Debug\ConexionCS.pdb
+C:\Proyectos\TotalCASE\TotalCase v7.0\Template en Blanco V70\ConexionCS\obj\Debug\ResolveAssemblyReference.cache
+C:\Proyectos\TotalCASE\TotalCase v7.0\Template en Blanco V70\ConexionCS\obj\Debug\ConexionCS.dll
+C:\Proyectos\TotalCASE\TotalCase v7.0\Template en Blanco V70\ConexionCS\obj\Debug\ConexionCS.pdb
+c:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\ConexionCS\bin\Debug\ConexionCS.dll
+c:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\ConexionCS\bin\Debug\ConexionCS.pdb
+c:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\ConexionCS\obj\Debug\ResolveAssemblyReference.cache
+c:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\ConexionCS\obj\Debug\ConexionCS.dll
+c:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\ConexionCS\obj\Debug\ConexionCS.pdb

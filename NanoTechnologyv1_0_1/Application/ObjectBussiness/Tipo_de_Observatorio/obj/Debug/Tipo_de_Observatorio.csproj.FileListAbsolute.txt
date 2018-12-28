@@ -1,0 +1,8 @@
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\ObjectBussiness\Tipo_de_Observatorio\bin\Debug\Tipo_de_Observatorio.dll
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\ObjectBussiness\Tipo_de_Observatorio\bin\Debug\Tipo_de_Observatorio.pdb
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\ObjectBussiness\Tipo_de_Observatorio\bin\Debug\LibraryDLLObjectBusiness.dll
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\ObjectBussiness\Tipo_de_Observatorio\bin\Debug\Telerik.Web.UI.dll
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\ObjectBussiness\Tipo_de_Observatorio\bin\Debug\LibraryDLLObjectBusiness.pdb
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\ObjectBussiness\Tipo_de_Observatorio\obj\Debug\ResolveAssemblyReference.cache
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\ObjectBussiness\Tipo_de_Observatorio\obj\Debug\Tipo_de_Observatorio.dll
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\ObjectBussiness\Tipo_de_Observatorio\obj\Debug\Tipo_de_Observatorio.pdb

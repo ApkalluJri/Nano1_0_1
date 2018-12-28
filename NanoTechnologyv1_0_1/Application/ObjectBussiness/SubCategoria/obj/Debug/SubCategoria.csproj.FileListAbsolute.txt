@@ -1,0 +1,8 @@
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\ObjectBussiness\SubCategoria\bin\Debug\SubCategoria.dll
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\ObjectBussiness\SubCategoria\bin\Debug\SubCategoria.pdb
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\ObjectBussiness\SubCategoria\bin\Debug\LibraryDLLObjectBusiness.dll
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\ObjectBussiness\SubCategoria\bin\Debug\Telerik.Web.UI.dll
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\ObjectBussiness\SubCategoria\bin\Debug\LibraryDLLObjectBusiness.pdb
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\ObjectBussiness\SubCategoria\obj\Debug\ResolveAssemblyReference.cache
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\ObjectBussiness\SubCategoria\obj\Debug\SubCategoria.dll
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\ObjectBussiness\SubCategoria\obj\Debug\SubCategoria.pdb

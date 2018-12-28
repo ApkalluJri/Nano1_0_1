@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DiscoveryClientResultsFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Results>
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.DiscoveryDocumentReference" url="http://192.168.1.101/WebServicesNanoTechnologyv1_0_1/Estilo_de_ArticuloWS.asmx?disco" filename="Estilo_de_ArticuloWS.disco" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.ContractReference" url="http://192.168.1.101/WebServicesNanoTechnologyv1_0_1/Estilo_de_ArticuloWS.asmx?wsdl" filename="Estilo_de_ArticuloWS.wsdl" />
+  </Results>
+</DiscoveryClientResultsFile>
+
+
+
+
+
+

@@ -1,0 +1,206 @@
+D:\spartanemvc\Spartane.Core\bin\Release\Spartane.Core.dll.config
+D:\spartanemvc\Spartane.Core\bin\Release\Spartane.Core.dll
+D:\spartanemvc\Spartane.Core\bin\Release\Spartane.Core.pdb
+D:\spartanemvc\Spartane.Core\bin\Release\Autofac.dll
+D:\spartanemvc\Spartane.Core\bin\Release\Autofac.Integration.Mvc.dll
+D:\spartanemvc\Spartane.Core\bin\Release\GoldParser.dll
+D:\spartanemvc\Spartane.Core\bin\Release\Kackman.RuntimeTypeLoader.dll
+D:\spartanemvc\Spartane.Core\bin\Release\LinqStatistics.dll
+D:\spartanemvc\Spartane.Core\bin\Release\log4net.dll
+D:\spartanemvc\Spartane.Core\bin\Release\Microsoft.Web.Infrastructure.dll
+D:\spartanemvc\Spartane.Core\bin\Release\SqlLinq.dll
+D:\spartanemvc\Spartane.Core\bin\Release\System.Web.Helpers.dll
+D:\spartanemvc\Spartane.Core\bin\Release\System.Web.Mvc.dll
+D:\spartanemvc\Spartane.Core\bin\Release\System.Web.Razor.dll
+D:\spartanemvc\Spartane.Core\bin\Release\System.Web.WebPages.Deployment.dll
+D:\spartanemvc\Spartane.Core\bin\Release\System.Web.WebPages.dll
+D:\spartanemvc\Spartane.Core\bin\Release\System.Web.WebPages.Razor.dll
+D:\spartanemvc\Spartane.Core\bin\Release\Autofac.xml
+D:\spartanemvc\Spartane.Core\bin\Release\Autofac.Integration.Mvc.xml
+D:\spartanemvc\Spartane.Core\bin\Release\LinqStatistics.xml
+D:\spartanemvc\Spartane.Core\bin\Release\log4net.xml
+D:\spartanemvc\Spartane.Core\bin\Release\System.Web.Helpers.xml
+D:\spartanemvc\Spartane.Core\bin\Release\System.Web.Mvc.xml
+D:\spartanemvc\Spartane.Core\bin\Release\System.Web.Razor.xml
+D:\spartanemvc\Spartane.Core\bin\Release\System.Web.WebPages.xml
+D:\spartanemvc\Spartane.Core\bin\Release\System.Web.WebPages.Deployment.xml
+D:\spartanemvc\Spartane.Core\bin\Release\System.Web.WebPages.Razor.xml
+D:\spartanemvc\Spartane.Core\obj\Release\Spartane.Core.dll
+D:\spartanemvc\Spartane.Core\obj\Release\Spartane.Core.pdb
+D:\spartanemvc\Spartane.Core\obj\Release\Spartane.Core.csprojResolveAssemblyReference.cache
+G:\Ricardo\spartanemvc\Spartane.Core\bin\Release\Spartane.Core.dll.config
+G:\Ricardo\spartanemvc\Spartane.Core\bin\Release\Spartane.Core.dll
+G:\Ricardo\spartanemvc\Spartane.Core\bin\Release\Spartane.Core.pdb
+G:\Ricardo\spartanemvc\Spartane.Core\bin\Release\Autofac.dll
+G:\Ricardo\spartanemvc\Spartane.Core\bin\Release\Autofac.Integration.Mvc.dll
+G:\Ricardo\spartanemvc\Spartane.Core\bin\Release\GoldParser.dll
+G:\Ricardo\spartanemvc\Spartane.Core\bin\Release\Kackman.RuntimeTypeLoader.dll
+G:\Ricardo\spartanemvc\Spartane.Core\bin\Release\LinqStatistics.dll
+G:\Ricardo\spartanemvc\Spartane.Core\bin\Release\log4net.dll
+G:\Ricardo\spartanemvc\Spartane.Core\bin\Release\Microsoft.Web.Infrastructure.dll
+G:\Ricardo\spartanemvc\Spartane.Core\bin\Release\SqlLinq.dll
+G:\Ricardo\spartanemvc\Spartane.Core\bin\Release\System.Web.Helpers.dll
+G:\Ricardo\spartanemvc\Spartane.Core\bin\Release\System.Web.Mvc.dll
+G:\Ricardo\spartanemvc\Spartane.Core\bin\Release\System.Web.Razor.dll
+G:\Ricardo\spartanemvc\Spartane.Core\bin\Release\System.Web.WebPages.Deployment.dll
+G:\Ricardo\spartanemvc\Spartane.Core\bin\Release\System.Web.WebPages.dll
+G:\Ricardo\spartanemvc\Spartane.Core\bin\Release\System.Web.WebPages.Razor.dll
+G:\Ricardo\spartanemvc\Spartane.Core\bin\Release\Autofac.xml
+G:\Ricardo\spartanemvc\Spartane.Core\bin\Release\Autofac.Integration.Mvc.xml
+G:\Ricardo\spartanemvc\Spartane.Core\bin\Release\LinqStatistics.xml
+G:\Ricardo\spartanemvc\Spartane.Core\bin\Release\log4net.xml
+G:\Ricardo\spartanemvc\Spartane.Core\bin\Release\System.Web.Helpers.xml
+G:\Ricardo\spartanemvc\Spartane.Core\bin\Release\System.Web.Mvc.xml
+G:\Ricardo\spartanemvc\Spartane.Core\bin\Release\System.Web.Razor.xml
+G:\Ricardo\spartanemvc\Spartane.Core\bin\Release\System.Web.WebPages.xml
+G:\Ricardo\spartanemvc\Spartane.Core\bin\Release\System.Web.WebPages.Deployment.xml
+G:\Ricardo\spartanemvc\Spartane.Core\bin\Release\System.Web.WebPages.Razor.xml
+G:\Ricardo\spartanemvc\Spartane.Core\obj\Release\Spartane.Core.csprojResolveAssemblyReference.cache
+G:\Ricardo\spartanemvc\Spartane.Core\obj\Release\Spartane.Core.dll
+G:\Ricardo\spartanemvc\Spartane.Core\obj\Release\Spartane.Core.pdb
+C:\inetpub\proyectos\Spartane\CodigoFuente NUEVOMVC\APiOnly\Spartane.Core\bin\Release\Spartane.Core.dll.config
+C:\inetpub\proyectos\Spartane\CodigoFuente NUEVOMVC\APiOnly\Spartane.Core\bin\Release\Spartane.Core.dll
+C:\inetpub\proyectos\Spartane\CodigoFuente NUEVOMVC\APiOnly\Spartane.Core\bin\Release\Spartane.Core.pdb
+C:\inetpub\proyectos\Spartane\CodigoFuente NUEVOMVC\APiOnly\Spartane.Core\bin\Release\Autofac.dll
+C:\inetpub\proyectos\Spartane\CodigoFuente NUEVOMVC\APiOnly\Spartane.Core\bin\Release\Autofac.Integration.Mvc.dll
+C:\inetpub\proyectos\Spartane\CodigoFuente NUEVOMVC\APiOnly\Spartane.Core\bin\Release\GoldParser.dll
+C:\inetpub\proyectos\Spartane\CodigoFuente NUEVOMVC\APiOnly\Spartane.Core\bin\Release\Kackman.RuntimeTypeLoader.dll
+C:\inetpub\proyectos\Spartane\CodigoFuente NUEVOMVC\APiOnly\Spartane.Core\bin\Release\LinqStatistics.dll
+C:\inetpub\proyectos\Spartane\CodigoFuente NUEVOMVC\APiOnly\Spartane.Core\bin\Release\log4net.dll
+C:\inetpub\proyectos\Spartane\CodigoFuente NUEVOMVC\APiOnly\Spartane.Core\bin\Release\Microsoft.Web.Infrastructure.dll
+C:\inetpub\proyectos\Spartane\CodigoFuente NUEVOMVC\APiOnly\Spartane.Core\bin\Release\SqlLinq.dll
+C:\inetpub\proyectos\Spartane\CodigoFuente NUEVOMVC\APiOnly\Spartane.Core\bin\Release\System.Web.Helpers.dll
+C:\inetpub\proyectos\Spartane\CodigoFuente NUEVOMVC\APiOnly\Spartane.Core\bin\Release\System.Web.Mvc.dll
+C:\inetpub\proyectos\Spartane\CodigoFuente NUEVOMVC\APiOnly\Spartane.Core\bin\Release\System.Web.Razor.dll
+C:\inetpub\proyectos\Spartane\CodigoFuente NUEVOMVC\APiOnly\Spartane.Core\bin\Release\System.Web.WebPages.Deployment.dll
+C:\inetpub\proyectos\Spartane\CodigoFuente NUEVOMVC\APiOnly\Spartane.Core\bin\Release\System.Web.WebPages.dll
+C:\inetpub\proyectos\Spartane\CodigoFuente NUEVOMVC\APiOnly\Spartane.Core\bin\Release\System.Web.WebPages.Razor.dll
+C:\inetpub\proyectos\Spartane\CodigoFuente NUEVOMVC\APiOnly\Spartane.Core\bin\Release\Autofac.xml
+C:\inetpub\proyectos\Spartane\CodigoFuente NUEVOMVC\APiOnly\Spartane.Core\bin\Release\Autofac.Integration.Mvc.xml
+C:\inetpub\proyectos\Spartane\CodigoFuente NUEVOMVC\APiOnly\Spartane.Core\bin\Release\LinqStatistics.xml
+C:\inetpub\proyectos\Spartane\CodigoFuente NUEVOMVC\APiOnly\Spartane.Core\bin\Release\log4net.xml
+C:\inetpub\proyectos\Spartane\CodigoFuente NUEVOMVC\APiOnly\Spartane.Core\bin\Release\System.Web.Helpers.xml
+C:\inetpub\proyectos\Spartane\CodigoFuente NUEVOMVC\APiOnly\Spartane.Core\bin\Release\System.Web.Mvc.xml
+C:\inetpub\proyectos\Spartane\CodigoFuente NUEVOMVC\APiOnly\Spartane.Core\bin\Release\System.Web.Razor.xml
+C:\inetpub\proyectos\Spartane\CodigoFuente NUEVOMVC\APiOnly\Spartane.Core\bin\Release\System.Web.WebPages.xml
+C:\inetpub\proyectos\Spartane\CodigoFuente NUEVOMVC\APiOnly\Spartane.Core\bin\Release\System.Web.WebPages.Deployment.xml
+C:\inetpub\proyectos\Spartane\CodigoFuente NUEVOMVC\APiOnly\Spartane.Core\bin\Release\System.Web.WebPages.Razor.xml
+C:\inetpub\proyectos\Spartane\CodigoFuente NUEVOMVC\APiOnly\Spartane.Core\obj\Release\Spartane.Core.csprojResolveAssemblyReference.cache
+C:\inetpub\proyectos\Spartane\CodigoFuente NUEVOMVC\APiOnly\Spartane.Core\obj\Release\Spartane.Core.dll
+C:\inetpub\proyectos\Spartane\CodigoFuente NUEVOMVC\APiOnly\Spartane.Core\obj\Release\Spartane.Core.pdb
+C:\Proyectos\Georgios Voyatzis\xpicksv1_0_2\Application\WebApi\Spartane.Core\bin\Release\Spartane.Core.dll.config
+C:\Proyectos\Georgios Voyatzis\xpicksv1_0_2\Application\WebApi\Spartane.Core\bin\Release\Spartane.Core.dll
+C:\Proyectos\Georgios Voyatzis\xpicksv1_0_2\Application\WebApi\Spartane.Core\bin\Release\Spartane.Core.pdb
+C:\Proyectos\Georgios Voyatzis\xpicksv1_0_2\Application\WebApi\Spartane.Core\bin\Release\Autofac.dll
+C:\Proyectos\Georgios Voyatzis\xpicksv1_0_2\Application\WebApi\Spartane.Core\bin\Release\Autofac.Integration.Mvc.dll
+C:\Proyectos\Georgios Voyatzis\xpicksv1_0_2\Application\WebApi\Spartane.Core\bin\Release\GoldParser.dll
+C:\Proyectos\Georgios Voyatzis\xpicksv1_0_2\Application\WebApi\Spartane.Core\bin\Release\Kackman.RuntimeTypeLoader.dll
+C:\Proyectos\Georgios Voyatzis\xpicksv1_0_2\Application\WebApi\Spartane.Core\bin\Release\LinqStatistics.dll
+C:\Proyectos\Georgios Voyatzis\xpicksv1_0_2\Application\WebApi\Spartane.Core\bin\Release\log4net.dll
+C:\Proyectos\Georgios Voyatzis\xpicksv1_0_2\Application\WebApi\Spartane.Core\bin\Release\Microsoft.Web.Infrastructure.dll
+C:\Proyectos\Georgios Voyatzis\xpicksv1_0_2\Application\WebApi\Spartane.Core\bin\Release\SqlLinq.dll
+C:\Proyectos\Georgios Voyatzis\xpicksv1_0_2\Application\WebApi\Spartane.Core\bin\Release\System.Web.Helpers.dll
+C:\Proyectos\Georgios Voyatzis\xpicksv1_0_2\Application\WebApi\Spartane.Core\bin\Release\System.Web.Razor.dll
+C:\Proyectos\Georgios Voyatzis\xpicksv1_0_2\Application\WebApi\Spartane.Core\bin\Release\System.Web.WebPages.Deployment.dll
+C:\Proyectos\Georgios Voyatzis\xpicksv1_0_2\Application\WebApi\Spartane.Core\bin\Release\System.Web.WebPages.dll
+C:\Proyectos\Georgios Voyatzis\xpicksv1_0_2\Application\WebApi\Spartane.Core\bin\Release\System.Web.WebPages.Razor.dll
+C:\Proyectos\Georgios Voyatzis\xpicksv1_0_2\Application\WebApi\Spartane.Core\bin\Release\Autofac.xml
+C:\Proyectos\Georgios Voyatzis\xpicksv1_0_2\Application\WebApi\Spartane.Core\bin\Release\Autofac.Integration.Mvc.xml
+C:\Proyectos\Georgios Voyatzis\xpicksv1_0_2\Application\WebApi\Spartane.Core\bin\Release\LinqStatistics.xml
+C:\Proyectos\Georgios Voyatzis\xpicksv1_0_2\Application\WebApi\Spartane.Core\bin\Release\log4net.xml
+C:\Proyectos\Georgios Voyatzis\xpicksv1_0_2\Application\WebApi\Spartane.Core\bin\Release\System.Web.Helpers.xml
+C:\Proyectos\Georgios Voyatzis\xpicksv1_0_2\Application\WebApi\Spartane.Core\bin\Release\System.Web.Razor.xml
+C:\Proyectos\Georgios Voyatzis\xpicksv1_0_2\Application\WebApi\Spartane.Core\bin\Release\System.Web.WebPages.xml
+C:\Proyectos\Georgios Voyatzis\xpicksv1_0_2\Application\WebApi\Spartane.Core\bin\Release\System.Web.WebPages.Deployment.xml
+C:\Proyectos\Georgios Voyatzis\xpicksv1_0_2\Application\WebApi\Spartane.Core\bin\Release\System.Web.WebPages.Razor.xml
+C:\Proyectos\Georgios Voyatzis\xpicksv1_0_2\Application\WebApi\Spartane.Core\obj\Release\Spartane.Core.csprojResolveAssemblyReference.cache
+C:\Proyectos\Georgios Voyatzis\xpicksv1_0_2\Application\WebApi\Spartane.Core\obj\Release\Spartane.Core.dll
+C:\Proyectos\Georgios Voyatzis\xpicksv1_0_2\Application\WebApi\Spartane.Core\obj\Release\Spartane.Core.pdb
+C:\Proyectos\Farmacias Similares\AppSupervisionv1_0_13\Application\WebApi\Spartane.Core\bin\Release\Spartane.Core.dll.config
+C:\Proyectos\Farmacias Similares\AppSupervisionv1_0_13\Application\WebApi\Spartane.Core\bin\Release\Spartane.Core.dll
+C:\Proyectos\Farmacias Similares\AppSupervisionv1_0_13\Application\WebApi\Spartane.Core\bin\Release\Spartane.Core.pdb
+C:\Proyectos\Farmacias Similares\AppSupervisionv1_0_13\Application\WebApi\Spartane.Core\bin\Release\Autofac.dll
+C:\Proyectos\Farmacias Similares\AppSupervisionv1_0_13\Application\WebApi\Spartane.Core\bin\Release\Autofac.Integration.Mvc.dll
+C:\Proyectos\Farmacias Similares\AppSupervisionv1_0_13\Application\WebApi\Spartane.Core\bin\Release\GoldParser.dll
+C:\Proyectos\Farmacias Similares\AppSupervisionv1_0_13\Application\WebApi\Spartane.Core\bin\Release\Kackman.RuntimeTypeLoader.dll
+C:\Proyectos\Farmacias Similares\AppSupervisionv1_0_13\Application\WebApi\Spartane.Core\bin\Release\LinqStatistics.dll
+C:\Proyectos\Farmacias Similares\AppSupervisionv1_0_13\Application\WebApi\Spartane.Core\bin\Release\log4net.dll
+C:\Proyectos\Farmacias Similares\AppSupervisionv1_0_13\Application\WebApi\Spartane.Core\bin\Release\Microsoft.Web.Infrastructure.dll
+C:\Proyectos\Farmacias Similares\AppSupervisionv1_0_13\Application\WebApi\Spartane.Core\bin\Release\SqlLinq.dll
+C:\Proyectos\Farmacias Similares\AppSupervisionv1_0_13\Application\WebApi\Spartane.Core\bin\Release\System.Web.Helpers.dll
+C:\Proyectos\Farmacias Similares\AppSupervisionv1_0_13\Application\WebApi\Spartane.Core\bin\Release\System.Web.Razor.dll
+C:\Proyectos\Farmacias Similares\AppSupervisionv1_0_13\Application\WebApi\Spartane.Core\bin\Release\System.Web.WebPages.Deployment.dll
+C:\Proyectos\Farmacias Similares\AppSupervisionv1_0_13\Application\WebApi\Spartane.Core\bin\Release\System.Web.WebPages.dll
+C:\Proyectos\Farmacias Similares\AppSupervisionv1_0_13\Application\WebApi\Spartane.Core\bin\Release\System.Web.WebPages.Razor.dll
+C:\Proyectos\Farmacias Similares\AppSupervisionv1_0_13\Application\WebApi\Spartane.Core\bin\Release\Autofac.xml
+C:\Proyectos\Farmacias Similares\AppSupervisionv1_0_13\Application\WebApi\Spartane.Core\bin\Release\Autofac.Integration.Mvc.xml
+C:\Proyectos\Farmacias Similares\AppSupervisionv1_0_13\Application\WebApi\Spartane.Core\bin\Release\LinqStatistics.xml
+C:\Proyectos\Farmacias Similares\AppSupervisionv1_0_13\Application\WebApi\Spartane.Core\bin\Release\log4net.xml
+C:\Proyectos\Farmacias Similares\AppSupervisionv1_0_13\Application\WebApi\Spartane.Core\bin\Release\System.Web.Helpers.xml
+C:\Proyectos\Farmacias Similares\AppSupervisionv1_0_13\Application\WebApi\Spartane.Core\bin\Release\System.Web.Razor.xml
+C:\Proyectos\Farmacias Similares\AppSupervisionv1_0_13\Application\WebApi\Spartane.Core\bin\Release\System.Web.WebPages.xml
+C:\Proyectos\Farmacias Similares\AppSupervisionv1_0_13\Application\WebApi\Spartane.Core\bin\Release\System.Web.WebPages.Deployment.xml
+C:\Proyectos\Farmacias Similares\AppSupervisionv1_0_13\Application\WebApi\Spartane.Core\bin\Release\System.Web.WebPages.Razor.xml
+C:\Proyectos\Farmacias Similares\AppSupervisionv1_0_13\Application\WebApi\Spartane.Core\obj\Release\Spartane.Core.csprojResolveAssemblyReference.cache
+C:\Proyectos\Farmacias Similares\AppSupervisionv1_0_13\Application\WebApi\Spartane.Core\obj\Release\Spartane.Core.dll
+C:\Proyectos\Farmacias Similares\AppSupervisionv1_0_13\Application\WebApi\Spartane.Core\obj\Release\Spartane.Core.pdb
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\WebApi\Spartane.Core\bin\Release\Spartane.Core.dll.config
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\WebApi\Spartane.Core\bin\Release\Spartane.Core.dll
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\WebApi\Spartane.Core\bin\Release\Spartane.Core.pdb
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\WebApi\Spartane.Core\bin\Release\Autofac.dll
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\WebApi\Spartane.Core\bin\Release\Autofac.Integration.Mvc.dll
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\WebApi\Spartane.Core\bin\Release\GoldParser.dll
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\WebApi\Spartane.Core\bin\Release\Kackman.RuntimeTypeLoader.dll
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\WebApi\Spartane.Core\bin\Release\LinqStatistics.dll
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\WebApi\Spartane.Core\bin\Release\log4net.dll
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\WebApi\Spartane.Core\bin\Release\Microsoft.Web.Infrastructure.dll
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\WebApi\Spartane.Core\bin\Release\SqlLinq.dll
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\WebApi\Spartane.Core\bin\Release\System.Web.Helpers.dll
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\WebApi\Spartane.Core\bin\Release\System.Web.Mvc.dll
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\WebApi\Spartane.Core\bin\Release\System.Web.Razor.dll
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\WebApi\Spartane.Core\bin\Release\System.Web.WebPages.Deployment.dll
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\WebApi\Spartane.Core\bin\Release\System.Web.WebPages.dll
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\WebApi\Spartane.Core\bin\Release\System.Web.WebPages.Razor.dll
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\WebApi\Spartane.Core\bin\Release\Autofac.xml
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\WebApi\Spartane.Core\bin\Release\Autofac.Integration.Mvc.xml
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\WebApi\Spartane.Core\bin\Release\LinqStatistics.xml
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\WebApi\Spartane.Core\bin\Release\log4net.xml
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\WebApi\Spartane.Core\bin\Release\System.Web.Helpers.xml
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\WebApi\Spartane.Core\bin\Release\System.Web.Mvc.xml
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\WebApi\Spartane.Core\bin\Release\System.Web.Razor.xml
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\WebApi\Spartane.Core\bin\Release\System.Web.WebPages.xml
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\WebApi\Spartane.Core\bin\Release\System.Web.WebPages.Deployment.xml
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\WebApi\Spartane.Core\bin\Release\System.Web.WebPages.Razor.xml
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\WebApi\Spartane.Core\obj\Release\Spartane.Core.csprojResolveAssemblyReference.cache
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\WebApi\Spartane.Core\obj\Release\Spartane.Core.dll
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\WebApi\Spartane.Core\obj\Release\Spartane.Core.pdb
+c:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\Spartane.Core\bin\Release\Spartane.Core.dll.config
+c:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\Spartane.Core\bin\Release\Spartane.Core.dll
+c:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\Spartane.Core\bin\Release\Spartane.Core.pdb
+c:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\Spartane.Core\bin\Release\Autofac.dll
+c:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\Spartane.Core\bin\Release\Autofac.Integration.Mvc.dll
+c:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\Spartane.Core\bin\Release\GoldParser.dll
+c:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\Spartane.Core\bin\Release\Kackman.RuntimeTypeLoader.dll
+c:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\Spartane.Core\bin\Release\LinqStatistics.dll
+c:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\Spartane.Core\bin\Release\log4net.dll
+c:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\Spartane.Core\bin\Release\Microsoft.Web.Infrastructure.dll
+c:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\Spartane.Core\bin\Release\SqlLinq.dll
+c:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\Spartane.Core\bin\Release\System.Web.Helpers.dll
+c:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\Spartane.Core\bin\Release\System.Web.Mvc.dll
+c:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\Spartane.Core\bin\Release\System.Web.Razor.dll
+c:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\Spartane.Core\bin\Release\System.Web.WebPages.Deployment.dll
+c:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\Spartane.Core\bin\Release\System.Web.WebPages.dll
+c:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\Spartane.Core\bin\Release\System.Web.WebPages.Razor.dll
+c:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\Spartane.Core\bin\Release\Autofac.xml
+c:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\Spartane.Core\bin\Release\Autofac.Integration.Mvc.xml
+c:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\Spartane.Core\bin\Release\LinqStatistics.xml
+c:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\Spartane.Core\bin\Release\log4net.xml
+c:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\Spartane.Core\bin\Release\System.Web.Helpers.xml
+c:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\Spartane.Core\bin\Release\System.Web.Mvc.xml
+c:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\Spartane.Core\bin\Release\System.Web.Razor.xml
+c:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\Spartane.Core\bin\Release\System.Web.WebPages.xml
+c:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\Spartane.Core\bin\Release\System.Web.WebPages.Deployment.xml
+c:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\Spartane.Core\bin\Release\System.Web.WebPages.Razor.xml
+c:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\Spartane.Core\obj\Release\Spartane.Core.csprojResolveAssemblyReference.cache
+c:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\Spartane.Core\obj\Release\Spartane.Core.dll
+c:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\Spartane.Core\obj\Release\Spartane.Core.pdb

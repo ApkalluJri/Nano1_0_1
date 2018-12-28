@@ -1,0 +1,2870 @@
+﻿@charset "UTF-8";
+/* CSS Document */
+
+/*--------------------------------------------------------------------------*/
+/*-----------------------HTML - BODY - MAIN DIV ----------------------------*/
+/*--------------------------------------------------------------------------*/
+
+html, body
+{
+	height: 100%;
+	width: 100%;
+	overflow:hidden;
+	margin: 0px;
+	
+	background-color:#6C8CD5;
+}
+
+  
+#main_div {
+	/*position:fixed;
+	margin:0;
+	
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	
+	height:auto;
+	width:auto;	*/
+	height:100%;
+	background-color:#6C8CD5;
+}
+
+
+/*--------------------------------------------------------------------------*/
+/*---------------------------GENERAL MASTER PAGE----------------------------*/
+/*--------------------------------------------------------------------------*/
+
+/*--------------------------------------------------------------*/
+/*--------------------------HEADER------------------------------*/
+/*--------------------------------------------------------------*/
+
+#rad_menu
+{
+	position:absolute;
+	
+	/*left:182px;*/
+	top:0px;
+	
+	width:100%;
+	height:30px;
+	
+	padding-left:0px;
+	z-index: 5000;
+}
+
+#header {
+	/*position:fixed;
+	margin:0in auto;
+	
+	width:auto;
+	
+	
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;*/
+	height:76px;
+	background-color:#6C8CD5; /*BACKGROUND DE LA LINEA DE ARRIBA DONDE VA EL RAD MENU*/
+}
+
+.header_title /*TITULO DE LA ETIQUETA DEL HEADER*/
+{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+	color:#333;
+	
+	line-height:1.3em;
+	cursor:default;
+}
+
+#logo
+{
+	position:fixed;
+	
+	left:0px;
+	right:0px;
+	top:26px;
+	
+	width:auto;
+	height:50px;
+	
+	vertical-align:top;
+	
+	background-image:url(../Images/Design/header_back.jpg);  /*BACKGROUND DE LA PARTE DONDE VA EL DISENO DEL HEADER*/
+	background-repeat:repeat-x;
+}
+
+#title_icon
+{
+	position:absolute;
+	
+	left:182px;
+	top:30px;
+	
+	width:30px;
+	height:20px;
+}
+
+#title
+{
+	position:absolute;
+	
+	left:230px;
+	top:50px;
+	
+	width:auto;
+	height:20px;
+	
+	font-family:"Arial", sans-serif;
+	font-size:16px;
+	color:#FFF;
+	
+	line-height:1.3em;
+}
+	
+/*#config_icon
+{
+	float:right;
+	
+	margin-left:auto;
+	margin-right:0px;
+	top:30px;
+	
+	padding-right:30px;
+	
+	width:150px;
+	height:95px;
+	
+	background-image:url(../Images/Design/logo_tt.png);
+	background-repeat:no-repeat;
+}*/
+
+/*--------------------------------------------------------------*/
+/*--------------------------CONTENT-----------------------------*/
+/*--------------------------------------------------------------*/
+
+#content {
+	position:absolute;
+	z-index:0;
+	
+	margin:0in auto;
+	
+	width:auto;
+	/*height:100%;*/
+	
+	top:76px;
+	left:0;
+	right:0;
+	bottom:0px;
+	
+	padding: 6px 6px 40px 6px;
+	
+	margin-bottom: 6px;
+	margin-top: 6px;
+	margin-left: 6px;
+	margin-right: 6px;
+	
+	background-color:#F1F2F2;
+	
+	/*border: 2px solid #666;*/
+	
+	-moz-border-radius-topleft: 12px;
+	-webkit-border-top-left-radius: 12px;
+	border-top-left-radius: 12px;
+	
+	-moz-border-radius-topright: 12px;
+	-webkit-border-top-right-radius: 12px;
+	border-top-right-radius: 12px;
+	
+	-moz-border-radius-bottomleft: 12px;
+	-webkit-border-bottom-left-radius: 12px;
+	border-bottom-left-radius: 12px;
+	
+	-moz-border-radius-bottomright: 12px;
+	-webkit-border-bottom-right-radius: 12px;
+	border-bottom-right-radius: 12px;		
+}
+
+/*--------------------------------------------------------------*/
+/*--------------------------TOP GRID----------------------------*/
+/*--------------------------------------------------------------*/
+
+#topgrid_div 
+{
+	position:absolute;
+	
+	margin:auto;
+	
+	height:40px;
+	
+	/*top:86px;
+	left:24px;
+	right:24px;
+	
+	overflow:hidden;*/
+}
+
+.topgrid_div > TD
+{
+	position:absolute;
+	
+	margin:auto;
+	
+	height:40px;
+	
+	/*top:86px;
+	left:24px;
+	right:24px;
+	
+	overflow:hidden;*/
+	border:0;	
+	top: 10px;
+	left:12px;	
+	width:600px;
+}
+
+.lastchild
+{
+   background-image: url("../Images/Design/goto_page.png");
+    background-repeat: no-repeat;
+    height: 34px;
+    left: 600px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 4;
+    color: #FFFFFF;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 11px;
+    line-height: 2.8em;
+}
+.rgNumPart
+{
+    float:left;
+    margin-left:5px;
+    margin-right:5px;
+    position:relative;
+}
+.rgArrPart2
+{
+    float:left;
+    position:relative;
+}
+.topgrid_div > td
+{
+    border:0;
+    border-width:0px;
+}
+.topgrid_div td table tbody tr td > div:first-child 
+{
+   float:left;
+   margin-left:280px;
+   width:auto;
+   position:relative;
+}
+.topgrid_div td table tbody tr td > div:first-child img
+{
+    padding-right: 5px;
+    padding-top: 5px;
+    height: 12px;
+    cursor:pointer;
+}
+.lastchild > span:first-child 
+{
+    margin-left:20px;
+    margin-right:10px;
+}
+.lastchild > input
+{
+    background-color: transparent;
+    border: medium none;
+    color: #FFFFFF;
+}
+
+
+.lastchild > input:hover
+{
+    cursor:pointer;
+}
+.child3
+{
+    visibility:hidden;
+    position:absolute;
+}
+.child5
+{
+    margin-left:50px;
+    color:Black;
+    font-size:small;
+}
+.child7
+{
+    visibility:hidden;
+}
+.rgCurrentPage
+{
+    cursor:auto;
+}
+.rgCurrentPage span
+{
+    color:Gray;
+}
+.rgNumPart a 
+{
+    color: #000000;
+    float: left;
+    line-height: 22px;
+    margin: 0;
+    padding: 0 5px 0 0;
+    text-decoration: none;
+    font-weight:bold;
+}
+
+.rgArrPart2 a img
+{
+    padding-right: 5px;
+    padding-top: 5px;
+    height: 12px;
+}
+
+#row_info
+{
+	position:absolute;
+	left:0px;	
+	width:234px;
+	height:34px;
+	top:0px;
+	background-image:url(../Images/Design/row_info.png);
+	background-repeat:no-repeat;
+}
+
+#row_info_label_div
+{
+	position:absolute;
+/*	left:8px;*/
+	text-align:center;
+	top:0px;
+	
+	width: 234px;
+	height: 34px;
+}
+
+#pages_slider
+{
+	position:absolute;
+	left:228px;
+	
+	top:-56px;
+	width:460px;
+	height:40px;
+}
+
+#paginas_text_div
+{
+	position:absolute;
+	left:5px;
+	width:43px;
+	height:34px;
+	top: 0px;
+}
+
+#slider_icon1
+{
+	position:absolute;
+	left:50px;
+	top:8px;
+	
+	width:17px;
+	height:17px;
+	
+	background-image:url(../Images/Design/slider_1.png);
+	background-repeat:no-repeat;
+}
+
+#slider_icon2
+{
+	position:absolute;
+	left:70px;
+	top:8px;
+	
+	width:17px;
+	height:17px;
+	
+	background-image:url(../Images/Design/slider_2.png);
+	background-repeat:no-repeat;
+}
+
+#slider_icon3
+{
+	position:absolute;
+	left:90px;
+	top:8px;
+	
+	width:17px;
+	height:17px;
+	position:relative;
+	background-image:url(../Images/Design/slider_3.png);
+	background-repeat:no-repeat;
+}
+
+#slider
+{
+	position:absolute;
+	left:110px;
+	top:1px;	
+	width:250px;
+	height:34px;	
+}
+
+#slider_icon4
+{
+	position:absolute;
+	left:365px;
+	top:8px;
+	
+	width:17px;
+	height:17px;
+	
+	background-image:url(../Images/Design/slider_4.png);
+	background-repeat:no-repeat;
+}
+
+#slider_icon5
+{
+	position:absolute;
+	left:385px;
+	top:8px;
+	
+	width:17px;
+	height:17px;
+	
+	background-image:url(../Images/Design/slider_5.png);
+	background-repeat:no-repeat;
+}
+
+#slider_icon6
+{
+	position:absolute;
+	left:405px;
+	top:8px;
+	
+	width:17px;
+	height:17px;
+	
+	background-image:url(../Images/Design/slider_6.png);
+	background-repeat:no-repeat;
+}
+
+#goto_page
+{
+	position:absolute;
+	left:435px;
+	top:0px;
+	width:130px;
+	height:34px;
+	
+	background-image:url(../Images/Design/goto_page.png);
+	background-repeat:no-repeat;
+	z-index: 4;
+}
+
+#page_Textbox
+{
+	position:absolute;
+	left:65px;
+	top:3px;
+	width:22px;
+	height:15px;
+	padding:0px;
+	margin:0px;
+	border:0px;
+	outline-style:none;
+	outline-width:thin;
+	outline-color:#999;
+	z-index: 6;
+}
+
+#ir_a_pagina_div
+{
+	position:absolute;
+	left:19px;
+	top:3px;
+	width:54px;
+	height:34px;
+	z-index: 5;
+}
+
+#ir
+{
+	position:absolute;
+	left:100px;
+	top:3px;
+	width:20px;
+	height:34px;
+	z-index: 7;
+}
+
+
+#num_rows
+{
+	position:absolute;
+	left:785px;
+	width:215px;
+	height:34px;
+	z-index: 8;
+}
+
+
+#mostrar_div
+{
+	position:absolute;
+	left:0px;
+	top:9px;
+	width:45px;
+	height:34px;	
+}
+
+#mostrar_cmbShow
+{
+    position:absolute;
+	left:55px;
+	width:120px;
+	height:34px;	
+	margin-top:10px;
+}
+
+#cmbShow
+{
+	position:absolute;
+	left:48px;
+	top:2px;
+	width:165px;
+	height:22px;
+	z-index: 9;
+}
+
+
+#btn_filters
+{
+	position:absolute;
+	left:970px;
+	z-index: 10;
+	
+	width:44px;
+	height:34px;
+	top:4px;
+	
+	background-image:url(../Images/Design/filters.png);
+	background-repeat:no-repeat;
+}
+
+#ProgressImage
+{
+    position:absolute;
+    width:32px;
+	height:32px;
+	top:100px;
+	left:550px;
+}
+
+.topgrid_info  /*---Globo con Total de Registros---*/
+{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:small;
+	color:#FFF;
+	margin-top:-3px;
+	line-height:2.8em;
+}
+
+.paginas_text_format
+{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#333;
+	
+	line-height:2.8em;
+}
+
+.goto_page_text
+{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#333;
+	
+	/*line-height:4em;*/
+}
+
+
+.mostrar_label_format
+{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#333;
+	
+	line-height:2.8em;
+}
+
+/*--------------------------------------------------------------*/
+/*--------------------------GRID DIV----------------------------*/
+/*--------------------------------------------------------------*/
+
+#grid_div 
+{
+	/*position:fixed;
+	
+	margin:auto;
+	height:auto;
+		
+	top: 85px;
+	bottom:50px;
+	left: 12px;
+	right: 12px;*/
+	/*height:100%;
+	min-height:100%;*/
+	overflow: hidden;
+    background-color:#FFF;
+}
+
+.gridData
+{
+    /*border-width: 0;
+    bottom: 0;
+    font-size: small;
+    left: 12px;*/
+    overflow: auto;
+    /*position: absolute;
+    right: 12px;
+    top: 0;*/
+     
+    /*   height: 100%;        
+       min-height: 100%;*/
+ 
+    margin-top: 40px;
+}
+
+.GridHeaderStyle
+{
+    background-color: #0063AE;    
+    font-family : Arial ;
+    font-size: 10pt ; 
+	color: #FFFFFF; 
+	text-align:center;
+}
+.GridHeaderStyle img
+{
+    cursor:pointer;
+    margin-left: 3px;
+}
+.rmActive
+{   
+    background: url("../Images/FilterMenu.png") repeat-y scroll 0 0 #FFFFFF;
+    border: 1px solid #979797;
+}
+
+.rmItem a 
+{
+    font: 12px/23px "Segoe UI",Arial,sans-serif;
+    color: #000000;
+}
+.rmItem:hover
+{
+    background-color:Gray;
+}
+.rmFocused
+{
+  background-color:Gray;
+}
+a
+{    
+    font-family: Arial, Helvetica, sans-serif;    
+    font-size: 10pt;    
+    color: #FFFFFF;    
+} 
+
+a:link 
+{    
+    text-decoration: none;     
+} 
+a:visited     
+{
+    text-decoration: none; 
+} 
+a:hover 
+{    
+    text-decoration: none; 
+} 
+a:active 
+{    
+    text-decoration: none; 
+} 
+
+.GridRowStyle
+{
+    font-family : Arial;
+    font-size: 9pt;
+}
+
+.GridAlternateRowStyle
+{
+    font-family : Arial;
+    font-size: 9pt;
+    background-color: #D1D3D4;   
+}
+
+.confirm
+{
+	background-color:#FFF;
+	border: 2px solid #666;
+ 	padding:10px;
+    width:370px;
+    margin-bottom: 12px;
+	margin-top: 12px;
+	margin-left: 12px;
+	margin-right: 12px;
+}
+
+.modalBackground {
+	background-color:Gray;
+	filter:alpha(opacity=70);
+	opacity:0.7;
+}
+
+.modalPopup {
+	background-color:#ffffdd;
+	border-width:3px;
+	border-style:solid;
+	border-color:Gray;
+	padding:3px;
+	width:250px;
+}
+
+/*--------------------------------------------------------------*/
+/*--------------------------MENU DIV----------------------------*/
+/*--------------------------------------------------------------*/
+
+#horizontal_menu_div
+{
+	position:fixed;
+	
+	z-index:200;
+	
+	margin:auto;
+	
+	height:34px;
+	
+	left:12px;
+	right:12px;
+	bottom:10px;
+	
+	overflow:hidden;
+	
+	-moz-border-radius-topleft: 8px;
+	-webkit-border-top-left-radius: 8px;
+	border-top-left-radius: 8px;
+	
+	-moz-border-radius-topright: 8px;
+	-webkit-border-top-right-radius: 8px;
+	border-top-right-radius: 8px;
+	
+	-moz-border-radius-bottomleft: 8px;
+	-webkit-border-bottom-left-radius: 8px;
+	border-bottom-left-radius: 8px;
+	
+	-moz-border-radius-bottomright: 8px;
+	-webkit-border-bottom-right-radius: 8px;
+	border-bottom-right-radius: 8px;
+	
+	padding-left:10px;
+	
+	background-color:#08273F;
+	background-color:#2A4380;
+}
+
+/*--------------------------------------------------------------*/
+/*------------------------MENU DIVIDERS-------------------------*/
+/*--------------------------------------------------------------*/
+
+#btn_divider_1, #btn_divider_2, #btn_divider_3, #btn_divider_3, #btn_divider_4, #btn_divider_5, #btn_divider_6, #btn_divider_7
+{
+	background-color:#FFF;
+}
+
+.btns		  /*---Texto de Botones---*/
+{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#FFF;
+	
+	line-height:3.5em;
+}
+
+
+#btn_divider_1
+{
+	position:fixed;
+	
+	width:2px;
+	height:34px;
+	
+	left:144px;
+	right:auto;
+	bottom:10px;
+}
+
+#btn_divider_2
+{
+	position:fixed;
+	
+	width:2px;
+	height:34px;
+	
+	left:256px;
+	right:auto;
+	bottom:10px;
+}
+
+#btn_divider_3
+{
+	position:fixed;
+	
+	width:2px;
+	height:34px;
+	
+	left:368px;
+	right:auto;
+	bottom:10px;
+}
+
+#btn_divider_4
+{
+	position:fixed;
+	
+	width:2px;
+	height:34px;
+	
+	left:480px;
+	right:auto;
+	bottom:10px;
+}
+
+#btn_divider_5
+{
+	position:fixed;
+	
+	width:2px;
+	height:34px;
+	
+	left:592px;
+	right:auto;
+	bottom:10px;
+}
+
+#btn_divider_6
+{
+	position:fixed;
+	
+	width:2px;
+	height:34px;
+	
+	left:704px;
+	right:auto;
+	bottom:10px;
+}
+
+#btn_divider_7
+{
+	position:fixed;
+	
+	width:2px;
+	height:34px;
+	
+	left:816px;
+	right:auto;
+	bottom:10px;
+}
+
+
+/*--------------------------------------------------------------------------*/
+/*----------------------------BOTONES COLOR---------------------------------*/
+/*--------------------------------------------------------------------------*/
+
+#ctl00_MnuButtonsPlace_btn_nuevo, #ctl00_MnuButtonsPlace_btn_todos, #ctl00_MnuButtonsPlace_btn_buscar, #ctl00_MnuButtonsPlace_btn_exportar, #ctl00_MnuButtonsPlace_btn_imprimir, #ctl00_MnuButtonsPlace_btn_filtrar, #ctl00_MnuButtonsPlace_btn_configurar, #btn_guardar_list, #btn_buscar_list, #btn_cancelar_list, #bnt_actualizar_list, #bnt_filtros_report, #btn_imprimir_report, #btn_actualizar_report, #btn_exportar_report, #btn_filtrar_qf, #btn_limpiar_qf 
+{
+	background-color:#2A4380;
+}
+
+
+#ctl00_MnuButtonsPlace_btn_nuevo:hover, #ctl00_MnuButtonsPlace_btn_todos:hover, #ctl00_MnuButtonsPlace_btn_buscar:hover, #ctl00_MnuButtonsPlace_btn_exportar:hover, #ctl00_MnuButtonsPlace_btn_imprimir:hover, #ctl00_MnuButtonsPlace_btn_filtrar:hover, #ctl00_MnuButtonsPlace_btn_configurar:hover, #btn_guardar_list:hover, #btn_buscar_list:hover, #btn_cancelar_list:hover, #btn_actualizar_list:hover, #btn_filtros_report:hover, #btn_imprimir_report:hover, #btn_actualizar_report:hover, #btn_exportar_report:hover, #btn_filtrar_qf:hover, #btn_limpiar_qf:hover
+{
+	background-color:#6C8CD5;
+}
+
+/*--------------------------------------------------------------------------*/
+/*--------------------------------BOTONES-----------------------------------*/
+/*--------------------------------------------------------------------------*/
+
+/*---------------------------------BTN NUEVO--------------------------------*/
+
+#ctl00_MnuButtonsPlace_btn_nuevo
+{
+	position:fixed;
+	
+	width: 110px;
+	height: 34px;
+	
+	left:34px;
+	right:auto;
+	bottom:10px;
+	
+	background-image:url(../Images/Design/btn_01_nuevo.png);
+	background-repeat:no-repeat;
+}
+
+#ctl00_MnuButtonsPlace_btn_nuevo:hover
+{
+	display: block;
+	
+	background-image:url(../Images/Design/btn_01_nuevo.png);
+	background-repeat:no-repeat;
+}
+
+#ctl00_MnuButtonsPlace_btn_nuevo p
+{
+	padding-left:43px;
+	line-height:1.5em;
+	cursor:default;
+}
+
+#ctl00_MnuButtonsPlace_btn_nuevo p:hover
+{
+	padding-left:46px;
+	line-height:1.5em;
+	cursor:default;
+}
+
+/* --------------------------------BTN TODOS--------------------------------*/
+
+#ctl00_MnuButtonsPlace_btn_todos
+{
+	position: fixed;
+	
+	width: 110px;
+	height: 34px;
+	
+	left: 146px;
+	right:auto;
+	bottom: 10px;	
+
+	background-image:url(../Images/Design/btn_02_todos.png);
+	background-repeat:no-repeat;
+}
+
+#ctl00_MnuButtonsPlace_btn_todos:hover 
+{	
+	display: block;
+	
+	background-image:url(../Images/Design/btn_02_todos.png);
+	background-repeat:no-repeat;
+}
+
+#ctl00_MnuButtonsPlace_btn_todos p
+{
+	padding-left:43px;
+	line-height:1.5em;
+	cursor:default;
+}
+
+#ctl00_MnuButtonsPlace_btn_todos p:hover
+{
+	padding-left:46px;
+	line-height:1.5em;
+	cursor:default;
+}
+
+/* -------------------------------BTN BUSCAR--------------------------------*/
+
+#ctl00_MnuButtonsPlace_btn_buscar
+{
+	position: fixed;
+	
+	width: 110px;
+	height: 34px;
+	
+	left: 258px;
+	right:auto;
+	bottom: 10px;	
+	
+	background-image:url(../Images/Design/btn_03_buscar.png);
+	background-repeat:no-repeat;
+}
+
+#ctl00_MnuButtonsPlace_btn_buscar:hover
+{
+	display: block;
+
+	background-image:url(../Images/Design/btn_03_buscar.png);
+	background-repeat:no-peat;
+}
+
+#ctl00_MnuButtonsPlace_btn_buscar p
+{
+	padding-left:43px;
+	line-height:1.5em;
+	cursor:default;
+}
+
+#ctl00_MnuButtonsPlace_btn_buscar p:hover
+{
+	padding-left:46px;
+	line-height:1.5em;
+	cursor:default;
+}
+
+/* ------------------------------BTN EXPORTAR-------------------------------*/
+
+#ctl00_MnuButtonsPlace_btn_exportar
+{
+	position: fixed;
+	
+	width: 110px;
+	height: 34px;
+	
+	left: 370px;
+	right:auto;
+	bottom: 10px;
+	
+	background-image:url(../Images/Design/btn_04_exportar.png);
+	background-repeat:no-repeat;
+}
+
+#ctl00_MnuButtonsPlace_btn_exportar:hover
+{
+	display: block;
+	
+	background-image:url(../Images/Design/btn_04_exportar.png);
+	background-repeat:no-repeat;
+}
+
+#ctl00_MnuButtonsPlace_btn_exportar p
+{
+	padding-left:43px;
+	line-height:1.5em;
+	cursor:default;
+}
+
+#ctl00_MnuButtonsPlace_btn_exportar p:hover
+{
+	padding-left:46px;
+	line-height:1.5em;
+	cursor:default;
+}
+
+/* ------------------------------BTN IMPRIMIR-------------------------------*/
+
+#ctl00_MnuButtonsPlace_btn_imprimir
+{
+	position: fixed;
+	
+	width: 110px;
+	height: 34px;
+	
+	left: 482px;
+	right:auto;
+	bottom:10px;
+	
+	background-image:url(../Images/Design/btn_05_imprimir.png);
+	background-repeat:no-repeat;
+}
+
+#ctl00_MnuButtonsPlace_btn_imprimir:hover
+{
+	display: block;
+	
+	background-image:url(../Images/Design/btn_05_imprimir.png);
+	background-repeat:no-repeat;
+}
+
+#ctl00_MnuButtonsPlace_btn_imprimir p
+{
+	padding-left:43px;
+	line-height:1.5em;
+	cursor:default;
+}
+
+#ctl00_MnuButtonsPlace_btn_imprimir p:hover
+{
+	padding-left:46px;
+	line-height:1.5em;
+	cursor:default;
+}
+
+/* -------------------------------BTN FILTRAR-------------------------------*/
+
+#ctl00_MnuButtonsPlace_btn_filtrar
+{
+	position: fixed;
+	
+	width: 110px;
+	height: 34px;
+	
+	left: 594px;
+	right:auto;
+	bottom: 10px;
+	
+	background-image:url(../Images/Design/btn_06_filtrar.png);
+	background-repeat:no-repeat;
+}
+
+#ctl00_MnuButtonsPlace_btn_filtrar:hover
+{
+	display: block;
+	
+	background-image:url(../Images/Design/btn_06_filtrar.png);
+	background-repeat:no-repeat;
+}
+
+#ctl00_MnuButtonsPlace_btn_filtrar p
+{
+	padding-left:43px;
+	line-height:1.5em;
+	cursor:default;
+}
+
+#ctl00_MnuButtonsPlace_btn_filtrar p:hover
+{
+	padding-left:46px;
+	line-height:1.5em;
+	cursor:default;
+}
+
+/* -----------------------------BTN CONFIGURAR------------------------------*/
+
+#ctl00_MnuButtonsPlace_btn_configurar
+{
+	position: fixed;
+	
+	width: 110px;
+	height: 34px;
+	
+	left: 706px;
+	right:auto;
+	bottom: 10px;
+	
+	background-image:url(../Images/Design/btn_07_configurar.png);
+	background-repeat:no-repeat;
+}
+
+#ctl00_MnuButtonsPlace_btn_configurar:hover
+{
+	display: block;
+	
+	background-image:url(../Images/Design/btn_07_configurar.png);
+	background-repeat:no-repeat;
+}
+
+#ctl00_MnuButtonsPlace_btn_configurar p
+{
+	padding-left:43px;
+	line-height:1.5em;
+	cursor:default;
+}
+
+#ctl00_MnuButtonsPlace_btn_configurar p:hover
+{
+	padding-left:46px;
+	line-height:1.5em;
+	cursor:default;
+}
+
+/* ------------------------------BTN GUARDAR--------------------------------*/	
+
+#btn_guardar_list
+{
+	position:fixed;
+	
+	width: 110px;
+	height: 34px;
+	
+	left:34px;
+	right:auto;
+	bottom:10px;
+	
+	background-image:url(../Images/Design/btns/btn_guardar.png);
+	background-repeat:no-repeat;
+}
+
+#btn_guardar_list:hover
+{
+	display: block;
+	
+	background-image:url(../Images/Design/btns/btn_guardar.png);
+	background-repeat:no-repeat;
+}
+
+#btn_guardar_list p
+{
+	padding-left:43px;
+	line-height:1.5em;
+	*line-height:3.5em;
+	cursor:default;
+}
+
+#btn_guardar_list p:hover
+{
+	padding-left:46px;
+	line-height:1.5em;
+	*line-height:3.5em;
+	cursor:default;
+}
+
+/* ------------------------------BTN BUSCAR---------------------------------*/	
+
+#btn_buscar_list
+{
+	position:fixed;
+	
+	width: 110px;
+	height: 34px;
+	
+	left:34px;
+	right:auto;
+	bottom:10px;
+	
+    background-image:url(../Images/Design/btns/btn_03_buscar.png);
+	background-repeat:no-repeat;
+}
+
+#btn_buscar_list:hover
+{
+	display: block;
+	
+    background-image:url(../Images/Design/btns/btn_03_buscar.png);
+	background-repeat:no-repeat;
+}
+
+#btn_buscar_list p
+{
+	padding-left:43px;
+	line-height:1.5em;
+	*line-height:3.5em;
+	cursor:default;
+}
+
+#btn_buscar_list p:hover
+{
+	padding-left:46px;
+	line-height:1.5em;
+	*line-height:3.5em;
+	cursor:default;
+}
+
+/* -----------------------------BTN CANCELAR--------------------------------*/
+
+#btn_cancelar_list
+{
+	position: fixed;
+	
+	width: 110px;
+	height: 34px;
+	
+	left: 146px;
+	right:auto;
+	bottom: 10px;	
+
+	background-image:url(../Images/Design/btns/btn_cancelar.png);
+	background-repeat:no-repeat;
+}
+
+#btn_cancelar_list:hover 
+{	
+	display: block;
+	
+    background-image:url(../Images/Design/btns/btn_cancelar.png);
+	background-repeat:no-repeat;
+}
+
+#btn_cancelar_list p
+{
+	padding-left:43px;
+	line-height:1.5em;
+	*line-height:3.5em;
+	cursor:default;
+}
+
+#btn_cancelar_list p:hover
+{
+	padding-left:46px;
+	line-height:1.5em;
+	*line-height:3.5em;
+	cursor:default;
+}
+
+
+/*FILTROS IMPRIMIR REFRESH EXPORTAR*/
+
+/* --------------------------BTN FILTROS REPORT-----------------------------*/
+
+#btn_filtros_report
+{
+	position: fixed;
+	width: 110px;
+	height: 34px;
+	left: 34px;
+	right:auto;
+	bottom: 10px;	
+	
+	background-image:url(../Images/Design/btns/btn_filtros.png);
+	background-repeat:no-repeat;
+}
+
+#btn_filtros_report:hover 
+{	
+	display: block;
+	
+	background-image:url(../Images/Design/btns/btn_filtros.png);
+	background-repeat:no-repeat;
+}
+
+#btn_filtros_report p
+{
+	padding-left:43px;
+	line-height:1.5em;
+	*line-height:3.5em;
+	cursor:default;
+}
+
+#btn_filtros_report p:hover
+{
+	padding-left:46px;
+	line-height:1.5em;
+	*line-height:3.5em;
+	cursor:default;
+}
+
+/* --------------------------BTN IMPRIMIR REPORT----------------------------*/
+
+#btn_imprimir_report
+{
+	position: fixed;
+	width: 110px;
+	height: 34px;
+	left: 146px;
+	right:auto;
+	bottom: 10px;	
+	
+	background-image:url(../Images/Design/btns/btn_imprimir.png);
+	background-repeat:no-repeat;
+}
+
+#btn_imprimir_report:hover 
+{	
+	display: block;
+	
+	background-image:url(../Images/Design/btns/btn_imprimir.png);
+	background-repeat:no-repeat;
+}
+
+#btn_imprimir_report p
+{
+	padding-left:43px;
+	line-height:1.5em;
+	*line-height:3.5em;
+	cursor:default;
+}
+
+#btn_imprimir_report p:hover
+{
+	padding-left:46px;
+	line-height:1.5em;
+	*line-height:3.5em;
+	cursor:default;
+}
+
+/* -------------------------BTN ACTUALIZAR REPORT---------------------------*/
+
+#btn_actualizar_report
+{
+	position: fixed;
+	width: 110px;
+	height: 34px;
+	left: 258px;
+	right:auto;
+	bottom: 10px;	
+	
+	background-image:url(../Images/Design/btns/btn_actualizar.png);
+	background-repeat:no-repeat;
+}
+
+#btn_actualzar_report:hover 
+{	
+	display: block;
+	
+	background-image:url(../Images/Design/btns/btn_actualizar.png);
+	background-repeat:no-repeat;
+}
+
+#btn_actualizar_report p
+{
+	padding-left:43px;
+	line-height:1.5em;
+	*line-height:3.5em;
+	cursor:default;
+}
+
+#btn_actualizar_report p:hover
+{
+	padding-left:46px;
+	line-height:1.5em;
+	*line-height:3.5em;
+	cursor:default;
+}
+
+/* ---------------------------BTN EXPORT REPORT-----------------------------*/
+
+#btn_exportar_report
+{
+	position: fixed;
+	width: 110px;
+	height: 34px;
+	left: 370px;
+	right:auto;
+	bottom: 10px;	
+	
+	background-image:url(../Images/Design/btns/btn_exportar.png);
+	background-repeat:no-repeat;
+}
+
+#btn_exportar_report:hover 
+{	
+	display: block;
+	
+	background-image:url(../Images/Design/btns/btn_exportar.png);
+	background-repeat:no-repeat;
+}
+
+#btn_exportar_report p
+{
+	padding-left:43px;
+	line-height:1.5em;
+	*line-height:3.5em;
+	cursor:default;
+}
+
+#btn_exportar_report p:hover
+{
+	padding-left:46px;
+	line-height:1.5em;
+	*line-height:3.5em;
+	cursor:default;
+}
+
+/* -----------------------------BTN FILTRAR QF------------------------------*/
+
+#btn_filtrar_qf
+{
+	width: 110px;
+	height: 34px;	
+	
+	background-image:url(../Images/Design/btns/btn_filtros.png);
+	background-repeat:no-repeat;
+}
+
+#btn_filtrar_qf:hover 
+{	
+	display: block;
+	
+    background-image:url(../Images/Design/btns/btn_filtros.png);
+	background-repeat:no-repeat;
+}
+
+#btn_filtrar_qf p
+{
+	padding-left:43px;
+	line-height:1.5em;
+	*line-height:3.5em;
+	cursor:default;
+}
+
+#btn_filtrar_qf p:hover
+{
+	padding-left:46px;
+	line-height:1.5em;
+	*line-height:3.5em;
+	cursor:default;
+}
+
+/* -----------------------------BTN LIMPIAR QF------------------------------*/
+
+#btn_limpiar_qf
+{
+	width: 110px;
+	height: 34px;	
+	
+	background-image:url(../Images/Design/btns/btn_cancelar.png);
+	background-repeat:no-repeat;	
+}
+
+#btn_limpiar_qf:hover 
+{	
+	display: block;
+	
+	background-image:url(../Images/Design/btns/btn_cancelar.png);
+	background-repeat:no-repeat;	
+}
+
+#btn_limpiar_qf p
+{    
+	padding-left:43px;
+	line-height:1.5em;
+	*line-height:3.5em;
+	cursor:default;
+}
+
+#btn_limpiar_qf p:hover
+{
+    padding-left:46px;
+	line-height:1.5em;
+	*line-height:3.5em;
+	cursor:default;
+}
+
+
+/*----------------------------BTN ACTUALIZAR LIST --------------------------*/
+
+#btn_actualizar_list
+{	 
+	background-image:url(../Images/Design/btns/btn_actualizar.png);
+	background-repeat:no-repeat;
+}
+
+#btn_actualizar_list:hover
+{	
+	background-image:url(../Images/Design/btns/btn_actualizar.png);
+	background-repeat:no-repeat;
+}
+
+
+/*--------------------------------------------------------------------------*/
+/*--------------------------PANEL DE EXPORTACION----------------------------*/
+/*--------------------------------------------------------------------------*/
+
+#ctl00_MainContent_ttControlReportB_divExport
+{
+    position: fixed;
+	width: 610px;
+	height: 34px;
+	
+	left: 416px;
+	right:auto;
+	bottom: 13px;	
+	/*background-color: Fuchsia;
+	*/
+}
+
+/*--------------------------------------------------------------------------*/
+/*---------------------------ESCONDER COLUMNAS------------------------------*/
+/*--------------------------------------------------------------------------*/
+
+.Hide { display:none; }
+
+/*--------------------------------------------------------------------------*/
+/*------------------------PANEL DE CONFIGURACION ---------------------------*/
+/*--------------------------------------------------------------------------*/
+
+.panelConfiguracion
+{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:12px;
+}
+
+
+
+
+
+
+
+
+/*--------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------*/
+/*-----------------------LAYPUT CATALOG CATALOG-----------------------------*/
+/*--------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------*/
+
+
+
+
+/*--------------------------------------------------------------------------*/
+/*-----------------------------GRID DIV CATALOG-----------------------------*/
+/*--------------------------------------------------------------------------*/
+
+#grid_div_catalog
+{
+	position:fixed;
+	
+	margin:auto;
+	
+	height:auto;
+	
+	top: 120px;
+	bottom: 50px;
+	left: 12px;
+	right: 12px;
+	
+	overflow: auto;
+	
+	border: 2px solid #666;
+    background-color:#D1D3D4;
+}
+
+/*Reescribir el estilo del tab para aplicar las propiedades*/
+
+.rad_tab_strip_tabs_controls{	position:fixed;	margin:auto;	height:auto;	top: 130px; bottom: 50px;	left: 12px;	right: 12px;	overflow: auto;			font-family: verdana,tahoma,helvetica;    font-size: 10pt;    border: 1px solid #999999;    border-top: 0;    padding: 8px;    background-color: #ffffff;	}  .tt-tabs-controls{    position:fixed;    left: 12px;    right: 12px;    top: 100px;    min-height: 28px;    height: auto;} .ajax__tab_body
+{
+	position:fixed;
+	margin:auto;
+	height:auto;
+	top: 110px; /* 153px + 20px del Texto del Tab*/
+	bottom: 50px;
+	left: 12px;
+	right: 12px;
+	overflow: auto;			
+}
+
+.rad_tab_strip_tabs_controls
+{
+	position:fixed;
+	margin:auto;
+	height:auto;
+	top: 130px; /* 153px + 20px del Texto del Tab*/
+	bottom: 50px;
+	left: 12px;
+	right: 12px;
+	overflow: auto;		
+	font-family: verdana,tahoma,helvetica;
+    font-size: 10pt;
+    border: 1px solid #999999;
+    border-top: 0;
+    padding: 8px;
+    background-color: #ffffff;	
+} 
+
+.tt-tabs-controls
+{
+    position:fixed;
+    left: 12px;
+    right: 12px;
+    top: 100px;
+    min-height: 28px;
+    height: auto;
+} 
+
+/*--------------------------------------------------------------------------*/
+/*-----------------------------MENU BAR CATALOG-----------------------------*/
+/*--------------------------------------------------------------------------*/
+
+#horizontal_menu_div_catalog, .horizontal_menu_div_catalog
+{
+	position:fixed;
+	
+	z-index:200;
+	
+	margin:auto;
+	
+	height:34px;
+	
+	left:12px;
+	right:12px;
+	bottom:10px;
+	
+	overflow:hidden;
+	
+	-moz-border-radius-topleft: 8px;
+	-webkit-border-top-left-radius: 8px;
+	border-top-left-radius: 8px;
+	
+	-moz-border-radius-topright: 8px;
+	-webkit-border-top-right-radius: 8px;
+	border-top-right-radius: 8px;
+	
+	-moz-border-radius-bottomleft: 8px;
+	-webkit-border-bottom-left-radius: 8px;
+	border-bottom-left-radius: 8px;
+	
+	-moz-border-radius-bottomright: 8px;
+	-webkit-border-bottom-right-radius: 8px;
+	border-bottom-right-radius: 8px;
+	
+	padding-left:10px;     
+	
+	background-color:#2A4380;
+}
+
+/*--------------------------------------------------------------------------*/
+/*-------------------------BUTTONS CATALOG COLORS---------------------------*/
+/*--------------------------------------------------------------------------*/
+
+#btn_divider_1_catalog, #btn_divider_2_catalog, #btn_divider_3_catalog, #btn_divider_4_catalog, #btn_divider_5_catalog
+{
+	background-color:#FFF;
+}
+
+.btns		  /*---Texto de Botones---*/
+{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#FFF;
+	
+	/*line-height:3.5em;*/
+}
+
+#ctl00_MnuButtonsPlace_btn_grabar_catalog, #ctl00_MnuButtonsPlace_btn_grabar_nuevo_catalog, #ctl00_MnuButtonsPlace_btn_grabar_copiar_catalog, #ctl00_MnuButtonsPlace_btn_limpiar_catalog, #ctl00_MnuButtonsPlace_btn_cancelar_catalog, #ctl00_MnuButtonsPlace_btn_ayuda_catalog 
+{
+	background-color:#2A4380;
+}
+
+#ctl00_MnuButtonsPlace_btn_grabar_catalog:hover, #ctl00_MnuButtonsPlace_btn_grabar_nuevo_catalog:hover, #ctl00_MnuButtonsPlace_btn_grabar_copiar_catalog:hover, #ctl00_MnuButtonsPlace_btn_limpiar_catalog:hover, #ctl00_MnuButtonsPlace_btn_cancelar_catalog:hover, #ctl00_MnuButtonsPlace_btn_ayuda_catalog:hover
+{
+	background-color:#6C8CD5;
+}
+
+/*--------------------------------------------------------------------------*/
+/*-------------------------BTN DIVIDERS CATALOG-----------------------------*/
+/*--------------------------------------------------------------------------*/
+
+#btn_divider_1_catalog
+{
+	position:fixed;
+	
+	
+	width:2px;
+	height:34px;
+	
+	left:174px;
+	right:auto;
+	bottom:10px;
+	
+/*	background-color:#FFF;*/
+}
+
+#btn_divider_2_catalog
+{
+	position:fixed;
+	
+	
+	width:2px;
+	height:34px;
+	
+	left:316px;
+	right:auto;
+	bottom:10px;
+	
+/*	background-color:#FFF;*/
+}
+
+#btn_divider_3_catalog
+{
+	position:fixed;
+	
+	
+	width:2px;
+	height:34px;
+	
+	left:458px;
+	right:auto;
+	bottom:10px;
+	
+/*	background-color:#FFF;*/
+}
+
+#btn_divider_4_catalog
+{
+	position:fixed;
+	
+	
+	width:2px;
+	height:34px;
+	
+	left:600px;
+	right:auto;
+	bottom:10px;
+	
+/*	background-color:#FFF;*/
+}
+
+#btn_divider_5_catalog
+{
+	position:fixed;
+	
+	
+	width:2px;
+	height:34px;
+	
+	left:742px;
+	right:auto;
+	bottom:10px;
+	
+/*	background-color:#FFF;*/
+}
+
+.btn_divider_generic_catalog
+{
+	position:relative;
+	
+	
+	width:2px;
+	height:34px;
+	float:left;
+	/*left:174px;
+	right:auto;
+	bottom:10px;*/
+	
+	background-color:#FFF;
+}
+/*------------------------------BTNS CATALOG--------------------------------*/
+/*--GRABAR--GRABAR Y NUEVO--GRABAR Y COPIAR--LIMPIAR--CANCELAR--AYUDA-------*/
+/*--------------------------------------------------------------------------*/
+
+/* -------------------------------------------------BTN GRABAR--------------*/	
+
+#ctl00_MnuButtonsPlace_btn_grabar_catalog
+{
+	position: fixed;
+	
+	width: 140px;
+	height: 34px;
+	
+	left:34px;
+	right:auto;
+	bottom:10px;
+}
+
+#ctl00_MnuButtonsPlace_btn_grabar_catalog:hover
+{
+	display: block;
+}
+
+#ctl00_MnuButtonsPlace_btn_grabar_catalog p
+{
+	padding-left:33px;
+	line-height:1.5em;
+	*line-height:3.5em;
+	cursor:default;
+}
+
+#ctl00_MnuButtonsPlace_btn_grabar_catalog p:hover
+{
+	padding-left:36px;
+	line-height:1.5em;
+	*line-height:3.5em;
+	cursor:default;
+}
+
+#ctl00_MnuButtonsPlace_btn_grabar_catalog
+{
+	background-image:url(../Images/Design/btns/btn_catalog/btn_01.png);
+	background-repeat:no-repeat;
+}
+
+#ctl00_MnuButtonsPlace_btn_grabar_catalog:hover
+{
+	background-image:url(../Images/Design/btns/btn_catalog/btn_01.png);
+	background-repeat:no-repeat;
+}
+
+/* -------------------------------------------------BTN GRABAR Y NUEVO-----------*/
+
+#ctl00_MnuButtonsPlace_btn_grabar_nuevo_catalog
+{
+	position: fixed;
+	
+	width: 140px;
+	height: 34px;
+	
+	left: 176px;
+	right:auto;
+	bottom: 10px;	
+}
+
+#ctl00_MnuButtonsPlace_btn_grabar_nuevo_catalog:hover 
+{	
+	display: block;
+}
+
+#ctl00_MnuButtonsPlace_btn_grabar_nuevo_catalog p
+{
+	padding-left:55px;
+	line-height:1.5em;
+	*line-height:3.5em;
+	cursor:default;
+}
+
+#ctl00_MnuButtonsPlace_btn_grabar_nuevo_catalog p:hover
+{
+	padding-left:58px;
+	line-height:1.5em;
+	*line-height:3.5em;
+	cursor:default;
+}
+
+#ctl00_MnuButtonsPlace_btn_grabar_nuevo_catalog
+{
+	background-image:url(../Images/Design/btns/btn_catalog/btn_02.png);
+	background-repeat:no-repeat;
+}
+
+#ctl00_MnuButtonsPlace_btn_grabar_nuevo_catalog:hover 
+{	
+	background-image:url(../Images/Design/btns/btn_catalog/btn_02.png);
+	background-repeat:no-repeat;
+}
+
+/* -------------------------------------------------BTN GRABAR Y COPIAR-----------*/
+
+#ctl00_MnuButtonsPlace_btn_grabar_copiar_catalog
+{
+	position: fixed;
+	
+	width: 140px;
+	height: 34px;
+	
+	left: 318px;
+	right:auto;
+	bottom: 10px;	
+}
+
+#ctl00_MnuButtonsPlace_btn_grabar_copiar_catalog:hover
+{
+	display: block;
+}
+
+#ctl00_MnuButtonsPlace_btn_grabar_copiar_catalog p
+{
+	padding-left:60px;
+	line-height:1.5em;
+	*line-height:3.5em;
+	cursor:default;
+}
+
+#ctl00_MnuButtonsPlace_btn_grabar_copiar_catalog p:hover
+{
+	padding-left:63px;
+	line-height:1.5em;
+	*line-height:3.5em;
+	cursor:default;
+}
+
+#ctl00_MnuButtonsPlace_btn_grabar_copiar_catalog
+{
+	background-image:url(../Images/Design/btns/btn_catalog/btn_03.png);
+	background-repeat:no-repeat;
+}
+
+#ctl00_MnuButtonsPlace_btn_grabar_copiar_catalog:hover
+{
+	background-image:url(../Images/Design/btns/btn_catalog/btn_03.png);
+	background-repeat:no-repeat;
+}
+
+/* -------------------------------------------------BTN LIMPIAR----------------*/
+
+#ctl00_MnuButtonsPlace_btn_limpiar_catalog
+{
+	position: fixed;
+	
+	width: 140px;
+	height: 34px;
+	
+	left: 460px;
+	right:auto;
+	bottom: 10px;
+}
+
+#ctl00_MnuButtonsPlace_btn_limpiar_catalog:hover
+{
+	display: block;
+}
+
+#ctl00_MnuButtonsPlace_btn_limpiar_catalog p
+{
+	padding-left:33px;
+	line-height:1.5em;
+	*line-height:3.5em;
+	cursor:default;
+}
+
+#ctl00_MnuButtonsPlace_btn_limpiar_catalog p:hover
+{
+	padding-left:36px;
+	line-height:1.5em;
+	*line-height:3.5em;
+	cursor:default;
+}
+
+#ctl00_MnuButtonsPlace_btn_limpiar_catalog
+{
+	background-image:url(../Images/Design/btns/btn_catalog/btn_04.png);
+	background-repeat:no-repeat;
+}
+
+#ctl00_MnuButtonsPlace_btn_limpiar_catalog:hover
+{
+	background-image:url(../Images/Design/btns/btn_catalog/btn_04.png);
+	background-repeat:no-repeat;
+}
+
+/* -------------------------------------------------BTN CANCELAR-----------------*/
+
+#ctl00_MnuButtonsPlace_btn_cancelar_catalog
+{
+	position: fixed;
+	
+	width: 140px;
+	height: 34px;
+	
+	left: 602px;
+	right:auto;
+	bottom: 10px;
+}
+
+#ctl00_MnuButtonsPlace_btn_cancelar_catalog:hover
+{
+	display: block;
+}
+
+#ctl00_MnuButtonsPlace_btn_cancelar_catalog p
+{
+	padding-left:39px;
+	line-height:1.5em;
+	*line-height:3.5em;
+	cursor:default;
+}
+
+#ctl00_MnuButtonsPlace_btn_cancelar_catalog p:hover
+{
+	padding-left:42px;
+	line-height:1.5em;
+	*line-height:3.5em;
+	cursor:default;
+}
+
+#ctl00_MnuButtonsPlace_btn_cancelar_catalog
+{
+	background-image:url(../Images/Design/btns/btn_catalog/btn_05.png);
+	background-repeat:no-repeat;
+}
+
+#ctl00_MnuButtonsPlace_btn_cancelar_catalog:hover
+{
+	background-image:url(../Images/Design/btns/btn_catalog/btn_05.png);
+	background-repeat:no-repeat;
+}
+
+/* -------------------------------------------------BTN AYUDA-------------------*/
+
+#ctl00_MnuButtonsPlace_btn_ayuda_catalog
+{
+	float:right;	
+	width:90px;
+	height:34px;	
+	margin-right:10px;
+}
+
+#ctl00_MnuButtonsPlace_btn_ayuda_catalog:hover
+{
+	display: block;
+}
+
+#ctl00_MnuButtonsPlace_btn_ayuda_catalog p
+{
+	padding-left:33px;
+	line-height:1.5em;
+	*line-height:3.5em;
+	cursor:pointer;
+}
+
+#ctl00_MnuButtonsPlace_btn_ayuda_catalog p:hover
+{
+	padding-left:36px;
+	line-height:1.5em;
+	*line-height:3.5em;
+	cursor:pointer;
+}
+
+#ctl00_MnuButtonsPlace_btn_ayuda_catalog
+{
+	background-color:#2A4380;
+}
+
+#ctl00_MnuButtonsPlace_btn_ayuda_catalog:hover
+{
+	background-color:#2A4380;
+	cursor:pointer;
+}
+
+#ctl00_MnuButtonsPlace_btn_ayuda_catalog
+{
+	background-image:url(../Images/Design/btns/btn_catalog/btn_06.png);
+	background-repeat:no-repeat;
+}
+
+#ctl00_MnuButtonsPlace_btn_ayuda_catalog:hover
+{
+	background-image:url(images/btns/btn_catalog/btn_06.png);
+	background-repeat:no-repeat;
+}
+
+#btn_ayuda_catalog
+{
+	background-image:url(../Images/Design/btns/btn_catalog/btn_06.png);
+	background-repeat:no-repeat;
+}
+
+#btn_ayuda_catalog:hover
+{
+	background-image:url(images/btns/btn_catalog/btn_06.png);
+	background-repeat:no-repeat;
+}
+/* -------------------------------------------------BTN Generico--------------*/	
+
+.btn_catalog
+{
+	position: relative;
+	
+	width: auto;
+	height: 34px;
+	float:left;
+	/*left:34px;
+	right:auto;
+	bottom:10px;*/
+	
+}
+
+.btn_catalog span
+{
+	/*padding-left:33px;*/
+	cursor:default;
+	padding-right: 10px;
+}
+
+.btn_catalog span:hover
+{
+	/*padding-left:36px;*/
+	cursor:default;
+}
+
+.btn_catalog
+{
+	/*background-image:url(../Images/Design/btns/btn_catalog/btn_01.png);*/
+	background-repeat:no-repeat;
+}
+
+.btn_catalog:hover
+{
+    background-color:#6C8CD5;
+	/*background-image:url(../Images/Design/btns/btn_catalog/btn_01.png);*/
+	background-repeat:no-repeat;
+    display: block;
+
+}
+.btn_catalog img
+{
+    float:left;
+}
+/*--------------------------------------------------------------------------*/
+/*----------------------------CONTENT ELEMENTS------------------------------*/
+/*--------------------------------------------------------------------------*/
+
+.topgrid_info  /*---Globo con Total de Registros---*/
+{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#FFF;
+	
+	line-height:2.8em;
+}
+
+.paginas_text_format
+{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#333;
+	
+	line-height:2.8em;
+}
+
+.goto_page_text
+{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#333;
+	
+	/*line-height:4em;*/
+}
+
+
+.mostrar_label_format
+{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#333;
+	
+	line-height:2.8em;
+}
+
+.colum1_labels
+{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color:#333;
+    /*	line-height:1.8em;*/
+}
+
+.columna1_empty
+{
+    width:300px;
+	text-align:right;
+	background-color:#F1F2F2;
+	padding-top:5px;
+	padding-bottom:5px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color:#333;
+}
+
+.colum2_camuflage
+{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#D1D3D4;
+}
+
+#colum1
+{
+	width:300px;
+	text-align:right;
+	background-color:#F1F2F2;
+    /*	vertical-align:text-top;*/
+	padding-top:5px;
+	padding-bottom:5px;
+}
+
+#colum2
+{	
+	text-align:left;
+	background-color:#D1D3D4;	
+	vertical-align:text-top;
+	padding-left:10px;
+	padding-right:20px;
+	padding-top:5px;
+	padding-bottom:5px;
+	border-left: 2px solid #666;
+}
+
+.columna_controls
+{
+    text-align:left;
+	background-color:#D1D3D4;	
+	vertical-align:text-top;
+	padding-left:10px;
+	padding-right:20px;
+	padding-top:5px;
+	padding-bottom:5px;
+	border-left: 2px solid #666;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color:#333;
+}
+
+.columna2_empty
+{
+    font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#D1D3D4;
+    text-align:left;
+	background-color:#D1D3D4;	
+	vertical-align:text-top;
+	padding-left:10px;
+	padding-right:20px;
+	padding-top:5px;
+	padding-bottom:5px;
+	border-left: 2px solid #666;
+}
+
+#icon_space
+{
+	background-color:#F1F2F2;
+	width:30px;
+	height:20px;
+}
+
+.icon_space
+{
+	background-color:#F1F2F2;
+	width:30px;
+	height:20px;
+}
+
+#icon_labels
+{
+/*	background-image:url(../Images/Design/green_arrow4.png);
+	background-position:top;
+	background-repeat:no-repeat;*/
+	
+	padding-top:5px;
+	background-color:#F1F2F2;
+}
+
+.icon_labels
+{
+	padding-top:5px;
+	background-color:#F1F2F2;
+}
+
+#icon_add
+{	
+	/*background-image:url(../Images/Design/add_item.png);*/
+	/*background-position:top;*/
+	/*background-repeat:no-repeat;*/
+	
+	padding-top:5px;
+	background-color:#D1D3D4;
+}
+
+#icon_calendar
+{	
+	/*background-image:url(../Images/Design/calendar.png);*/
+	/*background-position:top;*/
+	/*background-repeat:no-repeat;*/
+	
+	padding-top:5px;
+	background-color:#D1D3D4;
+}
+
+#icon_clock
+{	
+	/*background-image:url(../Images/Design/clock.png);*/
+	/*background-position:top;*/
+	/*background-repeat:no-repeat;*/
+	
+	padding-top:5px;
+	background-color:#D1D3D4;
+}
+
+#colum_control
+{
+	width:300px;
+	background-color:#D1D3D4;
+}
+
+.control_style
+{
+	width:300px;
+	background-color:#D1D3D4;
+}
+
+#icon_control
+{
+	background-color:#D1D3D4;
+}
+
+/*--------------------------------------------------------------------------*/
+/*-------------------------------CONTROLS-----------------------------------*/
+/*--------------------------------------------------------------------------*/
+
+#text_area
+{
+	width:100%;
+	margin:0;
+	padding-left:5px;
+	padding-top:5px;
+	
+	
+	border: 1px solid #666;
+	background-color:#FFF;
+	
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#333;
+}
+
+#text_box
+{
+	width:300px;
+	height:20px;
+	
+	margin:0;
+	
+	padding-left:5px;
+	padding-top:1px;
+	padding-bottom:1px;
+	padding-right:5px;
+	
+	border: 1px solid #666;
+	background-color:#FFF;
+	
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#333;
+}
+
+#list_box
+{
+	width:312px;
+	height:23px;
+	
+	margin:0;
+	
+	padding-left:5px;
+	padding-top:1px;
+	padding-bottom:1px;
+	padding-right:0px;
+	
+	border: 1px solid #666;
+	background-color:#FFF;
+	
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#333;
+}
+
+/*--------------------------------------------------------------------------*/
+/*-----------------------------CONTROL DE REPORTES--------------------------*/
+/*--------------------------------------------------------------------------*/
+
+.pageView{	
+	position:fixed;
+	margin:auto;
+	height:auto;
+	top: 117px;
+	bottom: 55px;
+	left: 15px;
+	right: 17px;
+	overflow: auto;
+	border: 1px solid #898c95;
+    margin-top: -1px;   
+}
+
+#ctl00_MainContent_ttControlReportB_chartContainer
+{
+    position:fixed;
+	margin:auto;
+	height:auto;
+	top: 130px;
+	bottom: 65px;
+	left: 30px;
+	right: 220px;
+	overflow: auto;
+	border: 0px solid #898c95;   	
+}
+
+#ctl00_MainContent_ttControlReportB_chartOptionsPlaceholder
+{   
+    font-family: Tahoma; 
+    font-size: small;
+    color: Black;
+    text-align:left;
+    
+    position:fixed;
+	margin:auto;
+	height:auto;
+	top: 130px;
+	bottom: 65px;
+	/*left: 900px;*/
+	right: 37px;
+	overflow: auto;	
+	border: 0px solid #898c95;
+}
+
+.divTitulo
+{
+    font-family: Tahoma; 
+    font-size: medium;
+    color: #008000;
+    text-align:center;   
+}
+
+#divReportControls
+{
+    position:fixed;
+	margin:auto;
+	height:auto;
+	/*top: 181px;*/
+	bottom: 35px;
+	left: 35px;
+	right: 37px;
+	overflow: hidden;
+	/*border: 1px solid #898c95;
+    margin-top: -1px;*/
+}
+
+#ctl00_MainContent_ttControlReportB_radPageImpresion
+{
+    position:fixed;
+	margin:auto;
+	height:auto;
+	top: 130px;
+	bottom: 50px;
+	left: 30px;
+	right: 30px;
+	overflow: auto;	
+}
+
+/*--------------------------------------------------------------------------*/
+/*------------------------------REGLAS DE NEGOCIO---------------------------*/
+/*--------------------------------------------------------------------------*/
+
+.pageViewAdmin{	
+	position:fixed;
+	margin:auto;
+	height:auto;
+	top: 114px;
+	bottom: 50px;
+	left: 12px;
+	right: 14px;
+	overflow: auto;
+	border: 1px solid #898c95;
+    margin-top: -1px;  
+    
+    font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;	
+}
+
+.BRTabPanel
+{
+    margin:10px;    
+}
+
+.btns		  /*---Texto de Botones---*/
+{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#FFF;
+	/*line-height:3.5em;*/
+}
+
+/*--------------------------------------------------------------------------*/
+/*------------------------BOTONES REGLAS DE NEGOCIO-------------------------*/
+/*--------------------------------------------------------------------------*/
+
+/* -----------------------BTN GRABAR REGLAS DE NEGOCIO----------------------*/	
+
+#btn_grabar_bussines_rules
+{
+	position: fixed;
+	
+	width: 140px;
+	height: 34px;
+	
+	left:34px;
+	right:auto;
+	bottom:10px;
+	
+	background-image:url(../Images/Design/btns/btn_catalog/btn_01.png);
+	background-repeat:no-repeat;
+	
+	background-color: #2A4380; 
+}
+
+#btn_grabar_bussines_rules:hover
+{
+	display: block;
+	
+	background-color: #6C8CD5;
+	background-image:url(../Images/Design/btns/btn_catalog/btn_01.png);
+	background-repeat:no-repeat;
+}
+
+#btn_grabar_bussines_rules p
+{
+    padding-left:33px;
+	line-height:1.5em;
+	*line-height:3.5em;
+	cursor:default;
+	margin-top:10px;	
+}
+
+#btn_grabar_bussines_rules p:hover
+{	
+    padding-left:36px;
+	line-height:1.5em;
+	*line-height:3.5em;
+	cursor:default;
+}
+
+/* -------------------BTN GRABAR Y NUEVO REGLAS DE NEGOCIO------------------*/
+
+#btn_grabar_nuevo_bussines_rules
+{
+	position: fixed;
+	
+	width: 140px;
+	height: 34px;
+	
+	left: 176px;
+	right:auto;
+	bottom: 10px;	
+
+	background-color:#2A4380;
+	background-image:url(../Images/Design/btns/btn_catalog/btn_02.png);
+	background-repeat:no-repeat;
+}
+
+#btn_grabar_nuevo_bussines_rules:hover 
+{	
+	display: block;
+	
+    background-color:#6C8CD5;
+	background-image:url(../Images/Design/btns/btn_catalog/btn_02.png);
+	background-repeat:no-repeat;
+}
+
+#btn_grabar_nuevo_bussines_rules p
+{    
+	padding-left:55px;
+	line-height:1.5em;
+	*line-height:3.5em;
+	cursor:default;		
+	margin-top:10px;
+}
+
+#btn_grabar_nuevo_bussines_rules p:hover
+{	
+	padding-left:58px;
+	line-height:1.5em;
+	*line-height:3.5em;
+	cursor:default;
+}
+
+/* -------------------BTN GRABAR Y COPIAR REGLAS DE NEGOCIO-----------------*/
+
+#btn_grabar_copiar_bussines_rules
+{
+	position: fixed;
+	
+	width: 140px;
+	height: 34px;
+	
+	left: 318px;
+	right:auto;
+	bottom: 10px;	
+	
+	background-color:#2A4380;
+	background-image:url(../Images/Design/btns/btn_catalog/btn_03.png);
+	background-repeat:no-repeat;
+}
+
+#btn_grabar_copiar_bussines_rules:hover
+{
+	display: block;
+	
+	background-color:#6C8CD5;
+	background-image:url(../Images/Design/btns/btn_catalog/btn_03.png);
+	background-repeat:no-repeat;
+}
+
+#btn_grabar_copiar_bussines_rules p
+{
+	padding-left:60px;
+	line-height:1.5em;
+	*line-height:3.5em;
+	cursor:default;
+	margin-top:10px;
+}
+
+#btn_grabar_copiar_bussines_rules p:hover
+{
+	padding-left:63px;
+	line-height:1.5em;
+	*line-height:3.5em;
+	cursor:default;
+}
+
+/* ----------------------BTN LIMPIAR REGLAS DE NEGOCIO----------------------*/
+
+#btn_limpiar_bussines_rules
+{
+	position: fixed;
+	
+	width: 140px;
+	height: 34px;
+	
+	left: 460px;
+	right:auto;
+	bottom: 10px;
+	
+	background-color:#2A4380;
+	background-image:url(../Images/Design/btns/btn_catalog/btn_04.png);
+	background-repeat:no-repeat;
+}
+
+#btn_limpiar_bussines_rules:hover
+{
+	display: block;
+	
+	background-color:#6C8CD5;
+	background-image:url(../Images/Design/btns/btn_catalog/btn_04.png);
+	background-repeat:no-repeat;
+}
+
+#btn_limpiar_bussines_rules p
+{
+	padding-left:33px;
+	line-height:1.5em;
+	*line-height:3.5em;
+	cursor:default;
+	margin-top:10px;
+}
+
+#btn_elimpiar_bussines_rules p:hover
+{
+	padding-left:36px;
+	line-height:1.5em;
+	*line-height:3.5em;
+	cursor:default;
+}
+
+/* -----------------------BTN CERRAR REGLAS DE NEGOCIO----------------------*/
+
+#btn_cerrar_bussines_rules
+{
+	position: fixed;
+	
+	width: 140px;
+	height: 34px;
+	
+	left: 602px;
+	right:auto;
+	bottom: 10px;
+	
+	background-color:#2A4380;
+	background-image:url(../Images/Design/btns/btn_catalog/btn_05.png);
+	background-repeat:no-repeat;
+}
+
+#btn_cerrar_bussines_rules:hover
+{
+	display: block;
+	
+	background-color:#6C8CD5;
+	background-image:url(../Images/Design/btns/btn_catalog/btn_05.png);
+	background-repeat:no-repeat;
+}
+
+#btn_cerrar_bussines_rules p
+{
+	padding-left:39px;
+	line-height:1.5em;
+	*line-height:3.5em;
+	cursor:default;
+	margin-top:10px;
+}
+
+#btn_cerrar_bussines_rules p:hover
+{
+	padding-left:42px;
+	line-height:1.5em;
+	*line-height:3.5em;
+	cursor:default;
+}
+
+/* ------------------------BTN AYUDA REGLAS DE NEGOCIO----------------------*/
+
+#btn_ayuda_bussines_rules
+{
+    position: fixed;
+	
+	width: 140px;
+	height: 34px;
+	
+	left:840px;
+	right:auto;
+	bottom:10px;
+	    		
+	background-color:#2A4380;
+	background-image:url(../Images/Design/btns/btn_catalog/btn_06.png);
+	background-repeat:no-repeat;
+}
+
+#btn_ayuda_bussines_rules:hover
+{
+	display: block;
+	
+	background-color:#6C8CD5;
+	background-image:url(../Images/btns/btn_catalog/btn_06.png);
+	background-repeat:no-repeat;
+}
+
+#btn_ayuda_bussines_rules p
+{
+	padding-left:33px;
+	line-height:1.5em;
+	*line-height:3.5em;
+	cursor:pointer;
+	margin-top:10px;
+}
+
+#btn_ayuda_bussines_rules p:hover
+{
+	cursor:pointer;
+	padding-left:36px;
+	line-height:1.5em;
+	*line-height:3.5em;	
+}
+
+/*--------------------------------------------------------------------------*/
+/*-----------------------------PAGINA DE REPORTES---------------------------*/
+/*--------------------------------------------------------------------------*/
+
+.pageViewReports{	
+	position:fixed;
+	margin:auto;
+	height:auto;
+	top: 118px;
+	bottom: 65px;
+	left: 24px;
+	right: 24px;
+	overflow:hidden;
+	border: 1px solid #898c95;
+    margin-top: -1px;       
+    font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;	
+}
+
+#ctl00_MainContent_RadTreeView1
+{
+    position:fixed;
+	margin:auto;
+	height:auto;
+	width:270px;	
+	top: 125px;
+	bottom: 63px;
+	left: 24px;
+	/*right: 34px;*/
+	overflow: auto;
+	border: 1px solid #898c95;    
+}
+
+#divReportFields
+{
+    position:fixed;
+	margin:auto;
+	height:auto;
+	top: 125px;
+	bottom: 63px;
+	left: 307px;
+	right: 24px;
+	overflow: auto;
+	border: 1px solid #898c95; 
+} 
+
+#divReportFields table
+{
+ 	/*margin:10px;*/
+}
+

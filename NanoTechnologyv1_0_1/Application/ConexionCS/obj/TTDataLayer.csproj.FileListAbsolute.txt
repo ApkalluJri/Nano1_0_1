@@ -1,0 +1,24 @@
+C:\Proyectos\PRISMA\Desarrollo\PrismaNET\Jorge\Template case net\WebApplication3\ConexionCS\bin\Debug\ConexionCS.dll
+C:\Proyectos\PRISMA\Desarrollo\PrismaNET\Jorge\Template case net\WebApplication3\ConexionCS\bin\Debug\ConexionCS.pdb
+C:\Proyectos\PRISMA\Desarrollo\PrismaNET\Jorge\Template case net\WebApplication3\ConexionCS\bin\Debug\TTFunctions.dll
+C:\Proyectos\PRISMA\Desarrollo\PrismaNET\Jorge\Template case net\WebApplication3\ConexionCS\bin\Debug\Calendar.DayView.dll
+C:\Proyectos\PRISMA\Desarrollo\PrismaNET\Jorge\Template case net\WebApplication3\ConexionCS\bin\Debug\TTTraductor.dll
+C:\Proyectos\PRISMA\Desarrollo\PrismaNET\Jorge\Template case net\WebApplication3\ConexionCS\bin\Debug\TTClassSpecials.dll
+C:\Proyectos\PRISMA\Desarrollo\PrismaNET\Jorge\Template case net\WebApplication3\ConexionCS\bin\Debug\TTFunctions.pdb
+C:\Proyectos\PRISMA\Desarrollo\PrismaNET\Jorge\Template case net\WebApplication3\ConexionCS\bin\Debug\TTTraductor.pdb
+C:\Proyectos\PRISMA\Desarrollo\PrismaNET\Jorge\Template case net\WebApplication3\ConexionCS\bin\Debug\TTSecurity.pdb
+C:\Proyectos\PRISMA\Desarrollo\PrismaNET\Jorge\Template case net\WebApplication3\ConexionCS\bin\Debug\TTVersion.pdb
+C:\Proyectos\PRISMA\Desarrollo\PrismaNET\Jorge\Template case net\WebApplication3\ConexionCS\obj\Debug\ResolveAssemblyReference.cache
+C:\Proyectos\PRISMA\Desarrollo\PrismaNET\Jorge\Template case net\WebApplication3\ConexionCS\obj\Debug\ConexionCS.dll
+C:\Proyectos\PRISMA\Desarrollo\PrismaNET\Jorge\Template case net\WebApplication3\ConexionCS\obj\Debug\ConexionCS.pdb
+C:\Proyectos NET\ConexionCS\obj\Release\ResolveAssemblyReference.cache
+C:\Proyectos NET\ConexionCS\bin\Debug\ConexionCS.dll
+C:\Proyectos NET\ConexionCS\bin\Debug\ConexionCS.pdb
+C:\Proyectos NET\ConexionCS\obj\Debug\ResolveAssemblyReference.cache
+C:\Proyectos NET\ConexionCS\obj\Debug\ConexionCS.dll
+C:\Proyectos NET\ConexionCS\obj\Debug\ConexionCS.pdb
+E:\Proyectos\TOTAL CASE\ASP NET\Template en Blanco\ConexionCS\bin\Debug\ConexionCS.dll
+E:\Proyectos\TOTAL CASE\ASP NET\Template en Blanco\ConexionCS\bin\Debug\ConexionCS.pdb
+E:\Proyectos\TOTAL CASE\ASP NET\Template en Blanco\ConexionCS\obj\Debug\ResolveAssemblyReference.cache
+E:\Proyectos\TOTAL CASE\ASP NET\Template en Blanco\ConexionCS\obj\Debug\ConexionCS.dll
+E:\Proyectos\TOTAL CASE\ASP NET\Template en Blanco\ConexionCS\obj\Debug\ConexionCS.pdb

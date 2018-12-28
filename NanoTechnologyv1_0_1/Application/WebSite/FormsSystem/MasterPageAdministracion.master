@@ -1,0 +1,220 @@
+﻿<%@ Master Language="C#" EnableTheming="true" AutoEventWireup="true"
+    Inherits="FormsSystem_MasterPageAdministracion" CodeFile="MasterPageAdministracion.master.cs" %>
+<%@ Register Assembly="System.Web.Extensions, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+    Namespace="System.Web.UI" TagPrefix="asp" %>
+    <%@ Register Assembly="TSC.Timeout" Namespace="TSC.Timeout" TagPrefix="tsc" %>
+
+<%@ Register TagPrefix="telerik" Namespace="Telerik.Web.UI" Assembly="Telerik.Web.UI" %>
+<%@ Register src="MenuAdministracion.ascx" tagname="MenuAdministracion" tagprefix="uc1" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title>Administración de la Aplicación</title>
+
+        <script src="../JSScripts/jquery-1.4.2.js" type="text/javascript"></script>
+        <link href="../App_Themes/layout_master_page.css" rel="stylesheet" type="text/css" />
+        <link href="../App_Themes/config_list_horizontal_default.css" rel="stylesheet" type="text/css" />
+        <link href="../App_Themes/layout_catalog.css" rel="stylesheet" type="text/css" />
+
+      
+
+    <script type="text/javascript">
+        var altKey = false;
+        var keyCode = 0;
+
+        function closeSession(evt) {
+
+            evt = (evt) ? evt : event;
+
+            clickY = evt.clientY;
+            altKey = evt.altKey;
+            keyCode = evt.keyCode;
+
+            if (!evt.clientY) {
+                // Window Closing in FireFox
+                // capturing ALT + F4
+                keyVals = document.getElementById('ffKeyTrap');
+                if (keyVals) {
+                    if (keyVals.value == 'true115') {
+                        document.location = "../Default.aspx";
+                    }
+
+                    if (keyVals.value == '') {
+                        // capturing a window close by "X" ?
+                        // we have no keycodes
+                        document.location = "../Default.aspx";
+                    }
+                }
+            } else {
+                // Window Closing in IE
+                // capturing ALT + F4
+                if (altKey == true && keyCode == 115) {
+                    document.location = "../Default.aspx";
+                    // capturing a window close by "X"
+                } else if (clickY < 0) {
+                    document.location = "../Default.aspx";
+                    // simply leaving the page via a link
+                } else {
+                    //alert('close 3');
+                    return void (0);
+                }
+            }
+        }
+
+        function whatKey(evt) {
+            evt = (evt) ? evt : event;
+            keyVals = document.getElementById('ffKeyTrap');
+            altKey = evt.altKey;
+            keyCode = evt.keyCode;
+            if (altKey && keyCode == 115) {
+                keyVals.value = String(altKey) + String(keyCode);
+            }
+        }
+        function Relogin(isDetail, idWindow) {
+            var oWnd = $find(idWindow);
+            oWnd.close();
+            if (!isDetail)
+                window.location = "../FormsSystem/Default.aspx";
+        }
+        window.onkeydown = whatKey;
+        window.onbeforeunload = closeSession;            
+    </script>
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server" />
+</head>
+<body>
+    <form id="form1" runat="server">
+    <asp:ScriptManager ID="ScriptManager1" runat="server">
+        <Scripts>
+            <asp:ScriptReference Path="../JSScripts/jquery-1.4.2.js" />
+            <asp:ScriptReference Path="../JSScripts/jquery.corner.js" />
+            <asp:ScriptReference Path="../JSScripts/WebKit.js" />
+            <asp:ScriptReference Path="../JSScripts/Funciones.js" />
+            <asp:ScriptReference Path="../JSScripts/jquery-ui-1.7.0.min.js" />
+            <asp:ScriptReference Path="../JSScripts/jquery.bgiframe.js" />
+        </Scripts>
+    </asp:ScriptManager>
+    <telerik:RadWindowManager ID="RadWindowManager1" runat="server">
+    </telerik:RadWindowManager>
+    <tsc:Timeout ID="Timeout1" runat="server" title="Sesión Expirando" Enabled="true" TimeoutURL="~/FormsSystem/LogIn.aspx"
+                ResetSessionOnAsyncPostback="true" CountDownSpanID="tscCounter">
+        <Template>                                      
+            <p>
+                <span class="ui-icon ui-icon-alert" style="float:left; margin: 1px 10px 20px 0;"></span>
+                Tu sesión esta por expirar.
+            </p>
+            <span id="tscCounter"></span>
+            <p>Presiona <b>OK</b> para continuar con tu sesión.</p>                 
+        </Template>
+    </tsc:Timeout>
+    
+    <asp:ContentPlaceHolder ID="ContentProgress" runat="server">
+    </asp:ContentPlaceHolder>
+   
+    <div id="main_div" style="z-index: 100;">
+        <div id="header" style="z-index: 90;">
+            <uc1:MenuAdministracion ID="MenuAdministracion" runat="server" />
+            <div class="header_title" id="title">
+                <asp:Label ID="lblTitulo" runat="server" />
+            </div>
+        </div>
+        <div>
+            <div id="content">
+                <asp:ContentPlaceHolder ID="PagerPlace" runat="server">
+                </asp:ContentPlaceHolder>
+                <asp:ContentPlaceHolder ID="MainContent" runat="server">
+                </asp:ContentPlaceHolder>
+                <asp:ContentPlaceHolder ID="MnuButtonsPlace" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+        </div>
+        <div style="position: absolute; top: 150px;" id="divPageSlider">
+            <asp:ContentPlaceHolder ID="ContentSlider" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </div>
+    <p>
+        <![if IE]></p>
+    <p>
+        <![endif]>
+    </p>
+    
+    </form>    
+    
+
+    <script language="javascript" type="text/javascript">
+        /**************************** Get/Set Scroll position ****************************/
+        var xPos, yPos, hdnFocus;
+        var prm = Sys.WebForms.PageRequestManager.getInstance();
+        prm.add_beginRequest(BeginRequestHandler);
+        prm.add_endRequest(EndRequestHandler);
+        function BeginRequestHandler(sender, args) {
+            if ($get('ctl00_MainContent_TabControls_body') != null) {
+                try {
+                    xPos = $get('ctl00_MainContent_TabControls_body').scrollLeft;
+                    yPos = $get('ctl00_MainContent_TabControls_body').scrollTop;
+                    hdnFocus = args.get_postBackElement().id;
+                }
+                catch (Error) {
+                }
+            }
+        }
+        function EndRequestHandler(sender, args) {
+            if ($get('ctl00_MainContent_TabControls_body') != null) {
+                try {
+                    $get('ctl00_MainContent_TabControls_body').scrollLeft = xPos;
+                    $get('ctl00_MainContent_TabControls_body').scrollTop = yPos;
+                    $get(hdnFocus).focus()
+                }
+                catch (Error) {
+                }
+            }
+        }
+        /*********************************************************************************/
+        function disposeTree(sender, args) {
+            var elements = args.get_panelsUpdating();
+            for (var i = elements.length - 1; i >= 0; i--) {
+                var element = elements[i];
+                var allnodes = element.getElementsByTagName('*'),
+                length = allnodes.length;
+                var nodes = new Array(length)
+                for (var k = 0; k < length; k++) {
+                    nodes[k] = allnodes[k];
+                }
+                for (var j = 0, l = nodes.length; j < l; j++) {
+                    var node = nodes[j];
+                    if (node.nodeType === 1) {
+                        if (node.dispose && typeof (node.dispose) === "function") {
+                            node.dispose();
+                        }
+                        else if (node.control && typeof (node.control.dispose) === "function") {
+                            node.control.dispose();
+                        }
+
+                        var behaviors = node._behaviors;
+                        if (behaviors) {
+                            behaviors = Array.apply(null, behaviors);
+                            for (var k = behaviors.length - 1; k >= 0; k--) {
+                                behaviors[k].dispose();
+                            }
+                        }
+                    }
+                }
+                element.innerHTML = "";
+            }
+        }
+
+
+        Sys.WebForms.PageRequestManager.getInstance().add_pageLoading(disposeTree);
+
+    </script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+

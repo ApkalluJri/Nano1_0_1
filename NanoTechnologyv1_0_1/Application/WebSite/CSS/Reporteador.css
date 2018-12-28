@@ -1,0 +1,90 @@
+﻿.divElemento
+{
+    text-align:center;
+}
+
+#divReportFields table
+{
+    width:100%;
+}
+
+.Celdas:hover
+{
+    background-color:#B0B0B0;
+}
+.CeldasSeleccionadas
+{
+    background-color:#B0B0B0;
+}
+.LinkTitle
+{
+    text-decoration: none;
+    color: Gray;
+    position:absolute;
+    left:0;
+    top:0;
+}
+.rdTitlebar object
+{
+    /*display:none;*/
+}
+.tableDock
+{
+    height:100%;
+    table-layout:fixed;
+}
+.tableDock tr td > div
+{
+    display:table;
+    height:95%;
+    width:95%;
+    border-style:hidden;
+}
+.tableDock tr td
+{
+    height:100%;
+    overflow:hidden;
+    border-style:solid;
+    border-color:#828282;
+    border-width:thin;
+}
+.upload{
+	/*margin:30px 200px; */
+	/*padding:15px;*/
+	font-weight:bold; font-size:1.3em;
+	font-family:Arial, Helvetica, sans-serif;
+	text-align:center;
+	background:#f2f2f2;
+	color:#3366cc;
+	border:1px solid #ccc;
+	width:150px;
+	cursor:pointer !important;
+	-moz-border-radius:5px; -webkit-border-radius:5px;
+}
+.darkbg{
+	background:#ddd !important;
+}
+.status{
+	font-family:Arial; padding:5px;
+}
+ul#files{ list-style:none; padding:0; margin:0; }
+ul#files li{ padding:10px; margin-bottom:2px; width:200px; float:left; margin-right:10px;}
+ul#files li img{ max-width:180px; max-height:150px; }
+.success{ background:#99f099; border:1px solid #339933; }
+.error{ background:#f0c6c3; border:1px solid #cc6622; }
+.upload img
+{
+    max-width:135px;
+}
+
+.btnConfigurar
+{
+    color:Black;
+    background-color:#D0D0D0;
+    border-style:None;
+    font-size:X-Small;
+    font-weight:normal;
+    text-decoration:none;
+    width:100%;
+    height:100%;
+}

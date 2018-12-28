@@ -1,0 +1,245 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Objects>
+  <Object Id="1" culture="en-us" value="Permissions" />
+  <Object Id="1" culture="es-es" value="Permisos" />
+<Object Id="31754" culture="en-us" value="Spartan Format" />
+<Object Id="31754" culture="es-es" value="Spartan Format" />
+<Object Id="10" culture="en-us" value="Spartan Format Permissions" />
+<Object Id="10" culture="es-es" value="Spartan Format Permissions" />
+  <Object Id="11" culture="en-us" value="Spartan Report Permissions" />
+  <Object Id="11" culture="es-es" value="Spartan Report Permissions" />
+  <Object Id="110" culture="en-us" value="Langauge resources" />
+  <Object Id="110" culture="es-es" value="Recursos de Lenguaje" />
+<Object Id="31755" culture="en-us" value="Spartan_Format_Type" />
+<Object Id="31755" culture="es-es" value="Spartan_Format_Type" />
+<Object Id="31756" culture="en-us" value="Spartan_Metadata" />
+<Object Id="31756" culture="es-es" value="Spartan_Metadata" />
+<Object Id="31755" culture="en-us" value="Spartan Format Type" />
+<Object Id="31755" culture="es-es" value="Spartan Format Type" />
+<Object Id="31756" culture="en-us" value="Spartan Metadata" />
+<Object Id="31756" culture="es-es" value="Spartan Metadata" />
+<Object Id="31770" culture="en-us" value="Ciudad" />
+<Object Id="31770" culture="es-es" value="Ciudad" />
+<Object Id="31766" culture="en-us" value="Detalle Familiar de Vendedor" />
+<Object Id="31766" culture="es-es" value="Detalle Familiar de Vendedor" />
+<Object Id="31769" culture="en-us" value="Detalle Sucursal de Empresa" />
+<Object Id="31769" culture="es-es" value="Detalle Sucursal de Empresa" />
+<Object Id="31768" culture="en-us" value="Empresa" />
+<Object Id="31768" culture="es-es" value="Empresa" />
+<Object Id="31767" culture="en-us" value="Parentesco" />
+<Object Id="31767" culture="es-es" value="Parentesco" />
+<Object Id="31765" culture="en-us" value="Vendedor" />
+<Object Id="31765" culture="es-es" value="Vendedor" />
+<Object Id="31870" culture="en-us" value="Spartan Format Configuration" />
+<Object Id="31870" culture="es-es" value="Spartan Format Configuration" />
+<Object Id="31867" culture="en-us" value="Spartan Format Field" />
+<Object Id="31867" culture="es-es" value="Spartan Format Field" />
+<Object Id="31869" culture="en-us" value="Spartan Format Permission Type" />
+<Object Id="31869" culture="es-es" value="Spartan Format Permission Type" />
+<Object Id="31868" culture="en-us" value="Spartan Format Permissions" />
+<Object Id="31868" culture="es-es" value="Spartan Format Permissions" />
+<Object Id="31953" culture="en-us" value="Report Configuration" />
+<Object Id="31953" culture="es-es" value="Report Configuration" />
+<Object Id="32039" culture="en-us" value="Report Field Type" />
+<Object Id="32039" culture="es-es" value="Report Field Type" />
+<Object Id="32035" culture="en-us" value="Report Fields Detail" />
+<Object Id="32035" culture="es-es" value="Report Fields Detail" />
+<Object Id="32037" culture="en-us" value="Report Format" />
+<Object Id="32037" culture="es-es" value="Report Format" />
+<Object Id="32036" culture="en-us" value="Report Function" />
+<Object Id="32036" culture="es-es" value="Report Function" />
+<Object Id="32038" culture="en-us" value="Report Order Type" />
+<Object Id="32038" culture="es-es" value="Report Order Type" />
+<Object Id="31958" culture="en-us" value="Report Permission Type" />
+<Object Id="31958" culture="es-es" value="Report Permission Type" />
+<Object Id="31957" culture="en-us" value="Report Permissions" />
+<Object Id="31957" culture="es-es" value="Report Permissions" />
+<Object Id="31954" culture="en-us" value="Report Presentation Type" />
+<Object Id="31954" culture="es-es" value="Report Presentation Type" />
+<Object Id="31955" culture="en-us" value="Report Presentation View" />
+<Object Id="31955" culture="es-es" value="Report Presentation View" />
+<Object Id="31956" culture="en-us" value="Report Status" />
+<Object Id="31956" culture="es-es" value="Report Status" />
+  <Object Id="50000" culture="en-us" value="Attribute Control Type" />
+  <Object Id="50000" culture="es-es" value="Attribute Control Type" />
+  <Object Id="50001" culture="en-us" value="Attribute Type" />
+  <Object Id="50001" culture="es-es" value="Attribute Type" />
+  <Object Id="50002" culture="en-us" value="Business Rule" />
+  <Object Id="50002" culture="es-es" value="Business Rule" />
+  <Object Id="50003" culture="en-us" value="Business Rule Action" />
+  <Object Id="50003" culture="es-es" value="Business Rule Action" />
+  <Object Id="50004" culture="en-us" value="Business Rule Action Attribute Restrictions Detail" />
+  <Object Id="50004" culture="es-es" value="Business Rule Action Attribute Restrictions Detail" />
+  <Object Id="50005" culture="en-us" value="Business Rule Action Classification" />
+  <Object Id="50005" culture="es-es" value="Business Rule Action Classification" />
+  <Object Id="50006" culture="en-us" value="Business Rule Action Configuration Detail" />
+  <Object Id="50006" culture="es-es" value="Business Rule Action Configuration Detail" />
+  <Object Id="50007" culture="en-us" value="Business Rule Action Event Restrictions Detail" />
+  <Object Id="50007" culture="es-es" value="Business Rule Action Event Restrictions Detail" />
+  <Object Id="50008" culture="en-us" value="Business Rule Action False Detail" />
+  <Object Id="50008" culture="es-es" value="Business Rule Action False Detail" />
+  <Object Id="50009" culture="en-us" value="Business Rule Action Operation Restrictions Detail" />
+  <Object Id="50009" culture="es-es" value="Business Rule Action Operation Restrictions Detail" />
+  <Object Id="50010" culture="en-us" value="Business Rule Action Parameter Type" />
+  <Object Id="50010" culture="es-es" value="Business Rule Action Parameter Type" />
+  <Object Id="50011" culture="en-us" value="Business Rule Action Result" />
+  <Object Id="50011" culture="es-es" value="Business Rule Action Result" />
+  <Object Id="50012" culture="en-us" value="Business Rule Actions True Detail" />
+  <Object Id="50012" culture="es-es" value="Business Rule Actions True Detail" />
+  <Object Id="50013" culture="en-us" value="Business Rule Condition" />
+  <Object Id="50013" culture="es-es" value="Business Rule Condition" />
+  <Object Id="50014" culture="en-us" value="Business Rule Condition Operator" />
+  <Object Id="50014" culture="es-es" value="Business Rule Condition Operator" />
+  <Object Id="50015" culture="en-us" value="Business Rule Conditions Detail" />
+  <Object Id="50015" culture="es-es" value="Business Rule Conditions Detail" />
+  <Object Id="50016" culture="en-us" value="Business Rule Operation" />
+  <Object Id="50016" culture="es-es" value="Business Rule Operation" />
+  <Object Id="50017" culture="en-us" value="Business Rule Operation Detail" />
+  <Object Id="50017" culture="es-es" value="Business Rule Operation Detail" />
+  <Object Id="50018" culture="en-us" value="Business Rule Operator Type" />
+  <Object Id="50018" culture="es-es" value="Business Rule Operator Type" />
+  <Object Id="50019" culture="en-us" value="Business Rule Presentation Control Type" />
+  <Object Id="50019" culture="es-es" value="Business Rule Presentation Control Type" />
+  <Object Id="50020" culture="en-us" value="Business Rule Process Event" />
+  <Object Id="50020" culture="es-es" value="Business Rule Process Event" />
+  <Object Id="50021" culture="en-us" value="Business Rule Process Event Detail" />
+  <Object Id="50021" culture="es-es" value="Business Rule Process Event Detail" />
+  <Object Id="50022" culture="en-us" value="Business Rule Scope" />
+  <Object Id="50022" culture="es-es" value="Business Rule Scope" />
+  <Object Id="50023" culture="en-us" value="Business Rule Scope Detail" />
+  <Object Id="50023" culture="es-es" value="Business Rule Scope Detail" />
+  <Object Id="50024" culture="en-us" value="Business Rule Status" />
+  <Object Id="50024" culture="es-es" value="Business Rule Status" />
+  <Object Id="50025" culture="en-us" value="Spartan BR Modifications Log" />
+  <Object Id="50025" culture="es-es" value="Spartan BR Modifications Log" />
+	<Object Id="100" culture="en-us" value="Usuarios" />
+	<Object Id="100" culture="es-es" value="Usuarios" />
+	<Object Id="101" culture="en-us" value="Roles de Usuario" />
+	<Object Id="101" culture="es-es" value="Roles de Usuario" />
+	<Object Id="103" culture="en-us" value="Estatus de Rol de Usuario" />
+	<Object Id="103" culture="es-es" value="Estatus de Rol de Usuario" />
+	<Object Id="102" culture="en-us" value="Estatus de Usuario" />
+	<Object Id="102" culture="es-es" value="Estatus de Usuario" />
+<!--@@INCLUDE@@-->
+</Objects>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,368 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F56309FB-9E43-42E5-A65D-4AAA70F95C9B}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Spartane.Core</RootNamespace>
+    <AssemblyName>Spartane.Core</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Autofac">
+      <HintPath>..\packages\Autofac.3.5.2\lib\net40\Autofac.dll</HintPath>
+    </Reference>
+    <Reference Include="Autofac.Integration.Mvc">
+      <HintPath>..\packages\Autofac.Mvc5.3.3.3\lib\net45\Autofac.Integration.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="GoldParser">
+      <HintPath>..\packages\SqlLinq.1.0.2\lib\net45\GoldParser.dll</HintPath>
+    </Reference>
+    <Reference Include="Kackman.RuntimeTypeLoader">
+      <HintPath>..\packages\SqlLinq.1.0.2\lib\net45\Kackman.RuntimeTypeLoader.dll</HintPath>
+    </Reference>
+    <Reference Include="LinqStatistics">
+      <HintPath>..\packages\LinqStatistics.1.1.0\lib\net40\LinqStatistics.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net">
+      <HintPath>..\packages\log4net.2.0.3\lib\net40-full\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="SqlLinq">
+      <HintPath>..\packages\SqlLinq.1.0.2\lib\net45\SqlLinq.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Helpers, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.1.0\lib\net45\System.Web.Helpers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Mvc, Version=5.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Microsoft.AspNet.Mvc.5.1.0\lib\net45\System.Web.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Microsoft.AspNet.Razor.3.1.0\lib\net45\System.Web.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.1.0\lib\net45\System.Web.WebPages.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Deployment, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.1.0\lib\net45\System.Web.WebPages.Deployment.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.1.0\lib\net45\System.Web.WebPages.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BaseEntity.cs" />
+    <Compile Include="Configuration\ISettings.cs" />
+    <Compile Include="Configuration\TTConfig.cs" />
+    <Compile Include="Data\BaseDataProviderManager.cs" />
+    <Compile Include="Data\DataSettings.cs" />
+    <Compile Include="Data\DataSettingsManager.cs" />
+    <Compile Include="Data\IDataProvider.cs" />
+    <Compile Include="Domain\Archivos\Archivos.cs" />
+    <Compile Include="Domain\Common\Spartan_Control_Type.cs" />
+    <Compile Include="Domain\Common\Spartan_File.cs" />
+    <Compile Include="Domain\Common\Spartan_Method_Type.cs" />
+    <Compile Include="Domain\Common\Spartan_Object.cs" />
+    <Compile Include="Domain\Common\Spartan_Object_Status.cs" />
+    <Compile Include="Domain\Common\Spartan_Status.cs" />
+    <Compile Include="Domain\Common\Spartan_System.cs" />
+    <Compile Include="Domain\Permission\GlobalData.cs" />
+    <Compile Include="Domain\SpartaneFile\Spartane_File.cs" />
+    <Compile Include="Domain\SpartanObject\SpartanObject.cs" />
+    <Compile Include="Domain\SpartanObject\SpartanObjectPagingModel.cs" />
+    <Compile Include="Domain\Spartan_Additional_Menu\Spartan_Additional_Menu.cs" />
+    <Compile Include="Domain\Spartan_Additional_Menu\Spartan_Additional_MenuCollection.cs" />
+    <Compile Include="Domain\Spartan_Attribute_Control_Type\Spartan_Attribute_Control_Type.cs" />
+    <Compile Include="Domain\Spartan_Attribute_Control_Type\Spartan_Attribute_Control_TypePagingModel.cs" />
+    <Compile Include="Domain\Spartan_Attribute_Type\Spartan_Attribute_Type.cs" />
+    <Compile Include="Domain\Spartan_Attribute_Type\Spartan_Attribute_TypePagingModel.cs" />
+    <Compile Include="Domain\Spartan_BR_Actions_False_Detail\Spartan_BR_Actions_False_Detail.cs" />
+    <Compile Include="Domain\Spartan_BR_Actions_False_Detail\Spartan_BR_Actions_False_DetailPagingModel.cs" />
+    <Compile Include="Domain\Spartan_BR_Actions_True_Detail\Spartan_BR_Actions_True_Detail.cs" />
+    <Compile Include="Domain\Spartan_BR_Actions_True_Detail\Spartan_BR_Actions_True_DetailPagingModel.cs" />
+    <Compile Include="Domain\Spartan_BR_Action\Spartan_BR_Action.cs" />
+    <Compile Include="Domain\Spartan_BR_Action\Spartan_BR_ActionPagingModel.cs" />
+    <Compile Include="Domain\Spartan_BR_Action_Classification\Spartan_BR_Action_Classification.cs" />
+    <Compile Include="Domain\Spartan_BR_Action_Classification\Spartan_BR_Action_ClassificationPagingModel.cs" />
+    <Compile Include="Domain\Spartan_BR_Action_Configuration_Detail\Spartan_BR_Action_Configuration_Detail.cs" />
+    <Compile Include="Domain\Spartan_BR_Action_Configuration_Detail\Spartan_BR_Action_Configuration_DetailPagingModel.cs" />
+    <Compile Include="Domain\Spartan_BR_Action_Param_Type\Spartan_BR_Action_Param_Type.cs" />
+    <Compile Include="Domain\Spartan_BR_Action_Param_Type\Spartan_BR_Action_Param_TypePagingModel.cs" />
+    <Compile Include="Domain\Spartan_BR_Action_Result\Spartan_BR_Action_Result.cs" />
+    <Compile Include="Domain\Spartan_BR_Action_Result\Spartan_BR_Action_ResultPagingModel.cs" />
+    <Compile Include="Domain\Spartan_BR_Attribute_Restrictions_Detail\Spartan_BR_Attribute_Restrictions_Detail.cs" />
+    <Compile Include="Domain\Spartan_BR_Attribute_Restrictions_Detail\Spartan_BR_Attribute_Restrictions_DetailPagingModel.cs" />
+    <Compile Include="Domain\Spartan_BR_Conditions_Detail\Spartan_BR_Conditions_Detail.cs" />
+    <Compile Include="Domain\Spartan_BR_Conditions_Detail\Spartan_BR_Conditions_DetailPagingModel.cs" />
+    <Compile Include="Domain\Spartan_BR_Condition\Spartan_BR_Condition.cs" />
+    <Compile Include="Domain\Spartan_BR_Condition\Spartan_BR_ConditionPagingModel.cs" />
+    <Compile Include="Domain\Spartan_BR_Condition_Operator\Spartan_BR_Condition_Operator.cs" />
+    <Compile Include="Domain\Spartan_BR_Condition_Operator\Spartan_BR_Condition_OperatorPagingModel.cs" />
+    <Compile Include="Domain\Spartan_BR_Event_Restrictions_Detail\Spartan_BR_Event_Restrictions_Detail.cs" />
+    <Compile Include="Domain\Spartan_BR_Event_Restrictions_Detail\Spartan_BR_Event_Restrictions_DetailPagingModel.cs" />
+    <Compile Include="Domain\Spartan_BR_Modifications_Log\Spartan_BR_Modifications_Log.cs" />
+    <Compile Include="Domain\Spartan_BR_Modifications_Log\Spartan_BR_Modifications_LogPagingModel.cs" />
+    <Compile Include="Domain\Spartan_BR_Operation\Spartan_BR_Operation.cs" />
+    <Compile Include="Domain\Spartan_BR_Operation\Spartan_BR_OperationPagingModel.cs" />
+    <Compile Include="Domain\Spartan_BR_Operation_Detail\Spartan_BR_Operation_Detail.cs" />
+    <Compile Include="Domain\Spartan_BR_Operation_Detail\Spartan_BR_Operation_DetailPagingModel.cs" />
+    <Compile Include="Domain\Spartan_BR_Operation_Restrictions_Detail\Spartan_BR_Operation_Restrictions_Detail.cs" />
+    <Compile Include="Domain\Spartan_BR_Operation_Restrictions_Detail\Spartan_BR_Operation_Restrictions_DetailPagingModel.cs" />
+    <Compile Include="Domain\Spartan_BR_Operator_Type\Spartan_BR_Operator_Type.cs" />
+    <Compile Include="Domain\Spartan_BR_Operator_Type\Spartan_BR_Operator_TypePagingModel.cs" />
+    <Compile Include="Domain\Spartan_BR_Presentation_Control_Type\Spartan_BR_Presentation_Control_Type.cs" />
+    <Compile Include="Domain\Spartan_BR_Presentation_Control_Type\Spartan_BR_Presentation_Control_TypePagingModel.cs" />
+    <Compile Include="Domain\Spartan_BR_Process_Event\Spartan_BR_Process_Event.cs" />
+    <Compile Include="Domain\Spartan_BR_Process_Event\Spartan_BR_Process_EventPagingModel.cs" />
+    <Compile Include="Domain\Spartan_BR_Process_Event_Detail\Spartan_BR_Process_Event_Detail.cs" />
+    <Compile Include="Domain\Spartan_BR_Process_Event_Detail\Spartan_BR_Process_Event_DetailPagingModel.cs" />
+    <Compile Include="Domain\Spartan_BR_Scope\Spartan_BR_Scope.cs" />
+    <Compile Include="Domain\Spartan_BR_Scope\Spartan_BR_ScopePagingModel.cs" />
+    <Compile Include="Domain\Spartan_BR_Scope_Detail\Spartan_BR_Scope_Detail.cs" />
+    <Compile Include="Domain\Spartan_BR_Scope_Detail\Spartan_BR_Scope_DetailPagingModel.cs" />
+    <Compile Include="Domain\Spartan_BR_Status\Spartan_BR_Status.cs" />
+    <Compile Include="Domain\Spartan_BR_Status\Spartan_BR_StatusPagingModel.cs" />
+    <Compile Include="Domain\Spartan_Business_Rule\Spartan_Business_Rule.cs" />
+    <Compile Include="Domain\Spartan_Business_Rule\Spartan_Business_RulePagingModel.cs" />
+    <Compile Include="Domain\Spartan_Traduction_Concept_Type\Spartan_Traduction_Concept_Type.cs" />
+    <Compile Include="Domain\Spartan_Traduction_Concept_Type\Spartan_Traduction_Concept_TypePagingModel.cs" />
+    <Compile Include="Domain\Spartan_Traduction_Detail\Spartan_Traduction_Detail.cs" />
+    <Compile Include="Domain\Spartan_Traduction_Detail\Spartan_Traduction_DetailPagingModel.cs" />
+    <Compile Include="Domain\Spartan_Traduction_Language\Spartan_Traduction_Language.cs" />
+    <Compile Include="Domain\Spartan_Traduction_Language\Spartan_Traduction_LanguagePagingModel.cs" />
+    <Compile Include="Domain\Spartan_Traduction_Object\Spartan_Traduction_Object.cs" />
+    <Compile Include="Domain\Spartan_Traduction_Object\Spartan_Traduction_ObjectPagingModel.cs" />
+    <Compile Include="Domain\Spartan_Traduction_Object_Type\Spartan_Traduction_Object_Type.cs" />
+    <Compile Include="Domain\Spartan_Traduction_Object_Type\Spartan_Traduction_Object_TypePagingModel.cs" />
+    <Compile Include="Domain\Spartan_Traduction_Process\Spartan_Traduction_Process.cs" />
+    <Compile Include="Domain\Spartan_Traduction_Process\Spartan_Traduction_ProcessPagingModel.cs" />
+    <Compile Include="Domain\Spartan_User\Spartan_User.cs" />
+    <Compile Include="Domain\Spartan_User\Spartan_UserPagingModel.cs" />
+    <Compile Include="Domain\Spartan_User_Role\Spartan_User_Role.cs" />
+    <Compile Include="Domain\Spartan_User_Role\Spartan_User_RolePagingModel.cs" />
+    <Compile Include="Domain\Spartan_User_Role_Status\Spartan_User_Role_Status.cs" />
+    <Compile Include="Domain\Spartan_User_Role_Status\Spartan_User_Role_StatusPagingModel.cs" />
+    <Compile Include="Domain\Spartan_User_Status\Spartan_User_Status.cs" />
+    <Compile Include="Domain\Spartan_User_Status\Spartan_User_StatusPagingModel.cs" />
+    <Compile Include="Domain\TTArchivos\TTArchivos.cs" />
+    <Compile Include="Domain\TTArchivos\TTArchivosPagingModel.cs" />
+    <Compile Include="Domain\UserRoleStatus\UserRoleStatus.cs" />
+    <Compile Include="Domain\User\Spartan_UserObject.cs" />
+    <Compile Include="Enums\ApplicationEnums.cs" />
+    <Compile Include="Domain\Language\SpartanLanguage.cs" />
+    <Compile Include="Domain\Language\Spartan_System_Language.cs" />
+    <Compile Include="Domain\Notice\Spartan_Notice.cs" />
+    <Compile Include="Domain\Notice\Spartan_Notice_Status.cs" />
+    <Compile Include="Domain\Notice\Spartan_Notice_Type.cs" />
+    <Compile Include="Domain\Permission\Permission.cs" />
+    <Compile Include="Domain\Security\Spartan_Module.cs" />
+    <Compile Include="Domain\Spartane_File\Spartane_File.cs" />
+    <Compile Include="Domain\SpartaneFunction\SpartaneFunction.cs" />
+    <Compile Include="Domain\SpartaneFunction\SpartaneFunctionPagingModel.cs" />
+    <Compile Include="Domain\SpartaneModuleObject\SpartaneModuleObject.cs" />
+    <Compile Include="Domain\SpartaneModuleObject\SpartaneModuleObjectPagingModel.cs" />
+    <Compile Include="Domain\SpartaneObject\SpartaneObject.cs" />
+    <Compile Include="Domain\SpartaneObject\SpartaneObjectPagingModel.cs" />
+    <Compile Include="Domain\SpartaneUserRoleModule\CustomDataHolder.cs" />
+    <Compile Include="Domain\SpartaneUserRoleModule\SpartaneUserRoleModule.cs" />
+    <Compile Include="Domain\SpartaneUserRoleModule\SpartaneUserRolePagingModel.cs" />
+    <Compile Include="Domain\SpartaneUserRoleObjectFunction\SpartaneUserRoleObjectFunctionPagingModel.cs" />
+    <Compile Include="Domain\SpartaneUserRoleObjectFunction\SpartaneUserRoleObjectFunction.cs" />
+    <Compile Include="Domain\SpartanModule\FlatObject.cs" />
+    <Compile Include="Domain\SpartanModule\SpartanModule.cs" />
+    <Compile Include="Domain\SpartanModule\SpartanModulePagingModel.cs" />
+    <Compile Include="Domain\SpartanUserRoleModuleObject\SpartaneUserRoleModuleObjectPagingModel.cs" />
+    <Compile Include="Domain\SpartanUserRoleModuleObject\SpartanUserRoleModuleObject.cs" />
+    <Compile Include="Domain\UserRole\EmpleadoPagingModel.cs" />
+    <Compile Include="Domain\UserRole\UserRole.cs" />
+    <Compile Include="Domain\User\Spartan_User_Alert.cs" />
+    <Compile Include="Domain\User\Spartan_User_Alert_Status.cs" />
+    <Compile Include="Domain\User\Spartan_User_Alert_Type.cs" />
+    <Compile Include="Domain\User\Spartan_User_Code.cs" />
+    <Compile Include="Domain\User\Spartan_User_Favorite_List.cs" />
+    <Compile Include="Domain\User\Spartan_User_Favorite_Object.cs" />
+    <Compile Include="Domain\User\Spartan_User_Most_Used_Object.cs" />
+    <Compile Include="Domain\User\Spartan_User_Quicklink.cs" />
+    <Compile Include="Domain\User\Spartan_User_Status.cs" />
+    <Compile Include="Domain\IRepository.cs" />
+    <Compile Include="Domain\Binnacle\BinnacleFields.cs" />
+    <Compile Include="Domain\Binnacle\BinnacleMode.cs" />
+    <Compile Include="Domain\Columns\spTtVistasObligatories_X_ProcessAndUser_Result.cs" />
+    <Compile Include="Domain\Columns\sp_selTTConfigurationAdvancedColumn_Relacion_TTConfigurationAdvancedColumn_Detalle_Result.cs" />
+    <Compile Include="Domain\Columns\sp_selTTConfigurationAdvancedColumn_Relacion_TTProceso_Result.cs" />
+    <Compile Include="Domain\Columns\TTConfigurationAdvancedColumn.cs" />
+    <Compile Include="Domain\Columns\TTConfigurationAdvancedColumn_Detalle.cs" />
+    <Compile Include="Domain\Controls\TypeControlPresentation.cs" />
+    <Compile Include="Domain\Data\DataLayerFieldsBitacora.cs" />
+    <Compile Include="Domain\Filters\DependentFilterType.cs" />
+    <Compile Include="Domain\Filters\FilDecimalFilterType.cs" />
+    <Compile Include="Domain\Filters\FillDateFilterType.cs" />
+    <Compile Include="Domain\Filters\FiltersProperties.cs" />
+    <Compile Include="Domain\Filters\FiltersPropertiesModeOrderFields.cs" />
+    <Compile Include="Domain\Filters\LogicFilterType.cs" />
+    <Compile Include="Domain\Filters\NumericFilterType.cs" />
+    <Compile Include="Domain\Filters\sp_selTTFiltro_Detalle_Relacion_TTDNT_Result.cs" />
+    <Compile Include="Domain\Filters\sp_selTTFiltro_Detalle_Relacion_TTFiltro_Result.cs" />
+    <Compile Include="Domain\Filters\sp_selTTFiltro_Detalle_Relacion_TTMes_Result.cs" />
+    <Compile Include="Domain\Filters\sp_selTTFiltro_Detalle_Relacion_TTMetadata_Result.cs" />
+    <Compile Include="Domain\Filters\sp_selTTFiltro_Detalle_Relacion_TTOperador_Result.cs" />
+    <Compile Include="Domain\Filters\sp_selTTFiltro_Detalle_Relacion_TTSI_NO_Result.cs" />
+    <Compile Include="Domain\Filters\sp_SelTTFiltro_Relacion_TTProceso_Result.cs" />
+    <Compile Include="Domain\Filters\StringFilterType.cs" />
+    <Compile Include="Domain\Filters\TTDependentFilter.cs" />
+    <Compile Include="Domain\Filters\TTDetailFilter.cs" />
+    <Compile Include="Domain\Filters\TTFilter.cs" />
+    <Compile Include="Domain\Filters\TypesTextFilter.cs" />
+    <Compile Include="Domain\Security\Spartan_User_Role.cs" />
+    <Compile Include="Domain\Security\Spartan_User_Role_Status.cs" />
+    <Compile Include="Domain\User\Spartan_User.cs" />
+    <Compile Include="Enums\Operation.cs" />
+    <Compile Include="Enums\Spartan_Object_Type.cs" />
+    <Compile Include="FilteredList.cs" />
+    <Compile Include="IFilteredList.cs" />
+    <Compile Include="Domain\Language\TraductorTypeDomain.cs" />
+    <Compile Include="Domain\Language\TTLanguage.cs" />
+    <Compile Include="Domain\Language\TTLanguageTraduction.cs" />
+    <Compile Include="Domain\Search\TTSearchAdvancedData.cs" />
+    <Compile Include="Domain\Search\TTSearchAdvancedDataDetails.cs" />
+    <Compile Include="Domain\Search\TTVista.cs" />
+    <Compile Include="Domain\Search\TTVista_Detalle.cs" />
+    <Compile Include="Domain\Search\TTVista_ListaDependientes.cs" />
+    <Compile Include="Domain\Search\TypeControlSearchAdvanced.cs" />
+    <Compile Include="Domain\Binnacle\BinnacleSQL.cs" />
+    <Compile Include="Domain\Security\spTTSecurity_DashPermited_Result.cs" />
+    <Compile Include="Domain\Security\spTTSecurity_ProcessPermited_Result.cs" />
+    <Compile Include="Domain\Templates\sp_selTTTemplatePrintExcel_Campos_Relacion_TTDNT_Result.cs" />
+    <Compile Include="Domain\Templates\sp_selTTTemplatePrintExcel_Campos_Relacion_TTMetadata_Result.cs" />
+    <Compile Include="Domain\Templates\sp_SelTTTemplatePrintExcel_Relacion_TTProceso_Result.cs" />
+    <Compile Include="Domain\Templates\TTTemplatePrintExcel.cs" />
+    <Compile Include="Domain\Templates\TTTemplatePrintExcelField.cs" />
+    <Compile Include="Domain\User\GlobalData.cs" />
+    <Compile Include="Domain\User\GlobalDataLanguages.cs" />
+    <Compile Include="Domain\User\TTUsuario.cs" />
+    <Compile Include="Domain\BusinessRule\BusinessRule.cs" />
+    <Compile Include="Domain\Security\DashBoardData.cs" />
+    <Compile Include="Domain\Security\ModulesData.cs" />
+    <Compile Include="Domain\Security\Operations.cs" />
+    <Compile Include="Domain\Security\spTTSecurity_ModulePermited_Result.cs" />
+    <Compile Include="Domain\Security\TTSecurityModeLog.cs" />
+    <Compile Include="Domain\Security\UserGroupsSystem.cs" />
+    <Compile Include="Exceptions\ExceptionBase.cs" />
+    <Compile Include="Exceptions\Repository\RepositoryException.cs" />
+    <Compile Include="Exceptions\Service\ServiceException.cs" />
+    <Compile Include="Infraestructure\AppDomainTypeFinder.cs" />
+    <Compile Include="Infraestructure\DependencyManagement\ContainerManager.cs" />
+    <Compile Include="Infraestructure\DependencyManagement\IDependencyRegistrar.cs" />
+    <Compile Include="Infraestructure\TTEngine.cs" />
+    <Compile Include="Infraestructure\EngineContext.cs" />
+    <Compile Include="Infraestructure\IEngine.cs" />
+    <Compile Include="Infraestructure\ITypeFinder.cs" />
+    <Compile Include="Infraestructure\Singleton.cs" />
+    <Compile Include="Infraestructure\WebAppTypeFinder.cs" />
+    <Compile Include="IPagedList.cs" />
+    <Compile Include="Log\ILoggerHelper.cs" />
+    <Compile Include="Log\LoggerHelper.cs" />
+    <Compile Include="PagedList.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SpartaneBaseEntity.cs" />
+    <Compile Include="Domain\Spartan_Format\Spartan_Format.cs" />
+    <Compile Include="Domain\Spartan_Format\Spartan_FormatPagingModel.cs" />
+    <Compile Include="Domain\Spartan_Format_Type\Spartan_Format_Type.cs" />
+    <Compile Include="Domain\Spartan_Format_Type\Spartan_Format_TypePagingModel.cs" />
+    <Compile Include="Domain\Spartan_Metadata\Spartan_Metadata.cs" />
+    <Compile Include="Domain\Spartan_Metadata\Spartan_MetadataPagingModel.cs" />
+    <Compile Include="Domain\Spartan_Format_Configuration\Spartan_Format_Configuration.cs" />
+    <Compile Include="Domain\Spartan_Format_Configuration\Spartan_Format_ConfigurationPagingModel.cs" />
+    <Compile Include="Domain\Spartan_Format_Field\Spartan_Format_Field.cs" />
+    <Compile Include="Domain\Spartan_Format_Field\Spartan_Format_FieldPagingModel.cs" />
+    <Compile Include="Domain\Spartan_Format_Permission_Type\Spartan_Format_Permission_Type.cs" />
+    <Compile Include="Domain\Spartan_Format_Permission_Type\Spartan_Format_Permission_TypePagingModel.cs" />
+    <Compile Include="Domain\Spartan_Format_Permissions\Spartan_Format_Permissions.cs" />
+    <Compile Include="Domain\Spartan_Format_Permissions\Spartan_Format_PermissionsPagingModel.cs" />
+    <Compile Include="Domain\Spartan_Report\Spartan_Report.cs" />
+    <Compile Include="Domain\Spartan_Report\Spartan_ReportPagingModel.cs" />
+    <Compile Include="Domain\Spartan_Report_Field_Type\Spartan_Report_Field_Type.cs" />
+    <Compile Include="Domain\Spartan_Report_Field_Type\Spartan_Report_Field_TypePagingModel.cs" />
+    <Compile Include="Domain\Spartan_Report_Fields_Detail\Spartan_Report_Fields_DetailPagingModel.cs" />
+    <Compile Include="Domain\Spartan_Report_Fields_Detail\Spartan_Report_Fields_Detail.cs" />
+    <Compile Include="Domain\Spartan_Report_Format\Spartan_Report_Format.cs" />
+    <Compile Include="Domain\Spartan_Report_Format\Spartan_Report_FormatPagingModel.cs" />
+    <Compile Include="Domain\Spartan_Report_Function\Spartan_Report_Function.cs" />
+    <Compile Include="Domain\Spartan_Report_Function\Spartan_Report_FunctionPagingModel.cs" />
+    <Compile Include="Domain\Spartan_Report_Order_Type\Spartan_Report_Order_Type.cs" />
+    <Compile Include="Domain\Spartan_Report_Order_Type\Spartan_Report_Order_TypePagingModel.cs" />
+    <Compile Include="Domain\Spartan_Report_Permission_Type\Spartan_Report_Permission_Type.cs" />
+    <Compile Include="Domain\Spartan_Report_Permission_Type\Spartan_Report_Permission_TypePagingModel.cs" />
+    <Compile Include="Domain\Spartan_Report_Permissions\Spartan_Report_Permissions.cs" />
+    <Compile Include="Domain\Spartan_Report_Permissions\Spartan_Report_PermissionsPagingModel.cs" />
+    <Compile Include="Domain\Spartan_Report_Presentation_Type\Spartan_Report_Presentation_Type.cs" />
+    <Compile Include="Domain\Spartan_Report_Presentation_Type\Spartan_Report_Presentation_TypePagingModel.cs" />
+    <Compile Include="Domain\Spartan_Report_Presentation_View\Spartan_Report_Presentation_View.cs" />
+    <Compile Include="Domain\Spartan_Report_Presentation_View\Spartan_Report_Presentation_ViewPagingModel.cs" />
+    <Compile Include="Domain\Spartan_Report_Status\Spartan_Report_Status.cs" />
+    <Compile Include="Domain\Spartan_Report_Status\Spartan_Report_StatusPagingModel.cs" />
+    <!--@@INCLUDE@@-->
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Domain\Authentication\" />
+    <Folder Include="Domain\Enums\" />
+    <Folder Include="Domain\StoredProcedure\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+ Other similar extension points exist, see Microsoft.Common.targets.
+ <Target Name="BeforeBuild">
+ </Target>
+ <Target Name="AfterBuild">
+ </Target>
+ -->
+</Project>

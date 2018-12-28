@@ -1,0 +1,8 @@
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\ObjectBussiness\Tipo_de_Dispositivo\bin\Debug\Tipo_de_Dispositivo.dll
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\ObjectBussiness\Tipo_de_Dispositivo\bin\Debug\Tipo_de_Dispositivo.pdb
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\ObjectBussiness\Tipo_de_Dispositivo\bin\Debug\LibraryDLLObjectBusiness.dll
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\ObjectBussiness\Tipo_de_Dispositivo\bin\Debug\Telerik.Web.UI.dll
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\ObjectBussiness\Tipo_de_Dispositivo\bin\Debug\LibraryDLLObjectBusiness.pdb
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\ObjectBussiness\Tipo_de_Dispositivo\obj\Debug\ResolveAssemblyReference.cache
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\ObjectBussiness\Tipo_de_Dispositivo\obj\Debug\Tipo_de_Dispositivo.dll
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\ObjectBussiness\Tipo_de_Dispositivo\obj\Debug\Tipo_de_Dispositivo.pdb

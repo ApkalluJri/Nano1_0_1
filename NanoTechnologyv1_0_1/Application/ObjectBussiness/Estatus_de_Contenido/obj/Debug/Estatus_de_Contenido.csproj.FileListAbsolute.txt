@@ -1,0 +1,8 @@
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\ObjectBussiness\Estatus_de_Contenido\bin\Debug\Estatus_de_Contenido.dll
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\ObjectBussiness\Estatus_de_Contenido\bin\Debug\Estatus_de_Contenido.pdb
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\ObjectBussiness\Estatus_de_Contenido\bin\Debug\LibraryDLLObjectBusiness.dll
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\ObjectBussiness\Estatus_de_Contenido\bin\Debug\Telerik.Web.UI.dll
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\ObjectBussiness\Estatus_de_Contenido\bin\Debug\LibraryDLLObjectBusiness.pdb
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\ObjectBussiness\Estatus_de_Contenido\obj\Debug\ResolveAssemblyReference.cache
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\ObjectBussiness\Estatus_de_Contenido\obj\Debug\Estatus_de_Contenido.dll
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\ObjectBussiness\Estatus_de_Contenido\obj\Debug\Estatus_de_Contenido.pdb

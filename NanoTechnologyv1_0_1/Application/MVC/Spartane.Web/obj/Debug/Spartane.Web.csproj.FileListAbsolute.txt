@@ -1,0 +1,784 @@
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\Applicationv3\MVC\Spartane.Web\bin\Spartane.Web.dll.config
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\Applicationv3\MVC\Spartane.Web\bin\Spartane.Web.dll
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\Applicationv3\MVC\Spartane.Web\bin\Spartane.Web.pdb
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\Applicationv3\MVC\Spartane.Web\bin\Antlr3.Runtime.dll
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\Applicationv3\MVC\Spartane.Web\bin\Autofac.Configuration.dll
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\Applicationv3\MVC\Spartane.Web\bin\Autofac.dll
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\Applicationv3\MVC\Spartane.Web\bin\Autofac.Integration.Mvc.dll
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\Applicationv3\MVC\Spartane.Web\bin\Autofac.Integration.WebApi.dll
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\Applicationv3\MVC\Spartane.Web\bin\CKSource.CKFinder.Connector.Config.dll
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\Applicationv3\MVC\Spartane.Web\bin\CKSource.CKFinder.Connector.Core.dll
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\Applicationv3\MVC\Spartane.Web\bin\CKSource.CKFinder.Connector.Host.Owin.dll
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\Applicationv3\MVC\Spartane.Web\bin\CKSource.FileSystem.dll
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\Applicationv3\MVC\Spartane.Web\bin\CKSource.FileSystem.Local.dll
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\Applicationv3\MVC\Spartane.Web\bin\EntityFramework.dll
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\Applicationv3\MVC\Spartane.Web\bin\EntityFramework.SqlServer.dll
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\Applicationv3\MVC\Spartane.Web\bin\ImageProcessor.dll
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\Applicationv3\MVC\Spartane.Web\bin\itextsharp.dll
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\Applicationv3\MVC\Spartane.Web\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\Applicationv3\MVC\Spartane.Web\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\Applicationv3\MVC\Spartane.Web\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\Applicationv3\MVC\Spartane.Web\bin\Microsoft.Owin.dll
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\Applicationv3\MVC\Spartane.Web\bin\Microsoft.Owin.Host.HttpListener.dll
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\Applicationv3\MVC\Spartane.Web\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\Applicationv3\MVC\Spartane.Web\bin\Microsoft.Owin.Hosting.dll
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\Applicationv3\MVC\Spartane.Web\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\Applicationv3\MVC\Spartane.Web\bin\Microsoft.Owin.Security.dll
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\Applicationv3\MVC\Spartane.Web\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\Applicationv3\MVC\Spartane.Web\bin\Microsoft.Owin.Security.Jwt.dll
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\Applicationv3\MVC\Spartane.Web\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\Applicationv3\MVC\Spartane.Web\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\Applicationv3\MVC\Spartane.Web\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\Applicationv3\MVC\Spartane.Web\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\Applicationv3\MVC\Spartane.Web\bin\MvcCheckBoxList.dll
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\Applicationv3\MVC\Spartane.Web\bin\Newtonsoft.Json.dll
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\Applicationv3\MVC\Spartane.Web\bin\Owin.dll
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\Applicationv3\MVC\Spartane.Web\bin\RestSharp.dll
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\Applicationv3\MVC\Spartane.Web\bin\Spartane.Core.dll
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\Applicationv3\MVC\Spartane.Web\bin\Spartane.Data.dll
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\Applicationv3\MVC\Spartane.Web\bin\Spartane.Services.dll
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\Applicationv3\MVC\Spartane.Web\bin\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\Applicationv3\MVC\Spartane.Web\bin\System.Net.Http.dll
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\Applicationv3\MVC\Spartane.Web\bin\System.Net.Http.Extensions.dll
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\Applicationv3\MVC\Spartane.Web\bin\System.Net.Http.Formatting.dll
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\Applicationv3\MVC\Spartane.Web\bin\System.Net.Http.Primitives.dll
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\Applicationv3\MVC\Spartane.Web\bin\System.Net.Http.WebRequest.dll
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\Applicationv3\MVC\Spartane.Web\bin\System.Web.Helpers.dll
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\Applicationv3\MVC\Spartane.Web\bin\System.Web.Http.dll
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\Applicationv3\MVC\Spartane.Web\bin\System.Web.Http.Owin.dll
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\Applicationv3\MVC\Spartane.Web\bin\System.Web.Http.WebHost.dll
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\Applicationv3\MVC\Spartane.Web\bin\System.Web.Mvc.dll
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\Applicationv3\MVC\Spartane.Web\bin\System.Web.Optimization.dll
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\Applicationv3\MVC\Spartane.Web\bin\System.Web.Razor.dll
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\Applicationv3\MVC\Spartane.Web\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\Applicationv3\MVC\Spartane.Web\bin\System.Web.WebPages.dll
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\Applicationv3\MVC\Spartane.Web\bin\System.Web.WebPages.Razor.dll
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\Applicationv3\MVC\Spartane.Web\bin\Thinktecture.IdentityModel.Core.dll
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\Applicationv3\MVC\Spartane.Web\bin\WebGrease.dll
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\Applicationv3\MVC\Spartane.Web\bin\log4net.dll
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\Applicationv3\MVC\Spartane.Web\bin\SqlLinq.dll
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\Applicationv3\MVC\Spartane.Web\bin\System.Linq.Dynamic.dll
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\Applicationv3\MVC\Spartane.Web\bin\GoldParser.dll
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\Applicationv3\MVC\Spartane.Web\bin\Kackman.RuntimeTypeLoader.dll
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\Applicationv3\MVC\Spartane.Web\bin\Spartane.Core.pdb
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\Applicationv3\MVC\Spartane.Web\bin\Spartane.Data.pdb
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\Applicationv3\MVC\Spartane.Web\bin\Spartane.Services.pdb
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\Applicationv3\MVC\Spartane.Web\bin\Autofac.xml
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\Applicationv3\MVC\Spartane.Web\bin\Autofac.Configuration.xml
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\Applicationv3\MVC\Spartane.Web\bin\Autofac.Integration.Mvc.xml
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\Applicationv3\MVC\Spartane.Web\bin\Autofac.Integration.WebApi.xml
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\Applicationv3\MVC\Spartane.Web\bin\CKSource.CKFinder.Connector.Config.xml
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\Applicationv3\MVC\Spartane.Web\bin\CKSource.CKFinder.Connector.Core.xml
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\Applicationv3\MVC\Spartane.Web\bin\CKSource.CKFinder.Connector.Host.Owin.xml
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\Applicationv3\MVC\Spartane.Web\bin\CKSource.FileSystem.xml
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\Applicationv3\MVC\Spartane.Web\bin\CKSource.FileSystem.Local.xml
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\Applicationv3\MVC\Spartane.Web\bin\EntityFramework.xml
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\Applicationv3\MVC\Spartane.Web\bin\EntityFramework.SqlServer.xml
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\Applicationv3\MVC\Spartane.Web\bin\itextsharp.xml
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\Applicationv3\MVC\Spartane.Web\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\Applicationv3\MVC\Spartane.Web\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\Applicationv3\MVC\Spartane.Web\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\Applicationv3\MVC\Spartane.Web\bin\Microsoft.Owin.xml
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\Applicationv3\MVC\Spartane.Web\bin\Microsoft.Owin.Host.HttpListener.xml
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\Applicationv3\MVC\Spartane.Web\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\Applicationv3\MVC\Spartane.Web\bin\Microsoft.Owin.Hosting.xml
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\Applicationv3\MVC\Spartane.Web\bin\Microsoft.Owin.Security.xml
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\Applicationv3\MVC\Spartane.Web\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\Applicationv3\MVC\Spartane.Web\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\Applicationv3\MVC\Spartane.Web\bin\Microsoft.Owin.Security.Jwt.xml
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\Applicationv3\MVC\Spartane.Web\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\Applicationv3\MVC\Spartane.Web\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\Applicationv3\MVC\Spartane.Web\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\Applicationv3\MVC\Spartane.Web\bin\Newtonsoft.Json.xml
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\Applicationv3\MVC\Spartane.Web\bin\RestSharp.xml
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\Applicationv3\MVC\Spartane.Web\bin\System.IdentityModel.Tokens.Jwt.xml
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\Applicationv3\MVC\Spartane.Web\bin\System.Net.Http.xml
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\Applicationv3\MVC\Spartane.Web\bin\System.Net.Http.WebRequest.xml
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\Applicationv3\MVC\Spartane.Web\bin\System.Web.Helpers.xml
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\Applicationv3\MVC\Spartane.Web\bin\System.Web.Http.xml
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\Applicationv3\MVC\Spartane.Web\bin\System.Web.Http.Owin.xml
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\Applicationv3\MVC\Spartane.Web\bin\System.Web.Http.WebHost.xml
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\Applicationv3\MVC\Spartane.Web\bin\System.Web.Mvc.xml
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\Applicationv3\MVC\Spartane.Web\bin\System.Web.Razor.xml
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\Applicationv3\MVC\Spartane.Web\bin\System.Web.WebPages.xml
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\Applicationv3\MVC\Spartane.Web\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\Applicationv3\MVC\Spartane.Web\bin\System.Web.WebPages.Razor.xml
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\Applicationv3\MVC\Spartane.Web\bin\System.Web.Optimization.xml
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\Applicationv3\MVC\Spartane.Web\bin\Thinktecture.IdentityModel.Core.pdb
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\Applicationv3\MVC\Spartane.Web\bin\Antlr3.Runtime.pdb
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\Applicationv3\MVC\Spartane.Web\bin\log4net.xml
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\Applicationv3\MVC\Spartane.Web\obj\Debug\Spartane.Web.csprojResolveAssemblyReference.cache
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\Applicationv3\MVC\Spartane.Web\obj\Debug\Spartane.Web.dll
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\Applicationv3\MVC\Spartane.Web\obj\Debug\Spartane.Web.pdb
+C:\Users\rcastanon.TOTALTECH\Downloads\Applicationv3\MVC\Spartane.Web\bin\Spartane.Web.dll.config
+C:\Users\rcastanon.TOTALTECH\Downloads\Applicationv3\MVC\Spartane.Web\bin\Spartane.Web.dll
+C:\Users\rcastanon.TOTALTECH\Downloads\Applicationv3\MVC\Spartane.Web\bin\Spartane.Web.pdb
+C:\Users\rcastanon.TOTALTECH\Downloads\Applicationv3\MVC\Spartane.Web\bin\Antlr3.Runtime.dll
+C:\Users\rcastanon.TOTALTECH\Downloads\Applicationv3\MVC\Spartane.Web\bin\Autofac.Configuration.dll
+C:\Users\rcastanon.TOTALTECH\Downloads\Applicationv3\MVC\Spartane.Web\bin\Autofac.dll
+C:\Users\rcastanon.TOTALTECH\Downloads\Applicationv3\MVC\Spartane.Web\bin\Autofac.Integration.Mvc.dll
+C:\Users\rcastanon.TOTALTECH\Downloads\Applicationv3\MVC\Spartane.Web\bin\Autofac.Integration.WebApi.dll
+C:\Users\rcastanon.TOTALTECH\Downloads\Applicationv3\MVC\Spartane.Web\bin\CKSource.CKFinder.Connector.Config.dll
+C:\Users\rcastanon.TOTALTECH\Downloads\Applicationv3\MVC\Spartane.Web\bin\CKSource.CKFinder.Connector.Core.dll
+C:\Users\rcastanon.TOTALTECH\Downloads\Applicationv3\MVC\Spartane.Web\bin\CKSource.CKFinder.Connector.Host.Owin.dll
+C:\Users\rcastanon.TOTALTECH\Downloads\Applicationv3\MVC\Spartane.Web\bin\CKSource.FileSystem.dll
+C:\Users\rcastanon.TOTALTECH\Downloads\Applicationv3\MVC\Spartane.Web\bin\CKSource.FileSystem.Local.dll
+C:\Users\rcastanon.TOTALTECH\Downloads\Applicationv3\MVC\Spartane.Web\bin\EntityFramework.dll
+C:\Users\rcastanon.TOTALTECH\Downloads\Applicationv3\MVC\Spartane.Web\bin\EntityFramework.SqlServer.dll
+C:\Users\rcastanon.TOTALTECH\Downloads\Applicationv3\MVC\Spartane.Web\bin\ImageProcessor.dll
+C:\Users\rcastanon.TOTALTECH\Downloads\Applicationv3\MVC\Spartane.Web\bin\itextsharp.dll
+C:\Users\rcastanon.TOTALTECH\Downloads\Applicationv3\MVC\Spartane.Web\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\rcastanon.TOTALTECH\Downloads\Applicationv3\MVC\Spartane.Web\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\rcastanon.TOTALTECH\Downloads\Applicationv3\MVC\Spartane.Web\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\rcastanon.TOTALTECH\Downloads\Applicationv3\MVC\Spartane.Web\bin\Microsoft.Owin.dll
+C:\Users\rcastanon.TOTALTECH\Downloads\Applicationv3\MVC\Spartane.Web\bin\Microsoft.Owin.Host.HttpListener.dll
+C:\Users\rcastanon.TOTALTECH\Downloads\Applicationv3\MVC\Spartane.Web\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\rcastanon.TOTALTECH\Downloads\Applicationv3\MVC\Spartane.Web\bin\Microsoft.Owin.Hosting.dll
+C:\Users\rcastanon.TOTALTECH\Downloads\Applicationv3\MVC\Spartane.Web\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\rcastanon.TOTALTECH\Downloads\Applicationv3\MVC\Spartane.Web\bin\Microsoft.Owin.Security.dll
+C:\Users\rcastanon.TOTALTECH\Downloads\Applicationv3\MVC\Spartane.Web\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\rcastanon.TOTALTECH\Downloads\Applicationv3\MVC\Spartane.Web\bin\Microsoft.Owin.Security.Jwt.dll
+C:\Users\rcastanon.TOTALTECH\Downloads\Applicationv3\MVC\Spartane.Web\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\rcastanon.TOTALTECH\Downloads\Applicationv3\MVC\Spartane.Web\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\rcastanon.TOTALTECH\Downloads\Applicationv3\MVC\Spartane.Web\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\rcastanon.TOTALTECH\Downloads\Applicationv3\MVC\Spartane.Web\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\rcastanon.TOTALTECH\Downloads\Applicationv3\MVC\Spartane.Web\bin\MvcCheckBoxList.dll
+C:\Users\rcastanon.TOTALTECH\Downloads\Applicationv3\MVC\Spartane.Web\bin\Newtonsoft.Json.dll
+C:\Users\rcastanon.TOTALTECH\Downloads\Applicationv3\MVC\Spartane.Web\bin\Owin.dll
+C:\Users\rcastanon.TOTALTECH\Downloads\Applicationv3\MVC\Spartane.Web\bin\RestSharp.dll
+C:\Users\rcastanon.TOTALTECH\Downloads\Applicationv3\MVC\Spartane.Web\bin\Spartane.Core.dll
+C:\Users\rcastanon.TOTALTECH\Downloads\Applicationv3\MVC\Spartane.Web\bin\Spartane.Data.dll
+C:\Users\rcastanon.TOTALTECH\Downloads\Applicationv3\MVC\Spartane.Web\bin\Spartane.Services.dll
+C:\Users\rcastanon.TOTALTECH\Downloads\Applicationv3\MVC\Spartane.Web\bin\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\rcastanon.TOTALTECH\Downloads\Applicationv3\MVC\Spartane.Web\bin\System.Net.Http.dll
+C:\Users\rcastanon.TOTALTECH\Downloads\Applicationv3\MVC\Spartane.Web\bin\System.Net.Http.Extensions.dll
+C:\Users\rcastanon.TOTALTECH\Downloads\Applicationv3\MVC\Spartane.Web\bin\System.Net.Http.Formatting.dll
+C:\Users\rcastanon.TOTALTECH\Downloads\Applicationv3\MVC\Spartane.Web\bin\System.Net.Http.Primitives.dll
+C:\Users\rcastanon.TOTALTECH\Downloads\Applicationv3\MVC\Spartane.Web\bin\System.Net.Http.WebRequest.dll
+C:\Users\rcastanon.TOTALTECH\Downloads\Applicationv3\MVC\Spartane.Web\bin\System.Web.Helpers.dll
+C:\Users\rcastanon.TOTALTECH\Downloads\Applicationv3\MVC\Spartane.Web\bin\System.Web.Http.dll
+C:\Users\rcastanon.TOTALTECH\Downloads\Applicationv3\MVC\Spartane.Web\bin\System.Web.Http.Owin.dll
+C:\Users\rcastanon.TOTALTECH\Downloads\Applicationv3\MVC\Spartane.Web\bin\System.Web.Http.WebHost.dll
+C:\Users\rcastanon.TOTALTECH\Downloads\Applicationv3\MVC\Spartane.Web\bin\System.Web.Mvc.dll
+C:\Users\rcastanon.TOTALTECH\Downloads\Applicationv3\MVC\Spartane.Web\bin\System.Web.Optimization.dll
+C:\Users\rcastanon.TOTALTECH\Downloads\Applicationv3\MVC\Spartane.Web\bin\System.Web.Razor.dll
+C:\Users\rcastanon.TOTALTECH\Downloads\Applicationv3\MVC\Spartane.Web\bin\System.Web.WebPages.Deployment.dll
+C:\Users\rcastanon.TOTALTECH\Downloads\Applicationv3\MVC\Spartane.Web\bin\System.Web.WebPages.dll
+C:\Users\rcastanon.TOTALTECH\Downloads\Applicationv3\MVC\Spartane.Web\bin\System.Web.WebPages.Razor.dll
+C:\Users\rcastanon.TOTALTECH\Downloads\Applicationv3\MVC\Spartane.Web\bin\Thinktecture.IdentityModel.Core.dll
+C:\Users\rcastanon.TOTALTECH\Downloads\Applicationv3\MVC\Spartane.Web\bin\WebGrease.dll
+C:\Users\rcastanon.TOTALTECH\Downloads\Applicationv3\MVC\Spartane.Web\bin\log4net.dll
+C:\Users\rcastanon.TOTALTECH\Downloads\Applicationv3\MVC\Spartane.Web\bin\SqlLinq.dll
+C:\Users\rcastanon.TOTALTECH\Downloads\Applicationv3\MVC\Spartane.Web\bin\System.Linq.Dynamic.dll
+C:\Users\rcastanon.TOTALTECH\Downloads\Applicationv3\MVC\Spartane.Web\bin\GoldParser.dll
+C:\Users\rcastanon.TOTALTECH\Downloads\Applicationv3\MVC\Spartane.Web\bin\Kackman.RuntimeTypeLoader.dll
+C:\Users\rcastanon.TOTALTECH\Downloads\Applicationv3\MVC\Spartane.Web\bin\Spartane.Core.pdb
+C:\Users\rcastanon.TOTALTECH\Downloads\Applicationv3\MVC\Spartane.Web\bin\Spartane.Data.pdb
+C:\Users\rcastanon.TOTALTECH\Downloads\Applicationv3\MVC\Spartane.Web\bin\Spartane.Services.pdb
+C:\Users\rcastanon.TOTALTECH\Downloads\Applicationv3\MVC\Spartane.Web\bin\Autofac.xml
+C:\Users\rcastanon.TOTALTECH\Downloads\Applicationv3\MVC\Spartane.Web\bin\Autofac.Configuration.xml
+C:\Users\rcastanon.TOTALTECH\Downloads\Applicationv3\MVC\Spartane.Web\bin\Autofac.Integration.Mvc.xml
+C:\Users\rcastanon.TOTALTECH\Downloads\Applicationv3\MVC\Spartane.Web\bin\Autofac.Integration.WebApi.xml
+C:\Users\rcastanon.TOTALTECH\Downloads\Applicationv3\MVC\Spartane.Web\bin\CKSource.CKFinder.Connector.Config.xml
+C:\Users\rcastanon.TOTALTECH\Downloads\Applicationv3\MVC\Spartane.Web\bin\CKSource.CKFinder.Connector.Core.xml
+C:\Users\rcastanon.TOTALTECH\Downloads\Applicationv3\MVC\Spartane.Web\bin\CKSource.CKFinder.Connector.Host.Owin.xml
+C:\Users\rcastanon.TOTALTECH\Downloads\Applicationv3\MVC\Spartane.Web\bin\CKSource.FileSystem.xml
+C:\Users\rcastanon.TOTALTECH\Downloads\Applicationv3\MVC\Spartane.Web\bin\CKSource.FileSystem.Local.xml
+C:\Users\rcastanon.TOTALTECH\Downloads\Applicationv3\MVC\Spartane.Web\bin\EntityFramework.xml
+C:\Users\rcastanon.TOTALTECH\Downloads\Applicationv3\MVC\Spartane.Web\bin\EntityFramework.SqlServer.xml
+C:\Users\rcastanon.TOTALTECH\Downloads\Applicationv3\MVC\Spartane.Web\bin\itextsharp.xml
+C:\Users\rcastanon.TOTALTECH\Downloads\Applicationv3\MVC\Spartane.Web\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\rcastanon.TOTALTECH\Downloads\Applicationv3\MVC\Spartane.Web\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\rcastanon.TOTALTECH\Downloads\Applicationv3\MVC\Spartane.Web\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\rcastanon.TOTALTECH\Downloads\Applicationv3\MVC\Spartane.Web\bin\Microsoft.Owin.xml
+C:\Users\rcastanon.TOTALTECH\Downloads\Applicationv3\MVC\Spartane.Web\bin\Microsoft.Owin.Host.HttpListener.xml
+C:\Users\rcastanon.TOTALTECH\Downloads\Applicationv3\MVC\Spartane.Web\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\rcastanon.TOTALTECH\Downloads\Applicationv3\MVC\Spartane.Web\bin\Microsoft.Owin.Hosting.xml
+C:\Users\rcastanon.TOTALTECH\Downloads\Applicationv3\MVC\Spartane.Web\bin\Microsoft.Owin.Security.xml
+C:\Users\rcastanon.TOTALTECH\Downloads\Applicationv3\MVC\Spartane.Web\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\rcastanon.TOTALTECH\Downloads\Applicationv3\MVC\Spartane.Web\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\rcastanon.TOTALTECH\Downloads\Applicationv3\MVC\Spartane.Web\bin\Microsoft.Owin.Security.Jwt.xml
+C:\Users\rcastanon.TOTALTECH\Downloads\Applicationv3\MVC\Spartane.Web\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\rcastanon.TOTALTECH\Downloads\Applicationv3\MVC\Spartane.Web\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\rcastanon.TOTALTECH\Downloads\Applicationv3\MVC\Spartane.Web\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\rcastanon.TOTALTECH\Downloads\Applicationv3\MVC\Spartane.Web\bin\Newtonsoft.Json.xml
+C:\Users\rcastanon.TOTALTECH\Downloads\Applicationv3\MVC\Spartane.Web\bin\RestSharp.xml
+C:\Users\rcastanon.TOTALTECH\Downloads\Applicationv3\MVC\Spartane.Web\bin\System.IdentityModel.Tokens.Jwt.xml
+C:\Users\rcastanon.TOTALTECH\Downloads\Applicationv3\MVC\Spartane.Web\bin\System.Net.Http.xml
+C:\Users\rcastanon.TOTALTECH\Downloads\Applicationv3\MVC\Spartane.Web\bin\System.Net.Http.WebRequest.xml
+C:\Users\rcastanon.TOTALTECH\Downloads\Applicationv3\MVC\Spartane.Web\bin\System.Web.Helpers.xml
+C:\Users\rcastanon.TOTALTECH\Downloads\Applicationv3\MVC\Spartane.Web\bin\System.Web.Http.xml
+C:\Users\rcastanon.TOTALTECH\Downloads\Applicationv3\MVC\Spartane.Web\bin\System.Web.Http.Owin.xml
+C:\Users\rcastanon.TOTALTECH\Downloads\Applicationv3\MVC\Spartane.Web\bin\System.Web.Http.WebHost.xml
+C:\Users\rcastanon.TOTALTECH\Downloads\Applicationv3\MVC\Spartane.Web\bin\System.Web.Mvc.xml
+C:\Users\rcastanon.TOTALTECH\Downloads\Applicationv3\MVC\Spartane.Web\bin\System.Web.Razor.xml
+C:\Users\rcastanon.TOTALTECH\Downloads\Applicationv3\MVC\Spartane.Web\bin\System.Web.WebPages.xml
+C:\Users\rcastanon.TOTALTECH\Downloads\Applicationv3\MVC\Spartane.Web\bin\System.Web.WebPages.Deployment.xml
+C:\Users\rcastanon.TOTALTECH\Downloads\Applicationv3\MVC\Spartane.Web\bin\System.Web.WebPages.Razor.xml
+C:\Users\rcastanon.TOTALTECH\Downloads\Applicationv3\MVC\Spartane.Web\bin\System.Web.Optimization.xml
+C:\Users\rcastanon.TOTALTECH\Downloads\Applicationv3\MVC\Spartane.Web\bin\Thinktecture.IdentityModel.Core.pdb
+C:\Users\rcastanon.TOTALTECH\Downloads\Applicationv3\MVC\Spartane.Web\bin\Antlr3.Runtime.pdb
+C:\Users\rcastanon.TOTALTECH\Downloads\Applicationv3\MVC\Spartane.Web\bin\log4net.xml
+C:\Users\rcastanon.TOTALTECH\Downloads\Applicationv3\MVC\Spartane.Web\obj\Debug\Spartane.Web.csprojResolveAssemblyReference.cache
+C:\Users\rcastanon.TOTALTECH\Downloads\Applicationv3\MVC\Spartane.Web\obj\Debug\Spartane.Web.dll
+C:\Users\rcastanon.TOTALTECH\Downloads\Applicationv3\MVC\Spartane.Web\obj\Debug\Spartane.Web.pdb
+C:\Proyectos\Totaltech\SpartaneTemplateFormatos\Application\MVC\Spartane.Web\obj\Debug\Spartane.Web.csprojResolveAssemblyReference.cache
+C:\Proyectos\Totaltech\SpartaneTemplateFormatos\Application\MVC\Spartane.Web\obj\Debug\Spartane.Web.dll
+C:\Proyectos\Totaltech\SpartaneTemplateFormatos\Application\MVC\Spartane.Web\bin\Spartane.Web.dll.config
+C:\Proyectos\Totaltech\SpartaneTemplateFormatos\Application\MVC\Spartane.Web\bin\Spartane.Web.dll
+C:\Proyectos\Totaltech\SpartaneTemplateFormatos\Application\MVC\Spartane.Web\bin\Spartane.Web.pdb
+C:\Proyectos\Totaltech\SpartaneTemplateFormatos\Application\MVC\Spartane.Web\bin\Antlr3.Runtime.dll
+C:\Proyectos\Totaltech\SpartaneTemplateFormatos\Application\MVC\Spartane.Web\bin\Autofac.Configuration.dll
+C:\Proyectos\Totaltech\SpartaneTemplateFormatos\Application\MVC\Spartane.Web\bin\Autofac.dll
+C:\Proyectos\Totaltech\SpartaneTemplateFormatos\Application\MVC\Spartane.Web\bin\Autofac.Integration.Mvc.dll
+C:\Proyectos\Totaltech\SpartaneTemplateFormatos\Application\MVC\Spartane.Web\bin\Autofac.Integration.WebApi.dll
+C:\Proyectos\Totaltech\SpartaneTemplateFormatos\Application\MVC\Spartane.Web\bin\CKSource.CKFinder.Connector.Config.dll
+C:\Proyectos\Totaltech\SpartaneTemplateFormatos\Application\MVC\Spartane.Web\bin\CKSource.CKFinder.Connector.Core.dll
+C:\Proyectos\Totaltech\SpartaneTemplateFormatos\Application\MVC\Spartane.Web\bin\CKSource.CKFinder.Connector.Host.Owin.dll
+C:\Proyectos\Totaltech\SpartaneTemplateFormatos\Application\MVC\Spartane.Web\bin\CKSource.FileSystem.dll
+C:\Proyectos\Totaltech\SpartaneTemplateFormatos\Application\MVC\Spartane.Web\bin\CKSource.FileSystem.Local.dll
+C:\Proyectos\Totaltech\SpartaneTemplateFormatos\Application\MVC\Spartane.Web\bin\EntityFramework.dll
+C:\Proyectos\Totaltech\SpartaneTemplateFormatos\Application\MVC\Spartane.Web\bin\EntityFramework.SqlServer.dll
+C:\Proyectos\Totaltech\SpartaneTemplateFormatos\Application\MVC\Spartane.Web\bin\ImageProcessor.dll
+C:\Proyectos\Totaltech\SpartaneTemplateFormatos\Application\MVC\Spartane.Web\bin\itextsharp.dll
+C:\Proyectos\Totaltech\SpartaneTemplateFormatos\Application\MVC\Spartane.Web\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Proyectos\Totaltech\SpartaneTemplateFormatos\Application\MVC\Spartane.Web\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Proyectos\Totaltech\SpartaneTemplateFormatos\Application\MVC\Spartane.Web\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Proyectos\Totaltech\SpartaneTemplateFormatos\Application\MVC\Spartane.Web\bin\Microsoft.Owin.dll
+C:\Proyectos\Totaltech\SpartaneTemplateFormatos\Application\MVC\Spartane.Web\bin\Microsoft.Owin.Host.HttpListener.dll
+C:\Proyectos\Totaltech\SpartaneTemplateFormatos\Application\MVC\Spartane.Web\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Proyectos\Totaltech\SpartaneTemplateFormatos\Application\MVC\Spartane.Web\bin\Microsoft.Owin.Hosting.dll
+C:\Proyectos\Totaltech\SpartaneTemplateFormatos\Application\MVC\Spartane.Web\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Proyectos\Totaltech\SpartaneTemplateFormatos\Application\MVC\Spartane.Web\bin\Microsoft.Owin.Security.dll
+C:\Proyectos\Totaltech\SpartaneTemplateFormatos\Application\MVC\Spartane.Web\bin\Microsoft.Owin.Security.Google.dll
+C:\Proyectos\Totaltech\SpartaneTemplateFormatos\Application\MVC\Spartane.Web\bin\Microsoft.Owin.Security.Jwt.dll
+C:\Proyectos\Totaltech\SpartaneTemplateFormatos\Application\MVC\Spartane.Web\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Proyectos\Totaltech\SpartaneTemplateFormatos\Application\MVC\Spartane.Web\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Proyectos\Totaltech\SpartaneTemplateFormatos\Application\MVC\Spartane.Web\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Proyectos\Totaltech\SpartaneTemplateFormatos\Application\MVC\Spartane.Web\bin\Microsoft.Web.Infrastructure.dll
+C:\Proyectos\Totaltech\SpartaneTemplateFormatos\Application\MVC\Spartane.Web\bin\MvcCheckBoxList.dll
+C:\Proyectos\Totaltech\SpartaneTemplateFormatos\Application\MVC\Spartane.Web\bin\Newtonsoft.Json.dll
+C:\Proyectos\Totaltech\SpartaneTemplateFormatos\Application\MVC\Spartane.Web\bin\Owin.dll
+C:\Proyectos\Totaltech\SpartaneTemplateFormatos\Application\MVC\Spartane.Web\bin\RestSharp.dll
+C:\Proyectos\Totaltech\SpartaneTemplateFormatos\Application\MVC\Spartane.Web\bin\Spartane.Core.dll
+C:\Proyectos\Totaltech\SpartaneTemplateFormatos\Application\MVC\Spartane.Web\bin\Spartane.Data.dll
+C:\Proyectos\Totaltech\SpartaneTemplateFormatos\Application\MVC\Spartane.Web\bin\Spartane.Services.dll
+C:\Proyectos\Totaltech\SpartaneTemplateFormatos\Application\MVC\Spartane.Web\bin\System.IdentityModel.Tokens.Jwt.dll
+C:\Proyectos\Totaltech\SpartaneTemplateFormatos\Application\MVC\Spartane.Web\bin\System.Net.Http.dll
+C:\Proyectos\Totaltech\SpartaneTemplateFormatos\Application\MVC\Spartane.Web\bin\System.Net.Http.Extensions.dll
+C:\Proyectos\Totaltech\SpartaneTemplateFormatos\Application\MVC\Spartane.Web\bin\System.Net.Http.Formatting.dll
+C:\Proyectos\Totaltech\SpartaneTemplateFormatos\Application\MVC\Spartane.Web\bin\System.Net.Http.Primitives.dll
+C:\Proyectos\Totaltech\SpartaneTemplateFormatos\Application\MVC\Spartane.Web\bin\System.Net.Http.WebRequest.dll
+C:\Proyectos\Totaltech\SpartaneTemplateFormatos\Application\MVC\Spartane.Web\bin\System.Web.Helpers.dll
+C:\Proyectos\Totaltech\SpartaneTemplateFormatos\Application\MVC\Spartane.Web\bin\System.Web.Http.dll
+C:\Proyectos\Totaltech\SpartaneTemplateFormatos\Application\MVC\Spartane.Web\bin\System.Web.Http.Owin.dll
+C:\Proyectos\Totaltech\SpartaneTemplateFormatos\Application\MVC\Spartane.Web\bin\System.Web.Http.WebHost.dll
+C:\Proyectos\Totaltech\SpartaneTemplateFormatos\Application\MVC\Spartane.Web\bin\System.Web.Mvc.dll
+C:\Proyectos\Totaltech\SpartaneTemplateFormatos\Application\MVC\Spartane.Web\bin\System.Web.Optimization.dll
+C:\Proyectos\Totaltech\SpartaneTemplateFormatos\Application\MVC\Spartane.Web\bin\System.Web.Razor.dll
+C:\Proyectos\Totaltech\SpartaneTemplateFormatos\Application\MVC\Spartane.Web\bin\System.Web.WebPages.Deployment.dll
+C:\Proyectos\Totaltech\SpartaneTemplateFormatos\Application\MVC\Spartane.Web\bin\System.Web.WebPages.dll
+C:\Proyectos\Totaltech\SpartaneTemplateFormatos\Application\MVC\Spartane.Web\bin\System.Web.WebPages.Razor.dll
+C:\Proyectos\Totaltech\SpartaneTemplateFormatos\Application\MVC\Spartane.Web\bin\Thinktecture.IdentityModel.Core.dll
+C:\Proyectos\Totaltech\SpartaneTemplateFormatos\Application\MVC\Spartane.Web\bin\WebGrease.dll
+C:\Proyectos\Totaltech\SpartaneTemplateFormatos\Application\MVC\Spartane.Web\bin\log4net.dll
+C:\Proyectos\Totaltech\SpartaneTemplateFormatos\Application\MVC\Spartane.Web\bin\SqlLinq.dll
+C:\Proyectos\Totaltech\SpartaneTemplateFormatos\Application\MVC\Spartane.Web\bin\System.Linq.Dynamic.dll
+C:\Proyectos\Totaltech\SpartaneTemplateFormatos\Application\MVC\Spartane.Web\bin\GoldParser.dll
+C:\Proyectos\Totaltech\SpartaneTemplateFormatos\Application\MVC\Spartane.Web\bin\Kackman.RuntimeTypeLoader.dll
+C:\Proyectos\Totaltech\SpartaneTemplateFormatos\Application\MVC\Spartane.Web\bin\Spartane.Core.pdb
+C:\Proyectos\Totaltech\SpartaneTemplateFormatos\Application\MVC\Spartane.Web\bin\Spartane.Data.pdb
+C:\Proyectos\Totaltech\SpartaneTemplateFormatos\Application\MVC\Spartane.Web\bin\Spartane.Services.pdb
+C:\Proyectos\Totaltech\SpartaneTemplateFormatos\Application\MVC\Spartane.Web\bin\Autofac.xml
+C:\Proyectos\Totaltech\SpartaneTemplateFormatos\Application\MVC\Spartane.Web\bin\Autofac.Configuration.xml
+C:\Proyectos\Totaltech\SpartaneTemplateFormatos\Application\MVC\Spartane.Web\bin\Autofac.Integration.Mvc.xml
+C:\Proyectos\Totaltech\SpartaneTemplateFormatos\Application\MVC\Spartane.Web\bin\Autofac.Integration.WebApi.xml
+C:\Proyectos\Totaltech\SpartaneTemplateFormatos\Application\MVC\Spartane.Web\bin\CKSource.CKFinder.Connector.Config.xml
+C:\Proyectos\Totaltech\SpartaneTemplateFormatos\Application\MVC\Spartane.Web\bin\CKSource.CKFinder.Connector.Core.xml
+C:\Proyectos\Totaltech\SpartaneTemplateFormatos\Application\MVC\Spartane.Web\bin\CKSource.CKFinder.Connector.Host.Owin.xml
+C:\Proyectos\Totaltech\SpartaneTemplateFormatos\Application\MVC\Spartane.Web\bin\CKSource.FileSystem.xml
+C:\Proyectos\Totaltech\SpartaneTemplateFormatos\Application\MVC\Spartane.Web\bin\CKSource.FileSystem.Local.xml
+C:\Proyectos\Totaltech\SpartaneTemplateFormatos\Application\MVC\Spartane.Web\bin\EntityFramework.xml
+C:\Proyectos\Totaltech\SpartaneTemplateFormatos\Application\MVC\Spartane.Web\bin\EntityFramework.SqlServer.xml
+C:\Proyectos\Totaltech\SpartaneTemplateFormatos\Application\MVC\Spartane.Web\bin\itextsharp.xml
+C:\Proyectos\Totaltech\SpartaneTemplateFormatos\Application\MVC\Spartane.Web\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Proyectos\Totaltech\SpartaneTemplateFormatos\Application\MVC\Spartane.Web\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Proyectos\Totaltech\SpartaneTemplateFormatos\Application\MVC\Spartane.Web\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Proyectos\Totaltech\SpartaneTemplateFormatos\Application\MVC\Spartane.Web\bin\Microsoft.Owin.xml
+C:\Proyectos\Totaltech\SpartaneTemplateFormatos\Application\MVC\Spartane.Web\bin\Microsoft.Owin.Host.HttpListener.xml
+C:\Proyectos\Totaltech\SpartaneTemplateFormatos\Application\MVC\Spartane.Web\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Proyectos\Totaltech\SpartaneTemplateFormatos\Application\MVC\Spartane.Web\bin\Microsoft.Owin.Hosting.xml
+C:\Proyectos\Totaltech\SpartaneTemplateFormatos\Application\MVC\Spartane.Web\bin\Microsoft.Owin.Security.xml
+C:\Proyectos\Totaltech\SpartaneTemplateFormatos\Application\MVC\Spartane.Web\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Proyectos\Totaltech\SpartaneTemplateFormatos\Application\MVC\Spartane.Web\bin\Microsoft.Owin.Security.Google.xml
+C:\Proyectos\Totaltech\SpartaneTemplateFormatos\Application\MVC\Spartane.Web\bin\Microsoft.Owin.Security.Jwt.xml
+C:\Proyectos\Totaltech\SpartaneTemplateFormatos\Application\MVC\Spartane.Web\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Proyectos\Totaltech\SpartaneTemplateFormatos\Application\MVC\Spartane.Web\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Proyectos\Totaltech\SpartaneTemplateFormatos\Application\MVC\Spartane.Web\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Proyectos\Totaltech\SpartaneTemplateFormatos\Application\MVC\Spartane.Web\bin\Newtonsoft.Json.xml
+C:\Proyectos\Totaltech\SpartaneTemplateFormatos\Application\MVC\Spartane.Web\bin\RestSharp.xml
+C:\Proyectos\Totaltech\SpartaneTemplateFormatos\Application\MVC\Spartane.Web\bin\System.IdentityModel.Tokens.Jwt.xml
+C:\Proyectos\Totaltech\SpartaneTemplateFormatos\Application\MVC\Spartane.Web\bin\System.Net.Http.xml
+C:\Proyectos\Totaltech\SpartaneTemplateFormatos\Application\MVC\Spartane.Web\bin\System.Net.Http.WebRequest.xml
+C:\Proyectos\Totaltech\SpartaneTemplateFormatos\Application\MVC\Spartane.Web\bin\System.Web.Helpers.xml
+C:\Proyectos\Totaltech\SpartaneTemplateFormatos\Application\MVC\Spartane.Web\bin\System.Web.Http.xml
+C:\Proyectos\Totaltech\SpartaneTemplateFormatos\Application\MVC\Spartane.Web\bin\System.Web.Http.Owin.xml
+C:\Proyectos\Totaltech\SpartaneTemplateFormatos\Application\MVC\Spartane.Web\bin\System.Web.Http.WebHost.xml
+C:\Proyectos\Totaltech\SpartaneTemplateFormatos\Application\MVC\Spartane.Web\bin\System.Web.Mvc.xml
+C:\Proyectos\Totaltech\SpartaneTemplateFormatos\Application\MVC\Spartane.Web\bin\System.Web.Razor.xml
+C:\Proyectos\Totaltech\SpartaneTemplateFormatos\Application\MVC\Spartane.Web\bin\System.Web.WebPages.xml
+C:\Proyectos\Totaltech\SpartaneTemplateFormatos\Application\MVC\Spartane.Web\bin\System.Web.WebPages.Deployment.xml
+C:\Proyectos\Totaltech\SpartaneTemplateFormatos\Application\MVC\Spartane.Web\bin\System.Web.WebPages.Razor.xml
+C:\Proyectos\Totaltech\SpartaneTemplateFormatos\Application\MVC\Spartane.Web\bin\System.Web.Optimization.xml
+C:\Proyectos\Totaltech\SpartaneTemplateFormatos\Application\MVC\Spartane.Web\bin\Thinktecture.IdentityModel.Core.pdb
+C:\Proyectos\Totaltech\SpartaneTemplateFormatos\Application\MVC\Spartane.Web\bin\Antlr3.Runtime.pdb
+C:\Proyectos\Totaltech\SpartaneTemplateFormatos\Application\MVC\Spartane.Web\bin\log4net.xml
+C:\Proyectos\Totaltech\SpartaneTemplateFormatos\Application\MVC\Spartane.Web\obj\Debug\Spartane.Web.pdb
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\MVC\Spartane.Web\bin\Spartane.Web.dll.config
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\MVC\Spartane.Web\bin\Spartane.Web.dll
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\MVC\Spartane.Web\bin\Spartane.Web.pdb
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\MVC\Spartane.Web\bin\Antlr3.Runtime.dll
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\MVC\Spartane.Web\bin\Autofac.Configuration.dll
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\MVC\Spartane.Web\bin\Autofac.dll
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\MVC\Spartane.Web\bin\Autofac.Integration.Mvc.dll
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\MVC\Spartane.Web\bin\Autofac.Integration.WebApi.dll
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\MVC\Spartane.Web\bin\CKSource.CKFinder.Connector.Config.dll
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\MVC\Spartane.Web\bin\CKSource.CKFinder.Connector.Core.dll
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\MVC\Spartane.Web\bin\CKSource.CKFinder.Connector.Host.Owin.dll
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\MVC\Spartane.Web\bin\CKSource.FileSystem.dll
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\MVC\Spartane.Web\bin\CKSource.FileSystem.Local.dll
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\MVC\Spartane.Web\bin\EntityFramework.dll
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\MVC\Spartane.Web\bin\EntityFramework.SqlServer.dll
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\MVC\Spartane.Web\bin\ImageProcessor.dll
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\MVC\Spartane.Web\bin\itextsharp.dll
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\MVC\Spartane.Web\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\MVC\Spartane.Web\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\MVC\Spartane.Web\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\MVC\Spartane.Web\bin\Microsoft.Owin.dll
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\MVC\Spartane.Web\bin\Microsoft.Owin.Host.HttpListener.dll
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\MVC\Spartane.Web\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\MVC\Spartane.Web\bin\Microsoft.Owin.Hosting.dll
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\MVC\Spartane.Web\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\MVC\Spartane.Web\bin\Microsoft.Owin.Security.dll
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\MVC\Spartane.Web\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\MVC\Spartane.Web\bin\Microsoft.Owin.Security.Jwt.dll
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\MVC\Spartane.Web\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\MVC\Spartane.Web\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\MVC\Spartane.Web\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\MVC\Spartane.Web\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\MVC\Spartane.Web\bin\MvcCheckBoxList.dll
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\MVC\Spartane.Web\bin\Newtonsoft.Json.dll
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\MVC\Spartane.Web\bin\Owin.dll
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\MVC\Spartane.Web\bin\RestSharp.dll
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\MVC\Spartane.Web\bin\Spartane.Core.dll
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\MVC\Spartane.Web\bin\Spartane.Data.dll
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\MVC\Spartane.Web\bin\Spartane.Services.dll
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\MVC\Spartane.Web\bin\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\MVC\Spartane.Web\bin\System.Net.Http.dll
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\MVC\Spartane.Web\bin\System.Net.Http.Extensions.dll
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\MVC\Spartane.Web\bin\System.Net.Http.Formatting.dll
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\MVC\Spartane.Web\bin\System.Net.Http.Primitives.dll
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\MVC\Spartane.Web\bin\System.Net.Http.WebRequest.dll
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\MVC\Spartane.Web\bin\System.Web.Helpers.dll
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\MVC\Spartane.Web\bin\System.Web.Http.dll
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\MVC\Spartane.Web\bin\System.Web.Http.Owin.dll
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\MVC\Spartane.Web\bin\System.Web.Http.WebHost.dll
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\MVC\Spartane.Web\bin\System.Web.Mvc.dll
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\MVC\Spartane.Web\bin\System.Web.Optimization.dll
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\MVC\Spartane.Web\bin\System.Web.Razor.dll
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\MVC\Spartane.Web\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\MVC\Spartane.Web\bin\System.Web.WebPages.dll
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\MVC\Spartane.Web\bin\System.Web.WebPages.Razor.dll
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\MVC\Spartane.Web\bin\Thinktecture.IdentityModel.Core.dll
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\MVC\Spartane.Web\bin\WebGrease.dll
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\MVC\Spartane.Web\bin\log4net.dll
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\MVC\Spartane.Web\bin\SqlLinq.dll
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\MVC\Spartane.Web\bin\System.Linq.Dynamic.dll
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\MVC\Spartane.Web\bin\GoldParser.dll
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\MVC\Spartane.Web\bin\Kackman.RuntimeTypeLoader.dll
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\MVC\Spartane.Web\bin\Spartane.Core.pdb
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\MVC\Spartane.Web\bin\Spartane.Data.pdb
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\MVC\Spartane.Web\bin\Spartane.Services.pdb
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\MVC\Spartane.Web\bin\Autofac.xml
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\MVC\Spartane.Web\bin\Autofac.Configuration.xml
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\MVC\Spartane.Web\bin\Autofac.Integration.Mvc.xml
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\MVC\Spartane.Web\bin\Autofac.Integration.WebApi.xml
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\MVC\Spartane.Web\bin\CKSource.CKFinder.Connector.Config.xml
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\MVC\Spartane.Web\bin\CKSource.CKFinder.Connector.Core.xml
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\MVC\Spartane.Web\bin\CKSource.CKFinder.Connector.Host.Owin.xml
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\MVC\Spartane.Web\bin\CKSource.FileSystem.xml
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\MVC\Spartane.Web\bin\CKSource.FileSystem.Local.xml
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\MVC\Spartane.Web\bin\EntityFramework.xml
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\MVC\Spartane.Web\bin\EntityFramework.SqlServer.xml
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\MVC\Spartane.Web\bin\itextsharp.xml
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\MVC\Spartane.Web\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\MVC\Spartane.Web\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\MVC\Spartane.Web\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\MVC\Spartane.Web\bin\Microsoft.Owin.xml
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\MVC\Spartane.Web\bin\Microsoft.Owin.Host.HttpListener.xml
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\MVC\Spartane.Web\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\MVC\Spartane.Web\bin\Microsoft.Owin.Hosting.xml
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\MVC\Spartane.Web\bin\Microsoft.Owin.Security.xml
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\MVC\Spartane.Web\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\MVC\Spartane.Web\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\MVC\Spartane.Web\bin\Microsoft.Owin.Security.Jwt.xml
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\MVC\Spartane.Web\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\MVC\Spartane.Web\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\MVC\Spartane.Web\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\MVC\Spartane.Web\bin\Newtonsoft.Json.xml
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\MVC\Spartane.Web\bin\RestSharp.xml
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\MVC\Spartane.Web\bin\System.IdentityModel.Tokens.Jwt.xml
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\MVC\Spartane.Web\bin\System.Net.Http.xml
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\MVC\Spartane.Web\bin\System.Net.Http.WebRequest.xml
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\MVC\Spartane.Web\bin\System.Web.Helpers.xml
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\MVC\Spartane.Web\bin\System.Web.Http.xml
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\MVC\Spartane.Web\bin\System.Web.Http.Owin.xml
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\MVC\Spartane.Web\bin\System.Web.Http.WebHost.xml
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\MVC\Spartane.Web\bin\System.Web.Mvc.xml
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\MVC\Spartane.Web\bin\System.Web.Razor.xml
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\MVC\Spartane.Web\bin\System.Web.WebPages.xml
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\MVC\Spartane.Web\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\MVC\Spartane.Web\bin\System.Web.WebPages.Razor.xml
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\MVC\Spartane.Web\bin\System.Web.Optimization.xml
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\MVC\Spartane.Web\bin\Thinktecture.IdentityModel.Core.pdb
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\MVC\Spartane.Web\bin\Antlr3.Runtime.pdb
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\MVC\Spartane.Web\bin\log4net.xml
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\MVC\Spartane.Web\obj\Debug\Spartane.Web.csprojResolveAssemblyReference.cache
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\MVC\Spartane.Web\obj\Debug\Spartane.Web.dll
+C:\Users\Josefina Viloria\Desktop\Clientes\Ricardo\MVC\Spartane.Web\obj\Debug\Spartane.Web.pdb
+C:\Proyectos\SPARTANE\Template\FORMATOS\MVC\Spartane.Web\obj\Debug\Spartane.Web.csprojResolveAssemblyReference.cache
+C:\Proyectos\SPARTANE\Template\FORMATOS\MVC\Spartane.Web\obj\Debug\Spartane.Web.dll
+C:\Proyectos\SPARTANE\Template\FORMATOS\MVC\Spartane.Web\obj\Debug\Spartane.Web.pdb
+C:\Proyectos\SPARTANE\Template\FORMATOS\MVC\Spartane.Web\bin\Spartane.Web.dll.config
+C:\Proyectos\SPARTANE\Template\FORMATOS\MVC\Spartane.Web\bin\Spartane.Web.dll
+C:\Proyectos\SPARTANE\Template\FORMATOS\MVC\Spartane.Web\bin\Spartane.Web.pdb
+C:\Proyectos\SPARTANE\Template\FORMATOS\MVC\Spartane.Web\bin\Antlr3.Runtime.dll
+C:\Proyectos\SPARTANE\Template\FORMATOS\MVC\Spartane.Web\bin\Autofac.Configuration.dll
+C:\Proyectos\SPARTANE\Template\FORMATOS\MVC\Spartane.Web\bin\Autofac.dll
+C:\Proyectos\SPARTANE\Template\FORMATOS\MVC\Spartane.Web\bin\Autofac.Integration.Mvc.dll
+C:\Proyectos\SPARTANE\Template\FORMATOS\MVC\Spartane.Web\bin\Autofac.Integration.WebApi.dll
+C:\Proyectos\SPARTANE\Template\FORMATOS\MVC\Spartane.Web\bin\CKSource.CKFinder.Connector.Config.dll
+C:\Proyectos\SPARTANE\Template\FORMATOS\MVC\Spartane.Web\bin\CKSource.CKFinder.Connector.Core.dll
+C:\Proyectos\SPARTANE\Template\FORMATOS\MVC\Spartane.Web\bin\CKSource.CKFinder.Connector.Host.Owin.dll
+C:\Proyectos\SPARTANE\Template\FORMATOS\MVC\Spartane.Web\bin\CKSource.FileSystem.dll
+C:\Proyectos\SPARTANE\Template\FORMATOS\MVC\Spartane.Web\bin\CKSource.FileSystem.Local.dll
+C:\Proyectos\SPARTANE\Template\FORMATOS\MVC\Spartane.Web\bin\EntityFramework.dll
+C:\Proyectos\SPARTANE\Template\FORMATOS\MVC\Spartane.Web\bin\EntityFramework.SqlServer.dll
+C:\Proyectos\SPARTANE\Template\FORMATOS\MVC\Spartane.Web\bin\ImageProcessor.dll
+C:\Proyectos\SPARTANE\Template\FORMATOS\MVC\Spartane.Web\bin\itextsharp.dll
+C:\Proyectos\SPARTANE\Template\FORMATOS\MVC\Spartane.Web\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Proyectos\SPARTANE\Template\FORMATOS\MVC\Spartane.Web\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Proyectos\SPARTANE\Template\FORMATOS\MVC\Spartane.Web\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Proyectos\SPARTANE\Template\FORMATOS\MVC\Spartane.Web\bin\Microsoft.Owin.dll
+C:\Proyectos\SPARTANE\Template\FORMATOS\MVC\Spartane.Web\bin\Microsoft.Owin.Host.HttpListener.dll
+C:\Proyectos\SPARTANE\Template\FORMATOS\MVC\Spartane.Web\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Proyectos\SPARTANE\Template\FORMATOS\MVC\Spartane.Web\bin\Microsoft.Owin.Hosting.dll
+C:\Proyectos\SPARTANE\Template\FORMATOS\MVC\Spartane.Web\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Proyectos\SPARTANE\Template\FORMATOS\MVC\Spartane.Web\bin\Microsoft.Owin.Security.dll
+C:\Proyectos\SPARTANE\Template\FORMATOS\MVC\Spartane.Web\bin\Microsoft.Owin.Security.Google.dll
+C:\Proyectos\SPARTANE\Template\FORMATOS\MVC\Spartane.Web\bin\Microsoft.Owin.Security.Jwt.dll
+C:\Proyectos\SPARTANE\Template\FORMATOS\MVC\Spartane.Web\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Proyectos\SPARTANE\Template\FORMATOS\MVC\Spartane.Web\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Proyectos\SPARTANE\Template\FORMATOS\MVC\Spartane.Web\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Proyectos\SPARTANE\Template\FORMATOS\MVC\Spartane.Web\bin\Microsoft.Web.Infrastructure.dll
+C:\Proyectos\SPARTANE\Template\FORMATOS\MVC\Spartane.Web\bin\MvcCheckBoxList.dll
+C:\Proyectos\SPARTANE\Template\FORMATOS\MVC\Spartane.Web\bin\Newtonsoft.Json.dll
+C:\Proyectos\SPARTANE\Template\FORMATOS\MVC\Spartane.Web\bin\Owin.dll
+C:\Proyectos\SPARTANE\Template\FORMATOS\MVC\Spartane.Web\bin\RestSharp.dll
+C:\Proyectos\SPARTANE\Template\FORMATOS\MVC\Spartane.Web\bin\Spartane.Core.dll
+C:\Proyectos\SPARTANE\Template\FORMATOS\MVC\Spartane.Web\bin\Spartane.Data.dll
+C:\Proyectos\SPARTANE\Template\FORMATOS\MVC\Spartane.Web\bin\Spartane.Services.dll
+C:\Proyectos\SPARTANE\Template\FORMATOS\MVC\Spartane.Web\bin\System.IdentityModel.Tokens.Jwt.dll
+C:\Proyectos\SPARTANE\Template\FORMATOS\MVC\Spartane.Web\bin\System.Net.Http.dll
+C:\Proyectos\SPARTANE\Template\FORMATOS\MVC\Spartane.Web\bin\System.Net.Http.Extensions.dll
+C:\Proyectos\SPARTANE\Template\FORMATOS\MVC\Spartane.Web\bin\System.Net.Http.Formatting.dll
+C:\Proyectos\SPARTANE\Template\FORMATOS\MVC\Spartane.Web\bin\System.Net.Http.Primitives.dll
+C:\Proyectos\SPARTANE\Template\FORMATOS\MVC\Spartane.Web\bin\System.Net.Http.WebRequest.dll
+C:\Proyectos\SPARTANE\Template\FORMATOS\MVC\Spartane.Web\bin\System.Web.Helpers.dll
+C:\Proyectos\SPARTANE\Template\FORMATOS\MVC\Spartane.Web\bin\System.Web.Http.dll
+C:\Proyectos\SPARTANE\Template\FORMATOS\MVC\Spartane.Web\bin\System.Web.Http.Owin.dll
+C:\Proyectos\SPARTANE\Template\FORMATOS\MVC\Spartane.Web\bin\System.Web.Http.WebHost.dll
+C:\Proyectos\SPARTANE\Template\FORMATOS\MVC\Spartane.Web\bin\System.Web.Mvc.dll
+C:\Proyectos\SPARTANE\Template\FORMATOS\MVC\Spartane.Web\bin\System.Web.Optimization.dll
+C:\Proyectos\SPARTANE\Template\FORMATOS\MVC\Spartane.Web\bin\System.Web.Razor.dll
+C:\Proyectos\SPARTANE\Template\FORMATOS\MVC\Spartane.Web\bin\System.Web.WebPages.Deployment.dll
+C:\Proyectos\SPARTANE\Template\FORMATOS\MVC\Spartane.Web\bin\System.Web.WebPages.dll
+C:\Proyectos\SPARTANE\Template\FORMATOS\MVC\Spartane.Web\bin\System.Web.WebPages.Razor.dll
+C:\Proyectos\SPARTANE\Template\FORMATOS\MVC\Spartane.Web\bin\Thinktecture.IdentityModel.Core.dll
+C:\Proyectos\SPARTANE\Template\FORMATOS\MVC\Spartane.Web\bin\WebGrease.dll
+C:\Proyectos\SPARTANE\Template\FORMATOS\MVC\Spartane.Web\bin\log4net.dll
+C:\Proyectos\SPARTANE\Template\FORMATOS\MVC\Spartane.Web\bin\SqlLinq.dll
+C:\Proyectos\SPARTANE\Template\FORMATOS\MVC\Spartane.Web\bin\System.Linq.Dynamic.dll
+C:\Proyectos\SPARTANE\Template\FORMATOS\MVC\Spartane.Web\bin\GoldParser.dll
+C:\Proyectos\SPARTANE\Template\FORMATOS\MVC\Spartane.Web\bin\Kackman.RuntimeTypeLoader.dll
+C:\Proyectos\SPARTANE\Template\FORMATOS\MVC\Spartane.Web\bin\Spartane.Core.pdb
+C:\Proyectos\SPARTANE\Template\FORMATOS\MVC\Spartane.Web\bin\Spartane.Data.pdb
+C:\Proyectos\SPARTANE\Template\FORMATOS\MVC\Spartane.Web\bin\Spartane.Services.pdb
+C:\Proyectos\SPARTANE\Template\FORMATOS\MVC\Spartane.Web\bin\Autofac.xml
+C:\Proyectos\SPARTANE\Template\FORMATOS\MVC\Spartane.Web\bin\Autofac.Configuration.xml
+C:\Proyectos\SPARTANE\Template\FORMATOS\MVC\Spartane.Web\bin\Autofac.Integration.Mvc.xml
+C:\Proyectos\SPARTANE\Template\FORMATOS\MVC\Spartane.Web\bin\Autofac.Integration.WebApi.xml
+C:\Proyectos\SPARTANE\Template\FORMATOS\MVC\Spartane.Web\bin\CKSource.CKFinder.Connector.Config.xml
+C:\Proyectos\SPARTANE\Template\FORMATOS\MVC\Spartane.Web\bin\CKSource.CKFinder.Connector.Core.xml
+C:\Proyectos\SPARTANE\Template\FORMATOS\MVC\Spartane.Web\bin\CKSource.CKFinder.Connector.Host.Owin.xml
+C:\Proyectos\SPARTANE\Template\FORMATOS\MVC\Spartane.Web\bin\CKSource.FileSystem.xml
+C:\Proyectos\SPARTANE\Template\FORMATOS\MVC\Spartane.Web\bin\CKSource.FileSystem.Local.xml
+C:\Proyectos\SPARTANE\Template\FORMATOS\MVC\Spartane.Web\bin\EntityFramework.xml
+C:\Proyectos\SPARTANE\Template\FORMATOS\MVC\Spartane.Web\bin\EntityFramework.SqlServer.xml
+C:\Proyectos\SPARTANE\Template\FORMATOS\MVC\Spartane.Web\bin\itextsharp.xml
+C:\Proyectos\SPARTANE\Template\FORMATOS\MVC\Spartane.Web\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Proyectos\SPARTANE\Template\FORMATOS\MVC\Spartane.Web\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Proyectos\SPARTANE\Template\FORMATOS\MVC\Spartane.Web\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Proyectos\SPARTANE\Template\FORMATOS\MVC\Spartane.Web\bin\Microsoft.Owin.xml
+C:\Proyectos\SPARTANE\Template\FORMATOS\MVC\Spartane.Web\bin\Microsoft.Owin.Host.HttpListener.xml
+C:\Proyectos\SPARTANE\Template\FORMATOS\MVC\Spartane.Web\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Proyectos\SPARTANE\Template\FORMATOS\MVC\Spartane.Web\bin\Microsoft.Owin.Hosting.xml
+C:\Proyectos\SPARTANE\Template\FORMATOS\MVC\Spartane.Web\bin\Microsoft.Owin.Security.xml
+C:\Proyectos\SPARTANE\Template\FORMATOS\MVC\Spartane.Web\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Proyectos\SPARTANE\Template\FORMATOS\MVC\Spartane.Web\bin\Microsoft.Owin.Security.Google.xml
+C:\Proyectos\SPARTANE\Template\FORMATOS\MVC\Spartane.Web\bin\Microsoft.Owin.Security.Jwt.xml
+C:\Proyectos\SPARTANE\Template\FORMATOS\MVC\Spartane.Web\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Proyectos\SPARTANE\Template\FORMATOS\MVC\Spartane.Web\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Proyectos\SPARTANE\Template\FORMATOS\MVC\Spartane.Web\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Proyectos\SPARTANE\Template\FORMATOS\MVC\Spartane.Web\bin\Newtonsoft.Json.xml
+C:\Proyectos\SPARTANE\Template\FORMATOS\MVC\Spartane.Web\bin\RestSharp.xml
+C:\Proyectos\SPARTANE\Template\FORMATOS\MVC\Spartane.Web\bin\System.IdentityModel.Tokens.Jwt.xml
+C:\Proyectos\SPARTANE\Template\FORMATOS\MVC\Spartane.Web\bin\System.Net.Http.xml
+C:\Proyectos\SPARTANE\Template\FORMATOS\MVC\Spartane.Web\bin\System.Net.Http.WebRequest.xml
+C:\Proyectos\SPARTANE\Template\FORMATOS\MVC\Spartane.Web\bin\System.Web.Helpers.xml
+C:\Proyectos\SPARTANE\Template\FORMATOS\MVC\Spartane.Web\bin\System.Web.Http.xml
+C:\Proyectos\SPARTANE\Template\FORMATOS\MVC\Spartane.Web\bin\System.Web.Http.Owin.xml
+C:\Proyectos\SPARTANE\Template\FORMATOS\MVC\Spartane.Web\bin\System.Web.Http.WebHost.xml
+C:\Proyectos\SPARTANE\Template\FORMATOS\MVC\Spartane.Web\bin\System.Web.Mvc.xml
+C:\Proyectos\SPARTANE\Template\FORMATOS\MVC\Spartane.Web\bin\System.Web.Razor.xml
+C:\Proyectos\SPARTANE\Template\FORMATOS\MVC\Spartane.Web\bin\System.Web.WebPages.xml
+C:\Proyectos\SPARTANE\Template\FORMATOS\MVC\Spartane.Web\bin\System.Web.WebPages.Deployment.xml
+C:\Proyectos\SPARTANE\Template\FORMATOS\MVC\Spartane.Web\bin\System.Web.WebPages.Razor.xml
+C:\Proyectos\SPARTANE\Template\FORMATOS\MVC\Spartane.Web\bin\System.Web.Optimization.xml
+C:\Proyectos\SPARTANE\Template\FORMATOS\MVC\Spartane.Web\bin\Thinktecture.IdentityModel.Core.pdb
+C:\Proyectos\SPARTANE\Template\FORMATOS\MVC\Spartane.Web\bin\Antlr3.Runtime.pdb
+C:\Proyectos\SPARTANE\Template\FORMATOS\MVC\Spartane.Web\bin\log4net.xml
+C:\SpartaneTemplate\MVC\MVC\Spartane.Web\bin\Spartane.Web.dll.config
+C:\SpartaneTemplate\MVC\MVC\Spartane.Web\bin\Spartane.Web.dll
+C:\SpartaneTemplate\MVC\MVC\Spartane.Web\bin\Spartane.Web.pdb
+C:\SpartaneTemplate\MVC\MVC\Spartane.Web\bin\Antlr3.Runtime.dll
+C:\SpartaneTemplate\MVC\MVC\Spartane.Web\bin\Autofac.Configuration.dll
+C:\SpartaneTemplate\MVC\MVC\Spartane.Web\bin\Autofac.dll
+C:\SpartaneTemplate\MVC\MVC\Spartane.Web\bin\Autofac.Integration.Mvc.dll
+C:\SpartaneTemplate\MVC\MVC\Spartane.Web\bin\Autofac.Integration.WebApi.dll
+C:\SpartaneTemplate\MVC\MVC\Spartane.Web\bin\CKSource.CKFinder.Connector.Config.dll
+C:\SpartaneTemplate\MVC\MVC\Spartane.Web\bin\CKSource.CKFinder.Connector.Core.dll
+C:\SpartaneTemplate\MVC\MVC\Spartane.Web\bin\CKSource.CKFinder.Connector.Host.Owin.dll
+C:\SpartaneTemplate\MVC\MVC\Spartane.Web\bin\CKSource.FileSystem.dll
+C:\SpartaneTemplate\MVC\MVC\Spartane.Web\bin\CKSource.FileSystem.Local.dll
+C:\SpartaneTemplate\MVC\MVC\Spartane.Web\bin\EntityFramework.dll
+C:\SpartaneTemplate\MVC\MVC\Spartane.Web\bin\EntityFramework.SqlServer.dll
+C:\SpartaneTemplate\MVC\MVC\Spartane.Web\bin\ImageProcessor.dll
+C:\SpartaneTemplate\MVC\MVC\Spartane.Web\bin\itextsharp.dll
+C:\SpartaneTemplate\MVC\MVC\Spartane.Web\bin\Microsoft.AspNet.Identity.Core.dll
+C:\SpartaneTemplate\MVC\MVC\Spartane.Web\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\SpartaneTemplate\MVC\MVC\Spartane.Web\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\SpartaneTemplate\MVC\MVC\Spartane.Web\bin\Microsoft.Owin.dll
+C:\SpartaneTemplate\MVC\MVC\Spartane.Web\bin\Microsoft.Owin.Host.HttpListener.dll
+C:\SpartaneTemplate\MVC\MVC\Spartane.Web\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\SpartaneTemplate\MVC\MVC\Spartane.Web\bin\Microsoft.Owin.Hosting.dll
+C:\SpartaneTemplate\MVC\MVC\Spartane.Web\bin\Microsoft.Owin.Security.Cookies.dll
+C:\SpartaneTemplate\MVC\MVC\Spartane.Web\bin\Microsoft.Owin.Security.dll
+C:\SpartaneTemplate\MVC\MVC\Spartane.Web\bin\Microsoft.Owin.Security.Google.dll
+C:\SpartaneTemplate\MVC\MVC\Spartane.Web\bin\Microsoft.Owin.Security.Jwt.dll
+C:\SpartaneTemplate\MVC\MVC\Spartane.Web\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\SpartaneTemplate\MVC\MVC\Spartane.Web\bin\Microsoft.Owin.Security.OAuth.dll
+C:\SpartaneTemplate\MVC\MVC\Spartane.Web\bin\Microsoft.Owin.Security.Twitter.dll
+C:\SpartaneTemplate\MVC\MVC\Spartane.Web\bin\Microsoft.Web.Infrastructure.dll
+C:\SpartaneTemplate\MVC\MVC\Spartane.Web\bin\MvcCheckBoxList.dll
+C:\SpartaneTemplate\MVC\MVC\Spartane.Web\bin\Newtonsoft.Json.dll
+C:\SpartaneTemplate\MVC\MVC\Spartane.Web\bin\Owin.dll
+C:\SpartaneTemplate\MVC\MVC\Spartane.Web\bin\RestSharp.dll
+C:\SpartaneTemplate\MVC\MVC\Spartane.Web\bin\Spartane.Core.dll
+C:\SpartaneTemplate\MVC\MVC\Spartane.Web\bin\Spartane.Data.dll
+C:\SpartaneTemplate\MVC\MVC\Spartane.Web\bin\Spartane.Services.dll
+C:\SpartaneTemplate\MVC\MVC\Spartane.Web\bin\System.IdentityModel.Tokens.Jwt.dll
+C:\SpartaneTemplate\MVC\MVC\Spartane.Web\bin\System.Net.Http.dll
+C:\SpartaneTemplate\MVC\MVC\Spartane.Web\bin\System.Net.Http.Extensions.dll
+C:\SpartaneTemplate\MVC\MVC\Spartane.Web\bin\System.Net.Http.Formatting.dll
+C:\SpartaneTemplate\MVC\MVC\Spartane.Web\bin\System.Net.Http.Primitives.dll
+C:\SpartaneTemplate\MVC\MVC\Spartane.Web\bin\System.Net.Http.WebRequest.dll
+C:\SpartaneTemplate\MVC\MVC\Spartane.Web\bin\System.Web.Helpers.dll
+C:\SpartaneTemplate\MVC\MVC\Spartane.Web\bin\System.Web.Http.dll
+C:\SpartaneTemplate\MVC\MVC\Spartane.Web\bin\System.Web.Http.Owin.dll
+C:\SpartaneTemplate\MVC\MVC\Spartane.Web\bin\System.Web.Http.WebHost.dll
+C:\SpartaneTemplate\MVC\MVC\Spartane.Web\bin\System.Web.Mvc.dll
+C:\SpartaneTemplate\MVC\MVC\Spartane.Web\bin\System.Web.Optimization.dll
+C:\SpartaneTemplate\MVC\MVC\Spartane.Web\bin\System.Web.Razor.dll
+C:\SpartaneTemplate\MVC\MVC\Spartane.Web\bin\System.Web.WebPages.Deployment.dll
+C:\SpartaneTemplate\MVC\MVC\Spartane.Web\bin\System.Web.WebPages.dll
+C:\SpartaneTemplate\MVC\MVC\Spartane.Web\bin\System.Web.WebPages.Razor.dll
+C:\SpartaneTemplate\MVC\MVC\Spartane.Web\bin\Thinktecture.IdentityModel.Core.dll
+C:\SpartaneTemplate\MVC\MVC\Spartane.Web\bin\WebGrease.dll
+C:\SpartaneTemplate\MVC\MVC\Spartane.Web\bin\log4net.dll
+C:\SpartaneTemplate\MVC\MVC\Spartane.Web\bin\SqlLinq.dll
+C:\SpartaneTemplate\MVC\MVC\Spartane.Web\bin\System.Linq.Dynamic.dll
+C:\SpartaneTemplate\MVC\MVC\Spartane.Web\bin\GoldParser.dll
+C:\SpartaneTemplate\MVC\MVC\Spartane.Web\bin\Kackman.RuntimeTypeLoader.dll
+C:\SpartaneTemplate\MVC\MVC\Spartane.Web\bin\Spartane.Core.pdb
+C:\SpartaneTemplate\MVC\MVC\Spartane.Web\bin\Spartane.Data.pdb
+C:\SpartaneTemplate\MVC\MVC\Spartane.Web\bin\Spartane.Services.pdb
+C:\SpartaneTemplate\MVC\MVC\Spartane.Web\bin\Autofac.xml
+C:\SpartaneTemplate\MVC\MVC\Spartane.Web\bin\Autofac.Configuration.xml
+C:\SpartaneTemplate\MVC\MVC\Spartane.Web\bin\Autofac.Integration.Mvc.xml
+C:\SpartaneTemplate\MVC\MVC\Spartane.Web\bin\Autofac.Integration.WebApi.xml
+C:\SpartaneTemplate\MVC\MVC\Spartane.Web\bin\CKSource.CKFinder.Connector.Config.xml
+C:\SpartaneTemplate\MVC\MVC\Spartane.Web\bin\CKSource.CKFinder.Connector.Core.xml
+C:\SpartaneTemplate\MVC\MVC\Spartane.Web\bin\CKSource.CKFinder.Connector.Host.Owin.xml
+C:\SpartaneTemplate\MVC\MVC\Spartane.Web\bin\CKSource.FileSystem.xml
+C:\SpartaneTemplate\MVC\MVC\Spartane.Web\bin\CKSource.FileSystem.Local.xml
+C:\SpartaneTemplate\MVC\MVC\Spartane.Web\bin\EntityFramework.xml
+C:\SpartaneTemplate\MVC\MVC\Spartane.Web\bin\EntityFramework.SqlServer.xml
+C:\SpartaneTemplate\MVC\MVC\Spartane.Web\bin\itextsharp.xml
+C:\SpartaneTemplate\MVC\MVC\Spartane.Web\bin\Microsoft.AspNet.Identity.Core.xml
+C:\SpartaneTemplate\MVC\MVC\Spartane.Web\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\SpartaneTemplate\MVC\MVC\Spartane.Web\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\SpartaneTemplate\MVC\MVC\Spartane.Web\bin\Microsoft.Owin.xml
+C:\SpartaneTemplate\MVC\MVC\Spartane.Web\bin\Microsoft.Owin.Host.HttpListener.xml
+C:\SpartaneTemplate\MVC\MVC\Spartane.Web\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\SpartaneTemplate\MVC\MVC\Spartane.Web\bin\Microsoft.Owin.Hosting.xml
+C:\SpartaneTemplate\MVC\MVC\Spartane.Web\bin\Microsoft.Owin.Security.xml
+C:\SpartaneTemplate\MVC\MVC\Spartane.Web\bin\Microsoft.Owin.Security.Cookies.xml
+C:\SpartaneTemplate\MVC\MVC\Spartane.Web\bin\Microsoft.Owin.Security.Google.xml
+C:\SpartaneTemplate\MVC\MVC\Spartane.Web\bin\Microsoft.Owin.Security.Jwt.xml
+C:\SpartaneTemplate\MVC\MVC\Spartane.Web\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\SpartaneTemplate\MVC\MVC\Spartane.Web\bin\Microsoft.Owin.Security.OAuth.xml
+C:\SpartaneTemplate\MVC\MVC\Spartane.Web\bin\Microsoft.Owin.Security.Twitter.xml
+C:\SpartaneTemplate\MVC\MVC\Spartane.Web\bin\Newtonsoft.Json.xml
+C:\SpartaneTemplate\MVC\MVC\Spartane.Web\bin\RestSharp.xml
+C:\SpartaneTemplate\MVC\MVC\Spartane.Web\bin\System.IdentityModel.Tokens.Jwt.xml
+C:\SpartaneTemplate\MVC\MVC\Spartane.Web\bin\System.Net.Http.xml
+C:\SpartaneTemplate\MVC\MVC\Spartane.Web\bin\System.Net.Http.WebRequest.xml
+C:\SpartaneTemplate\MVC\MVC\Spartane.Web\bin\System.Web.Helpers.xml
+C:\SpartaneTemplate\MVC\MVC\Spartane.Web\bin\System.Web.Http.xml
+C:\SpartaneTemplate\MVC\MVC\Spartane.Web\bin\System.Web.Http.Owin.xml
+C:\SpartaneTemplate\MVC\MVC\Spartane.Web\bin\System.Web.Http.WebHost.xml
+C:\SpartaneTemplate\MVC\MVC\Spartane.Web\bin\System.Web.Mvc.xml
+C:\SpartaneTemplate\MVC\MVC\Spartane.Web\bin\System.Web.Razor.xml
+C:\SpartaneTemplate\MVC\MVC\Spartane.Web\bin\System.Web.WebPages.xml
+C:\SpartaneTemplate\MVC\MVC\Spartane.Web\bin\System.Web.WebPages.Deployment.xml
+C:\SpartaneTemplate\MVC\MVC\Spartane.Web\bin\System.Web.WebPages.Razor.xml
+C:\SpartaneTemplate\MVC\MVC\Spartane.Web\bin\System.Web.Optimization.xml
+C:\SpartaneTemplate\MVC\MVC\Spartane.Web\bin\Thinktecture.IdentityModel.Core.pdb
+C:\SpartaneTemplate\MVC\MVC\Spartane.Web\bin\Antlr3.Runtime.pdb
+C:\SpartaneTemplate\MVC\MVC\Spartane.Web\bin\log4net.xml
+C:\SpartaneTemplate\MVC\MVC\Spartane.Web\obj\Debug\Spartane.Web.csprojResolveAssemblyReference.cache
+C:\SpartaneTemplate\MVC\MVC\Spartane.Web\obj\Debug\Spartane.Web.dll
+C:\SpartaneTemplate\MVC\MVC\Spartane.Web\obj\Debug\Spartane.Web.pdb
+C:\SpartaneTemplateTest\MVC\MVC\Spartane.Web\obj\Debug\Spartane.Web.csprojResolveAssemblyReference.cache
+C:\SpartaneTemplateTest\MVC\MVC\Spartane.Web\obj\Debug\Spartane.Web.dll
+C:\SpartaneTemplateTest\MVC\MVC\Spartane.Web\obj\Debug\Spartane.Web.pdb
+C:\SpartaneTemplateTest\MVC\MVC\Spartane.Web\bin\Spartane.Web.dll.config
+C:\SpartaneTemplateTest\MVC\MVC\Spartane.Web\bin\Spartane.Web.dll
+C:\SpartaneTemplateTest\MVC\MVC\Spartane.Web\bin\Spartane.Web.pdb
+C:\SpartaneTemplateTest\MVC\MVC\Spartane.Web\bin\Antlr3.Runtime.dll
+C:\SpartaneTemplateTest\MVC\MVC\Spartane.Web\bin\Autofac.Configuration.dll
+C:\SpartaneTemplateTest\MVC\MVC\Spartane.Web\bin\Autofac.dll
+C:\SpartaneTemplateTest\MVC\MVC\Spartane.Web\bin\Autofac.Integration.Mvc.dll
+C:\SpartaneTemplateTest\MVC\MVC\Spartane.Web\bin\Autofac.Integration.WebApi.dll
+C:\SpartaneTemplateTest\MVC\MVC\Spartane.Web\bin\CKSource.CKFinder.Connector.Config.dll
+C:\SpartaneTemplateTest\MVC\MVC\Spartane.Web\bin\CKSource.CKFinder.Connector.Core.dll
+C:\SpartaneTemplateTest\MVC\MVC\Spartane.Web\bin\CKSource.CKFinder.Connector.Host.Owin.dll
+C:\SpartaneTemplateTest\MVC\MVC\Spartane.Web\bin\CKSource.FileSystem.dll
+C:\SpartaneTemplateTest\MVC\MVC\Spartane.Web\bin\CKSource.FileSystem.Local.dll
+C:\SpartaneTemplateTest\MVC\MVC\Spartane.Web\bin\EntityFramework.dll
+C:\SpartaneTemplateTest\MVC\MVC\Spartane.Web\bin\EntityFramework.SqlServer.dll
+C:\SpartaneTemplateTest\MVC\MVC\Spartane.Web\bin\ImageProcessor.dll
+C:\SpartaneTemplateTest\MVC\MVC\Spartane.Web\bin\itextsharp.dll
+C:\SpartaneTemplateTest\MVC\MVC\Spartane.Web\bin\Microsoft.AspNet.Identity.Core.dll
+C:\SpartaneTemplateTest\MVC\MVC\Spartane.Web\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\SpartaneTemplateTest\MVC\MVC\Spartane.Web\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\SpartaneTemplateTest\MVC\MVC\Spartane.Web\bin\Microsoft.Owin.dll
+C:\SpartaneTemplateTest\MVC\MVC\Spartane.Web\bin\Microsoft.Owin.Host.HttpListener.dll
+C:\SpartaneTemplateTest\MVC\MVC\Spartane.Web\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\SpartaneTemplateTest\MVC\MVC\Spartane.Web\bin\Microsoft.Owin.Hosting.dll
+C:\SpartaneTemplateTest\MVC\MVC\Spartane.Web\bin\Microsoft.Owin.Security.Cookies.dll
+C:\SpartaneTemplateTest\MVC\MVC\Spartane.Web\bin\Microsoft.Owin.Security.dll
+C:\SpartaneTemplateTest\MVC\MVC\Spartane.Web\bin\Microsoft.Owin.Security.Google.dll
+C:\SpartaneTemplateTest\MVC\MVC\Spartane.Web\bin\Microsoft.Owin.Security.Jwt.dll
+C:\SpartaneTemplateTest\MVC\MVC\Spartane.Web\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\SpartaneTemplateTest\MVC\MVC\Spartane.Web\bin\Microsoft.Owin.Security.OAuth.dll
+C:\SpartaneTemplateTest\MVC\MVC\Spartane.Web\bin\Microsoft.Owin.Security.Twitter.dll
+C:\SpartaneTemplateTest\MVC\MVC\Spartane.Web\bin\Microsoft.Web.Infrastructure.dll
+C:\SpartaneTemplateTest\MVC\MVC\Spartane.Web\bin\MvcCheckBoxList.dll
+C:\SpartaneTemplateTest\MVC\MVC\Spartane.Web\bin\Newtonsoft.Json.dll
+C:\SpartaneTemplateTest\MVC\MVC\Spartane.Web\bin\Owin.dll
+C:\SpartaneTemplateTest\MVC\MVC\Spartane.Web\bin\RestSharp.dll
+C:\SpartaneTemplateTest\MVC\MVC\Spartane.Web\bin\Spartane.Core.dll
+C:\SpartaneTemplateTest\MVC\MVC\Spartane.Web\bin\Spartane.Data.dll
+C:\SpartaneTemplateTest\MVC\MVC\Spartane.Web\bin\Spartane.Services.dll
+C:\SpartaneTemplateTest\MVC\MVC\Spartane.Web\bin\System.IdentityModel.Tokens.Jwt.dll
+C:\SpartaneTemplateTest\MVC\MVC\Spartane.Web\bin\System.Net.Http.dll
+C:\SpartaneTemplateTest\MVC\MVC\Spartane.Web\bin\System.Net.Http.Extensions.dll
+C:\SpartaneTemplateTest\MVC\MVC\Spartane.Web\bin\System.Net.Http.Formatting.dll
+C:\SpartaneTemplateTest\MVC\MVC\Spartane.Web\bin\System.Net.Http.Primitives.dll
+C:\SpartaneTemplateTest\MVC\MVC\Spartane.Web\bin\System.Net.Http.WebRequest.dll
+C:\SpartaneTemplateTest\MVC\MVC\Spartane.Web\bin\System.Web.Helpers.dll
+C:\SpartaneTemplateTest\MVC\MVC\Spartane.Web\bin\System.Web.Http.dll
+C:\SpartaneTemplateTest\MVC\MVC\Spartane.Web\bin\System.Web.Http.Owin.dll
+C:\SpartaneTemplateTest\MVC\MVC\Spartane.Web\bin\System.Web.Http.WebHost.dll
+C:\SpartaneTemplateTest\MVC\MVC\Spartane.Web\bin\System.Web.Mvc.dll
+C:\SpartaneTemplateTest\MVC\MVC\Spartane.Web\bin\System.Web.Optimization.dll
+C:\SpartaneTemplateTest\MVC\MVC\Spartane.Web\bin\System.Web.Razor.dll
+C:\SpartaneTemplateTest\MVC\MVC\Spartane.Web\bin\System.Web.WebPages.Deployment.dll
+C:\SpartaneTemplateTest\MVC\MVC\Spartane.Web\bin\System.Web.WebPages.dll
+C:\SpartaneTemplateTest\MVC\MVC\Spartane.Web\bin\System.Web.WebPages.Razor.dll
+C:\SpartaneTemplateTest\MVC\MVC\Spartane.Web\bin\Thinktecture.IdentityModel.Core.dll
+C:\SpartaneTemplateTest\MVC\MVC\Spartane.Web\bin\WebGrease.dll
+C:\SpartaneTemplateTest\MVC\MVC\Spartane.Web\bin\log4net.dll
+C:\SpartaneTemplateTest\MVC\MVC\Spartane.Web\bin\SqlLinq.dll
+C:\SpartaneTemplateTest\MVC\MVC\Spartane.Web\bin\System.Linq.Dynamic.dll
+C:\SpartaneTemplateTest\MVC\MVC\Spartane.Web\bin\GoldParser.dll
+C:\SpartaneTemplateTest\MVC\MVC\Spartane.Web\bin\Kackman.RuntimeTypeLoader.dll
+C:\SpartaneTemplateTest\MVC\MVC\Spartane.Web\bin\Spartane.Core.pdb
+C:\SpartaneTemplateTest\MVC\MVC\Spartane.Web\bin\Spartane.Data.pdb
+C:\SpartaneTemplateTest\MVC\MVC\Spartane.Web\bin\Spartane.Services.pdb
+C:\SpartaneTemplateTest\MVC\MVC\Spartane.Web\bin\Autofac.xml
+C:\SpartaneTemplateTest\MVC\MVC\Spartane.Web\bin\Autofac.Configuration.xml
+C:\SpartaneTemplateTest\MVC\MVC\Spartane.Web\bin\Autofac.Integration.Mvc.xml
+C:\SpartaneTemplateTest\MVC\MVC\Spartane.Web\bin\Autofac.Integration.WebApi.xml
+C:\SpartaneTemplateTest\MVC\MVC\Spartane.Web\bin\CKSource.CKFinder.Connector.Config.xml
+C:\SpartaneTemplateTest\MVC\MVC\Spartane.Web\bin\CKSource.CKFinder.Connector.Core.xml
+C:\SpartaneTemplateTest\MVC\MVC\Spartane.Web\bin\CKSource.CKFinder.Connector.Host.Owin.xml
+C:\SpartaneTemplateTest\MVC\MVC\Spartane.Web\bin\CKSource.FileSystem.xml
+C:\SpartaneTemplateTest\MVC\MVC\Spartane.Web\bin\CKSource.FileSystem.Local.xml
+C:\SpartaneTemplateTest\MVC\MVC\Spartane.Web\bin\EntityFramework.xml
+C:\SpartaneTemplateTest\MVC\MVC\Spartane.Web\bin\EntityFramework.SqlServer.xml
+C:\SpartaneTemplateTest\MVC\MVC\Spartane.Web\bin\itextsharp.xml
+C:\SpartaneTemplateTest\MVC\MVC\Spartane.Web\bin\Microsoft.AspNet.Identity.Core.xml
+C:\SpartaneTemplateTest\MVC\MVC\Spartane.Web\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\SpartaneTemplateTest\MVC\MVC\Spartane.Web\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\SpartaneTemplateTest\MVC\MVC\Spartane.Web\bin\Microsoft.Owin.xml
+C:\SpartaneTemplateTest\MVC\MVC\Spartane.Web\bin\Microsoft.Owin.Host.HttpListener.xml
+C:\SpartaneTemplateTest\MVC\MVC\Spartane.Web\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\SpartaneTemplateTest\MVC\MVC\Spartane.Web\bin\Microsoft.Owin.Hosting.xml
+C:\SpartaneTemplateTest\MVC\MVC\Spartane.Web\bin\Microsoft.Owin.Security.xml
+C:\SpartaneTemplateTest\MVC\MVC\Spartane.Web\bin\Microsoft.Owin.Security.Cookies.xml
+C:\SpartaneTemplateTest\MVC\MVC\Spartane.Web\bin\Microsoft.Owin.Security.Google.xml
+C:\SpartaneTemplateTest\MVC\MVC\Spartane.Web\bin\Microsoft.Owin.Security.Jwt.xml
+C:\SpartaneTemplateTest\MVC\MVC\Spartane.Web\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\SpartaneTemplateTest\MVC\MVC\Spartane.Web\bin\Microsoft.Owin.Security.OAuth.xml
+C:\SpartaneTemplateTest\MVC\MVC\Spartane.Web\bin\Microsoft.Owin.Security.Twitter.xml
+C:\SpartaneTemplateTest\MVC\MVC\Spartane.Web\bin\Newtonsoft.Json.xml
+C:\SpartaneTemplateTest\MVC\MVC\Spartane.Web\bin\RestSharp.xml
+C:\SpartaneTemplateTest\MVC\MVC\Spartane.Web\bin\System.IdentityModel.Tokens.Jwt.xml
+C:\SpartaneTemplateTest\MVC\MVC\Spartane.Web\bin\System.Net.Http.xml
+C:\SpartaneTemplateTest\MVC\MVC\Spartane.Web\bin\System.Net.Http.WebRequest.xml
+C:\SpartaneTemplateTest\MVC\MVC\Spartane.Web\bin\System.Web.Helpers.xml
+C:\SpartaneTemplateTest\MVC\MVC\Spartane.Web\bin\System.Web.Http.xml
+C:\SpartaneTemplateTest\MVC\MVC\Spartane.Web\bin\System.Web.Http.Owin.xml
+C:\SpartaneTemplateTest\MVC\MVC\Spartane.Web\bin\System.Web.Http.WebHost.xml
+C:\SpartaneTemplateTest\MVC\MVC\Spartane.Web\bin\System.Web.Mvc.xml
+C:\SpartaneTemplateTest\MVC\MVC\Spartane.Web\bin\System.Web.Razor.xml
+C:\SpartaneTemplateTest\MVC\MVC\Spartane.Web\bin\System.Web.WebPages.xml
+C:\SpartaneTemplateTest\MVC\MVC\Spartane.Web\bin\System.Web.WebPages.Deployment.xml
+C:\SpartaneTemplateTest\MVC\MVC\Spartane.Web\bin\System.Web.WebPages.Razor.xml
+C:\SpartaneTemplateTest\MVC\MVC\Spartane.Web\bin\System.Web.Optimization.xml
+C:\SpartaneTemplateTest\MVC\MVC\Spartane.Web\bin\Thinktecture.IdentityModel.Core.pdb
+C:\SpartaneTemplateTest\MVC\MVC\Spartane.Web\bin\Antlr3.Runtime.pdb
+C:\SpartaneTemplateTest\MVC\MVC\Spartane.Web\bin\log4net.xml

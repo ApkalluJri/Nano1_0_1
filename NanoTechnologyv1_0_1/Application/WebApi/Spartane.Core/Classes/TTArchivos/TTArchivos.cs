@@ -1,0 +1,31 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+
+namespace Spartane.Core.Classes.TTArchivos
+{
+   /// <summary>
+    /// TTUsuarios table
+    /// </summary>
+    public class TTArchivos: BaseEntity
+    {
+        public int Folio { get; set; }
+        public string Nombre { get; set; }
+        public byte[] Archivo { get; set; }
+        public string ArchivoURL { get; set; }
+    }
+
+    public class GetTTArchivos : BaseEntity
+    {
+        public int Folio { get; set; }
+        public string Nombre { get; set; }
+        public string ArchivoURL { get; set; }
+        public byte[] Archivo { get; set; }
+    }
+}
+

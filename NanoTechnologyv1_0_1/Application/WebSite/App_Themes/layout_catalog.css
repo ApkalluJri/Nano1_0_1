@@ -1,0 +1,113 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+/*---------------------BOTONES---------------------*/
+
+/*#btn_divider_1, #btn_divider_2, #btn_divider_3, #btn_divider_3, #btn_divider_4, #btn_divider_5
+{
+	background-color:#FFF;
+}
+
+
+
+#btn_grabar, #btn_grabar_nuevo, #btn_grabar_copiar, #btn_limpiar, #btn_cancelar 
+{
+	background-color:#111229;
+}
+
+
+#btn_grabar:hover, #btn_grabar_nuevo:hover, #btn_grabar_copiar:hover, #btn_limpiar:hover, #btn_cancelar:hover
+{
+	background-color:#991B1F;
+}
+
+#btn_ayuda
+{
+	background-color:#111229;
+}
+
+#btn_ayuda:hover
+{
+	background-color:#111229;
+	cursor:pointer;
+}
+
+
+
+
+#btn_grabar
+{
+	background-image:url(../Images/Design/btns/btn_catalog/btn_01.png);
+	background-repeat:no-repeat;
+}
+
+#btn_grabar:hover
+{
+	background-image:url(../Images/Design/btns/btn_catalog/btn_01.png);
+	background-repeat:no-repeat;
+}
+
+#btn_grabar_nuevo
+{
+	background-image:url(../Images/Design/btns/btn_catalog/btn_02.png);
+	background-repeat:no-repeat;
+}
+
+#btn_grabar_nuevo:hover 
+{	
+	background-image:url(../Images/Design/btns/btn_catalog/btn_02.png);
+	background-repeat:no-repeat;
+}
+
+#btn_grabar_copiar
+{
+	background-image:url(../Images/Design/btns/btn_catalog/btn_03.png);
+	background-repeat:no-repeat;
+}
+
+#btn_grabar_copiar:hover
+{
+	background-image:url(../Images/Design/btns/btn_catalog/btn_03.png);
+	background-repeat:no-repeat;
+}
+
+#btn_limpiar
+{
+	background-image:url(../Images/Design/btns/btn_catalog/btn_04.png);
+	background-repeat:no-repeat;
+}
+
+#btn_limpiar:hover
+{
+	background-image:url(../Images/Design/btns/btn_catalog/btn_04.png);
+	background-repeat:no-repeat;
+}
+
+#btn_cancelar
+{
+	background-image:url(../Images/Design/btns/btn_catalog/btn_05.png);
+	background-repeat:no-repeat;
+}
+
+#btn_cancelar:hover
+{
+	background-image:url(../Images/Design/btns/btn_catalog/btn_05.png);
+	background-repeat:no-repeat;
+}
+
+#btn_ayuda
+{
+	background-image:url(../Images/Design/btns/btn_catalog/btn_06.png);
+	background-repeat:no-repeat;
+}
+
+#btn_ayuda:hover
+{
+	background-image:url(../Images/Design/btns/btn_catalog/btn_06.png);
+	background-repeat:no-repeat;
+}
+*/
+
+
+

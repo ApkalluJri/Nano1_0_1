@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7E1DD863-3658-407F-A096-DB0276B52201}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Spartane.Services</RootNamespace>
+    <AssemblyName>Spartane.Services</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Linq.Dynamic">
+      <HintPath>..\packages\System.Linq.Dynamic.1.0.4\lib\net40\System.Linq.Dynamic.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App\AppService.cs" />
+    <Compile Include="App\IAppService.cs" />
+    <Compile Include="CustomAuthentication\CustomAuthenticationService.cs" />
+    <Compile Include="CustomAuthentication\ICustomAuthenticationService.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+    <Compile Include="obj\Release\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="obj\Release\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="obj\Release\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TTArchivos\ITTArchivosService.cs" />
+    <Compile Include="TTArchivos\TTArchivosService.cs" />
+    <Compile Include="TTUsuarios\ITTUsuariosService.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TTUsuarios\TTUsuariosService.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Registro_de_Usuario\IRegistro_de_UsuarioService.cs" />
+    <Compile Include="Registro_de_Usuario\Registro_de_UsuarioService.cs" />
+    <Compile Include="Registro_de_Contenido\IRegistro_de_ContenidoService.cs" />
+    <Compile Include="Registro_de_Contenido\Registro_de_ContenidoService.cs" />
+    <Compile Include="Categoria\ICategoriaService.cs" />
+    <Compile Include="Categoria\CategoriaService.cs" />
+    <Compile Include="Observatorio\IObservatorioService.cs" />
+    <Compile Include="Observatorio\ObservatorioService.cs" />
+    <Compile Include="Tipo_de_Observatorio\ITipo_de_ObservatorioService.cs" />
+    <Compile Include="Tipo_de_Observatorio\Tipo_de_ObservatorioService.cs" />
+    <Compile Include="Detalle_de_Observatorio_Privado\IDetalle_de_Observatorio_PrivadoService.cs" />
+    <Compile Include="Detalle_de_Observatorio_Privado\Detalle_de_Observatorio_PrivadoService.cs" />
+    <Compile Include="Estilo_de_Articulo\IEstilo_de_ArticuloService.cs" />
+    <Compile Include="Estilo_de_Articulo\Estilo_de_ArticuloService.cs" />
+    <Compile Include="Etiquetas\IEtiquetasService.cs" />
+    <Compile Include="Etiquetas\EtiquetasService.cs" />
+    <Compile Include="Detalle_de_Etiquetas\IDetalle_de_EtiquetasService.cs" />
+    <Compile Include="Detalle_de_Etiquetas\Detalle_de_EtiquetasService.cs" />
+    <Compile Include="Solicitudes_Via_App\ISolicitudes_Via_AppService.cs" />
+    <Compile Include="Solicitudes_Via_App\Solicitudes_Via_AppService.cs" />
+    <Compile Include="Opciones_de_Solicitud_via_App\IOpciones_de_Solicitud_via_AppService.cs" />
+    <Compile Include="Opciones_de_Solicitud_via_App\Opciones_de_Solicitud_via_AppService.cs" />
+    <Compile Include="Color\IColorService.cs" />
+    <Compile Include="Color\ColorService.cs" />
+    <Compile Include="Fuentes\IFuentesService.cs" />
+    <Compile Include="Fuentes\FuentesService.cs" />
+    <Compile Include="Detalle_de_Etiquetas_Contenido\IDetalle_de_Etiquetas_ContenidoService.cs" />
+    <Compile Include="Detalle_de_Etiquetas_Contenido\Detalle_de_Etiquetas_ContenidoService.cs" />
+    <Compile Include="Estatus_de_Contenido\IEstatus_de_ContenidoService.cs" />
+    <Compile Include="Estatus_de_Contenido\Estatus_de_ContenidoService.cs" />
+    <Compile Include="SubCategoria\ISubCategoriaService.cs" />
+    <Compile Include="SubCategoria\SubCategoriaService.cs" />
+    <Compile Include="Seccion\ISeccionService.cs" />
+    <Compile Include="Seccion\SeccionService.cs" />
+    <Compile Include="Estatus_Codigo\IEstatus_CodigoService.cs" />
+    <Compile Include="Estatus_Codigo\Estatus_CodigoService.cs" />
+    <Compile Include="Codigos_por_Cliente\ICodigos_por_ClienteService.cs" />
+    <Compile Include="Codigos_por_Cliente\Codigos_por_ClienteService.cs" />
+    <Compile Include="Detalle_de_Codigo_Por_Cliente\IDetalle_de_Codigo_Por_ClienteService.cs" />
+    <Compile Include="Detalle_de_Codigo_Por_Cliente\Detalle_de_Codigo_Por_ClienteService.cs" />
+    <Compile Include="Autorizacion\IAutorizacionService.cs" />
+    <Compile Include="Autorizacion\AutorizacionService.cs" />
+    <Compile Include="Estatus_de_Solicitud_Via_App\IEstatus_de_Solicitud_Via_AppService.cs" />
+    <Compile Include="Estatus_de_Solicitud_Via_App\Estatus_de_Solicitud_Via_AppService.cs" />
+    <Compile Include="Usuarios_Registrados_en_Observatorios\IUsuarios_Registrados_en_ObservatoriosService.cs" />
+    <Compile Include="Usuarios_Registrados_en_Observatorios\Usuarios_Registrados_en_ObservatoriosService.cs" />
+    <Compile Include="Registro_de_Roles\IRegistro_de_RolesService.cs" />
+    <Compile Include="Registro_de_Roles\Registro_de_RolesService.cs" />
+    <Compile Include="Rol_de_Usuario\IRol_de_UsuarioService.cs" />
+    <Compile Include="Rol_de_Usuario\Rol_de_UsuarioService.cs" />
+    <Compile Include="Detalle_de_Asistentes_de_Observatorio\IDetalle_de_Asistentes_de_ObservatorioService.cs" />
+    <Compile Include="Detalle_de_Asistentes_de_Observatorio\Detalle_de_Asistentes_de_ObservatorioService.cs" />
+    <Compile Include="Detalle_de_Notificacion_por_Observatorio\IDetalle_de_Notificacion_por_ObservatorioService.cs" />
+    <Compile Include="Detalle_de_Notificacion_por_Observatorio\Detalle_de_Notificacion_por_ObservatorioService.cs" />
+    <Compile Include="Detalle_de_Notificacion_por_Usuario\IDetalle_de_Notificacion_por_UsuarioService.cs" />
+    <Compile Include="Detalle_de_Notificacion_por_Usuario\Detalle_de_Notificacion_por_UsuarioService.cs" />
+    <Compile Include="Tipo_de_Dispositivo\ITipo_de_DispositivoService.cs" />
+    <Compile Include="Tipo_de_Dispositivo\Tipo_de_DispositivoService.cs" />
+    <Compile Include="ttusuarios_token\Ittusuarios_tokenService.cs" />
+    <Compile Include="ttusuarios_token\ttusuarios_tokenService.cs" />
+    <Compile Include="Visitas\IVisitasService.cs" />
+    <Compile Include="Visitas\VisitasService.cs" />
+    <!--@@INCLUDE@@-->
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Spartane.Core\Spartane.Core.csproj">
+      <Project>{f56309fb-9e43-42e5-a65d-4aaa70f95c9b}</Project>
+      <Name>Spartane.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Spartane.Data\Spartane.Data.csproj">
+      <Project>{63f55cc4-7b31-4195-91ee-3a5c31b9c0fc}</Project>
+      <Name>Spartane.Data</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="obj\Release\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="obj\Release\Spartane.Services.csprojResolveAssemblyReference.cache" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="obj\Release\Spartane.Services.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Release\Spartane.Services.dll" />
+    <Content Include="obj\Release\Spartane.Services.pdb" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="obj\Release\TempPE\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+ Other similar extension points exist, see Microsoft.Common.targets.
+ <Target Name="BeforeBuild">
+ </Target>
+ <Target Name="AfterBuild">
+ </Target>
+ -->
+</Project>

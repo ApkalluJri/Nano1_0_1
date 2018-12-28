@@ -1,0 +1,645 @@
+C:\Spartane\SPARTANE\Spartane.Services\bin\Debug\Spartane.Services.dll.config
+C:\Spartane\SPARTANE\Spartane.Services\bin\Debug\Spartane.Services.dll
+C:\Spartane\SPARTANE\Spartane.Services\bin\Debug\Spartane.Services.pdb
+C:\Spartane\SPARTANE\Spartane.Services\bin\Debug\Spartane.Core.dll
+C:\Spartane\SPARTANE\Spartane.Services\bin\Debug\Spartane.Data.dll
+C:\Spartane\SPARTANE\Spartane.Services\bin\Debug\Autofac.dll
+C:\Spartane\SPARTANE\Spartane.Services\bin\Debug\log4net.dll
+C:\Spartane\SPARTANE\Spartane.Services\bin\Debug\SqlLinq.dll
+C:\Spartane\SPARTANE\Spartane.Services\bin\Debug\Autofac.Integration.Mvc.dll
+C:\Spartane\SPARTANE\Spartane.Services\bin\Debug\EntityFramework.dll
+C:\Spartane\SPARTANE\Spartane.Services\bin\Debug\GoldParser.dll
+C:\Spartane\SPARTANE\Spartane.Services\bin\Debug\Kackman.RuntimeTypeLoader.dll
+C:\Spartane\SPARTANE\Spartane.Services\bin\Debug\Spartane.Core.pdb
+C:\Spartane\SPARTANE\Spartane.Services\bin\Debug\Spartane.Data.pdb
+C:\Spartane\SPARTANE\Spartane.Services\bin\Debug\Autofac.xml
+C:\Spartane\SPARTANE\Spartane.Services\bin\Debug\log4net.xml
+C:\Spartane\SPARTANE\Spartane.Services\bin\Debug\Autofac.Integration.Mvc.xml
+C:\Spartane\SPARTANE\Spartane.Services\bin\Debug\EntityFramework.xml
+C:\Spartane\SPARTANE\Spartane.Services\obj\Debug\Spartane.Services.csprojResolveAssemblyReference.cache
+C:\Spartane\SPARTANE\Spartane.Services\obj\Debug\Spartane.Services.dll
+C:\Spartane\SPARTANE\Spartane.Services\obj\Debug\Spartane.Services.pdb
+C:\SPARTANEMVC2\Spartane.Services\bin\Debug\Spartane.Services.dll.config
+C:\SPARTANEMVC2\Spartane.Services\bin\Debug\Spartane.Services.dll
+C:\SPARTANEMVC2\Spartane.Services\bin\Debug\Spartane.Services.pdb
+C:\SPARTANEMVC2\Spartane.Services\bin\Debug\Spartane.Core.dll
+C:\SPARTANEMVC2\Spartane.Services\bin\Debug\Spartane.Data.dll
+C:\SPARTANEMVC2\Spartane.Services\bin\Debug\Autofac.dll
+C:\SPARTANEMVC2\Spartane.Services\bin\Debug\log4net.dll
+C:\SPARTANEMVC2\Spartane.Services\bin\Debug\SqlLinq.dll
+C:\SPARTANEMVC2\Spartane.Services\bin\Debug\Autofac.Integration.Mvc.dll
+C:\SPARTANEMVC2\Spartane.Services\bin\Debug\System.Web.Mvc.dll
+C:\SPARTANEMVC2\Spartane.Services\bin\Debug\EntityFramework.dll
+C:\SPARTANEMVC2\Spartane.Services\bin\Debug\GoldParser.dll
+C:\SPARTANEMVC2\Spartane.Services\bin\Debug\Kackman.RuntimeTypeLoader.dll
+C:\SPARTANEMVC2\Spartane.Services\bin\Debug\System.Web.Razor.dll
+C:\SPARTANEMVC2\Spartane.Services\bin\Debug\System.Web.WebPages.Razor.dll
+C:\SPARTANEMVC2\Spartane.Services\bin\Debug\System.Web.WebPages.dll
+C:\SPARTANEMVC2\Spartane.Services\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\SPARTANEMVC2\Spartane.Services\bin\Debug\Spartane.Core.pdb
+C:\SPARTANEMVC2\Spartane.Services\bin\Debug\Spartane.Data.pdb
+C:\SPARTANEMVC2\Spartane.Services\bin\Debug\Autofac.xml
+C:\SPARTANEMVC2\Spartane.Services\bin\Debug\log4net.xml
+C:\SPARTANEMVC2\Spartane.Services\bin\Debug\Autofac.Integration.Mvc.xml
+C:\SPARTANEMVC2\Spartane.Services\bin\Debug\System.Web.Mvc.xml
+C:\SPARTANEMVC2\Spartane.Services\bin\Debug\EntityFramework.xml
+C:\SPARTANEMVC2\Spartane.Services\bin\Debug\System.Web.Razor.xml
+C:\SPARTANEMVC2\Spartane.Services\bin\Debug\System.Web.WebPages.Razor.xml
+C:\SPARTANEMVC2\Spartane.Services\bin\Debug\System.Web.WebPages.xml
+C:\SPARTANEMVC2\Spartane.Services\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\SPARTANEMVC2\Spartane.Services\obj\Debug\Spartane.Services.csprojResolveAssemblyReference.cache
+C:\SPARTANEMVC2\Spartane.Services\obj\Debug\Spartane.Services.dll
+C:\SPARTANEMVC2\Spartane.Services\obj\Debug\Spartane.Services.pdb
+C:\SPARTANEMVC2Catalogos\Spartane.Services\bin\Debug\Spartane.Services.dll.config
+C:\SPARTANEMVC2Catalogos\Spartane.Services\bin\Debug\Spartane.Services.dll
+C:\SPARTANEMVC2Catalogos\Spartane.Services\bin\Debug\Spartane.Services.pdb
+C:\SPARTANEMVC2Catalogos\Spartane.Services\bin\Debug\Spartane.Core.dll
+C:\SPARTANEMVC2Catalogos\Spartane.Services\bin\Debug\Spartane.Data.dll
+C:\SPARTANEMVC2Catalogos\Spartane.Services\bin\Debug\Autofac.dll
+C:\SPARTANEMVC2Catalogos\Spartane.Services\bin\Debug\log4net.dll
+C:\SPARTANEMVC2Catalogos\Spartane.Services\bin\Debug\SqlLinq.dll
+C:\SPARTANEMVC2Catalogos\Spartane.Services\bin\Debug\Autofac.Integration.Mvc.dll
+C:\SPARTANEMVC2Catalogos\Spartane.Services\bin\Debug\System.Web.Mvc.dll
+C:\SPARTANEMVC2Catalogos\Spartane.Services\bin\Debug\EntityFramework.dll
+C:\SPARTANEMVC2Catalogos\Spartane.Services\bin\Debug\GoldParser.dll
+C:\SPARTANEMVC2Catalogos\Spartane.Services\bin\Debug\Kackman.RuntimeTypeLoader.dll
+C:\SPARTANEMVC2Catalogos\Spartane.Services\bin\Debug\System.Web.Razor.dll
+C:\SPARTANEMVC2Catalogos\Spartane.Services\bin\Debug\System.Web.WebPages.Razor.dll
+C:\SPARTANEMVC2Catalogos\Spartane.Services\bin\Debug\System.Web.WebPages.dll
+C:\SPARTANEMVC2Catalogos\Spartane.Services\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\SPARTANEMVC2Catalogos\Spartane.Services\bin\Debug\Spartane.Core.pdb
+C:\SPARTANEMVC2Catalogos\Spartane.Services\bin\Debug\Spartane.Data.pdb
+C:\SPARTANEMVC2Catalogos\Spartane.Services\bin\Debug\Autofac.xml
+C:\SPARTANEMVC2Catalogos\Spartane.Services\bin\Debug\log4net.xml
+C:\SPARTANEMVC2Catalogos\Spartane.Services\bin\Debug\Autofac.Integration.Mvc.xml
+C:\SPARTANEMVC2Catalogos\Spartane.Services\bin\Debug\System.Web.Mvc.xml
+C:\SPARTANEMVC2Catalogos\Spartane.Services\bin\Debug\EntityFramework.xml
+C:\SPARTANEMVC2Catalogos\Spartane.Services\bin\Debug\System.Web.Razor.xml
+C:\SPARTANEMVC2Catalogos\Spartane.Services\bin\Debug\System.Web.WebPages.Razor.xml
+C:\SPARTANEMVC2Catalogos\Spartane.Services\bin\Debug\System.Web.WebPages.xml
+C:\SPARTANEMVC2Catalogos\Spartane.Services\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\SPARTANEMVC2Catalogos\Spartane.Services\obj\Debug\Spartane.Services.csprojResolveAssemblyReference.cache
+C:\SPARTANEMVC2Catalogos\Spartane.Services\obj\Debug\Spartane.Services.dll
+C:\SPARTANEMVC2Catalogos\Spartane.Services\obj\Debug\Spartane.Services.pdb
+C:\Proyectos\SPARTANEMVC\Spartane.Services\bin\Debug\Spartane.Services.dll.config
+C:\Proyectos\SPARTANEMVC\Spartane.Services\bin\Debug\Spartane.Services.dll
+C:\Proyectos\SPARTANEMVC\Spartane.Services\bin\Debug\Spartane.Services.pdb
+C:\Proyectos\SPARTANEMVC\Spartane.Services\bin\Debug\Spartane.Core.dll
+C:\Proyectos\SPARTANEMVC\Spartane.Services\bin\Debug\Spartane.Data.dll
+C:\Proyectos\SPARTANEMVC\Spartane.Services\bin\Debug\Autofac.dll
+C:\Proyectos\SPARTANEMVC\Spartane.Services\bin\Debug\log4net.dll
+C:\Proyectos\SPARTANEMVC\Spartane.Services\bin\Debug\SqlLinq.dll
+C:\Proyectos\SPARTANEMVC\Spartane.Services\bin\Debug\Autofac.Integration.Mvc.dll
+C:\Proyectos\SPARTANEMVC\Spartane.Services\bin\Debug\EntityFramework.dll
+C:\Proyectos\SPARTANEMVC\Spartane.Services\bin\Debug\GoldParser.dll
+C:\Proyectos\SPARTANEMVC\Spartane.Services\bin\Debug\Kackman.RuntimeTypeLoader.dll
+C:\Proyectos\SPARTANEMVC\Spartane.Services\bin\Debug\System.Web.Razor.dll
+C:\Proyectos\SPARTANEMVC\Spartane.Services\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Proyectos\SPARTANEMVC\Spartane.Services\bin\Debug\System.Web.WebPages.dll
+C:\Proyectos\SPARTANEMVC\Spartane.Services\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Proyectos\SPARTANEMVC\Spartane.Services\bin\Debug\Spartane.Core.pdb
+C:\Proyectos\SPARTANEMVC\Spartane.Services\bin\Debug\Spartane.Data.pdb
+C:\Proyectos\SPARTANEMVC\Spartane.Services\bin\Debug\Autofac.xml
+C:\Proyectos\SPARTANEMVC\Spartane.Services\bin\Debug\log4net.xml
+C:\Proyectos\SPARTANEMVC\Spartane.Services\bin\Debug\Autofac.Integration.Mvc.xml
+C:\Proyectos\SPARTANEMVC\Spartane.Services\bin\Debug\EntityFramework.xml
+C:\Proyectos\SPARTANEMVC\Spartane.Services\bin\Debug\System.Web.Razor.xml
+C:\Proyectos\SPARTANEMVC\Spartane.Services\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Proyectos\SPARTANEMVC\Spartane.Services\bin\Debug\System.Web.WebPages.xml
+C:\Proyectos\SPARTANEMVC\Spartane.Services\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Proyectos\SPARTANEMVC\Spartane.Services\obj\Debug\Spartane.Services.csprojResolveAssemblyReference.cache
+C:\Proyectos\SPARTANEMVC\Spartane.Services\obj\Debug\Spartane.Services.dll
+C:\Proyectos\SPARTANEMVC\Spartane.Services\obj\Debug\Spartane.Services.pdb
+C:\Proyectos\SPARTANEMVC\Spartane.Services\bin\Debug\System.Linq.Dynamic.dll
+D:\spartanemvc\Spartane.Services\bin\Debug\Spartane.Services.dll.config
+D:\spartanemvc\Spartane.Services\bin\Debug\Spartane.Services.dll
+D:\spartanemvc\Spartane.Services\bin\Debug\Spartane.Services.pdb
+D:\spartanemvc\Spartane.Services\bin\Debug\Spartane.Core.dll
+D:\spartanemvc\Spartane.Services\bin\Debug\Spartane.Data.dll
+D:\spartanemvc\Spartane.Services\bin\Debug\System.Linq.Dynamic.dll
+D:\spartanemvc\Spartane.Services\bin\Debug\Autofac.dll
+D:\spartanemvc\Spartane.Services\bin\Debug\log4net.dll
+D:\spartanemvc\Spartane.Services\bin\Debug\SqlLinq.dll
+D:\spartanemvc\Spartane.Services\bin\Debug\Autofac.Integration.Mvc.dll
+D:\spartanemvc\Spartane.Services\bin\Debug\System.Web.Mvc.dll
+D:\spartanemvc\Spartane.Services\bin\Debug\EntityFramework.dll
+D:\spartanemvc\Spartane.Services\bin\Debug\GoldParser.dll
+D:\spartanemvc\Spartane.Services\bin\Debug\Kackman.RuntimeTypeLoader.dll
+D:\spartanemvc\Spartane.Services\bin\Debug\System.Web.Razor.dll
+D:\spartanemvc\Spartane.Services\bin\Debug\System.Web.WebPages.Razor.dll
+D:\spartanemvc\Spartane.Services\bin\Debug\System.Web.WebPages.dll
+D:\spartanemvc\Spartane.Services\bin\Debug\System.Web.WebPages.Deployment.dll
+D:\spartanemvc\Spartane.Services\bin\Debug\Spartane.Core.pdb
+D:\spartanemvc\Spartane.Services\bin\Debug\Spartane.Data.pdb
+D:\spartanemvc\Spartane.Services\bin\Debug\Autofac.xml
+D:\spartanemvc\Spartane.Services\bin\Debug\log4net.xml
+D:\spartanemvc\Spartane.Services\bin\Debug\Autofac.Integration.Mvc.xml
+D:\spartanemvc\Spartane.Services\bin\Debug\System.Web.Mvc.xml
+D:\spartanemvc\Spartane.Services\bin\Debug\EntityFramework.xml
+D:\spartanemvc\Spartane.Services\bin\Debug\System.Web.Razor.xml
+D:\spartanemvc\Spartane.Services\bin\Debug\System.Web.WebPages.Razor.xml
+D:\spartanemvc\Spartane.Services\bin\Debug\System.Web.WebPages.xml
+D:\spartanemvc\Spartane.Services\bin\Debug\System.Web.WebPages.Deployment.xml
+D:\spartanemvc\Spartane.Services\obj\Debug\Spartane.Services.csprojResolveAssemblyReference.cache
+D:\spartanemvc\Spartane.Services\obj\Debug\Spartane.Services.dll
+D:\spartanemvc\Spartane.Services\obj\Debug\Spartane.Services.pdb
+G:\Ricardo\spartanemvc\Spartane.Services\bin\Debug\Spartane.Services.dll.config
+G:\Ricardo\spartanemvc\Spartane.Services\bin\Debug\Spartane.Services.dll
+G:\Ricardo\spartanemvc\Spartane.Services\bin\Debug\Spartane.Services.pdb
+G:\Ricardo\spartanemvc\Spartane.Services\bin\Debug\Spartane.Core.dll
+G:\Ricardo\spartanemvc\Spartane.Services\bin\Debug\Spartane.Data.dll
+G:\Ricardo\spartanemvc\Spartane.Services\bin\Debug\System.Linq.Dynamic.dll
+G:\Ricardo\spartanemvc\Spartane.Services\bin\Debug\Autofac.dll
+G:\Ricardo\spartanemvc\Spartane.Services\bin\Debug\log4net.dll
+G:\Ricardo\spartanemvc\Spartane.Services\bin\Debug\SqlLinq.dll
+G:\Ricardo\spartanemvc\Spartane.Services\bin\Debug\Autofac.Integration.Mvc.dll
+G:\Ricardo\spartanemvc\Spartane.Services\bin\Debug\System.Web.Mvc.dll
+G:\Ricardo\spartanemvc\Spartane.Services\bin\Debug\EntityFramework.dll
+G:\Ricardo\spartanemvc\Spartane.Services\bin\Debug\GoldParser.dll
+G:\Ricardo\spartanemvc\Spartane.Services\bin\Debug\Kackman.RuntimeTypeLoader.dll
+G:\Ricardo\spartanemvc\Spartane.Services\bin\Debug\System.Web.Razor.dll
+G:\Ricardo\spartanemvc\Spartane.Services\bin\Debug\System.Web.WebPages.Razor.dll
+G:\Ricardo\spartanemvc\Spartane.Services\bin\Debug\System.Web.WebPages.dll
+G:\Ricardo\spartanemvc\Spartane.Services\bin\Debug\System.Web.WebPages.Deployment.dll
+G:\Ricardo\spartanemvc\Spartane.Services\bin\Debug\Spartane.Core.pdb
+G:\Ricardo\spartanemvc\Spartane.Services\bin\Debug\Spartane.Data.pdb
+G:\Ricardo\spartanemvc\Spartane.Services\bin\Debug\Autofac.xml
+G:\Ricardo\spartanemvc\Spartane.Services\bin\Debug\log4net.xml
+G:\Ricardo\spartanemvc\Spartane.Services\bin\Debug\Autofac.Integration.Mvc.xml
+G:\Ricardo\spartanemvc\Spartane.Services\bin\Debug\System.Web.Mvc.xml
+G:\Ricardo\spartanemvc\Spartane.Services\bin\Debug\EntityFramework.xml
+G:\Ricardo\spartanemvc\Spartane.Services\bin\Debug\System.Web.Razor.xml
+G:\Ricardo\spartanemvc\Spartane.Services\bin\Debug\System.Web.WebPages.Razor.xml
+G:\Ricardo\spartanemvc\Spartane.Services\bin\Debug\System.Web.WebPages.xml
+G:\Ricardo\spartanemvc\Spartane.Services\bin\Debug\System.Web.WebPages.Deployment.xml
+G:\Ricardo\spartanemvc\Spartane.Services\obj\Debug\Spartane.Services.csprojResolveAssemblyReference.cache
+G:\Ricardo\spartanemvc\Spartane.Services\obj\Debug\Spartane.Services.dll
+G:\Ricardo\spartanemvc\Spartane.Services\obj\Debug\Spartane.Services.pdb
+G:\Ricardo\Combined\Spartane.Services\bin\Debug\Spartane.Services.dll.config
+G:\Ricardo\Combined\Spartane.Services\bin\Debug\Spartane.Services.dll
+G:\Ricardo\Combined\Spartane.Services\bin\Debug\Spartane.Services.pdb
+G:\Ricardo\Combined\Spartane.Services\bin\Debug\Spartane.Core.dll
+G:\Ricardo\Combined\Spartane.Services\bin\Debug\Spartane.Data.dll
+G:\Ricardo\Combined\Spartane.Services\bin\Debug\System.Linq.Dynamic.dll
+G:\Ricardo\Combined\Spartane.Services\bin\Debug\Autofac.dll
+G:\Ricardo\Combined\Spartane.Services\bin\Debug\log4net.dll
+G:\Ricardo\Combined\Spartane.Services\bin\Debug\SqlLinq.dll
+G:\Ricardo\Combined\Spartane.Services\bin\Debug\Autofac.Integration.Mvc.dll
+G:\Ricardo\Combined\Spartane.Services\bin\Debug\System.Web.Mvc.dll
+G:\Ricardo\Combined\Spartane.Services\bin\Debug\EntityFramework.dll
+G:\Ricardo\Combined\Spartane.Services\bin\Debug\GoldParser.dll
+G:\Ricardo\Combined\Spartane.Services\bin\Debug\Kackman.RuntimeTypeLoader.dll
+G:\Ricardo\Combined\Spartane.Services\bin\Debug\System.Web.Razor.dll
+G:\Ricardo\Combined\Spartane.Services\bin\Debug\System.Web.WebPages.Razor.dll
+G:\Ricardo\Combined\Spartane.Services\bin\Debug\System.Web.WebPages.dll
+G:\Ricardo\Combined\Spartane.Services\bin\Debug\System.Web.WebPages.Deployment.dll
+G:\Ricardo\Combined\Spartane.Services\bin\Debug\Spartane.Core.pdb
+G:\Ricardo\Combined\Spartane.Services\bin\Debug\Spartane.Data.pdb
+G:\Ricardo\Combined\Spartane.Services\bin\Debug\Autofac.xml
+G:\Ricardo\Combined\Spartane.Services\bin\Debug\log4net.xml
+G:\Ricardo\Combined\Spartane.Services\bin\Debug\Autofac.Integration.Mvc.xml
+G:\Ricardo\Combined\Spartane.Services\bin\Debug\System.Web.Mvc.xml
+G:\Ricardo\Combined\Spartane.Services\bin\Debug\EntityFramework.xml
+G:\Ricardo\Combined\Spartane.Services\bin\Debug\System.Web.Razor.xml
+G:\Ricardo\Combined\Spartane.Services\bin\Debug\System.Web.WebPages.Razor.xml
+G:\Ricardo\Combined\Spartane.Services\bin\Debug\System.Web.WebPages.xml
+G:\Ricardo\Combined\Spartane.Services\bin\Debug\System.Web.WebPages.Deployment.xml
+G:\Ricardo\Combined\Spartane.Services\obj\Debug\Spartane.Services.csprojResolveAssemblyReference.cache
+G:\Ricardo\Combined\Spartane.Services\obj\Debug\Spartane.Services.dll
+G:\Ricardo\Combined\Spartane.Services\obj\Debug\Spartane.Services.pdb
+G:\Ricardo\CombinedNew\Spartane.Services\bin\Debug\Spartane.Services.dll.config
+G:\Ricardo\CombinedNew\Spartane.Services\bin\Debug\Spartane.Services.dll
+G:\Ricardo\CombinedNew\Spartane.Services\bin\Debug\Spartane.Services.pdb
+G:\Ricardo\CombinedNew\Spartane.Services\bin\Debug\Spartane.Core.dll
+G:\Ricardo\CombinedNew\Spartane.Services\bin\Debug\Spartane.Data.dll
+G:\Ricardo\CombinedNew\Spartane.Services\bin\Debug\Autofac.dll
+G:\Ricardo\CombinedNew\Spartane.Services\bin\Debug\log4net.dll
+G:\Ricardo\CombinedNew\Spartane.Services\bin\Debug\SqlLinq.dll
+G:\Ricardo\CombinedNew\Spartane.Services\bin\Debug\Autofac.Integration.Mvc.dll
+G:\Ricardo\CombinedNew\Spartane.Services\bin\Debug\System.Web.Mvc.dll
+G:\Ricardo\CombinedNew\Spartane.Services\bin\Debug\EntityFramework.dll
+G:\Ricardo\CombinedNew\Spartane.Services\bin\Debug\GoldParser.dll
+G:\Ricardo\CombinedNew\Spartane.Services\bin\Debug\Kackman.RuntimeTypeLoader.dll
+G:\Ricardo\CombinedNew\Spartane.Services\bin\Debug\System.Web.Razor.dll
+G:\Ricardo\CombinedNew\Spartane.Services\bin\Debug\System.Web.WebPages.Razor.dll
+G:\Ricardo\CombinedNew\Spartane.Services\bin\Debug\System.Web.WebPages.dll
+G:\Ricardo\CombinedNew\Spartane.Services\bin\Debug\System.Web.WebPages.Deployment.dll
+G:\Ricardo\CombinedNew\Spartane.Services\bin\Debug\Spartane.Core.pdb
+G:\Ricardo\CombinedNew\Spartane.Services\bin\Debug\Spartane.Data.pdb
+G:\Ricardo\CombinedNew\Spartane.Services\bin\Debug\Autofac.xml
+G:\Ricardo\CombinedNew\Spartane.Services\bin\Debug\log4net.xml
+G:\Ricardo\CombinedNew\Spartane.Services\bin\Debug\Autofac.Integration.Mvc.xml
+G:\Ricardo\CombinedNew\Spartane.Services\bin\Debug\System.Web.Mvc.xml
+G:\Ricardo\CombinedNew\Spartane.Services\bin\Debug\EntityFramework.xml
+G:\Ricardo\CombinedNew\Spartane.Services\bin\Debug\System.Web.Razor.xml
+G:\Ricardo\CombinedNew\Spartane.Services\bin\Debug\System.Web.WebPages.Razor.xml
+G:\Ricardo\CombinedNew\Spartane.Services\bin\Debug\System.Web.WebPages.xml
+G:\Ricardo\CombinedNew\Spartane.Services\bin\Debug\System.Web.WebPages.Deployment.xml
+G:\Ricardo\CombinedNew\Spartane.Services\obj\Debug\Spartane.Services.csprojResolveAssemblyReference.cache
+G:\Ricardo\CombinedNew\Spartane.Services\obj\Debug\Spartane.Services.dll
+G:\Ricardo\CombinedNew\Spartane.Services\obj\Debug\Spartane.Services.pdb
+G:\Ricardo\SourceRemoved\APiOnly\Spartane.Services\bin\Debug\Spartane.Services.dll.config
+G:\Ricardo\SourceRemoved\APiOnly\Spartane.Services\bin\Debug\Spartane.Services.dll
+G:\Ricardo\SourceRemoved\APiOnly\Spartane.Services\bin\Debug\Spartane.Services.pdb
+G:\Ricardo\SourceRemoved\APiOnly\Spartane.Services\bin\Debug\Spartane.Core.dll
+G:\Ricardo\SourceRemoved\APiOnly\Spartane.Services\bin\Debug\Spartane.Data.dll
+G:\Ricardo\SourceRemoved\APiOnly\Spartane.Services\bin\Debug\Autofac.dll
+G:\Ricardo\SourceRemoved\APiOnly\Spartane.Services\bin\Debug\log4net.dll
+G:\Ricardo\SourceRemoved\APiOnly\Spartane.Services\bin\Debug\SqlLinq.dll
+G:\Ricardo\SourceRemoved\APiOnly\Spartane.Services\bin\Debug\Autofac.Integration.Mvc.dll
+G:\Ricardo\SourceRemoved\APiOnly\Spartane.Services\bin\Debug\System.Web.Mvc.dll
+G:\Ricardo\SourceRemoved\APiOnly\Spartane.Services\bin\Debug\EntityFramework.dll
+G:\Ricardo\SourceRemoved\APiOnly\Spartane.Services\bin\Debug\GoldParser.dll
+G:\Ricardo\SourceRemoved\APiOnly\Spartane.Services\bin\Debug\Kackman.RuntimeTypeLoader.dll
+G:\Ricardo\SourceRemoved\APiOnly\Spartane.Services\bin\Debug\System.Web.Razor.dll
+G:\Ricardo\SourceRemoved\APiOnly\Spartane.Services\bin\Debug\System.Web.WebPages.Razor.dll
+G:\Ricardo\SourceRemoved\APiOnly\Spartane.Services\bin\Debug\System.Web.WebPages.dll
+G:\Ricardo\SourceRemoved\APiOnly\Spartane.Services\bin\Debug\System.Web.WebPages.Deployment.dll
+G:\Ricardo\SourceRemoved\APiOnly\Spartane.Services\bin\Debug\Spartane.Core.pdb
+G:\Ricardo\SourceRemoved\APiOnly\Spartane.Services\bin\Debug\Spartane.Data.pdb
+G:\Ricardo\SourceRemoved\APiOnly\Spartane.Services\bin\Debug\Autofac.xml
+G:\Ricardo\SourceRemoved\APiOnly\Spartane.Services\bin\Debug\log4net.xml
+G:\Ricardo\SourceRemoved\APiOnly\Spartane.Services\bin\Debug\Autofac.Integration.Mvc.xml
+G:\Ricardo\SourceRemoved\APiOnly\Spartane.Services\bin\Debug\System.Web.Mvc.xml
+G:\Ricardo\SourceRemoved\APiOnly\Spartane.Services\bin\Debug\EntityFramework.xml
+G:\Ricardo\SourceRemoved\APiOnly\Spartane.Services\bin\Debug\System.Web.Razor.xml
+G:\Ricardo\SourceRemoved\APiOnly\Spartane.Services\bin\Debug\System.Web.WebPages.Razor.xml
+G:\Ricardo\SourceRemoved\APiOnly\Spartane.Services\bin\Debug\System.Web.WebPages.xml
+G:\Ricardo\SourceRemoved\APiOnly\Spartane.Services\bin\Debug\System.Web.WebPages.Deployment.xml
+G:\Ricardo\SourceRemoved\APiOnly\Spartane.Services\obj\Debug\Spartane.Services.csprojResolveAssemblyReference.cache
+G:\Ricardo\SourceRemoved\APiOnly\Spartane.Services\obj\Debug\Spartane.Services.dll
+G:\Ricardo\SourceRemoved\APiOnly\Spartane.Services\obj\Debug\Spartane.Services.pdb
+G:\Ricardo\SourceRemoved\APiOnly\Spartane.Services\bin\Debug\System.Linq.Dynamic.dll
+C:\inetpub\proyectos\Spartane\CodigoFuente NUEVOMVC\APiOnly\Spartane.Services\bin\Debug\Spartane.Services.dll.config
+C:\inetpub\proyectos\Spartane\CodigoFuente NUEVOMVC\APiOnly\Spartane.Services\bin\Debug\Spartane.Services.dll
+C:\inetpub\proyectos\Spartane\CodigoFuente NUEVOMVC\APiOnly\Spartane.Services\bin\Debug\Spartane.Services.pdb
+C:\inetpub\proyectos\Spartane\CodigoFuente NUEVOMVC\APiOnly\Spartane.Services\bin\Debug\Spartane.Core.dll
+C:\inetpub\proyectos\Spartane\CodigoFuente NUEVOMVC\APiOnly\Spartane.Services\bin\Debug\Spartane.Data.dll
+C:\inetpub\proyectos\Spartane\CodigoFuente NUEVOMVC\APiOnly\Spartane.Services\bin\Debug\System.Linq.Dynamic.dll
+C:\inetpub\proyectos\Spartane\CodigoFuente NUEVOMVC\APiOnly\Spartane.Services\bin\Debug\Autofac.dll
+C:\inetpub\proyectos\Spartane\CodigoFuente NUEVOMVC\APiOnly\Spartane.Services\bin\Debug\log4net.dll
+C:\inetpub\proyectos\Spartane\CodigoFuente NUEVOMVC\APiOnly\Spartane.Services\bin\Debug\SqlLinq.dll
+C:\inetpub\proyectos\Spartane\CodigoFuente NUEVOMVC\APiOnly\Spartane.Services\bin\Debug\Autofac.Integration.Mvc.dll
+C:\inetpub\proyectos\Spartane\CodigoFuente NUEVOMVC\APiOnly\Spartane.Services\bin\Debug\System.Web.Mvc.dll
+C:\inetpub\proyectos\Spartane\CodigoFuente NUEVOMVC\APiOnly\Spartane.Services\bin\Debug\EntityFramework.dll
+C:\inetpub\proyectos\Spartane\CodigoFuente NUEVOMVC\APiOnly\Spartane.Services\bin\Debug\GoldParser.dll
+C:\inetpub\proyectos\Spartane\CodigoFuente NUEVOMVC\APiOnly\Spartane.Services\bin\Debug\Kackman.RuntimeTypeLoader.dll
+C:\inetpub\proyectos\Spartane\CodigoFuente NUEVOMVC\APiOnly\Spartane.Services\bin\Debug\System.Web.Razor.dll
+C:\inetpub\proyectos\Spartane\CodigoFuente NUEVOMVC\APiOnly\Spartane.Services\bin\Debug\System.Web.WebPages.Razor.dll
+C:\inetpub\proyectos\Spartane\CodigoFuente NUEVOMVC\APiOnly\Spartane.Services\bin\Debug\System.Web.WebPages.dll
+C:\inetpub\proyectos\Spartane\CodigoFuente NUEVOMVC\APiOnly\Spartane.Services\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\inetpub\proyectos\Spartane\CodigoFuente NUEVOMVC\APiOnly\Spartane.Services\bin\Debug\Spartane.Core.pdb
+C:\inetpub\proyectos\Spartane\CodigoFuente NUEVOMVC\APiOnly\Spartane.Services\bin\Debug\Spartane.Data.pdb
+C:\inetpub\proyectos\Spartane\CodigoFuente NUEVOMVC\APiOnly\Spartane.Services\bin\Debug\Autofac.xml
+C:\inetpub\proyectos\Spartane\CodigoFuente NUEVOMVC\APiOnly\Spartane.Services\bin\Debug\log4net.xml
+C:\inetpub\proyectos\Spartane\CodigoFuente NUEVOMVC\APiOnly\Spartane.Services\bin\Debug\Autofac.Integration.Mvc.xml
+C:\inetpub\proyectos\Spartane\CodigoFuente NUEVOMVC\APiOnly\Spartane.Services\bin\Debug\System.Web.Mvc.xml
+C:\inetpub\proyectos\Spartane\CodigoFuente NUEVOMVC\APiOnly\Spartane.Services\bin\Debug\EntityFramework.xml
+C:\inetpub\proyectos\Spartane\CodigoFuente NUEVOMVC\APiOnly\Spartane.Services\bin\Debug\System.Web.Razor.xml
+C:\inetpub\proyectos\Spartane\CodigoFuente NUEVOMVC\APiOnly\Spartane.Services\bin\Debug\System.Web.WebPages.Razor.xml
+C:\inetpub\proyectos\Spartane\CodigoFuente NUEVOMVC\APiOnly\Spartane.Services\bin\Debug\System.Web.WebPages.xml
+C:\inetpub\proyectos\Spartane\CodigoFuente NUEVOMVC\APiOnly\Spartane.Services\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\inetpub\proyectos\Spartane\CodigoFuente NUEVOMVC\APiOnly\Spartane.Services\obj\Debug\Spartane.Services.csprojResolveAssemblyReference.cache
+C:\inetpub\proyectos\Spartane\CodigoFuente NUEVOMVC\APiOnly\Spartane.Services\obj\Debug\Spartane.Services.dll
+C:\inetpub\proyectos\Spartane\CodigoFuente NUEVOMVC\APiOnly\Spartane.Services\obj\Debug\Spartane.Services.pdb
+C:\Proyectos\Grupo Nacional Provincial\holamedico\Code\WebApi\Spartane.Services\bin\Debug\Spartane.Services.dll.config
+C:\Proyectos\Grupo Nacional Provincial\holamedico\Code\WebApi\Spartane.Services\bin\Debug\Spartane.Services.dll
+C:\Proyectos\Grupo Nacional Provincial\holamedico\Code\WebApi\Spartane.Services\bin\Debug\Spartane.Services.pdb
+C:\Proyectos\Grupo Nacional Provincial\holamedico\Code\WebApi\Spartane.Services\bin\Debug\Spartane.Core.dll
+C:\Proyectos\Grupo Nacional Provincial\holamedico\Code\WebApi\Spartane.Services\bin\Debug\Spartane.Data.dll
+C:\Proyectos\Grupo Nacional Provincial\holamedico\Code\WebApi\Spartane.Services\bin\Debug\System.Linq.Dynamic.dll
+C:\Proyectos\Grupo Nacional Provincial\holamedico\Code\WebApi\Spartane.Services\bin\Debug\Autofac.dll
+C:\Proyectos\Grupo Nacional Provincial\holamedico\Code\WebApi\Spartane.Services\bin\Debug\log4net.dll
+C:\Proyectos\Grupo Nacional Provincial\holamedico\Code\WebApi\Spartane.Services\bin\Debug\SqlLinq.dll
+C:\Proyectos\Grupo Nacional Provincial\holamedico\Code\WebApi\Spartane.Services\bin\Debug\Autofac.Integration.Mvc.dll
+C:\Proyectos\Grupo Nacional Provincial\holamedico\Code\WebApi\Spartane.Services\bin\Debug\System.Web.Mvc.dll
+C:\Proyectos\Grupo Nacional Provincial\holamedico\Code\WebApi\Spartane.Services\bin\Debug\EntityFramework.dll
+C:\Proyectos\Grupo Nacional Provincial\holamedico\Code\WebApi\Spartane.Services\bin\Debug\GoldParser.dll
+C:\Proyectos\Grupo Nacional Provincial\holamedico\Code\WebApi\Spartane.Services\bin\Debug\Kackman.RuntimeTypeLoader.dll
+C:\Proyectos\Grupo Nacional Provincial\holamedico\Code\WebApi\Spartane.Services\bin\Debug\System.Web.Razor.dll
+C:\Proyectos\Grupo Nacional Provincial\holamedico\Code\WebApi\Spartane.Services\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Proyectos\Grupo Nacional Provincial\holamedico\Code\WebApi\Spartane.Services\bin\Debug\System.Web.WebPages.dll
+C:\Proyectos\Grupo Nacional Provincial\holamedico\Code\WebApi\Spartane.Services\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Proyectos\Grupo Nacional Provincial\holamedico\Code\WebApi\Spartane.Services\bin\Debug\Spartane.Core.pdb
+C:\Proyectos\Grupo Nacional Provincial\holamedico\Code\WebApi\Spartane.Services\bin\Debug\Spartane.Data.pdb
+C:\Proyectos\Grupo Nacional Provincial\holamedico\Code\WebApi\Spartane.Services\bin\Debug\Autofac.xml
+C:\Proyectos\Grupo Nacional Provincial\holamedico\Code\WebApi\Spartane.Services\bin\Debug\log4net.xml
+C:\Proyectos\Grupo Nacional Provincial\holamedico\Code\WebApi\Spartane.Services\bin\Debug\Autofac.Integration.Mvc.xml
+C:\Proyectos\Grupo Nacional Provincial\holamedico\Code\WebApi\Spartane.Services\bin\Debug\System.Web.Mvc.xml
+C:\Proyectos\Grupo Nacional Provincial\holamedico\Code\WebApi\Spartane.Services\bin\Debug\EntityFramework.xml
+C:\Proyectos\Grupo Nacional Provincial\holamedico\Code\WebApi\Spartane.Services\bin\Debug\System.Web.Razor.xml
+C:\Proyectos\Grupo Nacional Provincial\holamedico\Code\WebApi\Spartane.Services\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Proyectos\Grupo Nacional Provincial\holamedico\Code\WebApi\Spartane.Services\bin\Debug\System.Web.WebPages.xml
+C:\Proyectos\Grupo Nacional Provincial\holamedico\Code\WebApi\Spartane.Services\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Proyectos\Grupo Nacional Provincial\holamedico\Code\WebApi\Spartane.Services\obj\Debug\Spartane.Services.csprojResolveAssemblyReference.cache
+C:\Proyectos\Grupo Nacional Provincial\holamedico\Code\WebApi\Spartane.Services\obj\Debug\Spartane.Services.dll
+C:\Proyectos\Grupo Nacional Provincial\holamedico\Code\WebApi\Spartane.Services\obj\Debug\Spartane.Services.pdb
+C:\inetpub\proyectos\WEBAPITEMPLATE\WebApi\Spartane.Services\bin\Debug\Spartane.Services.dll.config
+C:\inetpub\proyectos\WEBAPITEMPLATE\WebApi\Spartane.Services\bin\Debug\Spartane.Services.dll
+C:\inetpub\proyectos\WEBAPITEMPLATE\WebApi\Spartane.Services\bin\Debug\Spartane.Services.pdb
+C:\inetpub\proyectos\WEBAPITEMPLATE\WebApi\Spartane.Services\bin\Debug\Spartane.Core.dll
+C:\inetpub\proyectos\WEBAPITEMPLATE\WebApi\Spartane.Services\bin\Debug\Spartane.Data.dll
+C:\inetpub\proyectos\WEBAPITEMPLATE\WebApi\Spartane.Services\bin\Debug\System.Linq.Dynamic.dll
+C:\inetpub\proyectos\WEBAPITEMPLATE\WebApi\Spartane.Services\bin\Debug\Autofac.dll
+C:\inetpub\proyectos\WEBAPITEMPLATE\WebApi\Spartane.Services\bin\Debug\log4net.dll
+C:\inetpub\proyectos\WEBAPITEMPLATE\WebApi\Spartane.Services\bin\Debug\SqlLinq.dll
+C:\inetpub\proyectos\WEBAPITEMPLATE\WebApi\Spartane.Services\bin\Debug\Autofac.Integration.Mvc.dll
+C:\inetpub\proyectos\WEBAPITEMPLATE\WebApi\Spartane.Services\bin\Debug\EntityFramework.dll
+C:\inetpub\proyectos\WEBAPITEMPLATE\WebApi\Spartane.Services\bin\Debug\GoldParser.dll
+C:\inetpub\proyectos\WEBAPITEMPLATE\WebApi\Spartane.Services\bin\Debug\Kackman.RuntimeTypeLoader.dll
+C:\inetpub\proyectos\WEBAPITEMPLATE\WebApi\Spartane.Services\bin\Debug\System.Web.Razor.dll
+C:\inetpub\proyectos\WEBAPITEMPLATE\WebApi\Spartane.Services\bin\Debug\System.Web.WebPages.Razor.dll
+C:\inetpub\proyectos\WEBAPITEMPLATE\WebApi\Spartane.Services\bin\Debug\System.Web.WebPages.dll
+C:\inetpub\proyectos\WEBAPITEMPLATE\WebApi\Spartane.Services\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\inetpub\proyectos\WEBAPITEMPLATE\WebApi\Spartane.Services\bin\Debug\Spartane.Core.pdb
+C:\inetpub\proyectos\WEBAPITEMPLATE\WebApi\Spartane.Services\bin\Debug\Spartane.Data.pdb
+C:\inetpub\proyectos\WEBAPITEMPLATE\WebApi\Spartane.Services\bin\Debug\Autofac.xml
+C:\inetpub\proyectos\WEBAPITEMPLATE\WebApi\Spartane.Services\bin\Debug\log4net.xml
+C:\inetpub\proyectos\WEBAPITEMPLATE\WebApi\Spartane.Services\bin\Debug\Autofac.Integration.Mvc.xml
+C:\inetpub\proyectos\WEBAPITEMPLATE\WebApi\Spartane.Services\bin\Debug\EntityFramework.xml
+C:\inetpub\proyectos\WEBAPITEMPLATE\WebApi\Spartane.Services\bin\Debug\System.Web.Razor.xml
+C:\inetpub\proyectos\WEBAPITEMPLATE\WebApi\Spartane.Services\bin\Debug\System.Web.WebPages.Razor.xml
+C:\inetpub\proyectos\WEBAPITEMPLATE\WebApi\Spartane.Services\bin\Debug\System.Web.WebPages.xml
+C:\inetpub\proyectos\WEBAPITEMPLATE\WebApi\Spartane.Services\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\inetpub\proyectos\WEBAPITEMPLATE\WebApi\Spartane.Services\obj\Debug\Spartane.Services.csprojResolveAssemblyReference.cache
+C:\inetpub\proyectos\WEBAPITEMPLATE\WebApi\Spartane.Services\obj\Debug\Spartane.Services.dll
+C:\inetpub\proyectos\WEBAPITEMPLATE\WebApi\Spartane.Services\obj\Debug\Spartane.Services.pdb
+C:\Proyectos\DEMOS\PruebaApi\Application\WebApi\Spartane.Services\obj\Debug\Spartane.Services.csprojResolveAssemblyReference.cache
+C:\Proyectos\DEMOS\PruebaApi\Application\WebApi\Spartane.Services\obj\Debug\Spartane.Services.dll
+C:\Proyectos\DEMOS\PruebaApi\Application\WebApi\Spartane.Services\obj\Debug\Spartane.Services.pdb
+C:\Proyectos\DEMOS\PruebaApi\Application\WebApi\Spartane.Services\bin\Debug\Spartane.Services.dll.config
+C:\Proyectos\DEMOS\PruebaApi\Application\WebApi\Spartane.Services\bin\Debug\Spartane.Services.dll
+C:\Proyectos\DEMOS\PruebaApi\Application\WebApi\Spartane.Services\bin\Debug\Spartane.Services.pdb
+C:\Proyectos\DEMOS\PruebaApi\Application\WebApi\Spartane.Services\bin\Debug\Spartane.Core.dll
+C:\Proyectos\DEMOS\PruebaApi\Application\WebApi\Spartane.Services\bin\Debug\Spartane.Data.dll
+C:\Proyectos\DEMOS\PruebaApi\Application\WebApi\Spartane.Services\bin\Debug\System.Linq.Dynamic.dll
+C:\Proyectos\DEMOS\PruebaApi\Application\WebApi\Spartane.Services\bin\Debug\Autofac.dll
+C:\Proyectos\DEMOS\PruebaApi\Application\WebApi\Spartane.Services\bin\Debug\log4net.dll
+C:\Proyectos\DEMOS\PruebaApi\Application\WebApi\Spartane.Services\bin\Debug\SqlLinq.dll
+C:\Proyectos\DEMOS\PruebaApi\Application\WebApi\Spartane.Services\bin\Debug\Autofac.Integration.Mvc.dll
+C:\Proyectos\DEMOS\PruebaApi\Application\WebApi\Spartane.Services\bin\Debug\EntityFramework.dll
+C:\Proyectos\DEMOS\PruebaApi\Application\WebApi\Spartane.Services\bin\Debug\GoldParser.dll
+C:\Proyectos\DEMOS\PruebaApi\Application\WebApi\Spartane.Services\bin\Debug\Kackman.RuntimeTypeLoader.dll
+C:\Proyectos\DEMOS\PruebaApi\Application\WebApi\Spartane.Services\bin\Debug\System.Web.Razor.dll
+C:\Proyectos\DEMOS\PruebaApi\Application\WebApi\Spartane.Services\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Proyectos\DEMOS\PruebaApi\Application\WebApi\Spartane.Services\bin\Debug\System.Web.WebPages.dll
+C:\Proyectos\DEMOS\PruebaApi\Application\WebApi\Spartane.Services\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Proyectos\DEMOS\PruebaApi\Application\WebApi\Spartane.Services\bin\Debug\Spartane.Core.pdb
+C:\Proyectos\DEMOS\PruebaApi\Application\WebApi\Spartane.Services\bin\Debug\Spartane.Data.pdb
+C:\Proyectos\DEMOS\PruebaApi\Application\WebApi\Spartane.Services\bin\Debug\Autofac.xml
+C:\Proyectos\DEMOS\PruebaApi\Application\WebApi\Spartane.Services\bin\Debug\log4net.xml
+C:\Proyectos\DEMOS\PruebaApi\Application\WebApi\Spartane.Services\bin\Debug\Autofac.Integration.Mvc.xml
+C:\Proyectos\DEMOS\PruebaApi\Application\WebApi\Spartane.Services\bin\Debug\EntityFramework.xml
+C:\Proyectos\DEMOS\PruebaApi\Application\WebApi\Spartane.Services\bin\Debug\System.Web.Razor.xml
+C:\Proyectos\DEMOS\PruebaApi\Application\WebApi\Spartane.Services\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Proyectos\DEMOS\PruebaApi\Application\WebApi\Spartane.Services\bin\Debug\System.Web.WebPages.xml
+C:\Proyectos\DEMOS\PruebaApi\Application\WebApi\Spartane.Services\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\inetpub\proyectos\Spartane\TEMPLATES\WebApi\Spartane.Services\bin\Debug\Spartane.Services.dll.config
+C:\inetpub\proyectos\Spartane\TEMPLATES\WebApi\Spartane.Services\bin\Debug\Spartane.Services.dll
+C:\inetpub\proyectos\Spartane\TEMPLATES\WebApi\Spartane.Services\bin\Debug\Spartane.Services.pdb
+C:\inetpub\proyectos\Spartane\TEMPLATES\WebApi\Spartane.Services\bin\Debug\Spartane.Core.dll
+C:\inetpub\proyectos\Spartane\TEMPLATES\WebApi\Spartane.Services\bin\Debug\Spartane.Data.dll
+C:\inetpub\proyectos\Spartane\TEMPLATES\WebApi\Spartane.Services\bin\Debug\System.Linq.Dynamic.dll
+C:\inetpub\proyectos\Spartane\TEMPLATES\WebApi\Spartane.Services\bin\Debug\Autofac.dll
+C:\inetpub\proyectos\Spartane\TEMPLATES\WebApi\Spartane.Services\bin\Debug\log4net.dll
+C:\inetpub\proyectos\Spartane\TEMPLATES\WebApi\Spartane.Services\bin\Debug\SqlLinq.dll
+C:\inetpub\proyectos\Spartane\TEMPLATES\WebApi\Spartane.Services\bin\Debug\Autofac.Integration.Mvc.dll
+C:\inetpub\proyectos\Spartane\TEMPLATES\WebApi\Spartane.Services\bin\Debug\EntityFramework.dll
+C:\inetpub\proyectos\Spartane\TEMPLATES\WebApi\Spartane.Services\bin\Debug\GoldParser.dll
+C:\inetpub\proyectos\Spartane\TEMPLATES\WebApi\Spartane.Services\bin\Debug\Kackman.RuntimeTypeLoader.dll
+C:\inetpub\proyectos\Spartane\TEMPLATES\WebApi\Spartane.Services\bin\Debug\System.Web.Razor.dll
+C:\inetpub\proyectos\Spartane\TEMPLATES\WebApi\Spartane.Services\bin\Debug\System.Web.WebPages.Razor.dll
+C:\inetpub\proyectos\Spartane\TEMPLATES\WebApi\Spartane.Services\bin\Debug\System.Web.WebPages.dll
+C:\inetpub\proyectos\Spartane\TEMPLATES\WebApi\Spartane.Services\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\inetpub\proyectos\Spartane\TEMPLATES\WebApi\Spartane.Services\bin\Debug\Spartane.Core.pdb
+C:\inetpub\proyectos\Spartane\TEMPLATES\WebApi\Spartane.Services\bin\Debug\Spartane.Data.pdb
+C:\inetpub\proyectos\Spartane\TEMPLATES\WebApi\Spartane.Services\bin\Debug\Autofac.xml
+C:\inetpub\proyectos\Spartane\TEMPLATES\WebApi\Spartane.Services\bin\Debug\log4net.xml
+C:\inetpub\proyectos\Spartane\TEMPLATES\WebApi\Spartane.Services\bin\Debug\Autofac.Integration.Mvc.xml
+C:\inetpub\proyectos\Spartane\TEMPLATES\WebApi\Spartane.Services\bin\Debug\EntityFramework.xml
+C:\inetpub\proyectos\Spartane\TEMPLATES\WebApi\Spartane.Services\bin\Debug\System.Web.Razor.xml
+C:\inetpub\proyectos\Spartane\TEMPLATES\WebApi\Spartane.Services\bin\Debug\System.Web.WebPages.Razor.xml
+C:\inetpub\proyectos\Spartane\TEMPLATES\WebApi\Spartane.Services\bin\Debug\System.Web.WebPages.xml
+C:\inetpub\proyectos\Spartane\TEMPLATES\WebApi\Spartane.Services\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\inetpub\proyectos\Spartane\TEMPLATES\WebApi\Spartane.Services\obj\Debug\Spartane.Services.csprojResolveAssemblyReference.cache
+C:\inetpub\proyectos\Spartane\TEMPLATES\WebApi\Spartane.Services\obj\Debug\Spartane.Services.dll
+C:\inetpub\proyectos\Spartane\TEMPLATES\WebApi\Spartane.Services\obj\Debug\Spartane.Services.pdb
+C:\Proyectos\Georgios Voyatzis\xpicksv1_0_2\Application\WebApi\Spartane.Services\bin\Debug\Spartane.Services.dll.config
+C:\Proyectos\Georgios Voyatzis\xpicksv1_0_2\Application\WebApi\Spartane.Services\bin\Debug\Spartane.Services.dll
+C:\Proyectos\Georgios Voyatzis\xpicksv1_0_2\Application\WebApi\Spartane.Services\bin\Debug\Spartane.Services.pdb
+C:\Proyectos\Georgios Voyatzis\xpicksv1_0_2\Application\WebApi\Spartane.Services\bin\Debug\Spartane.Core.dll
+C:\Proyectos\Georgios Voyatzis\xpicksv1_0_2\Application\WebApi\Spartane.Services\bin\Debug\Spartane.Data.dll
+C:\Proyectos\Georgios Voyatzis\xpicksv1_0_2\Application\WebApi\Spartane.Services\bin\Debug\System.Linq.Dynamic.dll
+C:\Proyectos\Georgios Voyatzis\xpicksv1_0_2\Application\WebApi\Spartane.Services\bin\Debug\Autofac.dll
+C:\Proyectos\Georgios Voyatzis\xpicksv1_0_2\Application\WebApi\Spartane.Services\bin\Debug\log4net.dll
+C:\Proyectos\Georgios Voyatzis\xpicksv1_0_2\Application\WebApi\Spartane.Services\bin\Debug\SqlLinq.dll
+C:\Proyectos\Georgios Voyatzis\xpicksv1_0_2\Application\WebApi\Spartane.Services\bin\Debug\Autofac.Integration.Mvc.dll
+C:\Proyectos\Georgios Voyatzis\xpicksv1_0_2\Application\WebApi\Spartane.Services\bin\Debug\EntityFramework.dll
+C:\Proyectos\Georgios Voyatzis\xpicksv1_0_2\Application\WebApi\Spartane.Services\bin\Debug\GoldParser.dll
+C:\Proyectos\Georgios Voyatzis\xpicksv1_0_2\Application\WebApi\Spartane.Services\bin\Debug\Kackman.RuntimeTypeLoader.dll
+C:\Proyectos\Georgios Voyatzis\xpicksv1_0_2\Application\WebApi\Spartane.Services\bin\Debug\System.Web.Razor.dll
+C:\Proyectos\Georgios Voyatzis\xpicksv1_0_2\Application\WebApi\Spartane.Services\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Proyectos\Georgios Voyatzis\xpicksv1_0_2\Application\WebApi\Spartane.Services\bin\Debug\System.Web.WebPages.dll
+C:\Proyectos\Georgios Voyatzis\xpicksv1_0_2\Application\WebApi\Spartane.Services\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Proyectos\Georgios Voyatzis\xpicksv1_0_2\Application\WebApi\Spartane.Services\bin\Debug\Spartane.Core.pdb
+C:\Proyectos\Georgios Voyatzis\xpicksv1_0_2\Application\WebApi\Spartane.Services\bin\Debug\Spartane.Data.pdb
+C:\Proyectos\Georgios Voyatzis\xpicksv1_0_2\Application\WebApi\Spartane.Services\bin\Debug\Autofac.xml
+C:\Proyectos\Georgios Voyatzis\xpicksv1_0_2\Application\WebApi\Spartane.Services\bin\Debug\log4net.xml
+C:\Proyectos\Georgios Voyatzis\xpicksv1_0_2\Application\WebApi\Spartane.Services\bin\Debug\Autofac.Integration.Mvc.xml
+C:\Proyectos\Georgios Voyatzis\xpicksv1_0_2\Application\WebApi\Spartane.Services\bin\Debug\EntityFramework.xml
+C:\Proyectos\Georgios Voyatzis\xpicksv1_0_2\Application\WebApi\Spartane.Services\bin\Debug\System.Web.Razor.xml
+C:\Proyectos\Georgios Voyatzis\xpicksv1_0_2\Application\WebApi\Spartane.Services\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Proyectos\Georgios Voyatzis\xpicksv1_0_2\Application\WebApi\Spartane.Services\bin\Debug\System.Web.WebPages.xml
+C:\Proyectos\Georgios Voyatzis\xpicksv1_0_2\Application\WebApi\Spartane.Services\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Proyectos\Georgios Voyatzis\xpicksv1_0_2\Application\WebApi\Spartane.Services\obj\Debug\Spartane.Services.csprojResolveAssemblyReference.cache
+C:\Proyectos\Georgios Voyatzis\xpicksv1_0_2\Application\WebApi\Spartane.Services\obj\Debug\Spartane.Services.dll
+C:\Proyectos\Georgios Voyatzis\xpicksv1_0_2\Application\WebApi\Spartane.Services\obj\Debug\Spartane.Services.pdb
+C:\inetpub\proyectos\Spartane\TEMPLATES\WebApiv2\Spartane.Services\bin\Debug\Spartane.Services.dll.config
+C:\inetpub\proyectos\Spartane\TEMPLATES\WebApiv2\Spartane.Services\bin\Debug\Spartane.Services.dll
+C:\inetpub\proyectos\Spartane\TEMPLATES\WebApiv2\Spartane.Services\bin\Debug\Spartane.Services.pdb
+C:\inetpub\proyectos\Spartane\TEMPLATES\WebApiv2\Spartane.Services\bin\Debug\Spartane.Core.dll
+C:\inetpub\proyectos\Spartane\TEMPLATES\WebApiv2\Spartane.Services\bin\Debug\Spartane.Data.dll
+C:\inetpub\proyectos\Spartane\TEMPLATES\WebApiv2\Spartane.Services\bin\Debug\System.Linq.Dynamic.dll
+C:\inetpub\proyectos\Spartane\TEMPLATES\WebApiv2\Spartane.Services\bin\Debug\Autofac.dll
+C:\inetpub\proyectos\Spartane\TEMPLATES\WebApiv2\Spartane.Services\bin\Debug\log4net.dll
+C:\inetpub\proyectos\Spartane\TEMPLATES\WebApiv2\Spartane.Services\bin\Debug\SqlLinq.dll
+C:\inetpub\proyectos\Spartane\TEMPLATES\WebApiv2\Spartane.Services\bin\Debug\Autofac.Integration.Mvc.dll
+C:\inetpub\proyectos\Spartane\TEMPLATES\WebApiv2\Spartane.Services\bin\Debug\EntityFramework.dll
+C:\inetpub\proyectos\Spartane\TEMPLATES\WebApiv2\Spartane.Services\bin\Debug\GoldParser.dll
+C:\inetpub\proyectos\Spartane\TEMPLATES\WebApiv2\Spartane.Services\bin\Debug\Kackman.RuntimeTypeLoader.dll
+C:\inetpub\proyectos\Spartane\TEMPLATES\WebApiv2\Spartane.Services\bin\Debug\System.Web.Razor.dll
+C:\inetpub\proyectos\Spartane\TEMPLATES\WebApiv2\Spartane.Services\bin\Debug\System.Web.WebPages.Razor.dll
+C:\inetpub\proyectos\Spartane\TEMPLATES\WebApiv2\Spartane.Services\bin\Debug\System.Web.WebPages.dll
+C:\inetpub\proyectos\Spartane\TEMPLATES\WebApiv2\Spartane.Services\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\inetpub\proyectos\Spartane\TEMPLATES\WebApiv2\Spartane.Services\bin\Debug\Spartane.Core.pdb
+C:\inetpub\proyectos\Spartane\TEMPLATES\WebApiv2\Spartane.Services\bin\Debug\Spartane.Data.pdb
+C:\inetpub\proyectos\Spartane\TEMPLATES\WebApiv2\Spartane.Services\bin\Debug\Autofac.xml
+C:\inetpub\proyectos\Spartane\TEMPLATES\WebApiv2\Spartane.Services\bin\Debug\log4net.xml
+C:\inetpub\proyectos\Spartane\TEMPLATES\WebApiv2\Spartane.Services\bin\Debug\Autofac.Integration.Mvc.xml
+C:\inetpub\proyectos\Spartane\TEMPLATES\WebApiv2\Spartane.Services\bin\Debug\EntityFramework.xml
+C:\inetpub\proyectos\Spartane\TEMPLATES\WebApiv2\Spartane.Services\bin\Debug\System.Web.Razor.xml
+C:\inetpub\proyectos\Spartane\TEMPLATES\WebApiv2\Spartane.Services\bin\Debug\System.Web.WebPages.Razor.xml
+C:\inetpub\proyectos\Spartane\TEMPLATES\WebApiv2\Spartane.Services\bin\Debug\System.Web.WebPages.xml
+C:\inetpub\proyectos\Spartane\TEMPLATES\WebApiv2\Spartane.Services\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\inetpub\proyectos\Spartane\TEMPLATES\WebApiv2\Spartane.Services\obj\Debug\Spartane.Services.csprojResolveAssemblyReference.cache
+C:\inetpub\proyectos\Spartane\TEMPLATES\WebApiv2\Spartane.Services\obj\Debug\Spartane.Services.dll
+C:\inetpub\proyectos\Spartane\TEMPLATES\WebApiv2\Spartane.Services\obj\Debug\Spartane.Services.pdb
+C:\Proyectos\Farmacias Similares\AppSupervisionv1_0_13\Application\WebApi\Spartane.Services\obj\Debug\Spartane.Services.csprojResolveAssemblyReference.cache
+C:\Proyectos\Farmacias Similares\AppSupervisionv1_0_13\Application\WebApi\Spartane.Services\obj\Debug\Spartane.Services.dll
+C:\Proyectos\Farmacias Similares\AppSupervisionv1_0_13\Application\WebApi\Spartane.Services\bin\Debug\Spartane.Services.dll.config
+C:\Proyectos\Farmacias Similares\AppSupervisionv1_0_13\Application\WebApi\Spartane.Services\bin\Debug\Spartane.Services.dll
+C:\Proyectos\Farmacias Similares\AppSupervisionv1_0_13\Application\WebApi\Spartane.Services\bin\Debug\Spartane.Services.pdb
+C:\Proyectos\Farmacias Similares\AppSupervisionv1_0_13\Application\WebApi\Spartane.Services\bin\Debug\Spartane.Core.dll
+C:\Proyectos\Farmacias Similares\AppSupervisionv1_0_13\Application\WebApi\Spartane.Services\bin\Debug\Spartane.Data.dll
+C:\Proyectos\Farmacias Similares\AppSupervisionv1_0_13\Application\WebApi\Spartane.Services\bin\Debug\System.Linq.Dynamic.dll
+C:\Proyectos\Farmacias Similares\AppSupervisionv1_0_13\Application\WebApi\Spartane.Services\bin\Debug\Autofac.dll
+C:\Proyectos\Farmacias Similares\AppSupervisionv1_0_13\Application\WebApi\Spartane.Services\bin\Debug\log4net.dll
+C:\Proyectos\Farmacias Similares\AppSupervisionv1_0_13\Application\WebApi\Spartane.Services\bin\Debug\SqlLinq.dll
+C:\Proyectos\Farmacias Similares\AppSupervisionv1_0_13\Application\WebApi\Spartane.Services\bin\Debug\Autofac.Integration.Mvc.dll
+C:\Proyectos\Farmacias Similares\AppSupervisionv1_0_13\Application\WebApi\Spartane.Services\bin\Debug\EntityFramework.dll
+C:\Proyectos\Farmacias Similares\AppSupervisionv1_0_13\Application\WebApi\Spartane.Services\bin\Debug\GoldParser.dll
+C:\Proyectos\Farmacias Similares\AppSupervisionv1_0_13\Application\WebApi\Spartane.Services\bin\Debug\Kackman.RuntimeTypeLoader.dll
+C:\Proyectos\Farmacias Similares\AppSupervisionv1_0_13\Application\WebApi\Spartane.Services\bin\Debug\System.Web.Razor.dll
+C:\Proyectos\Farmacias Similares\AppSupervisionv1_0_13\Application\WebApi\Spartane.Services\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Proyectos\Farmacias Similares\AppSupervisionv1_0_13\Application\WebApi\Spartane.Services\bin\Debug\System.Web.WebPages.dll
+C:\Proyectos\Farmacias Similares\AppSupervisionv1_0_13\Application\WebApi\Spartane.Services\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Proyectos\Farmacias Similares\AppSupervisionv1_0_13\Application\WebApi\Spartane.Services\bin\Debug\Spartane.Core.pdb
+C:\Proyectos\Farmacias Similares\AppSupervisionv1_0_13\Application\WebApi\Spartane.Services\bin\Debug\Spartane.Data.pdb
+C:\Proyectos\Farmacias Similares\AppSupervisionv1_0_13\Application\WebApi\Spartane.Services\bin\Debug\Autofac.xml
+C:\Proyectos\Farmacias Similares\AppSupervisionv1_0_13\Application\WebApi\Spartane.Services\bin\Debug\log4net.xml
+C:\Proyectos\Farmacias Similares\AppSupervisionv1_0_13\Application\WebApi\Spartane.Services\bin\Debug\Autofac.Integration.Mvc.xml
+C:\Proyectos\Farmacias Similares\AppSupervisionv1_0_13\Application\WebApi\Spartane.Services\bin\Debug\EntityFramework.xml
+C:\Proyectos\Farmacias Similares\AppSupervisionv1_0_13\Application\WebApi\Spartane.Services\bin\Debug\System.Web.Razor.xml
+C:\Proyectos\Farmacias Similares\AppSupervisionv1_0_13\Application\WebApi\Spartane.Services\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Proyectos\Farmacias Similares\AppSupervisionv1_0_13\Application\WebApi\Spartane.Services\bin\Debug\System.Web.WebPages.xml
+C:\Proyectos\Farmacias Similares\AppSupervisionv1_0_13\Application\WebApi\Spartane.Services\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Proyectos\Farmacias Similares\AppSupervisionv1_0_13\Application\WebApi\Spartane.Services\obj\Debug\Spartane.Services.pdb
+C:\inetpub\proyectos\Spartane\TEMPLATES\WebApiv3\Spartane.Services\obj\Debug\Spartane.Services.csprojResolveAssemblyReference.cache
+C:\inetpub\proyectos\Spartane\TEMPLATES\WebApiv3\Spartane.Services\obj\Debug\Spartane.Services.dll
+C:\inetpub\proyectos\Spartane\TEMPLATES\WebApiv3\Spartane.Services\bin\Debug\Spartane.Services.dll.config
+C:\inetpub\proyectos\Spartane\TEMPLATES\WebApiv3\Spartane.Services\bin\Debug\Spartane.Services.dll
+C:\inetpub\proyectos\Spartane\TEMPLATES\WebApiv3\Spartane.Services\bin\Debug\Spartane.Services.pdb
+C:\inetpub\proyectos\Spartane\TEMPLATES\WebApiv3\Spartane.Services\bin\Debug\Spartane.Core.dll
+C:\inetpub\proyectos\Spartane\TEMPLATES\WebApiv3\Spartane.Services\bin\Debug\Spartane.Data.dll
+C:\inetpub\proyectos\Spartane\TEMPLATES\WebApiv3\Spartane.Services\bin\Debug\System.Linq.Dynamic.dll
+C:\inetpub\proyectos\Spartane\TEMPLATES\WebApiv3\Spartane.Services\bin\Debug\Autofac.dll
+C:\inetpub\proyectos\Spartane\TEMPLATES\WebApiv3\Spartane.Services\bin\Debug\log4net.dll
+C:\inetpub\proyectos\Spartane\TEMPLATES\WebApiv3\Spartane.Services\bin\Debug\SqlLinq.dll
+C:\inetpub\proyectos\Spartane\TEMPLATES\WebApiv3\Spartane.Services\bin\Debug\Autofac.Integration.Mvc.dll
+C:\inetpub\proyectos\Spartane\TEMPLATES\WebApiv3\Spartane.Services\bin\Debug\EntityFramework.dll
+C:\inetpub\proyectos\Spartane\TEMPLATES\WebApiv3\Spartane.Services\bin\Debug\GoldParser.dll
+C:\inetpub\proyectos\Spartane\TEMPLATES\WebApiv3\Spartane.Services\bin\Debug\Kackman.RuntimeTypeLoader.dll
+C:\inetpub\proyectos\Spartane\TEMPLATES\WebApiv3\Spartane.Services\bin\Debug\System.Web.Razor.dll
+C:\inetpub\proyectos\Spartane\TEMPLATES\WebApiv3\Spartane.Services\bin\Debug\System.Web.WebPages.Razor.dll
+C:\inetpub\proyectos\Spartane\TEMPLATES\WebApiv3\Spartane.Services\bin\Debug\System.Web.WebPages.dll
+C:\inetpub\proyectos\Spartane\TEMPLATES\WebApiv3\Spartane.Services\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\inetpub\proyectos\Spartane\TEMPLATES\WebApiv3\Spartane.Services\bin\Debug\Spartane.Core.pdb
+C:\inetpub\proyectos\Spartane\TEMPLATES\WebApiv3\Spartane.Services\bin\Debug\Spartane.Data.pdb
+C:\inetpub\proyectos\Spartane\TEMPLATES\WebApiv3\Spartane.Services\bin\Debug\Autofac.xml
+C:\inetpub\proyectos\Spartane\TEMPLATES\WebApiv3\Spartane.Services\bin\Debug\log4net.xml
+C:\inetpub\proyectos\Spartane\TEMPLATES\WebApiv3\Spartane.Services\bin\Debug\Autofac.Integration.Mvc.xml
+C:\inetpub\proyectos\Spartane\TEMPLATES\WebApiv3\Spartane.Services\bin\Debug\EntityFramework.xml
+C:\inetpub\proyectos\Spartane\TEMPLATES\WebApiv3\Spartane.Services\bin\Debug\System.Web.Razor.xml
+C:\inetpub\proyectos\Spartane\TEMPLATES\WebApiv3\Spartane.Services\bin\Debug\System.Web.WebPages.Razor.xml
+C:\inetpub\proyectos\Spartane\TEMPLATES\WebApiv3\Spartane.Services\bin\Debug\System.Web.WebPages.xml
+C:\inetpub\proyectos\Spartane\TEMPLATES\WebApiv3\Spartane.Services\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\inetpub\proyectos\Spartane\TEMPLATES\WebApiv3\Spartane.Services\obj\Debug\Spartane.Services.pdb
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\WebApi\Spartane.Services\bin\Debug\Spartane.Services.dll.config
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\WebApi\Spartane.Services\bin\Debug\Spartane.Services.dll
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\WebApi\Spartane.Services\bin\Debug\Spartane.Services.pdb
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\WebApi\Spartane.Services\bin\Debug\Spartane.Core.dll
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\WebApi\Spartane.Services\bin\Debug\Spartane.Data.dll
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\WebApi\Spartane.Services\bin\Debug\System.Linq.Dynamic.dll
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\WebApi\Spartane.Services\bin\Debug\Autofac.dll
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\WebApi\Spartane.Services\bin\Debug\log4net.dll
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\WebApi\Spartane.Services\bin\Debug\SqlLinq.dll
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\WebApi\Spartane.Services\bin\Debug\Autofac.Integration.Mvc.dll
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\WebApi\Spartane.Services\bin\Debug\System.Web.Mvc.dll
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\WebApi\Spartane.Services\bin\Debug\EntityFramework.dll
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\WebApi\Spartane.Services\bin\Debug\GoldParser.dll
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\WebApi\Spartane.Services\bin\Debug\Kackman.RuntimeTypeLoader.dll
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\WebApi\Spartane.Services\bin\Debug\System.Web.Razor.dll
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\WebApi\Spartane.Services\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\WebApi\Spartane.Services\bin\Debug\System.Web.WebPages.dll
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\WebApi\Spartane.Services\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\WebApi\Spartane.Services\bin\Debug\Spartane.Core.pdb
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\WebApi\Spartane.Services\bin\Debug\Spartane.Data.pdb
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\WebApi\Spartane.Services\bin\Debug\Autofac.xml
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\WebApi\Spartane.Services\bin\Debug\log4net.xml
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\WebApi\Spartane.Services\bin\Debug\Autofac.Integration.Mvc.xml
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\WebApi\Spartane.Services\bin\Debug\System.Web.Mvc.xml
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\WebApi\Spartane.Services\bin\Debug\EntityFramework.xml
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\WebApi\Spartane.Services\bin\Debug\System.Web.Razor.xml
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\WebApi\Spartane.Services\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\WebApi\Spartane.Services\bin\Debug\System.Web.WebPages.xml
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\WebApi\Spartane.Services\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\WebApi\Spartane.Services\obj\Debug\Spartane.Services.csprojResolveAssemblyReference.cache
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\WebApi\Spartane.Services\obj\Debug\Spartane.Services.dll
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\WebApi\Spartane.Services\obj\Debug\Spartane.Services.pdb
+\\192.168.1.101\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\Spartane.Services\obj\Debug\Spartane.Services.csprojAssemblyReference.cache
+\\192.168.1.101\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\Spartane.Services\obj\Debug\Spartane.Services.csproj.CoreCompileInputs.cache
+\\192.168.1.101\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\Spartane.Services\bin\Debug\Spartane.Services.dll.config
+\\192.168.1.101\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\Spartane.Services\bin\Debug\Spartane.Services.dll
+\\192.168.1.101\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\Spartane.Services\bin\Debug\Spartane.Services.pdb
+\\192.168.1.101\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\Spartane.Services\bin\Debug\Spartane.Core.dll
+\\192.168.1.101\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\Spartane.Services\bin\Debug\Spartane.Data.dll
+\\192.168.1.101\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\Spartane.Services\bin\Debug\System.Linq.Dynamic.dll
+\\192.168.1.101\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\Spartane.Services\bin\Debug\log4net.dll
+\\192.168.1.101\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\Spartane.Services\bin\Debug\Autofac.dll
+\\192.168.1.101\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\Spartane.Services\bin\Debug\SqlLinq.dll
+\\192.168.1.101\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\Spartane.Services\bin\Debug\Autofac.Integration.Mvc.dll
+\\192.168.1.101\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\Spartane.Services\bin\Debug\System.Web.Mvc.dll
+\\192.168.1.101\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\Spartane.Services\bin\Debug\EntityFramework.dll
+\\192.168.1.101\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\Spartane.Services\bin\Debug\GoldParser.dll
+\\192.168.1.101\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\Spartane.Services\bin\Debug\Kackman.RuntimeTypeLoader.dll
+\\192.168.1.101\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\Spartane.Services\bin\Debug\Microsoft.Web.Infrastructure.dll
+\\192.168.1.101\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\Spartane.Services\bin\Debug\System.Web.Razor.dll
+\\192.168.1.101\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\Spartane.Services\bin\Debug\System.Web.WebPages.Razor.dll
+\\192.168.1.101\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\Spartane.Services\bin\Debug\System.Web.WebPages.dll
+\\192.168.1.101\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\Spartane.Services\bin\Debug\System.Web.WebPages.Deployment.dll
+\\192.168.1.101\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\Spartane.Services\bin\Debug\Spartane.Core.pdb
+\\192.168.1.101\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\Spartane.Services\bin\Debug\Spartane.Core.dll.config
+\\192.168.1.101\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\Spartane.Services\bin\Debug\Spartane.Data.pdb
+\\192.168.1.101\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\Spartane.Services\bin\Debug\Spartane.Data.dll.config
+\\192.168.1.101\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\Spartane.Services\bin\Debug\log4net.xml
+\\192.168.1.101\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\Spartane.Services\bin\Debug\Autofac.xml
+\\192.168.1.101\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\Spartane.Services\bin\Debug\Autofac.Integration.Mvc.xml
+\\192.168.1.101\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\Spartane.Services\bin\Debug\System.Web.Mvc.xml
+\\192.168.1.101\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\Spartane.Services\bin\Debug\EntityFramework.xml
+\\192.168.1.101\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\Spartane.Services\bin\Debug\System.Web.Razor.xml
+\\192.168.1.101\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\Spartane.Services\bin\Debug\System.Web.WebPages.Razor.xml
+\\192.168.1.101\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\Spartane.Services\bin\Debug\System.Web.WebPages.xml
+\\192.168.1.101\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\Spartane.Services\bin\Debug\System.Web.WebPages.Deployment.xml
+\\192.168.1.101\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\Spartane.Services\obj\Debug\Spartane.Services.csproj.CopyComplete
+\\192.168.1.101\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\Spartane.Services\obj\Debug\Spartane.Services.dll
+\\192.168.1.101\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\Spartane.Services\obj\Debug\Spartane.Services.pdb
+C:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\Spartane.Services\bin\Debug\Spartane.Services.dll.config
+C:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\Spartane.Services\bin\Debug\Spartane.Services.dll
+C:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\Spartane.Services\bin\Debug\Spartane.Services.pdb
+C:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\Spartane.Services\bin\Debug\Spartane.Core.dll
+C:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\Spartane.Services\bin\Debug\Spartane.Data.dll
+C:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\Spartane.Services\bin\Debug\System.Linq.Dynamic.dll
+C:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\Spartane.Services\bin\Debug\Autofac.dll
+C:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\Spartane.Services\bin\Debug\log4net.dll
+C:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\Spartane.Services\bin\Debug\SqlLinq.dll
+C:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\Spartane.Services\bin\Debug\Autofac.Integration.Mvc.dll
+C:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\Spartane.Services\bin\Debug\EntityFramework.dll
+C:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\Spartane.Services\bin\Debug\GoldParser.dll
+C:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\Spartane.Services\bin\Debug\Kackman.RuntimeTypeLoader.dll
+C:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\Spartane.Services\bin\Debug\System.Web.Razor.dll
+C:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\Spartane.Services\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\Spartane.Services\bin\Debug\System.Web.WebPages.dll
+C:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\Spartane.Services\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\Spartane.Services\bin\Debug\Spartane.Core.pdb
+C:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\Spartane.Services\bin\Debug\Spartane.Data.pdb
+C:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\Spartane.Services\bin\Debug\Autofac.xml
+C:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\Spartane.Services\bin\Debug\log4net.xml
+C:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\Spartane.Services\bin\Debug\Autofac.Integration.Mvc.xml
+C:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\Spartane.Services\bin\Debug\EntityFramework.xml
+C:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\Spartane.Services\bin\Debug\System.Web.Razor.xml
+C:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\Spartane.Services\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\Spartane.Services\bin\Debug\System.Web.WebPages.xml
+C:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\Spartane.Services\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\Spartane.Services\obj\Debug\Spartane.Services.csprojResolveAssemblyReference.cache
+C:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\Spartane.Services\obj\Debug\Spartane.Services.dll
+C:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\Spartane.Services\obj\Debug\Spartane.Services.pdb

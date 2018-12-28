@@ -1,0 +1,344 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7E1DD863-3658-407F-A096-DB0276B52201}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Spartane.Services</RootNamespace>
+    <AssemblyName>Spartane.Services</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Linq.Dynamic">
+      <HintPath>..\packages\System.Linq.Dynamic.1.0.4\lib\net40\System.Linq.Dynamic.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Authentication\FormsAuthenticationService.cs" />
+    <Compile Include="Authentication\IAuthenticationService.cs" />
+    <Compile Include="Binnacle\BinnacleService.cs" />
+    <Compile Include="Binnacle\IBinnacleService.cs" />
+    <Compile Include="BusinessRules\BusinessRulesService.cs" />
+    <Compile Include="BusinessRules\IBusinessRulesService.cs" />
+    <Compile Include="Common\ISpartanControlTypeService.cs" />
+    <Compile Include="Common\ISpartanFileService.cs" />
+    <Compile Include="Common\ISpartanMethodTypeService.cs" />
+    <Compile Include="Common\ISpartanObjectService.cs" />
+    <Compile Include="Common\ISpartanObjectStatusService.cs" />
+    <Compile Include="Common\ISpartanSystemService.cs" />
+    <Compile Include="Common\Mock\MockSpartanControlTypeService.cs" />
+    <Compile Include="Common\Mock\MockSpartanFileService.cs" />
+    <Compile Include="Common\Mock\MockSpartanMethodTypeService.cs" />
+    <Compile Include="Common\Mock\MockSpartanObjectService.cs" />
+    <Compile Include="Common\Mock\MockSpartanObjectStatusService.cs" />
+    <Compile Include="Common\Mock\MockSpartanSystemService.cs" />
+    <Compile Include="Archivos\ArchivosService.cs" />
+    <Compile Include="Archivos\IArchivosService.cs" />
+    <Compile Include="CustomAuthentication\CustomAuthenticationService.cs" />
+    <Compile Include="CustomAuthentication\ICustomAuthenticationService.cs" />
+    <Compile Include="Events\EventPublisher.cs" />
+    <Compile Include="Events\IConsumer.cs" />
+    <Compile Include="Events\IEventPublisher.cs" />
+    <Compile Include="Events\ISubscriptionService.cs" />
+    <Compile Include="Events\SubscriptionService.cs" />
+    <Compile Include="Filters\ITTDependentFilterService.cs" />
+    <Compile Include="Filters\ITTDetailFilterService.cs" />
+    <Compile Include="Filters\ITTFilterService.cs" />
+    <Compile Include="Filters\TTDependentFilterService.cs" />
+    <Compile Include="Filters\TTDetailFilterService.cs" />
+    <Compile Include="Filters\TTFilterService.cs" />
+    <Compile Include="Language\ITTLanguageService.cs" />
+    <Compile Include="Language\ISpartanSystemLanguageService.cs" />
+    <Compile Include="Language\Mock\MockSpartanSystemLanguageService.cs" />
+    <Compile Include="Language\TTLanguageService.cs" />
+    <Compile Include="Notice\ISpartanNoticeService.cs" />
+    <Compile Include="Notice\ISpartanNoticeStatusService.cs" />
+    <Compile Include="Notice\ISpartanNoticeTypeService.cs" />
+    <Compile Include="Notice\Mock\MockSpartanNoticeService.cs" />
+    <Compile Include="Notice\Mock\MockSpartanNoticeStatusService.cs" />
+    <Compile Include="Notice\Mock\MockSpartanNoticeTypeService.cs" />
+    <Compile Include="obj\Release\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="obj\Release\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="obj\Release\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Search\ITTSearchAdvancedDataService.cs" />
+    <Compile Include="Search\TTSearchAdvancedDataService.cs" />
+    <Compile Include="Security\IModuleDataService.cs" />
+    <Compile Include="Security\IPermissionService.cs" />
+    <Compile Include="Security\Mock\MockSpartanModuleService.cs" />
+    <Compile Include="Security\Mock\MockSpartanUserRoleService.cs" />
+    <Compile Include="Security\Mock\MockSpartanUserRoleStatusService.cs" />
+    <Compile Include="Security\SpartanModuleService.cs" />
+    <Compile Include="Security\PermissionService.cs" />
+    <Compile Include="Security\ISpartanUserRoleService.cs" />
+    <Compile Include="Security\ISpartanUserRoleStatusService.cs" />
+    <Compile Include="SpartanObject\ISpartanObjectService.cs" />
+    <Compile Include="SpartanObject\SpartanObjectService.cs" />
+    <Compile Include="Spartan_Attribute_Control_Type\ISpartan_Attribute_Control_TypeService.cs" />
+    <Compile Include="Spartan_Attribute_Control_Type\Spartan_Attribute_Control_TypeService.cs" />
+    <Compile Include="Spartan_Attribute_Type\ISpartan_Attribute_TypeService.cs" />
+    <Compile Include="Spartan_Attribute_Type\Spartan_Attribute_TypeService.cs" />
+    <Compile Include="Spartan_BR_Actions_False_Detail\ISpartan_BR_Actions_False_DetailService.cs" />
+    <Compile Include="Spartan_BR_Actions_False_Detail\Spartan_BR_Actions_False_DetailService.cs" />
+    <Compile Include="Spartan_BR_Actions_True_Detail\ISpartan_BR_Actions_True_DetailService.cs" />
+    <Compile Include="Spartan_BR_Actions_True_Detail\Spartan_BR_Actions_True_DetailService.cs" />
+    <Compile Include="Spartan_BR_Action\ISpartan_BR_ActionService.cs" />
+    <Compile Include="Spartan_BR_Action\Spartan_BR_ActionService.cs" />
+    <Compile Include="Spartan_BR_Action_Classification\ISpartan_BR_Action_ClassificationService.cs" />
+    <Compile Include="Spartan_BR_Action_Classification\Spartan_BR_Action_ClassificationService.cs" />
+    <Compile Include="Spartan_BR_Action_Configuration_Detail\ISpartan_BR_Action_Configuration_DetailService.cs" />
+    <Compile Include="Spartan_BR_Action_Configuration_Detail\Spartan_BR_Action_Configuration_DetailService.cs" />
+    <Compile Include="Spartan_BR_Action_Param_Type\ISpartan_BR_Action_Param_TypeService.cs" />
+    <Compile Include="Spartan_BR_Action_Param_Type\Spartan_BR_Action_Param_TypeService.cs" />
+    <Compile Include="Spartan_BR_Action_Result\ISpartan_BR_Action_ResultService.cs" />
+    <Compile Include="Spartan_BR_Action_Result\Spartan_BR_Action_ResultService.cs" />
+    <Compile Include="Spartan_BR_Attribute_Restrictions_Detail\ISpartan_BR_Attribute_Restrictions_DetailService.cs" />
+    <Compile Include="Spartan_BR_Attribute_Restrictions_Detail\Spartan_BR_Attribute_Restrictions_DetailService.cs" />
+    <Compile Include="Spartan_BR_Conditions_Detail\ISpartan_BR_Conditions_DetailService.cs" />
+    <Compile Include="Spartan_BR_Conditions_Detail\Spartan_BR_Conditions_DetailService.cs" />
+    <Compile Include="Spartan_BR_Condition\ISpartan_BR_ConditionService.cs" />
+    <Compile Include="Spartan_BR_Condition\Spartan_BR_ConditionService.cs" />
+    <Compile Include="Spartan_BR_Condition_Operator\ISpartan_BR_Condition_OperatorService.cs" />
+    <Compile Include="Spartan_BR_Condition_Operator\Spartan_BR_Condition_OperatorService.cs" />
+    <Compile Include="Spartan_BR_Event_Restrictions_Detail\ISpartan_BR_Event_Restrictions_DetailService.cs" />
+    <Compile Include="Spartan_BR_Event_Restrictions_Detail\Spartan_BR_Event_Restrictions_DetailService.cs" />
+    <Compile Include="Spartan_BR_Modifications_Log\ISpartan_BR_Modifications_LogService.cs" />
+    <Compile Include="Spartan_BR_Modifications_Log\Spartan_BR_Modifications_LogService.cs" />
+    <Compile Include="Spartan_BR_Operation\ISpartan_BR_OperationService.cs" />
+    <Compile Include="Spartan_BR_Operation\Spartan_BR_OperationService.cs" />
+    <Compile Include="Spartan_BR_Operation_Detail\ISpartan_BR_Operation_DetailService.cs" />
+    <Compile Include="Spartan_BR_Operation_Detail\Spartan_BR_Operation_DetailService.cs" />
+    <Compile Include="Spartan_BR_Operation_Restrictions_Detail\ISpartan_BR_Operation_Restrictions_DetailService.cs" />
+    <Compile Include="Spartan_BR_Operation_Restrictions_Detail\Spartan_BR_Operation_Restrictions_DetailService.cs" />
+    <Compile Include="Spartan_BR_Operator_Type\ISpartan_BR_Operator_TypeService.cs" />
+    <Compile Include="Spartan_BR_Operator_Type\Spartan_BR_Operator_TypeService.cs" />
+    <Compile Include="Spartan_BR_Presentation_Control_Type\ISpartan_BR_Presentation_Control_TypeService.cs" />
+    <Compile Include="Spartan_BR_Presentation_Control_Type\Spartan_BR_Presentation_Control_TypeService.cs" />
+    <Compile Include="Spartan_BR_Process_Event\ISpartan_BR_Process_EventService.cs" />
+    <Compile Include="Spartan_BR_Process_Event\Spartan_BR_Process_EventService.cs" />
+    <Compile Include="Spartan_BR_Process_Event_Detail\ISpartan_BR_Process_Event_DetailService.cs" />
+    <Compile Include="Spartan_BR_Process_Event_Detail\Spartan_BR_Process_Event_DetailService.cs" />
+    <Compile Include="Spartan_BR_Scope\ISpartan_BR_ScopeService.cs" />
+    <Compile Include="Spartan_BR_Scope\Spartan_BR_ScopeService.cs" />
+    <Compile Include="Spartan_BR_Scope_Detail\ISpartan_BR_Scope_DetailService.cs" />
+    <Compile Include="Spartan_BR_Scope_Detail\Spartan_BR_Scope_DetailService.cs" />
+    <Compile Include="Spartan_BR_Status\ISpartan_BR_StatusService.cs" />
+    <Compile Include="Spartan_BR_Status\Spartan_BR_StatusService.cs" />
+    <Compile Include="Spartan_Business_Rule\ISpartan_Business_RuleService.cs" />
+    <Compile Include="Spartan_Business_Rule\Spartan_Business_RuleService.cs" />
+    <Compile Include="Spartan_Traduction_Concept_Type\ISpartan_Traduction_Concept_TypeService.cs" />
+    <Compile Include="Spartan_Traduction_Concept_Type\Spartan_Traduction_Concept_TypeService.cs" />
+    <Compile Include="Spartan_Traduction_Detail\ISpartan_Traduction_DetailService.cs" />
+    <Compile Include="Spartan_Traduction_Detail\Spartan_Traduction_DetailService.cs" />
+    <Compile Include="Spartan_Traduction_Language\ISpartan_Traduction_LanguageService.cs" />
+    <Compile Include="Spartan_Traduction_Language\Spartan_Traduction_LanguageService.cs" />
+    <Compile Include="Spartan_Traduction_Object\ISpartan_Traduction_ObjectService.cs" />
+    <Compile Include="Spartan_Traduction_Object\Spartan_Traduction_ObjectService.cs" />
+    <Compile Include="Spartan_Traduction_Object_Type\ISpartan_Traduction_Object_TypeService.cs" />
+    <Compile Include="Spartan_Traduction_Object_Type\Spartan_Traduction_Object_TypeService.cs" />
+    <Compile Include="Spartan_Traduction_Process\ISpartan_Traduction_ProcessService.cs" />
+    <Compile Include="Spartan_Traduction_Process\Spartan_Traduction_ProcessService.cs" />
+    <Compile Include="Spartan_User\ISpartan_UserService.cs" />
+    <Compile Include="Spartan_User\Spartan_UserService.cs" />
+    <Compile Include="Spartan_User_Role\ISpartan_User_RoleService.cs" />
+    <Compile Include="Spartan_User_Role\Spartan_User_RoleService.cs" />
+    <Compile Include="Spartan_User_Role_Status\ISpartan_User_Role_StatusService.cs" />
+    <Compile Include="Spartan_User_Role_Status\Spartan_User_Role_StatusService.cs" />
+    <Compile Include="Spartan_User_Status\ISpartan_User_StatusService.cs" />
+    <Compile Include="Spartan_User_Status\Spartan_User_StatusService.cs" />
+    <Compile Include="Templates\ITTTemplatePrintExcelFieldService.cs" />
+    <Compile Include="Templates\ITTTemplatePrintExcelService.cs" />
+    <Compile Include="Templates\TTTemplatePrintExcelFieldService.cs" />
+    <Compile Include="Templates\TTTemplatePrintExcelService.cs" />
+    <Compile Include="TTArchivos\ITTArchivosService.cs" />
+    <Compile Include="TTArchivos\TTArchivosService.cs" />
+    <Compile Include="User\ISpartanUserService.cs" />
+    <Compile Include="User\ISpartanUserAlertService.cs" />
+    <Compile Include="User\ISpartanUserAlertStatusService.cs" />
+    <Compile Include="User\ISpartanUserAlertTypeService.cs" />
+    <Compile Include="User\ISpartanUserFavoriteListService.cs" />
+    <Compile Include="User\ISpartanUserFavoriteObjectService.cs" />
+    <Compile Include="User\ISpartanUserMostUsedObjectService.cs" />
+    <Compile Include="User\ISpartanUserQuickLinkService.cs" />
+    <Compile Include="User\ISpartanUserStatusService.cs" />
+    <Compile Include="User\Mock\MockSpartanUserService.cs" />
+    <Compile Include="User\Mock\MockSpartanUserAlertService.cs" />
+    <Compile Include="User\Mock\MockSpartanUserAlertStatusService.cs" />
+    <Compile Include="User\Mock\MockSpartanUserAlertTypeService.cs" />
+    <Compile Include="User\Mock\MockSpartanUserFavoriteListService.cs" />
+    <Compile Include="User\Mock\MockSpartanUserFavoriteObjectService.cs" />
+    <Compile Include="User\Mock\MockSpartanUserMostUsedObjectService.cs" />
+    <Compile Include="User\Mock\MockSpartanUserQuickLinkService.cs" />
+    <Compile Include="User\Mock\MockSpartanUserStatusService.cs" />
+    <Compile Include="User\SpartaneUserService.cs" />
+    <Compile Include="User\UserService.cs" />
+    <Compile Include="User\IUserService.cs" />
+    <Compile Include="Spartan_Format\ISpartan_FormatService.cs" />
+    <Compile Include="Spartan_Format\Spartan_FormatService.cs" />
+    <Compile Include="Spartan_Format_Type\ISpartan_Format_TypeService.cs" />
+    <Compile Include="Spartan_Format_Type\Spartan_Format_TypeService.cs" />
+    <Compile Include="Spartan_Metadata\ISpartan_MetadataService.cs" />
+    <Compile Include="Spartan_Metadata\Spartan_MetadataService.cs" />
+    <Compile Include="Spartan_Format_Configuration\ISpartan_Format_ConfigurationService.cs" />
+    <Compile Include="Spartan_Format_Configuration\Spartan_Format_ConfigurationService.cs" />
+    <Compile Include="Spartan_Format_Field\ISpartan_Format_FieldService.cs" />
+    <Compile Include="Spartan_Format_Field\Spartan_Format_FieldService.cs" />
+    <Compile Include="Spartan_Format_Permission_Type\ISpartan_Format_Permission_TypeService.cs" />
+    <Compile Include="Spartan_Format_Permission_Type\Spartan_Format_Permission_TypeService.cs" />
+    <Compile Include="Spartan_Format_Permissions\ISpartan_Format_PermissionsService.cs" />
+    <Compile Include="Spartan_Format_Permissions\Spartan_Format_PermissionsService.cs" />
+    <Compile Include="Spartan_Report\ISpartan_ReportService.cs" />
+    <Compile Include="Spartan_Report\Spartan_ReportService.cs" />
+    <Compile Include="Spartan_Report_Field_Type\ISpartan_Report_Field_TypeService.cs" />
+    <Compile Include="Spartan_Report_Field_Type\Spartan_Report_Field_TypeService.cs" />
+    <Compile Include="Spartan_Report_Fields_Detail\ISpartan_Report_Fields_DetailService.cs" />
+    <Compile Include="Spartan_Report_Fields_Detail\Spartan_Report_Fields_DetailService.cs" />
+    <Compile Include="Spartan_Report_Format\ISpartan_Report_FormatService.cs" />
+    <Compile Include="Spartan_Report_Format\Spartan_Report_FormatService.cs" />
+    <Compile Include="Spartan_Report_Function\ISpartan_Report_FunctionService.cs" />
+    <Compile Include="Spartan_Report_Function\Spartan_Report_FunctionService.cs" />
+    <Compile Include="Spartan_Report_Order_Type\ISpartan_Report_Order_TypeService.cs" />
+    <Compile Include="Spartan_Report_Order_Type\Spartan_Report_Order_TypeService.cs" />
+    <Compile Include="Spartan_Report_Permission_Type\ISpartan_Report_Permission_TypeService.cs" />
+    <Compile Include="Spartan_Report_Permission_Type\Spartan_Report_Permission_TypeService.cs" />
+    <Compile Include="Spartan_Report_Permissions\ISpartan_Report_PermissionsService.cs" />
+    <Compile Include="Spartan_Report_Permissions\Spartan_Report_PermissionsService.cs" />
+    <Compile Include="Spartan_Report_Presentation_Type\ISpartan_Report_Presentation_TypeService.cs" />
+    <Compile Include="Spartan_Report_Presentation_Type\Spartan_Report_Presentation_TypeService.cs" />
+    <Compile Include="Spartan_Report_Presentation_View\ISpartan_Report_Presentation_ViewService.cs" />
+    <Compile Include="Spartan_Report_Presentation_View\Spartan_Report_Presentation_ViewService.cs" />
+    <Compile Include="Spartan_Report_Status\ISpartan_Report_StatusService.cs" />
+    <Compile Include="Spartan_Report_Status\Spartan_Report_StatusService.cs" />
+    <!--@@INCLUDE@@-->
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Spartane.Core\Spartane.Core.csproj">
+      <Project>{f56309fb-9e43-42e5-a65d-4aaa70f95c9b}</Project>
+      <Name>Spartane.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Spartane.Data\Spartane.Data.csproj">
+      <Project>{63f55cc4-7b31-4195-91ee-3a5c31b9c0fc}</Project>
+      <Name>Spartane.Data</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="bin\Debug\Spartane.Services.dll.config" />
+    <None Include="bin\Release\Spartane.Services.dll.config" />
+    <None Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="obj\Debug\Spartane.Services.csprojResolveAssemblyReference.cache" />
+    <None Include="obj\Release\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="obj\Release\Spartane.Services.csprojResolveAssemblyReference.cache" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Debug\Autofac.dll" />
+    <Content Include="bin\Debug\Autofac.Integration.Mvc.dll" />
+    <Content Include="bin\Debug\Autofac.Integration.Mvc.xml" />
+    <Content Include="bin\Debug\Autofac.xml" />
+    <Content Include="bin\Debug\EntityFramework.dll" />
+    <Content Include="bin\Debug\EntityFramework.xml" />
+    <Content Include="bin\Debug\GoldParser.dll" />
+    <Content Include="bin\Debug\Kackman.RuntimeTypeLoader.dll" />
+    <Content Include="bin\Debug\log4net.dll" />
+    <Content Include="bin\Debug\log4net.xml" />
+    <Content Include="bin\Debug\Spartane.Core.dll" />
+    <Content Include="bin\Debug\Spartane.Core.pdb" />
+    <Content Include="bin\Debug\Spartane.Data.dll" />
+    <Content Include="bin\Debug\Spartane.Data.pdb" />
+    <Content Include="bin\Debug\Spartane.Services.dll" />
+    <Content Include="bin\Debug\Spartane.Services.pdb" />
+    <Content Include="bin\Debug\SqlLinq.dll" />
+    <Content Include="bin\Debug\System.Linq.Dynamic.dll" />
+    <Content Include="bin\Debug\System.Web.Mvc.dll" />
+    <Content Include="bin\Debug\System.Web.Mvc.xml" />
+    <Content Include="bin\Debug\System.Web.Razor.dll" />
+    <Content Include="bin\Debug\System.Web.Razor.xml" />
+    <Content Include="bin\Debug\System.Web.WebPages.Deployment.dll" />
+    <Content Include="bin\Debug\System.Web.WebPages.Deployment.xml" />
+    <Content Include="bin\Debug\System.Web.WebPages.dll" />
+    <Content Include="bin\Debug\System.Web.WebPages.Razor.dll" />
+    <Content Include="bin\Debug\System.Web.WebPages.Razor.xml" />
+    <Content Include="bin\Debug\System.Web.WebPages.xml" />
+    <Content Include="bin\Release\Autofac.dll" />
+    <Content Include="bin\Release\Autofac.Integration.Mvc.dll" />
+    <Content Include="bin\Release\Autofac.Integration.Mvc.xml" />
+    <Content Include="bin\Release\Autofac.xml" />
+    <Content Include="bin\Release\EntityFramework.dll" />
+    <Content Include="bin\Release\EntityFramework.xml" />
+    <Content Include="bin\Release\GoldParser.dll" />
+    <Content Include="bin\Release\Kackman.RuntimeTypeLoader.dll" />
+    <Content Include="bin\Release\log4net.dll" />
+    <Content Include="bin\Release\log4net.xml" />
+    <Content Include="bin\Release\Spartane.Core.dll" />
+    <Content Include="bin\Release\Spartane.Core.pdb" />
+    <Content Include="bin\Release\Spartane.Data.dll" />
+    <Content Include="bin\Release\Spartane.Data.pdb" />
+    <Content Include="bin\Release\Spartane.Services.dll" />
+    <Content Include="bin\Release\Spartane.Services.pdb" />
+    <Content Include="bin\Release\SqlLinq.dll" />
+    <Content Include="bin\Release\System.Linq.Dynamic.dll" />
+    <Content Include="bin\Release\System.Web.Mvc.dll" />
+    <Content Include="bin\Release\System.Web.Mvc.xml" />
+    <Content Include="bin\Release\System.Web.Razor.dll" />
+    <Content Include="bin\Release\System.Web.Razor.xml" />
+    <Content Include="bin\Release\System.Web.WebPages.Deployment.dll" />
+    <Content Include="bin\Release\System.Web.WebPages.Deployment.xml" />
+    <Content Include="bin\Release\System.Web.WebPages.dll" />
+    <Content Include="bin\Release\System.Web.WebPages.Razor.dll" />
+    <Content Include="bin\Release\System.Web.WebPages.Razor.xml" />
+    <Content Include="bin\Release\System.Web.WebPages.xml" />
+    <Content Include="obj\Debug\Spartane.Services.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\Spartane.Services.dll" />
+    <Content Include="obj\Debug\Spartane.Services.pdb" />
+    <Content Include="obj\Release\Spartane.Services.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Release\Spartane.Services.dll" />
+    <Content Include="obj\Release\Spartane.Services.pdb" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="obj\Debug\TempPE\" />
+    <Folder Include="obj\Release\TempPE\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+ Other similar extension points exist, see Microsoft.Common.targets.
+ <Target Name="BeforeBuild">
+ </Target>
+ <Target Name="AfterBuild">
+ </Target>
+ -->
+</Project>

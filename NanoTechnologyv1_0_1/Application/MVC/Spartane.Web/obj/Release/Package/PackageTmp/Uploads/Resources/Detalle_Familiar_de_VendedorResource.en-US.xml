@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" standalone="yes"?>
+<resources>
+  <resource culture="en-us" name="Detalle_Familiar_de_Vendedor" value="Detalle Familiar de Vendedor"></resource>
+  <resource culture="en-US" name="Folio" value="Folio"></resource>
+  <resource culture="en-US" name="Nombre_del_Familiar" value="Nombre del Familiar"></resource>
+  <resource culture="en-US" name="Parentesco" value="Parentesco"></resource>
+  <resource culture="en-US" name="Fecha" value="Fecha"></resource>
+  <resource culture="en-US" name="Hora" value="Hora"></resource>
+  <resource culture="en-US" name="Con_Vida" value="Con Vida"></resource>
+  <resource culture="en-US" name="Fotografia" value="Fotografía"></resource>
+  <resource culture="en-US" name="Edad" value="Edad"></resource>
+  <resource culture="en-US" name="Estatura" value="Estatura"></resource>
+  <resource culture="en-US" name="Ingresos_Mensuales" value="Ingresos Mensuales"></resource>
+
+</resources>

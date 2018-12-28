@@ -1,0 +1,10 @@
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\ObjectBussiness\Codigos_por_Cliente\bin\Debug\Codigos_por_Cliente.dll
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\ObjectBussiness\Codigos_por_Cliente\bin\Debug\Codigos_por_Cliente.pdb
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\ObjectBussiness\Codigos_por_Cliente\bin\Debug\Detalle_de_Codigo_Por_Cliente.dll
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\ObjectBussiness\Codigos_por_Cliente\bin\Debug\LibraryDLLObjectBusiness.dll
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\ObjectBussiness\Codigos_por_Cliente\bin\Debug\Telerik.Web.UI.dll
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\ObjectBussiness\Codigos_por_Cliente\bin\Debug\LibraryDLLObjectBusiness.pdb
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\ObjectBussiness\Codigos_por_Cliente\bin\Debug\Detalle_de_Codigo_Por_Cliente.pdb
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\ObjectBussiness\Codigos_por_Cliente\obj\Debug\ResolveAssemblyReference.cache
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\ObjectBussiness\Codigos_por_Cliente\obj\Debug\Codigos_por_Cliente.dll
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\ObjectBussiness\Codigos_por_Cliente\obj\Debug\Codigos_por_Cliente.pdb

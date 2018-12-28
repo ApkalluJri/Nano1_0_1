@@ -1,0 +1,49 @@
+D:\TotalCase\ASP NET\Template en Blanco\ObjectBussiness\bin\Debug\LibraryDLLObjectBusiness.dll
+D:\TotalCase\ASP NET\Template en Blanco\ObjectBussiness\bin\Debug\LibraryDLLObjectBusiness.pdb
+D:\TotalCase\ASP NET\Template en Blanco\ObjectBussiness\obj\Debug\ResolveAssemblyReference.cache
+D:\TotalCase\ASP NET\Template en Blanco\ObjectBussiness\obj\Debug\LibraryDLLObjectBusiness.dll
+D:\TotalCase\ASP NET\Template en Blanco\ObjectBussiness\obj\Debug\LibraryDLLObjectBusiness.pdb
+D:\TotalCase\ASP NET\Template en Blanco V55\ObjectBussiness\bin\Debug\LibraryDLLObjectBusiness.dll
+D:\TotalCase\ASP NET\Template en Blanco V55\ObjectBussiness\bin\Debug\LibraryDLLObjectBusiness.pdb
+D:\TotalCase\ASP NET\Template en Blanco V55\ObjectBussiness\obj\Debug\ResolveAssemblyReference.cache
+D:\TotalCase\ASP NET\Template en Blanco V55\ObjectBussiness\obj\Debug\LibraryDLLObjectBusiness.dll
+D:\TotalCase\ASP NET\Template en Blanco V55\ObjectBussiness\obj\Debug\LibraryDLLObjectBusiness.pdb
+C:\Inetpub\wwwroot\Projects\TOTALCASE\Template en Blanco V55\ObjectBussiness\obj\Debug\LibraryDLLObjectBusiness.pdb
+C:\Inetpub\wwwroot\Projects\TOTALCASE\Template en Blanco V55\ObjectBussiness\obj\Debug\ResolveAssemblyReference.cache
+C:\Inetpub\wwwroot\Projects\TOTALCASE\Template en Blanco V55\ObjectBussiness\bin\Debug\LibraryDLLObjectBusiness.dll
+C:\Inetpub\wwwroot\Projects\TOTALCASE\Template en Blanco V55\ObjectBussiness\bin\Debug\LibraryDLLObjectBusiness.pdb
+C:\Inetpub\wwwroot\Projects\TOTALCASE\Template en Blanco V55\ObjectBussiness\bin\Debug\Telerik.Web.UI.dll
+C:\Inetpub\wwwroot\Projects\TOTALCASE\Template en Blanco V55\ObjectBussiness\obj\Debug\LibraryDLLObjectBusiness.dll
+C:\Users\pgerardo.TOTALTECH\Documents\VSS\TotalCase\Projects\TOTALCASE\Template en Blanco V55\ObjectBussiness\bin\Debug\LibraryDLLObjectBusiness.dll
+C:\Users\pgerardo.TOTALTECH\Documents\VSS\TotalCase\Projects\TOTALCASE\Template en Blanco V55\ObjectBussiness\bin\Debug\LibraryDLLObjectBusiness.pdb
+C:\Users\pgerardo.TOTALTECH\Documents\VSS\TotalCase\Projects\TOTALCASE\Template en Blanco V55\ObjectBussiness\bin\Debug\Telerik.Web.UI.dll
+C:\Users\pgerardo.TOTALTECH\Documents\VSS\TotalCase\Projects\TOTALCASE\Template en Blanco V55\ObjectBussiness\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\pgerardo.TOTALTECH\Documents\VSS\TotalCase\Projects\TOTALCASE\Template en Blanco V55\ObjectBussiness\obj\Debug\LibraryDLLObjectBusiness.dll
+C:\Users\pgerardo.TOTALTECH\Documents\VSS\TotalCase\Projects\TOTALCASE\Template en Blanco V55\ObjectBussiness\obj\Debug\LibraryDLLObjectBusiness.pdb
+C:\Proyectos\TotalCASE\TotalCase v7.0\Template en Blanco V70\ObjectBussiness\bin\Debug\LibraryDLLObjectBusiness.dll
+C:\Proyectos\TotalCASE\TotalCase v7.0\Template en Blanco V70\ObjectBussiness\bin\Debug\LibraryDLLObjectBusiness.pdb
+C:\Proyectos\TotalCASE\TotalCase v7.0\Template en Blanco V70\ObjectBussiness\bin\Debug\Telerik.Web.UI.dll
+C:\Proyectos\TotalCASE\TotalCase v7.0\Template en Blanco V70\ObjectBussiness\obj\Debug\ResolveAssemblyReference.cache
+C:\Proyectos\TotalCASE\TotalCase v7.0\Template en Blanco V70\ObjectBussiness\obj\Debug\LibraryDLLObjectBusiness.dll
+C:\Proyectos\TotalCASE\TotalCase v7.0\Template en Blanco V70\ObjectBussiness\obj\Debug\LibraryDLLObjectBusiness.pdb
+\\192.168.1.100\asp net\Template en Blanco V70\ObjectBussiness\bin\Debug\LibraryDLLObjectBusiness.dll
+\\192.168.1.100\asp net\Template en Blanco V70\ObjectBussiness\bin\Debug\LibraryDLLObjectBusiness.pdb
+\\192.168.1.100\asp net\Template en Blanco V70\ObjectBussiness\bin\Debug\Telerik.Web.UI.dll
+\\192.168.1.100\asp net\Template en Blanco V70\ObjectBussiness\obj\Debug\ResolveAssemblyReference.cache
+\\192.168.1.100\asp net\Template en Blanco V70\ObjectBussiness\obj\Debug\LibraryDLLObjectBusiness.dll
+\\192.168.1.100\asp net\Template en Blanco V70\ObjectBussiness\obj\Debug\LibraryDLLObjectBusiness.pdb
+C:\Proyectos\TotalCASE\TotalCase v8.0\Template en Blanco V80\ObjectBussiness\bin\Debug\LibraryDLLObjectBusiness.dll
+C:\Proyectos\TotalCASE\TotalCase v8.0\Template en Blanco V80\ObjectBussiness\bin\Debug\LibraryDLLObjectBusiness.pdb
+C:\Proyectos\TotalCASE\TotalCase v8.0\Template en Blanco V80\ObjectBussiness\obj\Debug\ResolveAssemblyReference.cache
+C:\Proyectos\TotalCASE\TotalCase v8.0\Template en Blanco V80\ObjectBussiness\obj\Debug\LibraryDLLObjectBusiness.dll
+C:\Proyectos\TotalCASE\TotalCase v8.0\Template en Blanco V80\ObjectBussiness\obj\Debug\LibraryDLLObjectBusiness.pdb
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\ObjectBussiness\bin\Debug\LibraryDLLObjectBusiness.dll
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\ObjectBussiness\bin\Debug\LibraryDLLObjectBusiness.pdb
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\ObjectBussiness\obj\Debug\ResolveAssemblyReference.cache
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\ObjectBussiness\obj\Debug\LibraryDLLObjectBusiness.dll
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\ObjectBussiness\obj\Debug\LibraryDLLObjectBusiness.pdb
+c:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\ObjectBussiness\bin\Debug\LibraryDLLObjectBusiness.dll
+c:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\ObjectBussiness\bin\Debug\LibraryDLLObjectBusiness.pdb
+c:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\ObjectBussiness\obj\Debug\ResolveAssemblyReference.cache
+c:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\ObjectBussiness\obj\Debug\LibraryDLLObjectBusiness.dll
+c:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\ObjectBussiness\obj\Debug\LibraryDLLObjectBusiness.pdb

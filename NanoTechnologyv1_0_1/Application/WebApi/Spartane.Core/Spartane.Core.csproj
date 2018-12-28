@@ -1,0 +1,403 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F56309FB-9E43-42E5-A65D-4AAA70F95C9B}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Spartane.Core</RootNamespace>
+    <AssemblyName>Spartane.Core</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Autofac">
+      <HintPath>..\packages\Autofac.3.5.2\lib\net40\Autofac.dll</HintPath>
+    </Reference>
+    <Reference Include="Autofac.Integration.Mvc">
+      <HintPath>..\packages\Autofac.Mvc5.3.3.3\lib\net45\Autofac.Integration.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="GoldParser">
+      <HintPath>..\packages\SqlLinq.1.0.2\lib\net45\GoldParser.dll</HintPath>
+    </Reference>
+    <Reference Include="Kackman.RuntimeTypeLoader">
+      <HintPath>..\packages\SqlLinq.1.0.2\lib\net45\Kackman.RuntimeTypeLoader.dll</HintPath>
+    </Reference>
+    <Reference Include="LinqStatistics">
+      <HintPath>..\packages\LinqStatistics.1.1.0\lib\net40\LinqStatistics.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net">
+      <HintPath>..\packages\log4net.2.0.3\lib\net40-full\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="SqlLinq">
+      <HintPath>..\packages\SqlLinq.1.0.2\lib\net45\SqlLinq.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Helpers, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.1.0\lib\net45\System.Web.Helpers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Mvc, Version=5.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Microsoft.AspNet.Mvc.5.1.0\lib\net45\System.Web.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Microsoft.AspNet.Razor.3.1.0\lib\net45\System.Web.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.1.0\lib\net45\System.Web.WebPages.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Deployment, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.1.0\lib\net45\System.Web.WebPages.Deployment.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.1.0\lib\net45\System.Web.WebPages.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BaseEntity.cs" />
+    <Compile Include="Classes\App\App.cs" />
+    <Compile Include="Classes\App\AppPagingModel.cs" />
+    <Compile Include="Classes\InputFile\InputFile.cs" />
+    <Compile Include="Classes\IRepository.cs" />
+    <Compile Include="Classes\LDAP\ValidateUser.cs" />
+    <Compile Include="Classes\StoredProcedure\Sp_ListSelAll_App.cs" />
+    <Compile Include="Classes\StoredProcedure\sp_WADelTTUsuarios.cs" />
+    <Compile Include="Classes\StoredProcedure\sp_WAInsTTUsuarios.cs" />
+    <Compile Include="Classes\StoredProcedure\Sp_WAListSelAll_TTUsuarios.cs" />
+    <Compile Include="Classes\StoredProcedure\Sp_WAListSelCount_TTUsuarios.cs" />
+    <Compile Include="Classes\StoredProcedure\Sp_WASelallTTUsuarios_Complete.cs" />
+    <Compile Include="Classes\StoredProcedure\sp_WAUpdTTUsuarios.cs" />
+    <Compile Include="Classes\StoredProcedure\usp_InsertTTArchivos.cs" />
+    <Compile Include="Classes\TTArchivos\TTArchivos.cs" />
+    <Compile Include="Classes\TTArchivos\TTArchivosPagingModel.cs" />
+    <Compile Include="Classes\TTUsuarios\TTUsuarios.cs" />
+    <Compile Include="Classes\TTUsuarios\TTUsuariosPagingModel.cs" />
+    <Compile Include="Configuration\ISettings.cs" />
+    <Compile Include="Configuration\TTConfig.cs" />
+    <Compile Include="Data\BaseDataProviderManager.cs" />
+    <Compile Include="Data\DataSettings.cs" />
+    <Compile Include="Data\DataSettingsManager.cs" />
+    <Compile Include="Data\IDataProvider.cs" />
+    <Compile Include="Enum\AuthType.cs" />
+    <Compile Include="FilteredList.cs" />
+    <Compile Include="IFilteredList.cs" />
+    <Compile Include="Exceptions\ExceptionBase.cs" />
+    <Compile Include="Exceptions\Repository\RepositoryException.cs" />
+    <Compile Include="Exceptions\Service\ServiceException.cs" />
+    <Compile Include="Infraestructure\AppDomainTypeFinder.cs" />
+    <Compile Include="Infraestructure\DependencyManagement\ContainerManager.cs" />
+    <Compile Include="Infraestructure\DependencyManagement\IDependencyRegistrar.cs" />
+    <Compile Include="Infraestructure\TTEngine.cs" />
+    <Compile Include="Infraestructure\EngineContext.cs" />
+    <Compile Include="Infraestructure\IEngine.cs" />
+    <Compile Include="Infraestructure\ITypeFinder.cs" />
+    <Compile Include="Infraestructure\Singleton.cs" />
+    <Compile Include="Infraestructure\WebAppTypeFinder.cs" />
+    <Compile Include="IPagedList.cs" />
+    <Compile Include="Log\ILoggerHelper.cs" />
+    <Compile Include="Log\LoggerHelper.cs" />
+    <Compile Include="PagedList.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SpartaneBaseEntity.cs" />
+    <Compile Include="Classes\Registro_de_Usuario\Registro_de_UsuarioPagingModel.cs" />
+    <Compile Include="Classes\StoredProcedure\sp_DelRegistro_de_Usuario.cs" />
+    <Compile Include="Classes\StoredProcedure\sp_InsRegistro_de_Usuario.cs" />
+    <Compile Include="Classes\StoredProcedure\Sp_ListSelCount_Registro_de_Usuario.cs" />
+    <Compile Include="Classes\StoredProcedure\Sp_SelallRegistro_de_Usuario_Complete.cs" />
+    <Compile Include="Classes\StoredProcedure\sp_UpdRegistro_de_Usuario.cs" />
+    <Compile Include="Classes\StoredProcedure\Sp_ListSelAll_Registro_de_Usuario.cs" />
+    <Compile Include="Classes\Registro_de_Usuario\Registro_de_Usuario.cs" />
+    <Compile Include="Classes\Registro_de_Contenido\Registro_de_ContenidoPagingModel.cs" />
+    <Compile Include="Classes\StoredProcedure\sp_DelRegistro_de_Contenido.cs" />
+    <Compile Include="Classes\StoredProcedure\sp_InsRegistro_de_Contenido.cs" />
+    <Compile Include="Classes\StoredProcedure\Sp_ListSelCount_Registro_de_Contenido.cs" />
+    <Compile Include="Classes\StoredProcedure\Sp_SelallRegistro_de_Contenido_Complete.cs" />
+    <Compile Include="Classes\StoredProcedure\sp_UpdRegistro_de_Contenido.cs" />
+    <Compile Include="Classes\StoredProcedure\Sp_ListSelAll_Registro_de_Contenido.cs" />
+    <Compile Include="Classes\Registro_de_Contenido\Registro_de_Contenido.cs" />
+    <Compile Include="Classes\Categoria\CategoriaPagingModel.cs" />
+    <Compile Include="Classes\StoredProcedure\sp_DelCategoria.cs" />
+    <Compile Include="Classes\StoredProcedure\sp_InsCategoria.cs" />
+    <Compile Include="Classes\StoredProcedure\Sp_ListSelCount_Categoria.cs" />
+    <Compile Include="Classes\StoredProcedure\Sp_SelallCategoria_Complete.cs" />
+    <Compile Include="Classes\StoredProcedure\sp_UpdCategoria.cs" />
+    <Compile Include="Classes\StoredProcedure\Sp_ListSelAll_Categoria.cs" />
+    <Compile Include="Classes\Categoria\Categoria.cs" />
+    <Compile Include="Classes\Observatorio\ObservatorioPagingModel.cs" />
+    <Compile Include="Classes\StoredProcedure\sp_DelObservatorio.cs" />
+    <Compile Include="Classes\StoredProcedure\sp_InsObservatorio.cs" />
+    <Compile Include="Classes\StoredProcedure\Sp_ListSelCount_Observatorio.cs" />
+    <Compile Include="Classes\StoredProcedure\Sp_SelallObservatorio_Complete.cs" />
+    <Compile Include="Classes\StoredProcedure\sp_UpdObservatorio.cs" />
+    <Compile Include="Classes\StoredProcedure\Sp_ListSelAll_Observatorio.cs" />
+    <Compile Include="Classes\Observatorio\Observatorio.cs" />
+    <Compile Include="Classes\Tipo_de_Observatorio\Tipo_de_ObservatorioPagingModel.cs" />
+    <Compile Include="Classes\StoredProcedure\sp_DelTipo_de_Observatorio.cs" />
+    <Compile Include="Classes\StoredProcedure\sp_InsTipo_de_Observatorio.cs" />
+    <Compile Include="Classes\StoredProcedure\Sp_ListSelCount_Tipo_de_Observatorio.cs" />
+    <Compile Include="Classes\StoredProcedure\Sp_SelallTipo_de_Observatorio_Complete.cs" />
+    <Compile Include="Classes\StoredProcedure\sp_UpdTipo_de_Observatorio.cs" />
+    <Compile Include="Classes\StoredProcedure\Sp_ListSelAll_Tipo_de_Observatorio.cs" />
+    <Compile Include="Classes\Tipo_de_Observatorio\Tipo_de_Observatorio.cs" />
+    <Compile Include="Classes\Detalle_de_Observatorio_Privado\Detalle_de_Observatorio_PrivadoPagingModel.cs" />
+    <Compile Include="Classes\StoredProcedure\sp_DelDetalle_de_Observatorio_Privado.cs" />
+    <Compile Include="Classes\StoredProcedure\sp_InsDetalle_de_Observatorio_Privado.cs" />
+    <Compile Include="Classes\StoredProcedure\Sp_ListSelCount_Detalle_de_Observatorio_Privado.cs" />
+    <Compile Include="Classes\StoredProcedure\Sp_SelallDetalle_de_Observatorio_Privado_Complete.cs" />
+    <Compile Include="Classes\StoredProcedure\sp_UpdDetalle_de_Observatorio_Privado.cs" />
+    <Compile Include="Classes\StoredProcedure\Sp_ListSelAll_Detalle_de_Observatorio_Privado.cs" />
+    <Compile Include="Classes\Detalle_de_Observatorio_Privado\Detalle_de_Observatorio_Privado.cs" />
+    <Compile Include="Classes\Estilo_de_Articulo\Estilo_de_ArticuloPagingModel.cs" />
+    <Compile Include="Classes\StoredProcedure\sp_DelEstilo_de_Articulo.cs" />
+    <Compile Include="Classes\StoredProcedure\sp_InsEstilo_de_Articulo.cs" />
+    <Compile Include="Classes\StoredProcedure\Sp_ListSelCount_Estilo_de_Articulo.cs" />
+    <Compile Include="Classes\StoredProcedure\Sp_SelallEstilo_de_Articulo_Complete.cs" />
+    <Compile Include="Classes\StoredProcedure\sp_UpdEstilo_de_Articulo.cs" />
+    <Compile Include="Classes\StoredProcedure\Sp_ListSelAll_Estilo_de_Articulo.cs" />
+    <Compile Include="Classes\Estilo_de_Articulo\Estilo_de_Articulo.cs" />
+    <Compile Include="Classes\Etiquetas\EtiquetasPagingModel.cs" />
+    <Compile Include="Classes\StoredProcedure\sp_DelEtiquetas.cs" />
+    <Compile Include="Classes\StoredProcedure\sp_InsEtiquetas.cs" />
+    <Compile Include="Classes\StoredProcedure\Sp_ListSelCount_Etiquetas.cs" />
+    <Compile Include="Classes\StoredProcedure\Sp_SelallEtiquetas_Complete.cs" />
+    <Compile Include="Classes\StoredProcedure\sp_UpdEtiquetas.cs" />
+    <Compile Include="Classes\StoredProcedure\Sp_ListSelAll_Etiquetas.cs" />
+    <Compile Include="Classes\Etiquetas\Etiquetas.cs" />
+    <Compile Include="Classes\Detalle_de_Etiquetas\Detalle_de_EtiquetasPagingModel.cs" />
+    <Compile Include="Classes\StoredProcedure\sp_DelDetalle_de_Etiquetas.cs" />
+    <Compile Include="Classes\StoredProcedure\sp_InsDetalle_de_Etiquetas.cs" />
+    <Compile Include="Classes\StoredProcedure\Sp_ListSelCount_Detalle_de_Etiquetas.cs" />
+    <Compile Include="Classes\StoredProcedure\Sp_SelallDetalle_de_Etiquetas_Complete.cs" />
+    <Compile Include="Classes\StoredProcedure\sp_UpdDetalle_de_Etiquetas.cs" />
+    <Compile Include="Classes\StoredProcedure\Sp_ListSelAll_Detalle_de_Etiquetas.cs" />
+    <Compile Include="Classes\Detalle_de_Etiquetas\Detalle_de_Etiquetas.cs" />
+    <Compile Include="Classes\Solicitudes_Via_App\Solicitudes_Via_AppPagingModel.cs" />
+    <Compile Include="Classes\StoredProcedure\sp_DelSolicitudes_Via_App.cs" />
+    <Compile Include="Classes\StoredProcedure\sp_InsSolicitudes_Via_App.cs" />
+    <Compile Include="Classes\StoredProcedure\Sp_ListSelCount_Solicitudes_Via_App.cs" />
+    <Compile Include="Classes\StoredProcedure\Sp_SelallSolicitudes_Via_App_Complete.cs" />
+    <Compile Include="Classes\StoredProcedure\sp_UpdSolicitudes_Via_App.cs" />
+    <Compile Include="Classes\StoredProcedure\Sp_ListSelAll_Solicitudes_Via_App.cs" />
+    <Compile Include="Classes\Solicitudes_Via_App\Solicitudes_Via_App.cs" />
+    <Compile Include="Classes\Opciones_de_Solicitud_via_App\Opciones_de_Solicitud_via_AppPagingModel.cs" />
+    <Compile Include="Classes\StoredProcedure\sp_DelOpciones_de_Solicitud_via_App.cs" />
+    <Compile Include="Classes\StoredProcedure\sp_InsOpciones_de_Solicitud_via_App.cs" />
+    <Compile Include="Classes\StoredProcedure\Sp_ListSelCount_Opciones_de_Solicitud_via_App.cs" />
+    <Compile Include="Classes\StoredProcedure\Sp_SelallOpciones_de_Solicitud_via_App_Complete.cs" />
+    <Compile Include="Classes\StoredProcedure\sp_UpdOpciones_de_Solicitud_via_App.cs" />
+    <Compile Include="Classes\StoredProcedure\Sp_ListSelAll_Opciones_de_Solicitud_via_App.cs" />
+    <Compile Include="Classes\Opciones_de_Solicitud_via_App\Opciones_de_Solicitud_via_App.cs" />
+    <Compile Include="Classes\Color\ColorPagingModel.cs" />
+    <Compile Include="Classes\StoredProcedure\sp_DelColor.cs" />
+    <Compile Include="Classes\StoredProcedure\sp_InsColor.cs" />
+    <Compile Include="Classes\StoredProcedure\Sp_ListSelCount_Color.cs" />
+    <Compile Include="Classes\StoredProcedure\Sp_SelallColor_Complete.cs" />
+    <Compile Include="Classes\StoredProcedure\sp_UpdColor.cs" />
+    <Compile Include="Classes\StoredProcedure\Sp_ListSelAll_Color.cs" />
+    <Compile Include="Classes\Color\Color.cs" />
+    <Compile Include="Classes\Fuentes\FuentesPagingModel.cs" />
+    <Compile Include="Classes\StoredProcedure\sp_DelFuentes.cs" />
+    <Compile Include="Classes\StoredProcedure\sp_InsFuentes.cs" />
+    <Compile Include="Classes\StoredProcedure\Sp_ListSelCount_Fuentes.cs" />
+    <Compile Include="Classes\StoredProcedure\Sp_SelallFuentes_Complete.cs" />
+    <Compile Include="Classes\StoredProcedure\sp_UpdFuentes.cs" />
+    <Compile Include="Classes\StoredProcedure\Sp_ListSelAll_Fuentes.cs" />
+    <Compile Include="Classes\Fuentes\Fuentes.cs" />
+    <Compile Include="Classes\Detalle_de_Etiquetas_Contenido\Detalle_de_Etiquetas_ContenidoPagingModel.cs" />
+    <Compile Include="Classes\StoredProcedure\sp_DelDetalle_de_Etiquetas_Contenido.cs" />
+    <Compile Include="Classes\StoredProcedure\sp_InsDetalle_de_Etiquetas_Contenido.cs" />
+    <Compile Include="Classes\StoredProcedure\Sp_ListSelCount_Detalle_de_Etiquetas_Contenido.cs" />
+    <Compile Include="Classes\StoredProcedure\Sp_SelallDetalle_de_Etiquetas_Contenido_Complete.cs" />
+    <Compile Include="Classes\StoredProcedure\sp_UpdDetalle_de_Etiquetas_Contenido.cs" />
+    <Compile Include="Classes\StoredProcedure\Sp_ListSelAll_Detalle_de_Etiquetas_Contenido.cs" />
+    <Compile Include="Classes\Detalle_de_Etiquetas_Contenido\Detalle_de_Etiquetas_Contenido.cs" />
+    <Compile Include="Classes\Estatus_de_Contenido\Estatus_de_ContenidoPagingModel.cs" />
+    <Compile Include="Classes\StoredProcedure\sp_DelEstatus_de_Contenido.cs" />
+    <Compile Include="Classes\StoredProcedure\sp_InsEstatus_de_Contenido.cs" />
+    <Compile Include="Classes\StoredProcedure\Sp_ListSelCount_Estatus_de_Contenido.cs" />
+    <Compile Include="Classes\StoredProcedure\Sp_SelallEstatus_de_Contenido_Complete.cs" />
+    <Compile Include="Classes\StoredProcedure\sp_UpdEstatus_de_Contenido.cs" />
+    <Compile Include="Classes\StoredProcedure\Sp_ListSelAll_Estatus_de_Contenido.cs" />
+    <Compile Include="Classes\Estatus_de_Contenido\Estatus_de_Contenido.cs" />
+    <Compile Include="Classes\SubCategoria\SubCategoriaPagingModel.cs" />
+    <Compile Include="Classes\StoredProcedure\sp_DelSubCategoria.cs" />
+    <Compile Include="Classes\StoredProcedure\sp_InsSubCategoria.cs" />
+    <Compile Include="Classes\StoredProcedure\Sp_ListSelCount_SubCategoria.cs" />
+    <Compile Include="Classes\StoredProcedure\Sp_SelallSubCategoria_Complete.cs" />
+    <Compile Include="Classes\StoredProcedure\sp_UpdSubCategoria.cs" />
+    <Compile Include="Classes\StoredProcedure\Sp_ListSelAll_SubCategoria.cs" />
+    <Compile Include="Classes\SubCategoria\SubCategoria.cs" />
+    <Compile Include="Classes\Seccion\SeccionPagingModel.cs" />
+    <Compile Include="Classes\StoredProcedure\sp_DelSeccion.cs" />
+    <Compile Include="Classes\StoredProcedure\sp_InsSeccion.cs" />
+    <Compile Include="Classes\StoredProcedure\Sp_ListSelCount_Seccion.cs" />
+    <Compile Include="Classes\StoredProcedure\Sp_SelallSeccion_Complete.cs" />
+    <Compile Include="Classes\StoredProcedure\sp_UpdSeccion.cs" />
+    <Compile Include="Classes\StoredProcedure\Sp_ListSelAll_Seccion.cs" />
+    <Compile Include="Classes\Seccion\Seccion.cs" />
+    <Compile Include="Classes\Estatus_Codigo\Estatus_CodigoPagingModel.cs" />
+    <Compile Include="Classes\StoredProcedure\sp_DelEstatus_Codigo.cs" />
+    <Compile Include="Classes\StoredProcedure\sp_InsEstatus_Codigo.cs" />
+    <Compile Include="Classes\StoredProcedure\Sp_ListSelCount_Estatus_Codigo.cs" />
+    <Compile Include="Classes\StoredProcedure\Sp_SelallEstatus_Codigo_Complete.cs" />
+    <Compile Include="Classes\StoredProcedure\sp_UpdEstatus_Codigo.cs" />
+    <Compile Include="Classes\StoredProcedure\Sp_ListSelAll_Estatus_Codigo.cs" />
+    <Compile Include="Classes\Estatus_Codigo\Estatus_Codigo.cs" />
+    <Compile Include="Classes\Codigos_por_Cliente\Codigos_por_ClientePagingModel.cs" />
+    <Compile Include="Classes\StoredProcedure\sp_DelCodigos_por_Cliente.cs" />
+    <Compile Include="Classes\StoredProcedure\sp_InsCodigos_por_Cliente.cs" />
+    <Compile Include="Classes\StoredProcedure\Sp_ListSelCount_Codigos_por_Cliente.cs" />
+    <Compile Include="Classes\StoredProcedure\Sp_SelallCodigos_por_Cliente_Complete.cs" />
+    <Compile Include="Classes\StoredProcedure\sp_UpdCodigos_por_Cliente.cs" />
+    <Compile Include="Classes\StoredProcedure\Sp_ListSelAll_Codigos_por_Cliente.cs" />
+    <Compile Include="Classes\Codigos_por_Cliente\Codigos_por_Cliente.cs" />
+    <Compile Include="Classes\Detalle_de_Codigo_Por_Cliente\Detalle_de_Codigo_Por_ClientePagingModel.cs" />
+    <Compile Include="Classes\StoredProcedure\sp_DelDetalle_de_Codigo_Por_Cliente.cs" />
+    <Compile Include="Classes\StoredProcedure\sp_InsDetalle_de_Codigo_Por_Cliente.cs" />
+    <Compile Include="Classes\StoredProcedure\Sp_ListSelCount_Detalle_de_Codigo_Por_Cliente.cs" />
+    <Compile Include="Classes\StoredProcedure\Sp_SelallDetalle_de_Codigo_Por_Cliente_Complete.cs" />
+    <Compile Include="Classes\StoredProcedure\sp_UpdDetalle_de_Codigo_Por_Cliente.cs" />
+    <Compile Include="Classes\StoredProcedure\Sp_ListSelAll_Detalle_de_Codigo_Por_Cliente.cs" />
+    <Compile Include="Classes\Detalle_de_Codigo_Por_Cliente\Detalle_de_Codigo_Por_Cliente.cs" />
+    <Compile Include="Classes\Autorizacion\AutorizacionPagingModel.cs" />
+    <Compile Include="Classes\StoredProcedure\sp_DelAutorizacion.cs" />
+    <Compile Include="Classes\StoredProcedure\sp_InsAutorizacion.cs" />
+    <Compile Include="Classes\StoredProcedure\Sp_ListSelCount_Autorizacion.cs" />
+    <Compile Include="Classes\StoredProcedure\Sp_SelallAutorizacion_Complete.cs" />
+    <Compile Include="Classes\StoredProcedure\sp_UpdAutorizacion.cs" />
+    <Compile Include="Classes\StoredProcedure\Sp_ListSelAll_Autorizacion.cs" />
+    <Compile Include="Classes\Autorizacion\Autorizacion.cs" />
+    <Compile Include="Classes\Estatus_de_Solicitud_Via_App\Estatus_de_Solicitud_Via_AppPagingModel.cs" />
+    <Compile Include="Classes\StoredProcedure\sp_DelEstatus_de_Solicitud_Via_App.cs" />
+    <Compile Include="Classes\StoredProcedure\sp_InsEstatus_de_Solicitud_Via_App.cs" />
+    <Compile Include="Classes\StoredProcedure\Sp_ListSelCount_Estatus_de_Solicitud_Via_App.cs" />
+    <Compile Include="Classes\StoredProcedure\Sp_SelallEstatus_de_Solicitud_Via_App_Complete.cs" />
+    <Compile Include="Classes\StoredProcedure\sp_UpdEstatus_de_Solicitud_Via_App.cs" />
+    <Compile Include="Classes\StoredProcedure\Sp_ListSelAll_Estatus_de_Solicitud_Via_App.cs" />
+    <Compile Include="Classes\Estatus_de_Solicitud_Via_App\Estatus_de_Solicitud_Via_App.cs" />
+    <Compile Include="Classes\Usuarios_Registrados_en_Observatorios\Usuarios_Registrados_en_ObservatoriosPagingModel.cs" />
+    <Compile Include="Classes\StoredProcedure\sp_DelUsuarios_Registrados_en_Observatorios.cs" />
+    <Compile Include="Classes\StoredProcedure\sp_InsUsuarios_Registrados_en_Observatorios.cs" />
+    <Compile Include="Classes\StoredProcedure\Sp_ListSelCount_Usuarios_Registrados_en_Observatorios.cs" />
+    <Compile Include="Classes\StoredProcedure\Sp_SelallUsuarios_Registrados_en_Observatorios_Complete.cs" />
+    <Compile Include="Classes\StoredProcedure\sp_UpdUsuarios_Registrados_en_Observatorios.cs" />
+    <Compile Include="Classes\StoredProcedure\Sp_ListSelAll_Usuarios_Registrados_en_Observatorios.cs" />
+    <Compile Include="Classes\Usuarios_Registrados_en_Observatorios\Usuarios_Registrados_en_Observatorios.cs" />
+    <Compile Include="Classes\Registro_de_Roles\Registro_de_RolesPagingModel.cs" />
+    <Compile Include="Classes\StoredProcedure\sp_DelRegistro_de_Roles.cs" />
+    <Compile Include="Classes\StoredProcedure\sp_InsRegistro_de_Roles.cs" />
+    <Compile Include="Classes\StoredProcedure\Sp_ListSelCount_Registro_de_Roles.cs" />
+    <Compile Include="Classes\StoredProcedure\Sp_SelallRegistro_de_Roles_Complete.cs" />
+    <Compile Include="Classes\StoredProcedure\sp_UpdRegistro_de_Roles.cs" />
+    <Compile Include="Classes\StoredProcedure\Sp_ListSelAll_Registro_de_Roles.cs" />
+    <Compile Include="Classes\Registro_de_Roles\Registro_de_Roles.cs" />
+    <Compile Include="Classes\Rol_de_Usuario\Rol_de_UsuarioPagingModel.cs" />
+    <Compile Include="Classes\StoredProcedure\sp_DelRol_de_Usuario.cs" />
+    <Compile Include="Classes\StoredProcedure\sp_InsRol_de_Usuario.cs" />
+    <Compile Include="Classes\StoredProcedure\Sp_ListSelCount_Rol_de_Usuario.cs" />
+    <Compile Include="Classes\StoredProcedure\Sp_SelallRol_de_Usuario_Complete.cs" />
+    <Compile Include="Classes\StoredProcedure\sp_UpdRol_de_Usuario.cs" />
+    <Compile Include="Classes\StoredProcedure\Sp_ListSelAll_Rol_de_Usuario.cs" />
+    <Compile Include="Classes\Rol_de_Usuario\Rol_de_Usuario.cs" />
+    <Compile Include="Classes\Detalle_de_Asistentes_de_Observatorio\Detalle_de_Asistentes_de_ObservatorioPagingModel.cs" />
+    <Compile Include="Classes\StoredProcedure\sp_DelDetalle_de_Asistentes_de_Observatorio.cs" />
+    <Compile Include="Classes\StoredProcedure\sp_InsDetalle_de_Asistentes_de_Observatorio.cs" />
+    <Compile Include="Classes\StoredProcedure\Sp_ListSelCount_Detalle_de_Asistentes_de_Observatorio.cs" />
+    <Compile Include="Classes\StoredProcedure\Sp_SelallDetalle_de_Asistentes_de_Observatorio_Complete.cs" />
+    <Compile Include="Classes\StoredProcedure\sp_UpdDetalle_de_Asistentes_de_Observatorio.cs" />
+    <Compile Include="Classes\StoredProcedure\Sp_ListSelAll_Detalle_de_Asistentes_de_Observatorio.cs" />
+    <Compile Include="Classes\Detalle_de_Asistentes_de_Observatorio\Detalle_de_Asistentes_de_Observatorio.cs" />
+    <Compile Include="Classes\Detalle_de_Notificacion_por_Observatorio\Detalle_de_Notificacion_por_ObservatorioPagingModel.cs" />
+    <Compile Include="Classes\StoredProcedure\sp_DelDetalle_de_Notificacion_por_Observatorio.cs" />
+    <Compile Include="Classes\StoredProcedure\sp_InsDetalle_de_Notificacion_por_Observatorio.cs" />
+    <Compile Include="Classes\StoredProcedure\Sp_ListSelCount_Detalle_de_Notificacion_por_Observatorio.cs" />
+    <Compile Include="Classes\StoredProcedure\Sp_SelallDetalle_de_Notificacion_por_Observatorio_Complete.cs" />
+    <Compile Include="Classes\StoredProcedure\sp_UpdDetalle_de_Notificacion_por_Observatorio.cs" />
+    <Compile Include="Classes\StoredProcedure\Sp_ListSelAll_Detalle_de_Notificacion_por_Observatorio.cs" />
+    <Compile Include="Classes\Detalle_de_Notificacion_por_Observatorio\Detalle_de_Notificacion_por_Observatorio.cs" />
+    <Compile Include="Classes\Detalle_de_Notificacion_por_Usuario\Detalle_de_Notificacion_por_UsuarioPagingModel.cs" />
+    <Compile Include="Classes\StoredProcedure\sp_DelDetalle_de_Notificacion_por_Usuario.cs" />
+    <Compile Include="Classes\StoredProcedure\sp_InsDetalle_de_Notificacion_por_Usuario.cs" />
+    <Compile Include="Classes\StoredProcedure\Sp_ListSelCount_Detalle_de_Notificacion_por_Usuario.cs" />
+    <Compile Include="Classes\StoredProcedure\Sp_SelallDetalle_de_Notificacion_por_Usuario_Complete.cs" />
+    <Compile Include="Classes\StoredProcedure\sp_UpdDetalle_de_Notificacion_por_Usuario.cs" />
+    <Compile Include="Classes\StoredProcedure\Sp_ListSelAll_Detalle_de_Notificacion_por_Usuario.cs" />
+    <Compile Include="Classes\Detalle_de_Notificacion_por_Usuario\Detalle_de_Notificacion_por_Usuario.cs" />
+    <Compile Include="Classes\Tipo_de_Dispositivo\Tipo_de_DispositivoPagingModel.cs" />
+    <Compile Include="Classes\StoredProcedure\sp_DelTipo_de_Dispositivo.cs" />
+    <Compile Include="Classes\StoredProcedure\sp_InsTipo_de_Dispositivo.cs" />
+    <Compile Include="Classes\StoredProcedure\Sp_ListSelCount_Tipo_de_Dispositivo.cs" />
+    <Compile Include="Classes\StoredProcedure\Sp_SelallTipo_de_Dispositivo_Complete.cs" />
+    <Compile Include="Classes\StoredProcedure\sp_UpdTipo_de_Dispositivo.cs" />
+    <Compile Include="Classes\StoredProcedure\Sp_ListSelAll_Tipo_de_Dispositivo.cs" />
+    <Compile Include="Classes\Tipo_de_Dispositivo\Tipo_de_Dispositivo.cs" />
+    <Compile Include="Classes\ttusuarios_token\ttusuarios_tokenPagingModel.cs" />
+    <Compile Include="Classes\StoredProcedure\sp_Delttusuarios_token.cs" />
+    <Compile Include="Classes\StoredProcedure\sp_Insttusuarios_token.cs" />
+    <Compile Include="Classes\StoredProcedure\Sp_ListSelCount_ttusuarios_token.cs" />
+    <Compile Include="Classes\StoredProcedure\Sp_Selallttusuarios_token_Complete.cs" />
+    <Compile Include="Classes\StoredProcedure\sp_Updttusuarios_token.cs" />
+    <Compile Include="Classes\StoredProcedure\Sp_ListSelAll_ttusuarios_token.cs" />
+    <Compile Include="Classes\ttusuarios_token\ttusuarios_token.cs" />
+    <Compile Include="Classes\Visitas\VisitasPagingModel.cs" />
+    <Compile Include="Classes\StoredProcedure\sp_DelVisitas.cs" />
+    <Compile Include="Classes\StoredProcedure\sp_InsVisitas.cs" />
+    <Compile Include="Classes\StoredProcedure\Sp_ListSelCount_Visitas.cs" />
+    <Compile Include="Classes\StoredProcedure\Sp_SelallVisitas_Complete.cs" />
+    <Compile Include="Classes\StoredProcedure\sp_UpdVisitas.cs" />
+    <Compile Include="Classes\StoredProcedure\Sp_ListSelAll_Visitas.cs" />
+    <Compile Include="Classes\Visitas\Visitas.cs" />
+    <!--@@INCLUDE@@-->
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+ Other similar extension points exist, see Microsoft.Common.targets.
+ <Target Name="BeforeBuild">
+ </Target>
+ <Target Name="AfterBuild">
+ </Target>
+ -->
+</Project>

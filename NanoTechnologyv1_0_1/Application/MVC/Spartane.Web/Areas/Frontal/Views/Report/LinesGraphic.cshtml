@@ -1,0 +1,277 @@
+﻿@using System.Collections.Generic
+@using System.Web.UI.WebControls
+
+@using Spartane.Core.Domain.Permission
+@using Spartane.Web.Areas.WebApiConsumer
+@using Spartane.Web.Helpers
+@{
+    ViewBag.Title = "Spartan - Lines Graphic";
+    //ViewBag.dataReport = ((string)ViewBag.dataReport).Replace(@"&quot;", @"""");
+    string dataReport = Uri.UnescapeDataString((string)ViewBag.dataReport);
+}
+<style>
+    .MarginBottom {
+        margin-bottom: 1%;
+    }
+
+    #divAdvanceSearch input {
+        margin-right: 2%;
+    }
+
+    #divAdvanceSearch button {
+        margin-right: 2%;
+    }
+
+    #divAdvanceSearch select {
+        margin-right: 2%;
+    }
+
+    #divAdvanceSearch h3 {
+        margin-top: 2%;
+    }
+</style>
+
+<div class="row wrapper border-bottom white-bg page-heading">
+    <div class="col-lg-10">
+        @*<h2>@Resources.VendedorResources.Vendedor</h2>*@
+        <h2>Lines Graphic</h2>
+
+        <ol class="breadcrumb">
+            <li>
+                <a href="@Url.Action("Index", "Home")">@Resources.Resources.Home</a>
+
+            </li>
+            <li class="active">
+                @*<strong>@Resources.VendedorResources.Vendedor</strong>*@
+                <strong>Lines Graphic</strong>
+            </li>
+        </ol>
+    </div>
+    <div class="col-lg-2">
+    </div>
+</div>
+
+<input type="hidden" value="list" name="Operation" id="Operation" />
+<input type="hidden" value="true" name="IsFilterModal" id="IsFilterModal" />
+
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,600,400' rel='stylesheet' type='text/css'>
+
+<span id="popupNotification"></span>
+<div aria-hidden="true" data-backdrop="static" class="modal" id="AddEditFiltersModal-form" style="display: none; background-color:rgba(0, 0, 0, 0.7);">
+    <div class="modal-dialog" style="width:80%;">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title">
+                    @Resources.Resources.AdvanceFilter
+                    <button data-dismiss="modal" class="close" type="button"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
+                </h4>
+            </div>
+            <div class="modal-body AddEditFiltersModal">
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="wrapper wrapper-content animated fadeInRight">
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="ibox float-e-margins">
+                <div class="ibox-content">
+                    <input type="hidden" value="@ViewBag.IdReport" name="IdReport" id="IdReport" />
+                    <div>
+                        <input data-target="#advance-modal" data-toggle="modal" type="button" value="@Resources.Resources.AdvanceFilter" id="AdvanceFilter" class="btn btn-w-m btn-success btn-filter" />
+                        <a href="../ClearFilter?id=@ViewBag.IdReport" class=" btn btn-primary">@Resources.Resources.ClearFilter</a>
+                    </div>
+
+                    <div id="jsGrid">
+                    </div>
+
+                    @* Model Start Here *@
+
+                    @using (Ajax.BeginForm("", "", new AjaxOptions { OnSuccess = "" }))
+                    {
+
+                    }
+
+                    @* Model Print Start*@
+
+                    <div class="table-responsive">
+                        <span id="flot-chart"></span>
+                        <div style="width:100%;">
+                            <button class="btn btn-primary float-right" id="printGraph"><i class="fa fa-print"></i>&nbsp;Imprimir</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    .dataTables_filter {
+        display: none;
+    }
+
+    div.dataTables_info {
+        display: inline-block;
+        float: left;
+    }
+
+    .highcharts-credits {
+        display: none;
+    }
+</style>
+
+<script type="text/javascript">
+
+    var chart;
+
+    $(document).ready(function () {
+        var strData = '@Html.Raw(dataReport)';
+        var jsonData = JSON.parse(strData);
+
+        var dataGraphic = {};
+
+        dataGraphic = getLinesData(jsonData);
+        renderLinesChart(dataGraphic, jsonData);
+
+        $("#printGraph").click(function () {
+            chart.print();
+        });
+    });
+
+    function renderLinesChart(dataGraphic, jsonData) {
+        var categories = getLinesCategories(dataGraphic);
+        var series = getLinesSeries(dataGraphic);
+        var data = formatLinesData(dataGraphic, categories, series);
+        var fieldValue = Object.keys(jsonData[0])[2];
+
+        // Create Chart
+        chart = Highcharts.chart('flot-chart', {
+
+            title: {
+                text: 'Lines Chart'
+            },
+
+            xAxis: {
+                categories: categories
+            },
+
+            yAxis: {
+                title: {
+                    text: fieldValue
+                }
+            },
+            legend: {
+                layout: 'vertical',
+                align: 'right',
+                verticalAlign: 'middle'
+            },
+
+            series: data
+
+        });
+    }
+
+    function getLinesCategories(dataGraphic) {
+        var arr = [];
+
+        dataGraphic.forEach(function (item, index) {
+            arr.push(item["category"]);
+        });
+
+        arr = $.grep(arr, function (v, k) {
+            return $.inArray(v, arr) === k;
+        });
+
+        return arr
+    }
+
+    function getLinesSeries(dataGraphic) {
+        var arr = [];
+
+        dataGraphic.forEach(function (item, index) {
+            arr.push(item["serie"]);
+        });
+
+        arr = $.grep(arr, function (v, k) {
+            return $.inArray(v, arr) === k;
+        });
+
+        return arr
+    }
+
+    function getLinesData(dataGraphic) {
+        var dataSet = [];
+        dataGraphic.forEach(function (item, index) {
+            var fieldCategory = Object.keys(item)[0],
+                fieldSerie = Object.keys(item)[1],
+                fieldValue = Object.keys(item)[2];
+
+            var category = item[fieldCategory];
+            if(isDate(category))
+                category = moment(new Date(category)).format("DD/MM/YYYY");
+            dataSet.push({ category: category, serie: item[fieldSerie], valor: item[fieldValue] });
+        });
+
+        console.log(dataSet);
+        return dataSet
+    }
+
+    function formatLinesData(dataGraphic, categories, series) {
+        var result = [];
+        series.forEach(function (itemSerie, indexSerie) {
+            var serie = [];
+            categories.forEach(function (itemCategory, indexCategory) {
+                dataGraphic.forEach(function (itemData, indexData) {
+                    if (itemData.serie === itemSerie && itemData.category === itemCategory) {
+                        value = itemData.valor;
+                        serie.push(value);
+                    }
+                });
+            });
+            result.push({ name: itemSerie, data: serie });
+        });
+
+        return result;
+    }
+
+    function isDate(str) {
+        var dateReg = /^\d{4}[./-]\d{2}[./-]\d{2}T\d{2}:\d{2}:\d{2}$/;
+        return dateReg.test(str);
+    }
+
+    $('#AdvanceFilter').click(function () {
+        ajaxindicatorstart('Loading data.. please wait..');
+        GetFiltersPopup();
+    });
+
+    function GetFiltersPopup() {
+        $.ajax({
+            url: "@Url.Action("ShowAdvanceFilter", ((Spartane.Core.Domain.SpartaneObject.SpartaneObject)ViewBag.Object).URL)",
+            type: "GET",
+        async: true,
+        success: function (data) {
+            $(".AddEditFiltersModal").html(data);
+            $('.AddEditFiltersModal form').data('validator', null);
+            $.validator.unobtrusive.parse('.AddEditFiltersModal form');
+            $('#AddEditFiltersModal-form').modal('show');
+            ajaxindicatorstop();
+        },
+        error: function () {
+            ajaxindicatorstop();
+        }
+    });
+    }
+</script>
+
+@section Styles {
+}
+
+@section Scripts {
+@Scripts.Render("~/Scripts/BootstrapDatePicker/moment.js")
+}
+<script src="~/Scripts/plugins/highcharts/highcharts.js"></script>
+<script src="~/Scripts/plugins/highcharts/modules/data.js"></script>
+<script src="~/Scripts/plugins/highcharts/modules/exporting.js"></script>

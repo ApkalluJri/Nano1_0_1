@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" standalone="yes"?>
+<resources>
+  <resource culture="es-es" name="Spartan_Format" value="Spartan Format"></resource>
+  <resource culture="es-es" name="FormatId" value="Id"></resource>
+  <resource culture="es-es" name="Registration_Date" value="Registration Date"></resource>
+  <resource culture="es-es" name="Registration_Hour" value="Registration Hour"></resource>
+  <resource culture="es-es" name="Registration_User" value="Registration User"></resource>
+  <resource culture="es-es" name="Format_Name" value="Format Name"></resource>
+  <resource culture="es-es" name="Format_Type" value="Format Type"></resource>
+  <resource culture="es-es" name="Search" value="Search"></resource>
+  <resource culture="es-es" name="Object" value="Object"></resource>
+  <resource culture="es-es" name="Header" value="Header"></resource>
+  <resource culture="es-es" name="Body" value="Body"></resource>
+  <resource culture="es-es" name="Footer" value="Footer"></resource>
+
+</resources>

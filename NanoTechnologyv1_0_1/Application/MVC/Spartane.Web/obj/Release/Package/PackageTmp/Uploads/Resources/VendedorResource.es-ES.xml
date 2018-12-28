@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" standalone="yes"?>
+<resources>
+  <resource culture="es-es" name="Vendedor" value="Vendedor"></resource>
+  <resource culture="es-es" name="Numero_de_Empleado" value="Número de Empleado"></resource>
+  <resource culture="es-es" name="Nombre" value="Nombre"></resource>
+  <resource culture="es-es" name="Apellidos" value="Apellidos"></resource>
+  <resource culture="es-es" name="Activo" value="Activo"></resource>
+  <resource culture="es-es" name="Fecha_de_Nacimiento" value="Fecha de Nacimiento"></resource>
+  <resource culture="es-es" name="Hora_de_Entrada" value="Hora de Entrada"></resource>
+  <resource culture="es-es" name="Empresa" value="Empresa"></resource>
+  <resource culture="es-es" name="Fotografia" value="Fotografía"></resource>
+  <resource culture="es-es" name="Peso" value="Peso (kgs.)"></resource>
+  <resource culture="es-es" name="Sueldo" value="Sueldo"></resource>
+  <resource culture="es-es" name="Familiares" value="Familiares"></resource>
+
+</resources>

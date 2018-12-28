@@ -1,0 +1,62 @@
+C:\Proyectos\Secretaria de Educacion\edulinkv1_0_5\Application\MVC\Spartane.Data\bin\Release\Spartane.Data.dll.config
+C:\Proyectos\Secretaria de Educacion\edulinkv1_0_5\Application\MVC\Spartane.Data\bin\Release\Spartane.Data.dll
+C:\Proyectos\Secretaria de Educacion\edulinkv1_0_5\Application\MVC\Spartane.Data\bin\Release\Spartane.Data.pdb
+C:\Proyectos\Secretaria de Educacion\edulinkv1_0_5\Application\MVC\Spartane.Data\bin\Release\EntityFramework.dll
+C:\Proyectos\Secretaria de Educacion\edulinkv1_0_5\Application\MVC\Spartane.Data\bin\Release\EntityFramework.SqlServer.dll
+C:\Proyectos\Secretaria de Educacion\edulinkv1_0_5\Application\MVC\Spartane.Data\bin\Release\Spartane.Core.dll
+C:\Proyectos\Secretaria de Educacion\edulinkv1_0_5\Application\MVC\Spartane.Data\bin\Release\Autofac.dll
+C:\Proyectos\Secretaria de Educacion\edulinkv1_0_5\Application\MVC\Spartane.Data\bin\Release\log4net.dll
+C:\Proyectos\Secretaria de Educacion\edulinkv1_0_5\Application\MVC\Spartane.Data\bin\Release\SqlLinq.dll
+C:\Proyectos\Secretaria de Educacion\edulinkv1_0_5\Application\MVC\Spartane.Data\bin\Release\Autofac.Integration.Mvc.dll
+C:\Proyectos\Secretaria de Educacion\edulinkv1_0_5\Application\MVC\Spartane.Data\bin\Release\System.Web.Mvc.dll
+C:\Proyectos\Secretaria de Educacion\edulinkv1_0_5\Application\MVC\Spartane.Data\bin\Release\GoldParser.dll
+C:\Proyectos\Secretaria de Educacion\edulinkv1_0_5\Application\MVC\Spartane.Data\bin\Release\Kackman.RuntimeTypeLoader.dll
+C:\Proyectos\Secretaria de Educacion\edulinkv1_0_5\Application\MVC\Spartane.Data\bin\Release\System.Web.Razor.dll
+C:\Proyectos\Secretaria de Educacion\edulinkv1_0_5\Application\MVC\Spartane.Data\bin\Release\System.Web.WebPages.Razor.dll
+C:\Proyectos\Secretaria de Educacion\edulinkv1_0_5\Application\MVC\Spartane.Data\bin\Release\System.Web.WebPages.dll
+C:\Proyectos\Secretaria de Educacion\edulinkv1_0_5\Application\MVC\Spartane.Data\bin\Release\System.Web.WebPages.Deployment.dll
+C:\Proyectos\Secretaria de Educacion\edulinkv1_0_5\Application\MVC\Spartane.Data\bin\Release\Spartane.Core.pdb
+C:\Proyectos\Secretaria de Educacion\edulinkv1_0_5\Application\MVC\Spartane.Data\bin\Release\EntityFramework.xml
+C:\Proyectos\Secretaria de Educacion\edulinkv1_0_5\Application\MVC\Spartane.Data\bin\Release\EntityFramework.SqlServer.xml
+C:\Proyectos\Secretaria de Educacion\edulinkv1_0_5\Application\MVC\Spartane.Data\bin\Release\Autofac.xml
+C:\Proyectos\Secretaria de Educacion\edulinkv1_0_5\Application\MVC\Spartane.Data\bin\Release\log4net.xml
+C:\Proyectos\Secretaria de Educacion\edulinkv1_0_5\Application\MVC\Spartane.Data\bin\Release\Autofac.Integration.Mvc.xml
+C:\Proyectos\Secretaria de Educacion\edulinkv1_0_5\Application\MVC\Spartane.Data\bin\Release\System.Web.Mvc.xml
+C:\Proyectos\Secretaria de Educacion\edulinkv1_0_5\Application\MVC\Spartane.Data\bin\Release\System.Web.Razor.xml
+C:\Proyectos\Secretaria de Educacion\edulinkv1_0_5\Application\MVC\Spartane.Data\bin\Release\System.Web.WebPages.Razor.xml
+C:\Proyectos\Secretaria de Educacion\edulinkv1_0_5\Application\MVC\Spartane.Data\bin\Release\System.Web.WebPages.xml
+C:\Proyectos\Secretaria de Educacion\edulinkv1_0_5\Application\MVC\Spartane.Data\bin\Release\System.Web.WebPages.Deployment.xml
+C:\Proyectos\Secretaria de Educacion\edulinkv1_0_5\Application\MVC\Spartane.Data\obj\Release\Spartane.Data.csprojResolveAssemblyReference.cache
+C:\Proyectos\Secretaria de Educacion\edulinkv1_0_5\Application\MVC\Spartane.Data\obj\Release\Spartane.Data.dll
+C:\Proyectos\Secretaria de Educacion\edulinkv1_0_5\Application\MVC\Spartane.Data\obj\Release\Spartane.Data.pdb
+C:\Proyectos\Totaltech\SpartaneTemplateFormatos\Application\MVC\Spartane.Data\bin\Release\Spartane.Data.dll.config
+C:\Proyectos\Totaltech\SpartaneTemplateFormatos\Application\MVC\Spartane.Data\bin\Release\Spartane.Data.dll
+C:\Proyectos\Totaltech\SpartaneTemplateFormatos\Application\MVC\Spartane.Data\bin\Release\Spartane.Data.pdb
+C:\Proyectos\Totaltech\SpartaneTemplateFormatos\Application\MVC\Spartane.Data\bin\Release\EntityFramework.dll
+C:\Proyectos\Totaltech\SpartaneTemplateFormatos\Application\MVC\Spartane.Data\bin\Release\EntityFramework.SqlServer.dll
+C:\Proyectos\Totaltech\SpartaneTemplateFormatos\Application\MVC\Spartane.Data\bin\Release\Spartane.Core.dll
+C:\Proyectos\Totaltech\SpartaneTemplateFormatos\Application\MVC\Spartane.Data\bin\Release\Autofac.dll
+C:\Proyectos\Totaltech\SpartaneTemplateFormatos\Application\MVC\Spartane.Data\bin\Release\log4net.dll
+C:\Proyectos\Totaltech\SpartaneTemplateFormatos\Application\MVC\Spartane.Data\bin\Release\System.Web.Mvc.dll
+C:\Proyectos\Totaltech\SpartaneTemplateFormatos\Application\MVC\Spartane.Data\bin\Release\SqlLinq.dll
+C:\Proyectos\Totaltech\SpartaneTemplateFormatos\Application\MVC\Spartane.Data\bin\Release\Autofac.Integration.Mvc.dll
+C:\Proyectos\Totaltech\SpartaneTemplateFormatos\Application\MVC\Spartane.Data\bin\Release\System.Web.Razor.dll
+C:\Proyectos\Totaltech\SpartaneTemplateFormatos\Application\MVC\Spartane.Data\bin\Release\System.Web.WebPages.Razor.dll
+C:\Proyectos\Totaltech\SpartaneTemplateFormatos\Application\MVC\Spartane.Data\bin\Release\System.Web.WebPages.dll
+C:\Proyectos\Totaltech\SpartaneTemplateFormatos\Application\MVC\Spartane.Data\bin\Release\GoldParser.dll
+C:\Proyectos\Totaltech\SpartaneTemplateFormatos\Application\MVC\Spartane.Data\bin\Release\Kackman.RuntimeTypeLoader.dll
+C:\Proyectos\Totaltech\SpartaneTemplateFormatos\Application\MVC\Spartane.Data\bin\Release\System.Web.WebPages.Deployment.dll
+C:\Proyectos\Totaltech\SpartaneTemplateFormatos\Application\MVC\Spartane.Data\bin\Release\Spartane.Core.pdb
+C:\Proyectos\Totaltech\SpartaneTemplateFormatos\Application\MVC\Spartane.Data\bin\Release\EntityFramework.xml
+C:\Proyectos\Totaltech\SpartaneTemplateFormatos\Application\MVC\Spartane.Data\bin\Release\EntityFramework.SqlServer.xml
+C:\Proyectos\Totaltech\SpartaneTemplateFormatos\Application\MVC\Spartane.Data\bin\Release\Autofac.xml
+C:\Proyectos\Totaltech\SpartaneTemplateFormatos\Application\MVC\Spartane.Data\bin\Release\log4net.xml
+C:\Proyectos\Totaltech\SpartaneTemplateFormatos\Application\MVC\Spartane.Data\bin\Release\System.Web.Mvc.xml
+C:\Proyectos\Totaltech\SpartaneTemplateFormatos\Application\MVC\Spartane.Data\bin\Release\Autofac.Integration.Mvc.xml
+C:\Proyectos\Totaltech\SpartaneTemplateFormatos\Application\MVC\Spartane.Data\bin\Release\System.Web.Razor.xml
+C:\Proyectos\Totaltech\SpartaneTemplateFormatos\Application\MVC\Spartane.Data\bin\Release\System.Web.WebPages.Razor.xml
+C:\Proyectos\Totaltech\SpartaneTemplateFormatos\Application\MVC\Spartane.Data\bin\Release\System.Web.WebPages.xml
+C:\Proyectos\Totaltech\SpartaneTemplateFormatos\Application\MVC\Spartane.Data\bin\Release\System.Web.WebPages.Deployment.xml
+C:\Proyectos\Totaltech\SpartaneTemplateFormatos\Application\MVC\Spartane.Data\obj\Release\Spartane.Data.csprojResolveAssemblyReference.cache
+C:\Proyectos\Totaltech\SpartaneTemplateFormatos\Application\MVC\Spartane.Data\obj\Release\Spartane.Data.dll
+C:\Proyectos\Totaltech\SpartaneTemplateFormatos\Application\MVC\Spartane.Data\obj\Release\Spartane.Data.pdb

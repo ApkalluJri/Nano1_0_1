@@ -1,0 +1,276 @@
+﻿<%@ Master Language="C#" EnableTheming="true" AutoEventWireup="True"
+    Inherits="DefaultMasterCatalogosRad" CodeFile="DefaultMasterCatalogosRad.master.cs" %>
+
+<%@ Register Assembly="System.Web.Extensions, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+    Namespace="System.Web.UI" TagPrefix="asp" %>
+
+<%@ Register TagPrefix="telerik" Namespace="Telerik.Web.UI" Assembly="Telerik.Web.UI" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <meta http-equiv="X-UA-Compatible" content="IE=10"> 
+    <title>Men� Principal</title>
+    <%--<script src="../JSScripts/jquery-1.4.2.js" type="text/javascript"></script>--%>
+    <link href="../App_Themes/layout_master_page_rad.css" rel="stylesheet" type="text/css" />
+    <%--<link href="../App_Themes/config_list_horizontal_default.css" rel="stylesheet" type="text/css" />--%>
+    <%--<link href="../App_Themes/layout_catalog.css" rel="stylesheet" type="text/css" />--%>
+    <link href="../CSS/jquery.calculator.css" rel="stylesheet" type="text/css" />
+    <link type="text/css" href="../CSS/jquery.jnotify-alt.css" rel="stylesheet" media="all" />
+    <link rel="stylesheet" href="../CSS/jquery.tooltip.css" />
+    <!--[if IE 7]> 
+    <script src="../JSScripts/json2.js" type="text/javascript"></script> 
+    <![endif]-->
+    <style type="text/css">
+        #fixme
+        {
+            /* Netscape 4, IE 4.x-5.0/Win and other lesser browsers will use this */
+            position: absolute;
+            right: 20px;
+            bottom: 10px;
+        }
+        body > div#fixme
+        {
+            /* used by Opera 5+, Netscape6+/Mozilla, Konqueror, Safari, OmniWeb 4.5+, iCab, ICEbrowser */
+            position: fixed;
+        }
+    </style>
+
+    <script type="text/javascript">
+        var altKey = false;
+
+        function closeSession(evt) {
+
+            evt = (evt) ? evt : event;
+
+            clickY = evt.clientY;
+            altKey = evt.altKey;
+            keyCode = evt.keyCode;
+
+            if (!evt.clientY) {
+                // Window Closing in FireFox
+                // capturing ALT + F4
+                keyVals = document.getElementById('ffKeyTrap');
+                if (keyVals) {
+                    if (keyVals.value == 'true115') {
+                        document.location = "../Default.aspx";
+                    }
+
+                    if (keyVals.value == '') {
+                        // capturing a window close by "X" ?
+                        // we have no keycodes
+                        document.location = "../Default.aspx";
+                    }
+                }
+            } else {
+                // Window Closing in IE
+                // capturing ALT + F4
+                if (altKey == true && keyCode == 115) {
+                    document.location = "../Default.aspx";
+                    // capturing a window close by "X"
+                } else if (clickY < 0) {
+                    document.location = "../Default.aspx";
+                    // simply leaving the page via a link
+                } else {
+                    //alert('close 3');
+                    return void (0);
+                }
+            }
+        }
+
+        function whatKey(evt) {
+            evt = (evt) ? evt : event;
+            keyVals = document.getElementById('ffKeyTrap');
+            altKey = evt.altKey;
+            keyCode = evt.keyCode;
+            if (altKey && keyCode == 115) {
+                keyVals.value = String(altKey) + String(keyCode);
+            }
+        }
+
+        function Relogin(isDetail, idWindow) {
+            var oWnd = $find(idWindow);
+            oWnd.close();
+            if (!isDetail)
+                window.location = "../FormsSystem/Default.aspx";
+        }
+
+        window.onkeydown = whatKey;
+        window.onbeforeunload = closeSession;
+    </script>
+
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server" />
+</head>
+<body>
+    <form id="form1" runat="server" style="height: 100%; width: 100%">
+    <asp:TextBox runat="server" ID="txtResolutionV" Visible="false" />
+    <telerik:RadScriptManager runat="server" ID="ScriptManager1" EnableScriptGlobalization="true"
+        EnableScriptLocalization="true">
+        <Scripts>
+            <asp:ScriptReference Path="../JSScripts/jquery-1.4.2.js" />
+            <%--<asp:ScriptReference Path="../JSScripts/jquery.corner.js" />--%>
+            <asp:ScriptReference Path="../JSScripts/WebKit.js" />
+            <asp:ScriptReference Path="../JSScripts/Funciones.js" />
+            <asp:ScriptReference Path="../JSScripts/jquery.calculator.min.js" />
+            <asp:ScriptReference Path="../JSScripts/jquery.calculator-es.js" />
+            <asp:ScriptReference Path="../JSScripts/jquery.jnotify.min.js" />
+            <asp:ScriptReference Path="../JSScripts/jquery.bgiframe.js" />
+            <asp:ScriptReference Path="../JSScripts/jquery.tooltip.min.js" />
+            <asp:ScriptReference Path="../JSScripts/jquery-ui-1.7.0.min.js" />
+        </Scripts>
+    </telerik:RadScriptManager> 
+    <telerik:RadWindowManager ID="RadWindowManager1" runat="server">
+        <ConfirmTemplate>
+            <div class="rwDialogPopup radconfirm">
+                <div class="rwDialogText">
+                    {1}
+                </div>
+                <div>
+                    <a onclick="$find('{0}').close(true);" class="rwPopupButton" href="javascript:void(0);">
+                        <span class="rwOuterSpan"><span class="rwInnerSpan">Si</span></span></a> <a onclick="$find('{0}').close(false);"
+                            class="rwPopupButton" href="javascript:void(0);"><span class="rwOuterSpan"><span
+                                class="rwInnerSpan">No</span></span></a>
+                </div>
+            </div>
+        </ConfirmTemplate>
+    </telerik:RadWindowManager>
+
+    <asp:ContentPlaceHolder ID="ContentProgress" runat="server">
+    </asp:ContentPlaceHolder>
+    <div id="main_div" style="z-index: 100;">
+        <div id="header" style="z-index: 90;">
+            <div id="logo">
+                <asp:Image ID="Image1" runat="server" ImageUrl="~/Images/Design/header.jpg" />
+            </div>
+            <div id="rad_menu" style="z-index: 80;">
+                <telerik:RadMenu ID="RadMenu1" runat="server" Style="z-index: 70;" EnableAutoScroll="true">
+                </telerik:RadMenu>
+                <label runat="server" id="lblversion" style="bottom: 0;font-size: 11px;position: absolute; right: 30px; color:#ccc;" ></label>
+            <label runat="server" id="lblcase" style="bottom: 0;font-size: 11px;position: absolute; right: 66px;color:#ccc;" ></label>
+            </div>
+            <div class="header_title" id="title">
+                <asp:Label ID="lblTitulo" runat="server" />
+            </div>
+        </div>
+        <%--<div>--%>
+        <div id="content">
+            <asp:HiddenField ID="hfDeleteMessageConfirmation" runat="server" Value="�Est�s seguro que deseas borrar este registro?" />
+            <asp:ContentPlaceHolder ID="PagerPlace" runat="server">
+            </asp:ContentPlaceHolder>
+            <asp:ContentPlaceHolder ID="MainContent" runat="server">
+            </asp:ContentPlaceHolder>
+            <asp:ContentPlaceHolder ID="MnuButtonsPlace" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        <%--</div>--%>
+        <div style="position: absolute; top: 150px;" id="divPageSlider">
+            <asp:ContentPlaceHolder ID="ContentSlider" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </div>
+    <p>
+        <![if IE]></p>
+    <p>
+        <![endif]>
+    </p>
+    <asp:ObjectDataSource ID="ThemeDataSource" runat="server" SelectMethod="GetThemes"
+        TypeName="ThemeManager"></asp:ObjectDataSource>
+    </form>
+
+    <script language="javascript" type="text/javascript">
+        /**************************** Get/Set Scroll position ****************************/
+        var xPos, yPos, hdnFocus;
+        var prm = Sys.WebForms.PageRequestManager.getInstance();
+        prm.add_beginRequest(BeginRequestHandler); prm.add_beginRequest(BeginRequestHandlerRAD);
+        prm.add_endRequest(EndRequestHandler); prm.add_endRequest(EndRequestHandlerRAD);
+        function BeginRequestHandler(sender, args) {
+            if ($get('ctl00_MainContent_TabControls_body') != null) {
+                try {
+                    xPos = $get('ctl00_MainContent_TabControls_body').scrollLeft;
+                    yPos = $get('ctl00_MainContent_TabControls_body').scrollTop;
+                    hdnFocus = args.get_postBackElement().id;
+                }
+                catch (Error) {
+                }
+            }
+        }
+        function EndRequestHandler(sender, args) {
+            if ($get('ctl00_MainContent_TabControls_body') != null) {
+                try {
+                    $get('ctl00_MainContent_TabControls_body').scrollLeft = xPos;
+                    $get('ctl00_MainContent_TabControls_body').scrollTop = yPos;
+                    $get(hdnFocus).focus()
+                }
+                catch (Error) {
+                }
+            }
+        }
+        /*********************************************************************************/
+        function disposeTree(sender, args) {
+            var elements = args.get_panelsUpdating();
+            for (var i = elements.length - 1; i >= 0; i--) {
+                var element = elements[i];
+                var allnodes = element.getElementsByTagName('*'),
+                length = allnodes.length;
+                var nodes = new Array(length)
+                for (var k = 0; k < length; k++) {
+                    nodes[k] = allnodes[k];
+                }
+                for (var j = 0, l = nodes.length; j < l; j++) {
+                    var node = nodes[j];
+                    if (node.nodeType === 1) {
+                        if (node.dispose && typeof (node.dispose) === "function") {
+                            node.dispose();
+                        }
+                        else if (node.control && typeof (node.control.dispose) === "function") {
+                            node.control.dispose();
+                        }
+
+                        var behaviors = node._behaviors;
+                        if (behaviors) {
+                            behaviors = Array.apply(null, behaviors);
+                            for (var key = behaviors.length - 1; key >= 0; key--) {
+                                behaviors[key].dispose();
+                            }
+                        }
+                    }
+                }
+                element.innerHTML = "";
+            }
+        }
+
+        Sys.WebForms.PageRequestManager.getInstance().add_pageLoading(disposeTree);
+
+        function pageLoadedFunc(sender, eventArgs) {
+            $((sender._textBoxElement ? sender._textBoxElement : sender)).calculator({ showOn: 'button',
+                buttonImageOnly: true, buttonImage: '../images/calculator.png'
+            });
+        }
+
+        var DeleteMessageConfirmation = document.getElementById("<%=hfDeleteMessageConfirmation.ClientID%>");
+
+
+        $(function() {
+            $(window).resize(
+                function() {
+                    $('#grid_div').height($('#content').height()); // - $('#grid_div').offset().top);
+                    $('.gridData').height($('#grid_div').height() - 40);
+                }
+            );
+            $(window).resize();
+        }); 
+    </script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

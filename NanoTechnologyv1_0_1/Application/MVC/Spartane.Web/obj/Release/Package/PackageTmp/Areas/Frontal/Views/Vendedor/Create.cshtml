@@ -1,0 +1,851 @@
+﻿@using System
+@using System.Collections.Generic
+@using System.Globalization
+@using Spartane.Core.Domain.Permission
+@using Spartane.Core.Domain.Spartane_File
+@using Spartane.Web.Helpers
+@model Spartane.Web.Areas.Frontal.Models.VendedorModel
+@{
+    Spartane_File attachedFileFotografia = (Spartane_File)ViewBag.FotografiaSpartane_File;
+
+    string Fecha_de_Nacimiento = "";
+    if (Model.Fecha_de_Nacimiento == "")
+    { Model.Fecha_de_Nacimiento = DateTime.Now.ToString(ConfigurationProperty.DateFormat); }
+
+    List<SelectListItem> varEmpresa = null;
+    if (ViewBag.Empresas != null)
+    { varEmpresa = (List<SelectListItem>)ViewBag.Empresas; }    
+
+    Permission permissionDetalle_Familiar_de_Vendedor = ViewBag.PermissionDetalle_Familiar_de_Vendedor;
+
+    Permission permission = ViewBag.Permission;
+}
+
+<div class="modal fade in" id="dvAttributeValue" style="background-color:rgba(0, 0, 0, 0.7);">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-body">
+                <div class="form-group">
+                    <label class="col-sm-3 control-label" id="lblAttributeType">Value</label>
+                    <div class="col-sm-7">
+                        <input type="text" title="Value" class="form-control" id="txtAttributeValue" />
+                    </div>
+                    <div class="col-sm-2">
+                        <a class="btn btn-primary" onclick="SaveValue()">Submit</a>
+                    </div>
+                    <input type="hidden" id="hdnAttributType" />
+                    <input type="hidden" id="hdnAttributElement" />
+                    <input type="hidden" id="hdnAttributNumber" />
+                    <input type="hidden" id="hdnElementType" />
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row wrapper border-bottom white-bg page-heading">
+
+    <div class="row">
+        <div class="col-lg-10">
+            <h2>
+                Vendedor
+                <button onclick="VendedorGetBusinessRule('', 'Abrir Pantalla', '0')" type="button" class="btn btn-info btn-lg displayBusinessProperyButton displayRuleButton" data-toggle="modal" data-target="#VendedorBusinessRule-form">
+                    <a class="top" title="" data-placement="right" data-toggle="tooltip" href="#" data-original-title="@Resources.Resources.BusinessRuleToBegin">
+                        <i class="fa fa-cogs fa-spin"></i>
+                    </a>
+                </button>
+            </h2>
+            <ol class="breadcrumb">
+                <li>
+                    <a href="@Url.Action("Index", "Home")">@Resources.Resources.Home</a>
+                </li>
+                <li class="">
+                    <label>@Resources.VendedorResources.Vendedor</label>
+                </li>
+                <li class="active">
+                    <strong>@Resources.Resources.Create</strong>
+                </li>
+            </ol>
+        </div>
+        <div class="col-lg-2">
+
+            @{
+                if (Convert.ToInt32(Spartane.Web.SessionHelper.Role) == (int)Spartane.Core.Enums.SpartanRoleEnum.Admin)
+                {
+                    <h2>&nbsp;</h2>
+                    <button onclick="VendedorDisplayBusinessRule()" type="button" class="btn btn-info btn-lg displayBusinessProperyButton">
+                        <i class="fa fa-cogs fa-spin"></i>
+                    </button>
+
+                    <div aria-hidden="true" class="modal fade in VendedorPropertyBusinessModal" id="VendedorPropertyBusinessModal-form" style="display: none; background-color:rgba(0, 0, 0, 0.7);">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h4 class="modal-title">
+                                        Property & Business Rules
+                                        <button data-dismiss="modal" class="close" type="button"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
+                                    </h4>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="row">
+                                        <div class="col-sm-12">
+                                            <a class="btn btn-primary full-width" data-dismiss="modal" data-toggle="modal" data-target="#PropertyModal-form" onclick="GetPropertyBag()">Properties</a>
+                                        </div>
+                                        <div class="clearfix col-sm-12">&nbsp;</div>
+                                        <div class="col-sm-12">
+                                            <a class="btn btn-primary full-width" data-dismiss="modal" data-toggle="modal" data-target="#VendedorBusinessRule-form" onclick="VendedorGetBusinessRule()">Business Rule</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                     <div aria-hidden="true" data-backdrop="static" class="modal fade in PropertyModal" id="PropertyModal-form" style="display: none; background-color:rgba(0, 0, 0, 0.7);">
+					</div>
+					<div aria-hidden="true" data-backdrop="static" class="modal fade in VendedorBusinessRuleModal" id="VendedorBusinessRule-form" style="display: none; background-color:rgba(0, 0, 0, 0.7);">
+					</div>
+					<div aria-hidden="true" data-backdrop="static" class="modal fade in VendedorAddBusinessRuleModal" id="AddBusinessRule-form" style="display: none; background-color:rgba(0, 0, 0, 0.7);">
+					</div>
+
+                    <div aria-hidden="true" class="modal fade in AddDetalle_Familiar_de_VendedorModal" id="AddDetalle_Familiar_de_Vendedor-form" style="display: none; background-color:rgba(0, 0, 0, 0.7);">
+                    </div>
+
+
+                }
+            }
+        </div>
+    </div>
+
+<div class="wrapper wrapper-content animated fadeInRight">
+    <div class="ibox float-e-margins">
+        <div class="ibox-content">
+            @using (Html.BeginForm("Post", "Vendedor", FormMethod.Post, new { id = "CreateVendedor", @readonly = "true", @class = "form-horizontal", enctype = "multipart/form-data" }))
+            {
+				<input type="hidden" id="hdnObjectId" name="hdnObjectId" value="@ViewBag.ObjectId" />
+                <span id="popupNotification"></span>
+                <div class="container-fluid VendedorCreateForm" id="viewmodeledit">
+			<div class="tabs-container">
+                        	<ul class="nav nav-tabs">
+<li class="active"><a data-toggle="tab" href="#tabDatos_Generales"> Datos Generales</a></li>
+
+                        	</ul>
+	                	<div class="tab-content">
+                            <div id="tabDatos_Generales" class="tab-pane active">
+                                <div class="panel-body">
+                            <div class="form-group" id="divNumero_de_Empleado">
+                                <label class="col-sm-2 control-label">@Resources.VendedorResources.Numero_de_Empleado</label>
+                                <div class="col-sm-8" data-field-id="Numero_de_Empleado" data-attribute="157490" data-field-name="@Resources.VendedorResources.Numero_de_Empleado">
+                                    <label class="form-control" for="Numero_de_Empleado" id="lblNumero_de_Empleado">@Model.Numero_de_Empleado</label>
+                                </div>
+                            </div>
+                            <div class="form-group" id="divNombre">
+                                <label class="col-sm-2 control-label">@Resources.VendedorResources.Nombre</label>
+                                <div class="col-sm-8" data-field-id="Nombre" data-attribute="157491" data-field-name="@Resources.VendedorResources.Nombre">
+                                    <input class="form-control" id="Nombre" name="Nombre" type="text" value="@Model.Nombre">
+                                    @*<span class="field-validation-valid" data-valmsg-for="Nombre" data-valmsg-replace="true"></span>*@
+                                </div>
+                            </div>
+                            <div class="form-group" id="divApellidos">
+                                <label class="col-sm-2 control-label">@Resources.VendedorResources.Apellidos</label>
+                                <div class="col-sm-8" data-field-id="Apellidos" data-attribute="157492" data-field-name="@Resources.VendedorResources.Apellidos">
+                                    <input class="form-control" id="Apellidos" name="Apellidos" type="text" value="@Model.Apellidos">
+                                    @*<span class="field-validation-valid" data-valmsg-for="Apellidos" data-valmsg-replace="true"></span>*@
+                                </div>
+                            </div>
+                            <div class="form-group" id="divActivo">
+                                <label class="col-sm-2 control-label">@Resources.VendedorResources.Activo</label>
+                                <div class="col-sm-8" data-field-id="Activo" data-attribute="157493" data-field-name="@Resources.VendedorResources.Activo">
+                                    @Html.CheckBoxFor(m => m.Activo, new { @class = "i-checks" })
+                                </div>
+                            </div>
+                            <div class="form-group" id="divFecha_de_Nacimiento">
+                                <label class="col-sm-2 control-label">@Resources.VendedorResources.Fecha_de_Nacimiento</label>
+                                <div class="col-sm-8" data-field-id="Fecha_de_Nacimiento" data-attribute="157496" data-field-name="@Resources.VendedorResources.Fecha_de_Nacimiento">
+                                    <div class='input-group date' id='datetimepicker1'>
+                                        <input class="form-control col-md-12" id="Fecha_de_Nacimiento" readonly="readonly" name="Fecha_de_Nacimiento" type="text" value="@Model.Fecha_de_Nacimiento">
+                                        <span class="input-group-addon">
+                                            <span class="glyphicon glyphicon-calendar"></span>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group" id="divHora_de_Entrada">
+                                <label class="col-sm-2 control-label">@Resources.VendedorResources.Hora_de_Entrada</label>
+                                <div class="col-sm-8" data-field-id="Hora_de_Entrada" data-attribute="157497" data-field-name="@Resources.VendedorResources.Hora_de_Entrada">
+                                    <div class='input-group date' id='timePicker'>
+                                        <input class="form-control col-md-12" id="Hora_de_Entrada" readonly="readonly" name="Hora_de_Entrada" type="text" data-autoclose="true" value="@Model.Hora_de_Entrada">
+                                        <span class="input-group-addon">
+                                            <span class="glyphicon glyphicon-time"></span>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group" id="divEmpresa">
+                                <label class="col-sm-2 control-label">@Resources.VendedorResources.Empresa</label>
+                                <div class="col-sm-8" data-field-id="Empresa" data-attribute="157501" data-field-name="@Resources.VendedorResources.Empresa">
+                                    <select class="form-control" data-val="true" data-val-number="The field Empresa must be a number." data-val-required="The Empresa field is required." id="Empresa" name="Empresa">
+                                        <option value=""></option>
+                                        @if (varEmpresa != null){ 
+                                            foreach (var itemEmpresa in varEmpresa)
+                                            {
+                                                if (itemEmpresa.Value == Convert.ToString(Model.Empresa))
+                                                {
+                                                    <option value="@itemEmpresa.Value" selected>@itemEmpresa.Text</option>
+                                                }
+                                                else
+                                                {
+                                                    <option value="@itemEmpresa.Value">@itemEmpresa.Text</option>
+                                                }
+                                            }
+                                        }
+                                    </select>
+                                    @*<span class="field-validation-valid" data-valmsg-for="Empresa" data-valmsg-replace="true"></span>*@
+                                </div>
+                            </div>
+                            @if (attachedFileFotografia != null && attachedFileFotografia.File_Id > 0)
+                            {
+                                <div class="form-group" id="divAttachmentFotografia">
+                                    <label class="col-sm-2 control-label">Previously Attached File</label>
+                                    <div class="col-sm-8" data-field-id="Fotografia" data-attribute="157504" data-field-name="@Resources.VendedorResources.Fotografia">
+                                        <a href="@Url.Content("~/Frontal/Vendedor/GetFile")?id=@attachedFileFotografia.File_Id" target="_blank">@attachedFileFotografia.Description</a>
+                                        <img src="@Url.Content("~/Content/Images/RemoveAttachment.png")" onclick="RemoveAttachmentMainFotografia('@attachedFileFotografia.File_Id')" />
+                                    </div>
+                                    <input id="hdnRemoveFotografia" name="RemoveFotografia" value="0" type="hidden" />
+                                    <input class="form-control col-md-12" id="hdnAttachedFotografia" type="hidden" name="Fotografia" value="@Model.Fotografia">
+                                </div>
+                            }
+                            <div class="form-group">
+                                <label class="col-sm-2 control-label">@Resources.VendedorResources.Fotografia</label>
+                                <div class="col-sm-8" data-field-id="Fotografia" data-attribute="157504" data-field-name="@Resources.VendedorResources.Fotografia">
+                                    <input type="file" name="FotografiaFile" id="FotografiaFile" class="form-control" />
+                                </div>
+                            </div>
+                            <div class="form-group" id="divPeso">
+                                <label class="col-sm-2 control-label">@Resources.VendedorResources.Peso</label>
+                                <div class="col-sm-8" data-field-id="Peso" data-attribute="157555" data-field-name="@Resources.VendedorResources.Peso">
+                                    <input class="form-control col-md-12 inputNumber" id="Peso" name="Peso" type="text" min="0.00" max="999999.99" value="@Model.Peso.ToString()">
+                                </div>
+                            </div>
+                            <div class="form-group" id="divSueldo">
+                                <label class="col-sm-2 control-label">@Resources.VendedorResources.Sueldo</label>
+                                <div class="col-sm-8" data-field-id="Sueldo" data-attribute="157564" data-field-name="@Resources.VendedorResources.Sueldo">
+                                    <input class="form-control col-md-12 inputNumber" id="Sueldo" name="Sueldo" type="text" min="0.00" max="999999.99" value="@Model.Sueldo.ToString()">
+                                </div>
+                            </div>
+                            <div class="ibox-title">
+                                <h5>@Resources.Detalle_Familiar_de_VendedorResources.Detalle_Familiar_de_Vendedor</h5>
+                                <div class="ibox-tools">
+                                </div>
+                            </div>
+                            <div class="ibox-content">
+                                <div class="">
+                                    <a onclick="Detalle_Familiar_de_VendedorfnClickAddRow();" href="javascript:void(0);" title="@Resources.Resources.AddNewRow" class="btn btn-primary @( !permissionDetalle_Familiar_de_Vendedor.New || ViewBag.Consult ? "disabled" : "")">
+                                    <i class="glyphicon glyphicon-plus"></i>
+                                    </a>
+									<button onclick="GetBusinessRule('', 'Al Agregar Row', '1')" type="button" class="btn btn-info btn-lg displayBusinessProperyButton displayRuleButton" data-toggle="modal" data-target="#BusinessRule-form">
+                                        <a class="top" title="" data-placement="right" data-toggle="tooltip" href="#" data-original-title="@Resources.Resources.BusinessRuleToCreateGrid">
+                                            <i class="fa fa-cogs fa-spin"></i>
+                                        </a>
+                                    </button>
+                                    <a onclick="Detalle_Familiar_de_VendedorfnOpenAddRowPopUp();" data-toggle="modal" title="@Resources.Resources.AddNewRow" data-target="#AddDetalle_Familiar_de_Vendedor-form" data-backdrop="static" data-keyboard="false" class="btn btn-primary @( !permissionDetalle_Familiar_de_Vendedor.New || ViewBag.Consult ? "disabled" : "")">
+                                    <i class="glyphicon glyphicon-new-window"></i>
+                                    </a>
+                                </div>
+
+                                <br />
+
+                                <div style='overflow-x: auto;'>
+                                    <table class="table table-striped table-bordered table-hover childValidateTable" id="Detalle_Familiar_de_VendedorGrid">
+                                        <thead>
+                                            <tr>
+                                                <th class="ActionHeader"><span>@Resources.Resources.Actions</span></th>
+                                                <th class="Nombre_del_FamiliarHeader"><span>
+<button type="button" data-attribute="157513" data-field-id="Detalle_Familiar_de_VendedorNombre_del_Familiar" data-field-name="@Resources.Detalle_Familiar_de_VendedorResources.Nombre_del_Familiar" data-toggle="modal" data-target="#Detalle_Familiar_de_VendedorPropertyBusinessModal-form" class="btn btn-info btn-lg displayBusinessProperyButton displayRuleButton btnPopupBusinessRules">
+                                                            <a class="top" title="" data-placement="right" data-toggle="tooltip" href="#" data-original-title="@Resources.Resources.BusinessRuleFor@Resources.Detalle_Familiar_de_VendedorResources.Nombre_del_Familiar">
+                                                                <i class="fa fa-cogs fa-spin"></i>
+                                                            </a>
+                                                        </button>@Resources.Detalle_Familiar_de_VendedorResources.Nombre_del_Familiar</span></th>
+                                                <th class="ParentescoHeader"><span>
+<button type="button" data-attribute="157533" data-field-id="Detalle_Familiar_de_VendedorParentesco" data-field-name="@Resources.Detalle_Familiar_de_VendedorResources.Parentesco" data-toggle="modal" data-target="#Detalle_Familiar_de_VendedorPropertyBusinessModal-form" class="btn btn-info btn-lg displayBusinessProperyButton displayRuleButton btnPopupBusinessRules">
+                                                            <a class="top" title="" data-placement="right" data-toggle="tooltip" href="#" data-original-title="@Resources.Resources.BusinessRuleFor@Resources.Detalle_Familiar_de_VendedorResources.Parentesco">
+                                                                <i class="fa fa-cogs fa-spin"></i>
+                                                            </a>
+                                                        </button>@Resources.Detalle_Familiar_de_VendedorResources.Parentesco</span></th>
+                                                <th class="FechaHeader"><span>
+<button type="button" data-attribute="157534" data-field-id="Detalle_Familiar_de_VendedorFecha" data-field-name="@Resources.Detalle_Familiar_de_VendedorResources.Fecha" data-toggle="modal" data-target="#Detalle_Familiar_de_VendedorPropertyBusinessModal-form" class="btn btn-info btn-lg displayBusinessProperyButton displayRuleButton btnPopupBusinessRules">
+                                                            <a class="top" title="" data-placement="right" data-toggle="tooltip" href="#" data-original-title="@Resources.Resources.BusinessRuleFor@Resources.Detalle_Familiar_de_VendedorResources.Fecha">
+                                                                <i class="fa fa-cogs fa-spin"></i>
+                                                            </a>
+                                                        </button>@Resources.Detalle_Familiar_de_VendedorResources.Fecha</span></th>
+                                                <th class="HoraHeader"><span>
+<button type="button" data-attribute="157536" data-field-id="Detalle_Familiar_de_VendedorHora" data-field-name="@Resources.Detalle_Familiar_de_VendedorResources.Hora" data-toggle="modal" data-target="#Detalle_Familiar_de_VendedorPropertyBusinessModal-form" class="btn btn-info btn-lg displayBusinessProperyButton displayRuleButton btnPopupBusinessRules">
+                                                            <a class="top" title="" data-placement="right" data-toggle="tooltip" href="#" data-original-title="@Resources.Resources.BusinessRuleFor@Resources.Detalle_Familiar_de_VendedorResources.Hora">
+                                                                <i class="fa fa-cogs fa-spin"></i>
+                                                            </a>
+                                                        </button>@Resources.Detalle_Familiar_de_VendedorResources.Hora</span></th>
+                                                <th class="Con_VidaHeader"><span>
+<button type="button" data-attribute="157538" data-field-id="Detalle_Familiar_de_VendedorCon_Vida" data-field-name="@Resources.Detalle_Familiar_de_VendedorResources.Con_Vida" data-toggle="modal" data-target="#Detalle_Familiar_de_VendedorPropertyBusinessModal-form" class="btn btn-info btn-lg displayBusinessProperyButton displayRuleButton btnPopupBusinessRules">
+                                                            <a class="top" title="" data-placement="right" data-toggle="tooltip" href="#" data-original-title="@Resources.Resources.BusinessRuleFor@Resources.Detalle_Familiar_de_VendedorResources.Con_Vida">
+                                                                <i class="fa fa-cogs fa-spin"></i>
+                                                            </a>
+                                                        </button>@Resources.Detalle_Familiar_de_VendedorResources.Con_Vida</span></th>
+                                                <th class="FotografiaHeader"><span>
+<button type="button" data-attribute="157540" data-field-id="Detalle_Familiar_de_VendedorFotografia" data-field-name="@Resources.Detalle_Familiar_de_VendedorResources.Fotografia" data-toggle="modal" data-target="#Detalle_Familiar_de_VendedorPropertyBusinessModal-form" class="btn btn-info btn-lg displayBusinessProperyButton displayRuleButton btnPopupBusinessRules">
+                                                            <a class="top" title="" data-placement="right" data-toggle="tooltip" href="#" data-original-title="@Resources.Resources.BusinessRuleFor@Resources.Detalle_Familiar_de_VendedorResources.Fotografia">
+                                                                <i class="fa fa-cogs fa-spin"></i>
+                                                            </a>
+                                                        </button>@Resources.Detalle_Familiar_de_VendedorResources.Fotografia</span></th>
+                                                <th class="EdadHeader"><span>
+<button type="button" data-attribute="157544" data-field-id="Detalle_Familiar_de_VendedorEdad" data-field-name="@Resources.Detalle_Familiar_de_VendedorResources.Edad" data-toggle="modal" data-target="#Detalle_Familiar_de_VendedorPropertyBusinessModal-form" class="btn btn-info btn-lg displayBusinessProperyButton displayRuleButton btnPopupBusinessRules">
+                                                            <a class="top" title="" data-placement="right" data-toggle="tooltip" href="#" data-original-title="@Resources.Resources.BusinessRuleFor@Resources.Detalle_Familiar_de_VendedorResources.Edad">
+                                                                <i class="fa fa-cogs fa-spin"></i>
+                                                            </a>
+                                                        </button>
+@Resources.Detalle_Familiar_de_VendedorResources.Edad</span></th>
+                                                <th class="EstaturaHeader"><span>
+<button type="button" data-attribute="157547" data-field-id="Detalle_Familiar_de_VendedorEstatura" data-field-name="@Resources.Detalle_Familiar_de_VendedorResources.Estatura" data-toggle="modal" data-target="#Detalle_Familiar_de_VendedorPropertyBusinessModal-form" class="btn btn-info btn-lg displayBusinessProperyButton displayRuleButton btnPopupBusinessRules">
+                                                            <a class="top" title="" data-placement="right" data-toggle="tooltip" href="#" data-original-title="@Resources.Resources.BusinessRuleFor@Resources.Detalle_Familiar_de_VendedorResources.Estatura">
+                                                                <i class="fa fa-cogs fa-spin"></i>
+                                                            </a>
+                                                        </button>@Resources.Detalle_Familiar_de_VendedorResources.Estatura</span></th>
+                                                <th class="Ingresos_MensualesHeader"><span>
+<button type="button" data-attribute="157550" data-field-id="Detalle_Familiar_de_VendedorIngresos_Mensuales" data-field-name="@Resources.Detalle_Familiar_de_VendedorResources.Ingresos_Mensuales" data-toggle="modal" data-target="#Detalle_Familiar_de_VendedorPropertyBusinessModal-form" class="btn btn-info btn-lg displayBusinessProperyButton displayRuleButton btnPopupBusinessRules">
+                                                            <a class="top" title="" data-placement="right" data-toggle="tooltip" href="#" data-original-title="@Resources.Resources.BusinessRuleFor@Resources.Detalle_Familiar_de_VendedorResources.Ingresos_Mensuales">
+                                                                <i class="fa fa-cogs fa-spin"></i>
+                                                            </a>
+                                                        </button>@Resources.Detalle_Familiar_de_VendedorResources.Ingresos_Mensuales</span></th>
+
+                                            </tr>
+                                        </thead>
+                                    </table>
+                                </div>
+                            </div>
+                            </div>
+                                </div>
+
+				</div>	
+			</div>
+                    <br />
+                            <div class="form-actions fluid">
+                                <input type="hidden" value="@Model.Numero_de_Empleado" id="ReferenceNumero_de_Empleado" />
+                                <input type="hidden" value="@Model.Numero_de_Empleado" name="Numero_de_Empleado" id="Numero_de_EmpleadoId" />
+                                <input type="hidden" value="@ViewBag.Operation" name="Operation" id="Operation" />
+                                @if (!ViewBag.Consult)
+                                {
+                                    <input type="button" value="@Resources.Resources.Guardar" id="VendedorGuardar" class="btn btn-w-m btn-primary" onclick="return checkClientValidate('VendedorCreateForm');"  />
+									<button onclick="VendedorGetBusinessRule('', 'Al Guardar', '2')" type="button" class="btn btn-info btn-lg displayBusinessProperyButton displayRuleButton" data-toggle="modal" data-target="#VendedorBusinessRule-form">
+                                        <a class="top" title="" data-placement="right" data-toggle="tooltip" href="#" data-original-title="@Resources.Resources.BusinessRuleBeforeSave">
+                                            <i class="fa fa-cogs fa-spin"></i>
+                                        </a>
+                                    </button>
+                                    <button type="button" class="btn btn-info btn-lg displayBusinessProperyButton displayRuleButton">
+                                        <i class="fa fa-cogs fa-spin"></i>
+                                    </button>
+
+                                    <input type="button" value="@Resources.Resources.GuardarNuevo" id="VendedorGuardarYNuevo" onclick="return checkClientValidate('VendedorCreateForm');" data-bind="    click: saveAndNew" class="btn btn-w-m btn-success"  />
+                                    <input type="button" value="@Resources.Resources.GuardarCopia" id="VendedorGuardarYCopia" onclick="return checkClientValidate('VendedorCreateForm');" data-bind="    click: saveAndNew" class="btn btn-w-m btn-success"  />
+                                    <a title="@Resources.Resources.Configure" id="ConfigureSave" name="ConfigureSave" onclick="SaveElementAttributes()" class="btn btn-success">@Resources.Resources.Configure</a>
+                                }
+
+                                <input type="hidden" id="hdnConfigureType" />
+								<input type="hidden" id="hdnVendedorBusinessRuleFieldId" />
+                                <input type="hidden" id="hdnVendedorBusinessRuleFieldName" />
+                                <input type="hidden" id="hdnVendedorBusinessRuleAttribute" />
+
+                                <input type="button" value="@Resources.Resources.Cancelar" id="VendedorCancelar" name="VendedorCancelar" class="btn btn-danger noConsult" data-bind="click: cancel" tabindex="16" />
+
+                                <button onclick="VendedorGetBusinessRule('', 'Al Cancelar', '3')" type="button" class="btn btn-info btn-lg displayBusinessProperyButton displayRuleButton" data-toggle="modal" data-target="#VendedorBusinessRule-form">
+                                    <a class="top" title="" data-placement="right" data-toggle="tooltip" href="#" data-original-title="@Resources.Resources.BusinessRuleToBegin">
+                                        <i class="fa fa-cogs fa-spin"></i>
+                                    </a>
+                                </button>
+                            </div>
+                        </div>
+                }
+
+            </div>
+        </div>
+    </div>
+</div>
+<input id="hdnApplicationDirectory" type="hidden" value="@Url.Content("~/")" />
+
+@section Styles {
+<link href="@Url.Content("~/Content/BootstrapDatePicker/bootstrap-datetimepicker.min.css")" rel="stylesheet" />
+    @Styles.Render("~/Content/plugins/dataTables/dataTablesStyles")
+    @Styles.Render("~/plugins/dateRangeStyles")
+    @Styles.Render("~/plugins/dataPickerStyles")
+    @Styles.Render("~/plugins/clockpickerStyles")
+    @Styles.Render("~/plugins/awesomeCheckboxStyles")
+    @Styles.Render("~/plugins/select2Styles")
+<style>
+    .dataTables_filter {
+        display: none;
+    }
+    .select2-results{background-color:#fff;}
+    .select2-container .select2-dropdown{height:auto !important;}
+
+    div.dataTables_info {
+        display: inline-block;
+        float: right;
+    }
+        i {
+        font-size: 25px !important;
+        display: block;
+        color: #676a6c;
+        margin-left: 6px;
+        margin-right: 6px;
+    }
+
+    .fullWidth {
+        width: 100%;
+    }
+</style>
+}
+
+<script type="text/javascript" src="~/Uploads/Scripts/Vendedor.js?v=@DateTime.Now.ToString("ddMMyyyyhhmmss")"></script>
+<script type="text/javascript" src="~/Scripts/Custom/VendedorGeneral.js?v=@DateTime.Now.ToString("ddMMyyyyhhmmss")"></script>
+<script type="text/javascript" src="~/Uploads/Scripts/Rules/VendedorCreateRules.js?v=@DateTime.Now.ToString("ddMMyyyyhhmmss")"></script>
+
+@section Scripts {
+
+
+    <script type="text/javascript">
+        
+        function RemoveAttachmentMainFotografia () {
+            $("#hdnRemoveFotografia").val("1");
+            $("#divAttachmentFotografia").hide();
+        }
+
+
+
+        $(document).ready(function () {
+
+            $('#Fecha_de_Nacimiento').datepicker({
+                todayBtn: "linked",
+                keyboardNavigation: false,
+                forceParse: false,
+                calendarWeeks: true,
+                autoclose: true,
+                format: "@ConfigurationProperty.DateFormatDatePicker"
+            });
+            $('#Hora_de_Entrada').clockpicker();
+
+            GetDetalle_Familiar_de_Vendedor_ParentescoItem();
+
+            getDetalle_Familiar_de_VendedorData();
+
+            initiateUIControls();
+			$('a').tooltip();
+			EjecutarValidacionesAlComienzo();
+        });
+
+        var Detalle_Familiar_de_VendedorinsertRowCurrentIndex = -1;
+        var Detalle_Familiar_de_VendedorDataDataTable;
+        function getDetalle_Familiar_de_VendedorData() {
+            $.ajax({
+                url: "@Url.Content("~/Frontal/Vendedor/GetDetalle_Familiar_de_Vendedor")" + "?draw=1&start=1&length=2147483647" + ($("#ReferenceNumero_de_Empleado").val() != "" ? "&RelationId=" + $("#ReferenceNumero_de_Empleado").val() : ""),
+                type: 'GET',
+                dataType: "json",
+                async: false,
+                success: function (result) {
+                    Detalle_Familiar_de_VendedorDataDataTable = result.data;
+                    showDetalle_Familiar_de_VendedorGrid(result.data);
+                },
+                error: function (result) {
+                    showNotification("@Resources.Resources.ErrorContactingServer", "error");
+                }
+            });
+        }
+        function Detalle_Familiar_de_VendedorGetUpdateRowControls(data, nameOfTable, rowIndex) {
+
+            var columnData = [];
+            var counter = 0;
+            var inputData = "<input type='text' class='fullWidth form-control' />";
+            if ($('.Nombre_del_Familiar' + 'Header').css('display') != 'none') columnData[counter++] = $($($.parseHTML(inputData)).val(data.Nombre_del_Familiar)).addClass('Nombre_del_Familiar');
+            if ($('.Parentesco' + 'Header').css('display') != 'none') columnData[counter++] = $($(GetDetalle_Familiar_de_Vendedor_ParentescoDropDown()).val(data.Parentesco)).addClass('Parentesco');
+            if ($('.Fecha' + 'Header').css('display') != 'none') columnData[counter++] = $($($.parseHTML(GetGridDatePicker())).val(data.Fecha)).addClass('Fecha');
+            if ($('.Hora' + 'Header').css('display') != 'none') columnData[counter++] = $($($.parseHTML(GetGridTimePicker())).val(data.Hora)).addClass('Hora');
+            if ($('.Con_Vida' + 'Header').css('display') != 'none') columnData[counter++] = $($($.parseHTML(GetGridCheckBox())).prop('checked', data.Con_Vida)).addClass('Con_Vida');
+            columnData[5] = data.FotografiaFileDetail == null && (data.FotografiaFileInfo.FileId == null || data.FotografiaFileInfo.FileId <= 0) ? $.parseHTML(GetFileUploader()) : GetFileInfo(data.FotografiaFileInfo, data.FotografiaFileDetail);
+            if ($('.Edad' + 'Header').css('display') != 'none') columnData[counter++] = $($($.parseHTML(inputData)).val(data.Edad)).addClass('Edad');
+            if ($('.Estatura' + 'Header').css('display') != 'none') columnData[counter++] = $($($.parseHTML(inputData)).val(data.Estatura)).addClass('Estatura');
+            if ($('.Ingresos_Mensuales' + 'Header').css('display') != 'none') columnData[counter++] = $($($.parseHTML(inputData)).val(data.Ingresos_Mensuales)).addClass('Ingresos_Mensuales');
+
+            return columnData;
+        }
+
+        var removedDetalle_Familiar_de_VendedorData = [];
+        function Detalle_Familiar_de_VendedorDeleteRow(rowIndex) {
+            if (!permission.Delete || isConsultMode)
+                return;
+            if (EjecutarValidacionesAlEliminarMR()) {
+            if (confirm("@Resources.Resources.DeleteConfirm")) {
+                var prevData = Detalle_Familiar_de_VendedorTable.fnGetData(rowIndex);
+                removedDetalle_Familiar_de_VendedorData.push(prevData);
+                Detalle_Familiar_de_VendedorTable.fnDeleteRow(rowIndex);
+            }
+            }
+        }
+
+        function Detalle_Familiar_de_VendedorrowCreationGrid(row, data, index) {
+            //debugger;
+            var Detalle_Familiar_de_VendedorRowElement = "Detalle_Familiar_de_Vendedor_" + index.toString();
+            $(row).addClass(Detalle_Familiar_de_VendedorRowElement);
+
+            row.innerHTML = "";
+
+            if (data.IsInsertRow) {
+
+                if (row.childNodes.length != 0) {
+                    for (var i = 0; i < row.childNodes.length; i++) {
+                        row.childNodes[i].remove();
+                    }
+                }
+                var controls = GetInsertDetalle_Familiar_de_VendedorRowControls(index);
+
+                var actionColInsert = $('<td>');
+
+                var abc = "if(dynamicFieldValidation('" + Detalle_Familiar_de_VendedorRowElement + "')){ Detalle_Familiar_de_VendedorInsertRow(" + index + "); }";
+                var insertRowHTML = '<a  onclick="' + abc + '">';
+                $('<i class="fa fa-check">').appendTo($(insertRowHTML).appendTo(actionColInsert));
+				$('<i class="fa fa-times">').appendTo($("<a  onclick='Detalle_Familiar_de_VendedorCancelRow(" + index + ")'>").appendTo(actionColInsert));
+                actionColInsert.appendTo(row);
+
+                for (i = 0; i < controls.length; i++) {
+					var idHeader = $(controls[i]).data('field') + 'Header';
+					if($(controls[i]).length > 1)
+					{
+						idHeader = $($(controls[i])[1]).data('field') + 'Header';
+					}					
+					if($('.' + idHeader ).css('display') != 'none')
+					{
+						$(controls[i]).appendTo($('<td>').appendTo(row));
+					}
+                }
+                return;
+            }
+
+            var actionCol = $('<td>');
+            $('<i class="fa fa-pencil">').appendTo($("<a title='Edit' class='" + (!permission.Edit || isConsultMode ? " disabled" : "") + "' onclick='Detalle_Familiar_de_VendedorEditRow(" + index + ")'>").appendTo(actionCol));
+            @*$('<i class="fa fa-edit">').appendTo($("<a title='Edit' data-toggle='modal' data-target='#AddDetalle_Familiar_de_Vendedor-form' class='" + (!permission.Edit || isConsultMode ? " disabled" : "") + "' onclick='Detalle_Familiar_de_VendedorEditRowPopup(" + index + ")'>").appendTo(actionCol));*@
+            $('<i class="fa fa-trash-o">').appendTo($("<a title='Delete' class='" + (!permission.Delete || isConsultMode ? " disabled" : "") + "' onclick='Detalle_Familiar_de_VendedorDeleteRow(" + index + ")'>").appendTo(actionCol));
+            actionCol.appendTo(row);
+            if ($('.Nombre_del_Familiar' + 'Header').css('display') != 'none')
+                $('<td>').text(data.Nombre_del_Familiar).appendTo(row);
+            if ($('.Parentesco' + 'Header').css('display') != 'none')
+                $('<td>').text(GetDetalle_Familiar_de_Vendedor_ParentescoName(data.Parentesco)).appendTo(row);
+            if ($('.Fecha' + 'Header').css('display') != 'none')
+                $('<td>').text(data.Fecha).appendTo(row);
+            if ($('.Hora' + 'Header').css('display') != 'none')
+                $('<td>').text(data.Hora).appendTo(row);
+            if ($('.Con_Vida' + 'Header').css('display') != 'none')
+                $('<td>').text(data.Con_Vida).appendTo(row);
+            if ($('.Fotografia' + 'Header').css('display') != 'none'){
+                var FotografiafileTd = $('<td>');
+            if (data.FotografiaFileDetail != null && data.FotografiaFileDetail.files != null) {
+                if (data.FotografiaFileDetail.files.length > 0)
+                    $("<a >" + data.FotografiaFileDetail.files[0].name + "</a>").appendTo(FotografiafileTd);
+            }
+            else if (data.FotografiaFileInfo != null && data.FotografiaFileInfo.FileId > 0) {
+                $("<a href='" + '@Url.Content("~/Frontal/Empleados/GetFile?id=")' + data.FotografiaFileInfo.FileId + "' target='_blank'>" + data.FotografiaFileInfo.FileName + "</a>").appendTo(FotografiafileTd);
+            }
+            FotografiafileTd.appendTo(row);
+}
+            if ($('.Edad' + 'Header').css('display') != 'none')
+                $('<td>').text(data.Edad).appendTo(row);
+            if ($('.Estatura' + 'Header').css('display') != 'none')
+                $('<td>').text(data.Estatura).appendTo(row);
+            if ($('.Ingresos_Mensuales' + 'Header').css('display') != 'none')
+                $('<td>').text(data.Ingresos_Mensuales).appendTo(row);
+
+        }
+
+        var Detalle_Familiar_de_VendedorTable;
+        function showDetalle_Familiar_de_VendedorGrid(dataSet) {
+            removedDetalle_Familiar_de_VendedorData = [];
+            Detalle_Familiar_de_VendedorTable = $('#Detalle_Familiar_de_VendedorGrid').dataTable({
+                dom: '<"html5buttons"B>lTgitp',
+                buttons: [
+                ],
+                "createdRow": Detalle_Familiar_de_VendedorrowCreationGrid,
+                "lengthMenu": [[5, 10, 20, 50, -1], [5, 10, 20, 50, "All"]],
+                data: dataSet,
+                "columns": [
+                    { "data": null, 'visible': true, "orderable": false },
+                    { "data": "Nombre_del_Familiar", "orderable": false },
+                    { "data": "Parentesco", "orderable": false },
+                    { "data": "Fecha", "orderable": false },
+                    { "data": "Hora", "orderable": false },
+                    { "data": "Con_Vida", "orderable": false },
+                    { "data": "Fotografia", "orderable": false },
+                    { "data": "Edad", "orderable": false },
+                    { "data": "Estatura", "orderable": false },
+                    { "data": "Ingresos_Mensuales", "orderable": false },
+
+                ],
+                "order": [[0, "asc"]],
+                "language": {
+                    "lengthMenu": "@Resources.Resources.Display" + " _MENU_ " + "@Resources.Resources.RecordsPerPage",
+                    "zeroRecords": "@Resources.Resources.NothingFound",
+                    "info": "@Resources.Resources.ShowingPages" + " _PAGE_ " + "@Resources.Resources.of" + " _PAGES_",
+                    "infoEmpty": "@Resources.Resources.NoRecords",
+                    "infoFiltered": "(" + "@Resources.Resources.FilteredFrom" + " _MAX_ " + "@Resources.Resources.TotalRecords" + ")",
+                    "sSearch": "@Resources.Resources.Search",
+                    "paginate": {
+                        "previous": "@Resources.Resources.Previous",
+                        "next": "@Resources.Resources.Next"
+                    }
+                },
+                "fnDrawCallback": function (settings) {
+                    setDetalle_Familiar_de_VendedorValidation();
+                }
+            });
+        }
+
+    var Detalle_Familiar_de_Vendedor_ParentescoItems;
+        function GetDetalle_Familiar_de_Vendedor_ParentescoItem() {
+            Detalle_Familiar_de_Vendedor_ParentescoItems = null;
+            var ajaxUrl = "@Url.Content("~/Frontal/Vendedor/GetDetalle_Familiar_de_Vendedor_ParentescoAll")";
+            $.ajax({
+                url: ajaxUrl,
+                type: 'GET',
+                dataType: "json",
+                async: false,
+                global: false,
+                success: function (result) {
+                    Detalle_Familiar_de_Vendedor_ParentescoItems = result;
+                },
+                error: function (result) {
+                    showNotification("@Resources.Resources.ErrorContactingServer", "error");
+                }
+            });
+        }
+
+        var Detalle_Familiar_de_VendedorData = [];
+        var Detalle_Familiar_de_VendedordeletedItem = [];
+        var Detalle_Familiar_de_VendedorDataMain = [];
+        var Detalle_Familiar_de_VendedorDataMainPages = [];
+        var Detalle_Familiar_de_VendedornewItemCount = 0;
+        var Detalle_Familiar_de_VendedormaxItemIndex = 0;
+        var Detalle_Familiar_de_VendedorDataMainInitialized = false;
+
+        function SendDetalle_Familiar_de_Vendedor(callBack, Numero_de_EmpleadoId) {
+            Detalle_Familiar_de_VendedorData = GetDetalle_Familiar_de_VendedorFromDataTable();
+
+            if (Detalle_Familiar_de_VendedorData.length > 0 || $("#ReferenceNumero_de_Empleado").val() != Numero_de_EmpleadoId) {
+                $.ajax({
+                    url: '@Url.Content("~/Frontal/Vendedor/PostDetalle_Familiar_de_Vendedor?MasterId=")' + Numero_de_EmpleadoId + "&referenceId=" + $("#ReferenceNumero_de_Empleado").val(),
+                    type: 'POST',
+                    data: GetDetalle_Familiar_de_Vendedor(),
+                    async: true,
+                    success: function (result) {
+
+                    },
+                    error: function (result) {
+                        showNotification("@Resources.Resources.ErrorContactingServer", "error");
+                    },
+                    cache: false,
+                    contentType: false,
+                    processData: false
+                });
+            } else {
+                //showNotification("@Resources.Resources.SaveSuccess", "success");
+                //callBack(Numero_de_EmpleadoId);
+            }
+            return true;
+        }
+
+        function GetAddDetalle_Familiar_de_VendedorPopup(currentRowIndex, mode) {
+
+            $.ajax({
+                url: "@Url.Action("AddDetalle_Familiar_de_Vendedor", "Detalle_Familiar_de_Vendedor")",
+                type: "GET",
+                async: false,
+                data: { rowIndex: currentRowIndex, functionMode: mode },
+                success: function (data) {
+                    $(".AddDetalle_Familiar_de_VendedorModal").html(data);
+                },
+                error: function () {
+
+                }
+            });
+
+            @*$.get('@Url.Action("AddDetalle_Familiar_de_Vendedor", "Detalle_Familiar_de_Vendedor")', { rowIndex: currentRowIndex }, function (data) {
+                $(".AddDetalle_Familiar_de_VendedorModal").html(data);
+            });*@
+        }
+
+
+        function initiateUIControls() {
+             $('.gridDatePicker').datepicker({
+                todayBtn: "linked",
+                keyboardNavigation: false,
+                forceParse: false,
+                calendarWeeks: true,
+                autoclose: true,
+                format: "@ConfigurationProperty.DateFormatDatePicker"
+            });
+            //Time Picker
+            $('.gridTimePicker').clockpicker();
+
+
+        }
+
+    </script>
+
+<script type="text/javascript">
+
+        function SendVendedorData(callBack) {
+            var formData = new FormData($("form#CreateVendedor")[0]);
+            if (checkClientValidate('VendedorCreateForm')) {
+                $.ajax({
+                    url: '@Url.Content("~/Frontal/Vendedor/Post?IsNew="+ViewBag.IsNew+"")',
+                    type: 'POST',
+                    data: formData,
+                    async: true,
+                    success: function (result) {
+                        if (result < 0) {
+                            showNotification("@Resources.Resources.ErrorSave", "error");
+                        } else {
+                            SendDetalle_Familiar_de_Vendedor(callBack, result);
+
+                            showNotification("@Resources.Resources.SaveSuccess", "success");
+                            callBack(result);
+                        }
+                    },
+                    error: function (result) {
+                        showNotification("@Resources.Resources.ErrorContactingServer", "error");
+                    },
+                    cache: false,
+                    contentType: false,
+                    processData: false
+                });
+            }
+            return false;
+        };
+        function GetPropertyBag() {
+            $.get('@Url.Action("VendedorPropertyBag", "Vendedor")', function (data) {
+                $(".PropertyModal").html(data);
+            });
+        }
+        function VendedorGetBusinessRule(FieldId, FieldName, Attribute) {
+			if (FieldId != null && FieldName != null)
+			{
+				$('#hdnVendedorBusinessRuleFieldId').val(FieldId);
+				$('#hdnVendedorBusinessRuleFieldName').val(FieldName);
+				$('#hdnVendedorBusinessRuleAttribute').val(Attribute);
+			}
+            $.get('@Url.Action("BusinessRule", "BussinessRule")', { FieldId: $('#hdnVendedorBusinessRuleFieldId').val(), FieldName: $('#hdnVendedorBusinessRuleFieldName').val(), ObjectId: $('#hdnObjectId').val(), Attribute: $('#hdnVendedorBusinessRuleAttribute').val() }, function (data) {
+                $(".VendedorBusinessRuleModal").html(data);
+            });
+        }
+        function GetAddBusinessRule(RuleId, FieldId, FieldName, Attribute) {
+			if (FieldId != null && FieldName != null) {
+				$('#hdnVendedorBusinessRuleFieldId').val(FieldId);
+				$('#hdnVendedorBusinessRuleFieldName').val(FieldName);
+				$('#hdnVendedorBusinessRuleAttribute').val(Attribute);
+			}
+            $.get('@Url.Action("AddBusinessRule", "BussinessRule")', { BusinessRuleId: RuleId, FieldId: $('#hdnVendedorBusinessRuleFieldId').val(), FieldName: $('#hdnVendedorBusinessRuleFieldName').val(), ObjectId: $('#hdnObjectId').val(), Attribute: $('#hdnVendedorBusinessRuleAttribute').val(), Screen: 'Vendedor' }, function (data) {
+                $(".VendedorAddBusinessRuleModal").html(data);
+                $(".datatable").DataTable();
+            });
+        }
+		function RemoveBusinessRule(RuleId) {
+			$.get('@Url.Action("RemoveBusinessRule", "BussinessRule")', { BusinessRuleId: RuleId, FieldId: $('#hdnVendedorBusinessRuleFieldId').val(), FieldName: $('#hdnVendedorBusinessRuleFieldName').val(), ObjectId: $('#hdnObjectId').val(), Attribute: $('#hdnVendedorBusinessRuleAttribute').val(), Screen: 'Vendedor' }, function (data) {
+				$(".VendedorBusinessRuleModal").html(data);
+			});
+		}
+
+    var permission = {
+        Consult: '@permission.Consult' == 'True',
+        New: '@permission.New' == 'True',
+        Edit: '@permission.Edit' == 'True',
+        Delete: '@permission.Delete' == 'True',
+        Export: '@permission.Export' == 'True',
+        Print: '@permission.Print' == 'True',
+        Configure: '@permission.Configure' == 'True',
+    };
+
+    
+    //MR-var statusItems;
+    //MR-var stateItems;
+    //MR-var cityItems = [];
+    var isConsultMode = "@ViewBag.Consult" == "True";
+    Consult(isConsultMode);
+        function Consult(val) {
+            if (val) {
+                $(':input').attr('readonly', 'readonly');
+                $(':input').attr('disabled', 'true');
+                $('.noConsult').removeAttr('readonly');
+                $('.noConsult').removeAttr('disabled');
+            }
+        }
+
+    function BackToGrid() {
+        location.href = "@Url.Content("~/Frontal/Vendedor/")";
+    }
+	
+	function ReadScriptSettings(callback)
+    {
+        $.post("@Url.Content("~/Frontal/Vendedor/ReadScriptSettings")", function (data) {
+            mainElementObject = JSON.parse(data.MainElement);
+			if (data.ChildElement != null) {
+                childElementObject = JSON.parse(data.ChildElement);
+            }
+            callback();
+        });
+    }
+
+    function SaveSettingsWithoutReload() {
+        $.post("@Url.Content("~/Frontal/Vendedor/WriteScriptSettings")", { CustomModuleAttributeList: mainElementObject, ChildModuleAttributeList: childElementObject }, function (data) {
+            //$('#hdnConfigureType').val("0");
+        }, "json");
+    }
+	
+        function SaveElementAttributes() {
+            if ($('#hdnConfigureType').val() == "1") {
+                $.post("@Url.Content("~/Frontal/Vendedor/WriteScriptSettings")", { CustomModuleAttributeList: mainElementObject, ChildModuleAttributeList: childElementObject }, function (data) {
+                    $('#hdnConfigureType').val("0");
+                    location.reload(true);
+                }, "json");
+            } else {
+                $.post("@Url.Content("~/Frontal/Vendedor/ReadScriptSettings")", function (data) {
+                    mainElementObject = JSON.parse(data.MainElement);
+                    childElementObject = JSON.parse(data.ChildElement);
+
+                    for (var i = 0; i < mainElementObject.length; i++) {
+                        var mainElementAttributes = '<div class="col-sm-2">';
+                        mainElementAttributes += '<div class="displayAttributes requiredAttribute"><a class="requiredClick" title="' + (mainElementObject[i].IsRequired == true ? "Required" : "Not Required") + '" onclick="setRequired(' + i.toString() + ', this, 1)"><img src="' + (mainElementObject[i].IsRequired == true ? "@Url.Content("~/Images/Required.png")" : "@Url.Content("~/Images/Not-Required.png")") + '" alt="" /></a></div>';
+                        mainElementAttributes += '<div class="displayAttributes visibleAttribute"><a class="visibleClick" title="' + (mainElementObject[i].IsVisible == true ? "Visible" : "In Visible") + '" onclick="setVisible(' + i.toString() + ', this, 1)"><img src="' + (mainElementObject[i].IsVisible == true ? "@Url.Content("~/Images/Visible.png")" : "@Url.Content("~/Images/InVisible.png")") + '" alt="" /></a></div>';
+                        mainElementAttributes += '<div class="displayAttributes readOnlyAttribute"><a class="readOnlyClick" title="' + (mainElementObject[i].IsReadOnly == true ? "Disabled" : "Enabled") + '" onclick="setReadOnly(' + i.toString() + ', this, 1)"><img src="' + (mainElementObject[i].IsReadOnly == true ? "@Url.Content("~/Images/Disabled.png")" : "@Url.Content("~/Images/Enabled.png")") + '" alt="" /></a></div>';
+                        mainElementAttributes += '<div class="displayAttributes defaultValueAttribute"><a id="hlDefaultValue_' + i.toString() + '" class="defaultValueClick" title="' + (mainElementObject[i].DefaultValue) + '" onclick="setDefaultValue(' + i.toString() + ', this, 1)"><img src="' + (mainElementObject[i].DefaultValue != '' && mainElementObject[i].DefaultValue != null ? "@Url.Content("~/Images/default-value.png")" : "@Url.Content("~/Images/Not-Default-Value.png")") + '" alt="" /></a></div>';
+                        mainElementAttributes += '<div class="displayAttributes helpTextAttribute"><a id="hlHelpText_' + i.toString() + '" class="helpTextClick" title="' + (mainElementObject[i].HelpText) + '" onclick="setHelpText(' + i.toString() + ', this, 1)"><img src="' + (mainElementObject[i].HelpText != '' && mainElementObject[i].HelpText != null ? "@Url.Content("~/Images/green-help.png")" : "@Url.Content("~/Images/red-help.jpg")") + '" alt="" /></a></div>';
+                        mainElementAttributes += '</div>';
+                        $('#' + mainElementObject[i].inputId).parent().closest('.form-group').show();
+
+                        $('#' + mainElementObject[i].inputId).closest('.col-sm-8').after(mainElementAttributes);
+                    }
+					if (childElementObject != null) {
+						for (var i = 0; i < childElementObject.length; i++) {
+							$('.' + childElementObject[i].inputId + 'Header').show();
+							$('.' + childElementObject[i].inputId).parent().show();
+							$('.' + childElementObject[i].inputId + 'Header').append(returnAttributeHTML(i));
+						}
+					}
+                    $('#ConfigureSave').text('Save Settings');
+                    $('#hdnConfigureType').val("1");
+                });
+            }
+        }
+		$('#CreateVendedor').on('click', '.btnPopupBusinessRules', function () {
+			var fieldId = $(this).data('field-id');
+			var fieldName = $(this).data('field-name');
+			var attribute = $(this).data('attribute');
+			$('#hdnVendedorBusinessRuleFieldId').val(fieldId);
+			$('#hdnVendedorBusinessRuleFieldName').val(fieldName);
+			$('#hdnVendedorBusinessRuleAttribute').val(attribute);
+		});
+    </script>
+}
+

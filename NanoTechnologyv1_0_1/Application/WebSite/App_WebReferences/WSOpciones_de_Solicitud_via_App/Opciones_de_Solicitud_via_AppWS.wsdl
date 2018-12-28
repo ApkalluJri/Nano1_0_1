@@ -1,0 +1,999 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="ListaGetFullQuery">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="sWhere" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sOrder" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ListaGetFullQueryResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ListaGetFullQueryResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ListaSelAll">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="startRowIndex" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="maximumRows" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="where" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Order" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ListaSelAllResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ListaSelAllResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ImpresionSelAll">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="where" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Order" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ImpresionSelAllResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ImpresionSelAllResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ListaSelCount">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="where" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ListaSelCountResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="ListaSelCountResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SelCount">
+        <s:complexType />
+      </s:element>
+      <s:element name="SelCountResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="SelCountResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SelAll">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="ConRelaciones" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SelAllResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SelAllResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SelAllwithFilters">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="ConRelaciones" type="s:boolean" />
+            <s:element minOccurs="0" maxOccurs="1" name="myFilters" type="tns:ArrayOfOpciones_de_Solicitud_via_AppFilters" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfOpciones_de_Solicitud_via_AppFilters">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="Opciones_de_Solicitud_via_AppFilters" nillable="true" type="tns:Opciones_de_Solicitud_via_AppFilters" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="Opciones_de_Solicitud_via_AppFilters">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="Obligatory" type="s:boolean" />
+          <s:element minOccurs="1" maxOccurs="1" name="Defaultview" type="s:boolean" />
+          <s:element minOccurs="1" maxOccurs="1" name="Vacia" type="s:boolean" />
+          <s:element minOccurs="0" maxOccurs="1" name="Clave" type="tns:Numeric" />
+          <s:element minOccurs="0" maxOccurs="1" name="Descripcion" type="tns:String" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="Numeric">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:FiltersProperties">
+            <s:sequence>
+              <s:element minOccurs="1" maxOccurs="1" name="From" nillable="true" type="s:int" />
+              <s:element minOccurs="1" maxOccurs="1" name="To" nillable="true" type="s:int" />
+            </s:sequence>
+          </s:extension>
+        </s:complexContent>
+      </s:complexType>
+      <s:complexType name="FiltersProperties">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="Order" type="tns:FiltersPropertiesModeOrderFields" />
+        </s:sequence>
+      </s:complexType>
+      <s:simpleType name="FiltersPropertiesModeOrderFields">
+        <s:restriction base="s:string">
+          <s:enumeration value="None" />
+          <s:enumeration value="Ascendente" />
+          <s:enumeration value="Descendente" />
+        </s:restriction>
+      </s:simpleType>
+      <s:complexType name="String">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:FiltersProperties">
+            <s:sequence>
+              <s:element minOccurs="1" maxOccurs="1" name="FilterType" type="tns:TypesTextFilter" />
+              <s:element minOccurs="0" maxOccurs="1" name="Text" type="s:string" />
+            </s:sequence>
+          </s:extension>
+        </s:complexContent>
+      </s:complexType>
+      <s:simpleType name="TypesTextFilter">
+        <s:restriction base="s:string">
+          <s:enumeration value="None" />
+          <s:enumeration value="Igual" />
+          <s:enumeration value="Contenga" />
+          <s:enumeration value="Empieze" />
+          <s:enumeration value="Termine" />
+        </s:restriction>
+      </s:simpleType>
+      <s:element name="SelAllwithFiltersResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SelAllwithFiltersResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SelAllpart">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="ConRelaciones" type="s:boolean" />
+            <s:element minOccurs="1" maxOccurs="1" name="CurrentRecordInt32" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="RecordsDisplayedInt32" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SelAllpartResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SelAllpartResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Insert">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="globalInfo" type="tns:GlobalData" />
+            <s:element minOccurs="0" maxOccurs="1" name="varDescripcion" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="GlobalData">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="Folio" type="s:long" />
+          <s:element minOccurs="1" maxOccurs="1" name="UserID" nillable="true" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="UserName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ComputerName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="WindowsVersion" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ServidorName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ServidorNameComputer" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="DatabaseName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="SystemVersion" type="tns:VersionData" />
+          <s:element minOccurs="0" maxOccurs="1" name="AppToTempFiles" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="Language" type="tns:GlobalDataLanguages" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="VersionData">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="SystemName" type="tns:VersionDataModules" />
+          <s:element minOccurs="1" maxOccurs="1" name="SystemVersion" type="s:decimal" />
+        </s:sequence>
+      </s:complexType>
+      <s:simpleType name="VersionDataModules">
+        <s:restriction base="s:string">
+          <s:enumeration value="Produccion" />
+        </s:restriction>
+      </s:simpleType>
+      <s:simpleType name="GlobalDataLanguages">
+        <s:restriction base="s:string">
+          <s:enumeration value="None" />
+          <s:enumeration value="Default" />
+          <s:enumeration value="Spanish" />
+          <s:enumeration value="English" />
+        </s:restriction>
+      </s:simpleType>
+      <s:element name="InsertResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="InsertWithReturnValue">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="globalInfo" type="tns:GlobalData" />
+            <s:element minOccurs="0" maxOccurs="1" name="varDescripcion" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="InsertWithReturnValueResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="InsertWithReturnValueResult" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Update">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="globalInfo" type="tns:GlobalData" />
+            <s:element minOccurs="1" maxOccurs="1" name="varClave" nillable="true" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="varDescripcion" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdateResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="Delete">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="globalInfo" type="tns:GlobalData" />
+            <s:element minOccurs="1" maxOccurs="1" name="KeyClave" nillable="true" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DeleteResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="DeleteResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetByKey">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="KeyClave" nillable="true" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="ConRelaciones" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="objectBussinessOpciones_de_Solicitud_via_App">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="iProcess" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="OrderClickHeaderCell" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="OrderClickHeaderCellType" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="MyConfigurationColumns" type="tns:ArrayOfObjectBussinessTTConfigurationAdvancedColumn" />
+          <s:element minOccurs="0" maxOccurs="1" name="MyFilters" type="tns:ArrayOfObjectBussinessTTFiltro" />
+          <s:element minOccurs="0" maxOccurs="1" name="MyConfigurationColumnsObligatories" type="tns:ArrayOfObjectBussinessTTConfigurationAdvancedColumn" />
+          <s:element minOccurs="0" maxOccurs="1" name="MyFiltersObligatories" type="tns:ArrayOfObjectBussinessTTFiltro" />
+          <s:element minOccurs="0" maxOccurs="1" name="MyFiltersQuick" type="tns:objectBussinessTTFiltro" />
+          <s:element minOccurs="0" maxOccurs="1" name="Filters" type="tns:ArrayOfOpciones_de_Solicitud_via_AppFilters" />
+          <s:element minOccurs="1" maxOccurs="1" name="Clave" nillable="true" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="Descripcion" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="sWhere" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfObjectBussinessTTConfigurationAdvancedColumn">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="objectBussinessTTConfigurationAdvancedColumn" nillable="true" type="tns:objectBussinessTTConfigurationAdvancedColumn" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="objectBussinessTTConfigurationAdvancedColumn">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="iProcess" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="GlobalInformation" type="tns:GlobalData" />
+          <s:element minOccurs="0" maxOccurs="1" name="MyFilters" type="tns:ArrayOfObjectBussinessTTFiltro" />
+          <s:element minOccurs="0" maxOccurs="1" name="Filters" type="tns:ArrayOfTTConfigurationAdvancedColumnFilters" />
+          <s:element minOccurs="1" maxOccurs="1" name="IdConfiguration" nillable="true" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="ProcesoId" nillable="true" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="Detalle" type="tns:ArrayOfObjectBussinessTTConfigurationAdvancedColumn_Detalle" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfObjectBussinessTTFiltro">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="objectBussinessTTFiltro" nillable="true" type="tns:objectBussinessTTFiltro" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="objectBussinessTTFiltro">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="iProcess" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="IdFiltro" nillable="true" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="ProcesoID" nillable="true" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="Filtro_Detalle" type="tns:ArrayOfObjectBussinessTTFiltro_Detalle" />
+          <s:element minOccurs="0" maxOccurs="1" name="GlobalInformation" type="tns:GlobalData" />
+          <s:element minOccurs="1" maxOccurs="1" name="EntryType" type="tns:TTFiltersAdvancedEntryType" />
+          <s:element minOccurs="0" maxOccurs="1" name="WhereJoin" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfObjectBussinessTTFiltro_Detalle">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="objectBussinessTTFiltro_Detalle" nillable="true" type="tns:objectBussinessTTFiltro_Detalle" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="objectBussinessTTFiltro_Detalle">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="iProcess" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="IdTTFiltro" nillable="true" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="Folio" nillable="true" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="DNTFiltro" nillable="true" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="Dt_Filtro" nillable="true" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="Question" type="s:boolean" />
+          <s:element minOccurs="1" maxOccurs="1" name="DesdeNumerico" nillable="true" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="HastaNumerico" nillable="true" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="DesdeDate" nillable="true" type="s:dateTime" />
+          <s:element minOccurs="1" maxOccurs="1" name="HastaDate" nillable="true" type="s:dateTime" />
+          <s:element minOccurs="1" maxOccurs="1" name="Ano" nillable="true" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="Mes" nillable="true" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="Semana" nillable="true" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="Si_No" nillable="true" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="CondicionTexto" type="tns:TypesTextFilter" />
+          <s:element minOccurs="1" maxOccurs="1" name="TipoDeControlBusqueda" type="tns:TypeControlSearchAdvanced" />
+          <s:element minOccurs="0" maxOccurs="1" name="RutaDNTs" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="DesdeDecimal" nillable="true" type="s:decimal" />
+          <s:element minOccurs="1" maxOccurs="1" name="HastaDecimal" nillable="true" type="s:decimal" />
+          <s:element minOccurs="0" maxOccurs="1" name="DesdeTexto" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="HastaTexto" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Filtro_Dependientes" type="tns:ArrayOfObjectBussinessTTFiltro_Dependientes" />
+          <s:element minOccurs="0" maxOccurs="1" name="Filtro_Detalle" type="tns:objectBussinessTTFiltro" />
+        </s:sequence>
+      </s:complexType>
+      <s:simpleType name="TypeControlSearchAdvanced">
+        <s:restriction base="s:string">
+          <s:enumeration value="Numeric" />
+          <s:enumeration value="Money" />
+          <s:enumeration value="Decimal" />
+          <s:enumeration value="Text" />
+          <s:enumeration value="Logic" />
+          <s:enumeration value="Date" />
+          <s:enumeration value="Hour" />
+          <s:enumeration value="Dependiente" />
+          <s:enumeration value="Color" />
+          <s:enumeration value="MultiRenglon" />
+        </s:restriction>
+      </s:simpleType>
+      <s:complexType name="ArrayOfObjectBussinessTTFiltro_Dependientes">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="objectBussinessTTFiltro_Dependientes" nillable="true" type="tns:objectBussinessTTFiltro_Dependientes" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="objectBussinessTTFiltro_Dependientes">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="iProcess" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="Filters" type="tns:ArrayOfTTFiltro_DependientesFilters" />
+          <s:element minOccurs="1" maxOccurs="1" name="IdFiltro" nillable="true" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="IdFiltro_Dependientes" nillable="true" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="DT" nillable="true" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="Valor" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfTTFiltro_DependientesFilters">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="TTFiltro_DependientesFilters" nillable="true" type="tns:TTFiltro_DependientesFilters" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="TTFiltro_DependientesFilters">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="Obligatory" type="s:boolean" />
+          <s:element minOccurs="1" maxOccurs="1" name="Defaultview" type="s:boolean" />
+          <s:element minOccurs="1" maxOccurs="1" name="Vacia" type="s:boolean" />
+          <s:element minOccurs="0" maxOccurs="1" name="IdFiltro" type="tns:Dependientes" />
+          <s:element minOccurs="0" maxOccurs="1" name="IdFiltro_Dependientes" type="tns:Numeric" />
+          <s:element minOccurs="0" maxOccurs="1" name="DT" type="tns:Dependientes" />
+          <s:element minOccurs="0" maxOccurs="1" name="Valor" type="tns:String" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="Dependientes">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:FiltersProperties">
+            <s:sequence>
+              <s:element minOccurs="0" maxOccurs="1" name="List" type="tns:ArrayOfString" />
+            </s:sequence>
+          </s:extension>
+        </s:complexContent>
+      </s:complexType>
+      <s:complexType name="ArrayOfString">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="string" nillable="true" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:simpleType name="TTFiltersAdvancedEntryType">
+        <s:restriction base="s:string">
+          <s:enumeration value="QuickFilter" />
+          <s:enumeration value="FilterAdvanced" />
+        </s:restriction>
+      </s:simpleType>
+      <s:complexType name="ArrayOfTTConfigurationAdvancedColumnFilters">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="TTConfigurationAdvancedColumnFilters" nillable="true" type="tns:TTConfigurationAdvancedColumnFilters" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="TTConfigurationAdvancedColumnFilters">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="Obligatory" type="s:boolean" />
+          <s:element minOccurs="1" maxOccurs="1" name="Defaultview" type="s:boolean" />
+          <s:element minOccurs="1" maxOccurs="1" name="Vacia" type="s:boolean" />
+          <s:element minOccurs="0" maxOccurs="1" name="IdConfiguration" type="tns:Numeric" />
+          <s:element minOccurs="0" maxOccurs="1" name="ProcesoId" type="tns:Dependientes" />
+          <s:element minOccurs="0" maxOccurs="1" name="Detalle" type="tns:TTConfigurationAdvancedColumn_DetalleFilters" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="TTConfigurationAdvancedColumn_DetalleFilters">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="Obligatory" type="s:boolean" />
+          <s:element minOccurs="1" maxOccurs="1" name="Defaultview" type="s:boolean" />
+          <s:element minOccurs="1" maxOccurs="1" name="Vacia" type="s:boolean" />
+          <s:element minOccurs="0" maxOccurs="1" name="IdConfiguration" type="tns:Dependientes" />
+          <s:element minOccurs="0" maxOccurs="1" name="IdConfiguraionDetalle" type="tns:Numeric" />
+          <s:element minOccurs="0" maxOccurs="1" name="DNT" type="tns:Dependientes" />
+          <s:element minOccurs="0" maxOccurs="1" name="DT" type="tns:Dependientes" />
+          <s:element minOccurs="0" maxOccurs="1" name="Visible" type="tns:Logic" />
+          <s:element minOccurs="0" maxOccurs="1" name="Orden" type="tns:Numeric" />
+          <s:element minOccurs="0" maxOccurs="1" name="TipoPresentacion" type="tns:Dependientes" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="Logic">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:FiltersProperties">
+            <s:sequence>
+              <s:element minOccurs="1" maxOccurs="1" name="Active" nillable="true" type="s:int" />
+            </s:sequence>
+          </s:extension>
+        </s:complexContent>
+      </s:complexType>
+      <s:complexType name="ArrayOfObjectBussinessTTConfigurationAdvancedColumn_Detalle">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="objectBussinessTTConfigurationAdvancedColumn_Detalle" nillable="true" type="tns:objectBussinessTTConfigurationAdvancedColumn_Detalle" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="objectBussinessTTConfigurationAdvancedColumn_Detalle">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="iProcess" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="MyFilters" type="tns:ArrayOfObjectBussinessTTFiltro" />
+          <s:element minOccurs="0" maxOccurs="1" name="Filters" type="tns:ArrayOfTTConfigurationAdvancedColumn_DetalleFilters" />
+          <s:element minOccurs="1" maxOccurs="1" name="IdConfiguration" nillable="true" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="IdConfiguraionDetalle" nillable="true" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="DNT" nillable="true" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="DT" nillable="true" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="Visible" type="s:boolean" />
+          <s:element minOccurs="1" maxOccurs="1" name="Orden" nillable="true" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="TipoPresentacion" type="tns:TypeControlPresentation" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfTTConfigurationAdvancedColumn_DetalleFilters">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="TTConfigurationAdvancedColumn_DetalleFilters" nillable="true" type="tns:TTConfigurationAdvancedColumn_DetalleFilters" />
+        </s:sequence>
+      </s:complexType>
+      <s:simpleType name="TypeControlPresentation">
+        <s:restriction base="s:string">
+          <s:enumeration value="None" />
+          <s:enumeration value="Colorear" />
+          <s:enumeration value="CalendarizarStart" />
+          <s:enumeration value="CalendarizarEnd" />
+          <s:enumeration value="Calendarizar" />
+        </s:restriction>
+      </s:simpleType>
+      <s:element name="GetByKeyResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetByKeyResult" type="tns:objectBussinessOpciones_de_Solicitud_via_App" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CurrentPosicion">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="KeyClave" nillable="true" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CurrentPosicionResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="CurrentPosicionResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ValidaExistencia">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="KeyClave" nillable="true" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ValidaExistenciaResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="ValidaExistenciaResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="ListaGetFullQuerySoapIn">
+    <wsdl:part name="parameters" element="tns:ListaGetFullQuery" />
+  </wsdl:message>
+  <wsdl:message name="ListaGetFullQuerySoapOut">
+    <wsdl:part name="parameters" element="tns:ListaGetFullQueryResponse" />
+  </wsdl:message>
+  <wsdl:message name="ListaSelAllSoapIn">
+    <wsdl:part name="parameters" element="tns:ListaSelAll" />
+  </wsdl:message>
+  <wsdl:message name="ListaSelAllSoapOut">
+    <wsdl:part name="parameters" element="tns:ListaSelAllResponse" />
+  </wsdl:message>
+  <wsdl:message name="ImpresionSelAllSoapIn">
+    <wsdl:part name="parameters" element="tns:ImpresionSelAll" />
+  </wsdl:message>
+  <wsdl:message name="ImpresionSelAllSoapOut">
+    <wsdl:part name="parameters" element="tns:ImpresionSelAllResponse" />
+  </wsdl:message>
+  <wsdl:message name="ListaSelCountSoapIn">
+    <wsdl:part name="parameters" element="tns:ListaSelCount" />
+  </wsdl:message>
+  <wsdl:message name="ListaSelCountSoapOut">
+    <wsdl:part name="parameters" element="tns:ListaSelCountResponse" />
+  </wsdl:message>
+  <wsdl:message name="SelCountSoapIn">
+    <wsdl:part name="parameters" element="tns:SelCount" />
+  </wsdl:message>
+  <wsdl:message name="SelCountSoapOut">
+    <wsdl:part name="parameters" element="tns:SelCountResponse" />
+  </wsdl:message>
+  <wsdl:message name="SelAllSoapIn">
+    <wsdl:part name="parameters" element="tns:SelAll" />
+  </wsdl:message>
+  <wsdl:message name="SelAllSoapOut">
+    <wsdl:part name="parameters" element="tns:SelAllResponse" />
+  </wsdl:message>
+  <wsdl:message name="SelAllwithFiltersSoapIn">
+    <wsdl:part name="parameters" element="tns:SelAllwithFilters" />
+  </wsdl:message>
+  <wsdl:message name="SelAllwithFiltersSoapOut">
+    <wsdl:part name="parameters" element="tns:SelAllwithFiltersResponse" />
+  </wsdl:message>
+  <wsdl:message name="SelAllpartSoapIn">
+    <wsdl:part name="parameters" element="tns:SelAllpart" />
+  </wsdl:message>
+  <wsdl:message name="SelAllpartSoapOut">
+    <wsdl:part name="parameters" element="tns:SelAllpartResponse" />
+  </wsdl:message>
+  <wsdl:message name="InsertSoapIn">
+    <wsdl:part name="parameters" element="tns:Insert" />
+  </wsdl:message>
+  <wsdl:message name="InsertSoapOut">
+    <wsdl:part name="parameters" element="tns:InsertResponse" />
+  </wsdl:message>
+  <wsdl:message name="InsertWithReturnValueSoapIn">
+    <wsdl:part name="parameters" element="tns:InsertWithReturnValue" />
+  </wsdl:message>
+  <wsdl:message name="InsertWithReturnValueSoapOut">
+    <wsdl:part name="parameters" element="tns:InsertWithReturnValueResponse" />
+  </wsdl:message>
+  <wsdl:message name="UpdateSoapIn">
+    <wsdl:part name="parameters" element="tns:Update" />
+  </wsdl:message>
+  <wsdl:message name="UpdateSoapOut">
+    <wsdl:part name="parameters" element="tns:UpdateResponse" />
+  </wsdl:message>
+  <wsdl:message name="DeleteSoapIn">
+    <wsdl:part name="parameters" element="tns:Delete" />
+  </wsdl:message>
+  <wsdl:message name="DeleteSoapOut">
+    <wsdl:part name="parameters" element="tns:DeleteResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetByKeySoapIn">
+    <wsdl:part name="parameters" element="tns:GetByKey" />
+  </wsdl:message>
+  <wsdl:message name="GetByKeySoapOut">
+    <wsdl:part name="parameters" element="tns:GetByKeyResponse" />
+  </wsdl:message>
+  <wsdl:message name="CurrentPosicionSoapIn">
+    <wsdl:part name="parameters" element="tns:CurrentPosicion" />
+  </wsdl:message>
+  <wsdl:message name="CurrentPosicionSoapOut">
+    <wsdl:part name="parameters" element="tns:CurrentPosicionResponse" />
+  </wsdl:message>
+  <wsdl:message name="ValidaExistenciaSoapIn">
+    <wsdl:part name="parameters" element="tns:ValidaExistencia" />
+  </wsdl:message>
+  <wsdl:message name="ValidaExistenciaSoapOut">
+    <wsdl:part name="parameters" element="tns:ValidaExistenciaResponse" />
+  </wsdl:message>
+  <wsdl:portType name="objectBussinessOpciones_de_Solicitud_via_AppSoap">
+    <wsdl:operation name="ListaGetFullQuery">
+      <wsdl:input message="tns:ListaGetFullQuerySoapIn" />
+      <wsdl:output message="tns:ListaGetFullQuerySoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ListaSelAll">
+      <wsdl:input message="tns:ListaSelAllSoapIn" />
+      <wsdl:output message="tns:ListaSelAllSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ImpresionSelAll">
+      <wsdl:input message="tns:ImpresionSelAllSoapIn" />
+      <wsdl:output message="tns:ImpresionSelAllSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ListaSelCount">
+      <wsdl:input message="tns:ListaSelCountSoapIn" />
+      <wsdl:output message="tns:ListaSelCountSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SelCount">
+      <wsdl:input message="tns:SelCountSoapIn" />
+      <wsdl:output message="tns:SelCountSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SelAll">
+      <wsdl:input message="tns:SelAllSoapIn" />
+      <wsdl:output message="tns:SelAllSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SelAllwithFilters">
+      <wsdl:input message="tns:SelAllwithFiltersSoapIn" />
+      <wsdl:output message="tns:SelAllwithFiltersSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SelAllpart">
+      <wsdl:input message="tns:SelAllpartSoapIn" />
+      <wsdl:output message="tns:SelAllpartSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Insert">
+      <wsdl:input message="tns:InsertSoapIn" />
+      <wsdl:output message="tns:InsertSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertWithReturnValue">
+      <wsdl:input message="tns:InsertWithReturnValueSoapIn" />
+      <wsdl:output message="tns:InsertWithReturnValueSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Update">
+      <wsdl:input message="tns:UpdateSoapIn" />
+      <wsdl:output message="tns:UpdateSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Delete">
+      <wsdl:input message="tns:DeleteSoapIn" />
+      <wsdl:output message="tns:DeleteSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetByKey">
+      <wsdl:input message="tns:GetByKeySoapIn" />
+      <wsdl:output message="tns:GetByKeySoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CurrentPosicion">
+      <wsdl:input message="tns:CurrentPosicionSoapIn" />
+      <wsdl:output message="tns:CurrentPosicionSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ValidaExistencia">
+      <wsdl:input message="tns:ValidaExistenciaSoapIn" />
+      <wsdl:output message="tns:ValidaExistenciaSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="objectBussinessOpciones_de_Solicitud_via_AppSoap" type="tns:objectBussinessOpciones_de_Solicitud_via_AppSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="ListaGetFullQuery">
+      <soap:operation soapAction="http://tempuri.org/ListaGetFullQuery" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListaSelAll">
+      <soap:operation soapAction="http://tempuri.org/ListaSelAll" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ImpresionSelAll">
+      <soap:operation soapAction="http://tempuri.org/ImpresionSelAll" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListaSelCount">
+      <soap:operation soapAction="http://tempuri.org/ListaSelCount" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SelCount">
+      <soap:operation soapAction="http://tempuri.org/SelCount" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SelAll">
+      <soap:operation soapAction="http://tempuri.org/SelAll" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SelAllwithFilters">
+      <soap:operation soapAction="http://tempuri.org/SelAllwithFilters" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SelAllpart">
+      <soap:operation soapAction="http://tempuri.org/SelAllpart" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Insert">
+      <soap:operation soapAction="http://tempuri.org/Insert" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertWithReturnValue">
+      <soap:operation soapAction="http://tempuri.org/InsertWithReturnValue" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Update">
+      <soap:operation soapAction="http://tempuri.org/Update" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Delete">
+      <soap:operation soapAction="http://tempuri.org/Delete" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetByKey">
+      <soap:operation soapAction="http://tempuri.org/GetByKey" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CurrentPosicion">
+      <soap:operation soapAction="http://tempuri.org/CurrentPosicion" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ValidaExistencia">
+      <soap:operation soapAction="http://tempuri.org/ValidaExistencia" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="objectBussinessOpciones_de_Solicitud_via_AppSoap12" type="tns:objectBussinessOpciones_de_Solicitud_via_AppSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="ListaGetFullQuery">
+      <soap12:operation soapAction="http://tempuri.org/ListaGetFullQuery" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListaSelAll">
+      <soap12:operation soapAction="http://tempuri.org/ListaSelAll" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ImpresionSelAll">
+      <soap12:operation soapAction="http://tempuri.org/ImpresionSelAll" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListaSelCount">
+      <soap12:operation soapAction="http://tempuri.org/ListaSelCount" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SelCount">
+      <soap12:operation soapAction="http://tempuri.org/SelCount" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SelAll">
+      <soap12:operation soapAction="http://tempuri.org/SelAll" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SelAllwithFilters">
+      <soap12:operation soapAction="http://tempuri.org/SelAllwithFilters" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SelAllpart">
+      <soap12:operation soapAction="http://tempuri.org/SelAllpart" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Insert">
+      <soap12:operation soapAction="http://tempuri.org/Insert" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertWithReturnValue">
+      <soap12:operation soapAction="http://tempuri.org/InsertWithReturnValue" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Update">
+      <soap12:operation soapAction="http://tempuri.org/Update" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Delete">
+      <soap12:operation soapAction="http://tempuri.org/Delete" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetByKey">
+      <soap12:operation soapAction="http://tempuri.org/GetByKey" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CurrentPosicion">
+      <soap12:operation soapAction="http://tempuri.org/CurrentPosicion" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ValidaExistencia">
+      <soap12:operation soapAction="http://tempuri.org/ValidaExistencia" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="objectBussinessOpciones_de_Solicitud_via_App">
+    <wsdl:port name="objectBussinessOpciones_de_Solicitud_via_AppSoap" binding="tns:objectBussinessOpciones_de_Solicitud_via_AppSoap">
+      <soap:address location="http://192.168.1.101/WebServicesNanoTechnologyv1_0_1/Opciones_de_Solicitud_via_AppWS.asmx" />
+    </wsdl:port>
+    <wsdl:port name="objectBussinessOpciones_de_Solicitud_via_AppSoap12" binding="tns:objectBussinessOpciones_de_Solicitud_via_AppSoap12">
+      <soap12:address location="http://192.168.1.101/WebServicesNanoTechnologyv1_0_1/Opciones_de_Solicitud_via_AppWS.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>
+
+
+
+

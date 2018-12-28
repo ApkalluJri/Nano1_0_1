@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Modules>
+  <Module culture="en-us" Id="1" value="Catalogs"></Module>
+  <Module culture="es-es" Id="1" value="Catálogos"></Module>
+  <Module culture="en-us" Id="23" value="Security"></Module>
+  <Module culture="es-es" Id="23" value="Seguridad"></Module>
+  <Module culture="en-us" Id="18" value="Escuela"></Module>
+  <Module culture="es-es" Id="18" value="Escuela"></Module>
+  <Module culture="en-us" Id="19" value="Control Escolar"></Module>
+  <Module culture="es-es" Id="19" value="Control Escolar"></Module>
+  <Module culture="en-us" Id="20" value="Acreditación"></Module>
+  <Module culture="es-es" Id="20" value="Acreditación"></Module>
+</Modules>

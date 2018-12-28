@@ -1,0 +1,148 @@
+﻿@using Spartane.Web.Helpers
+@using System.Web.Mvc.Html;
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>TotalTech</title>
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
+    <!-- Add local styles, mostly for plugins css file -->
+    @Styles.Render("~/plugins/toastrStyles")
+    @if (IsSectionDefined("Styles"))
+    {@RenderSection("Styles", required: false)}
+
+    <!-- Add jQuery Style direct - used for jQGrid plugin -->
+    <link href="@Url.Content("~/Scripts/plugins/jquery-ui/jquery-ui.css")" rel="stylesheet" type="text/css" />
+
+    <!-- Primary Inspinia style -->
+
+    @Styles.Render("~/Content/css")
+    
+    @Styles.Render("~/plugins/awesomeCheckboxStyles")
+    @Styles.Render("~/Content/plugins/iCheck/iCheckStyles")
+    @Styles.Render("~/Content/plugins/jsTree")
+    @*@Styles.Render("~/font-awesome/css")*@
+    <link href="~/fonts/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+
+    <!-- Section for main scripts render -->
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @Scripts.Render("~/plugins/slimScroll")
+    @Scripts.Render("~/bundles/inspinia")
+    @* Toast *@
+    @Scripts.Render("~/plugins/toastr")
+
+    <!-- Skin config script - only for demo purpose-->
+    @Scripts.Render("~/bundles/skinConfig")
+
+    @*iCheck JS*@
+    @Scripts.Render("~/plugins/iCheck")
+    @* Validation *@
+    @*@Scripts.Render("~/plugins/validate")*@
+
+    @Scripts.Render("~/plugins/dataPicker")
+    @Scripts.Render("~/plugins/clockpicker")
+    @Scripts.Render("~/plugins/select2")
+    
+    @Scripts.Render("~/Scripts/plugins/ckeditor/ckeditor.js")
+
+    @Scripts.Render("~/ckfinder/ckfinder.js")
+
+    @Scripts.Render("~/Scripts/plugins/jsTree/jstree.min.js")
+    
+
+    
+
+</head>
+<body>
+
+    <!-- Skin configuration box -->
+    <!-- @Html.Partial("_SkinConfig") -->
+    <!-- Wrapper-->
+    <!-- PageClass give you ability to specify custom style for specific view based on action -->
+    <div id="wrapper" class="@Html.PageClass()">
+
+        <!-- Navigation -->
+        @Html.Partial("_Navigation")
+
+        <!-- Page wraper -->
+        <div id="page-wrapper" class="gray-bg @ViewBag.SpecialClass">
+
+            <!-- Top Navbar -->
+            @Html.Partial("_TopNavbar")
+
+            <!-- Main view  -->
+            @RenderBody()
+
+            <!-- Footer -->
+            @Html.Partial("_Footer")
+
+        </div>
+        <!-- End page wrapper-->
+        <!-- Right Sidebar -->
+        @Html.Partial("_RightSidebar")
+
+    </div>
+    <div aria-hidden="true" class="modal fade in DisplayLogin" id="modal-form" style="display: none; background-color:rgba(0, 0, 0, 0.7);">
+        @Html.Partial("ReLogin", new Spartane.Web.Models.LoginViewModel())
+    </div>
+ 
+    @*<div class="loading-spinner"><div class="sk-spinner sk-spinner-chasing-dots"><div class="sk-dot1"></div><div class="sk-dot2"></div></div></div>*@
+    
+    <!-- End wrapper-->
+    <!-- Handler for local scripts -->
+    @RenderSection("scripts", required: false)
+
+    <script type="text/javascript">
+        //Notif Main function
+        function showNotification(message, type) {
+            switch (type) {
+                case "success":
+                    toastr.success(message, '');
+                    break;
+                case "warning":
+                    toastr.warning(message, '');
+                    break;
+                case "error":
+                    toastr.error(message, '');
+                    break;
+            }
+            //$.notify(message, type);
+        }
+        var countSeconds = 0;
+        var cookiesTimeout = @(Convert.ToInt32(System.Configuration.ConfigurationManager.AppSettings["CookieTimeOut"]) * 60);
+        $('.DisplayLogin').hide();
+        var timerInterval = setInterval('updateTimer()', 1000);
+        $(document).ajaxStart(function() {
+            countSeconds = 0;
+        });
+        function updateTimer() {
+            countSeconds = countSeconds + 1;
+            if (countSeconds >=  cookiesTimeout) {
+                clearInterval(timerInterval);
+                $('.DisplayLogin').show();
+            }
+        }
+        function SessionAlive(data){
+            if (data == '') {
+                $('.DisplayLogin').hide();
+                $('.InvalidPassword').text('')
+            }else {
+                $('.DisplayLogin').show();
+                $('.InvalidPassword').text(data);
+            }
+        }
+    </script>
+    <script src="@Url.Content("~/Scripts/Custom/general.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/Scripts/BootstrapDatePicker/moment.js")"></script>
+    <script src="@Url.Content("~/Scripts/BootstrapDatePicker/bootstrap-datetimepicker.js")"></script>
+    @Scripts.Render("~/plugins/dataTables")
+</body>
+</html>
+
+

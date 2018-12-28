@@ -1,0 +1,489 @@
+﻿
+.claCajaTexto
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 8pt;
+    FONT-FAMILY: TAHOMA;
+    BACKGROUND: #FFFFFF;
+    COLOR: #2D424D;
+    BORDER: 1px SOLID #81A7BC; 
+}
+.claCajaTexto2
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 8pt;
+    FONT-FAMILY: TAHOMA;
+    BACKGROUND: #FFFFCC;
+    COLOR: #2D424D;
+    BORDER: 1px SOLID #81A7BC; 
+}
+
+.claCajaTextoDis
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 8pt;
+    FONT-FAMILY: TAHOMA;
+    BACKGROUND: #F8F9FA;
+    COLOR: #2D424D;
+    BORDER: 1px SOLID #F8F9FA;     
+}
+.claCombo
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 9pt;
+    FONT-FAMILY: TAHOMA;
+    COLOR: #2D424D;
+}
+.claCombo2
+{
+	
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 9pt;
+    FONT-FAMILY: TAHOMA;
+	width:180;
+	background-color:#FFFFCC;
+    COLOR: #2D424D;
+}
+
+.claCombo3
+{
+	
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 10;
+    FONT-FAMILY: Trebuchet MS;
+	width:90;
+	background-color:#FFFFCC;
+    COLOR: #2D424D;
+}
+.claCombo4
+{
+	
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 10;
+    FONT-FAMILY: Trebuchet MS;
+	width:40;
+	background-color:#FFFFCC;
+    COLOR: #2D424D;
+}
+
+
+
+.claBoton
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 8pt;
+    FONT-FAMILY: TAHOMA;
+    HEIGHT: 22;
+}
+.claTabla
+{
+    
+    BORDER: 1px SOLID #2D424D; 	
+	FONT-WEIGHT: normal;
+    FONT-SIZE: 9pt;
+    FONT-FAMILY: TAHOMA;
+    BACKGROUND: #E3EAEE;
+    COLOR: #2D424D;
+}
+
+.claVacia
+{
+	
+	border-right: silver thin double; 
+	border-top: silver thin double; 
+	font-weight: bold;
+	font-size: 9pt; 
+	border-left: silver thin double; 
+	width: 52px;height:40px;
+	color: white;
+    border-bottom: silver thin double; 
+    font-style: normal; font-family: Arial, 'Book Antiqua';
+    background-color  : gray; text-align: center; 
+    font-variant: normal;
+}
+.claVendido
+{
+cursor: hand;
+font-weight: bold; 
+font-size: 9pt; 
+width: 51px;
+height:40px;
+color: white; 
+font-style: normal;                    
+text-align:center;
+font-family: Arial, 'Book Antiqua'; 
+background-color: #2d424d; text-align: center;
+font-variant: normal;
+}
+.claDisponible
+{
+cursor: hand;
+width: 51px;
+height:40px;
+text-align:center;
+background-color:#81A7BC;
+color:#2D424D;FONT-SIZE: 9pt;	
+}
+
+
+
+.claVendido2
+{
+cursor: hand;
+width: 51px;
+height:40px;
+text-align:center;
+background-color:#81A7BC;
+color:#2D424D;
+FONT-SIZE: 7pt;	
+}
+
+.claTablaTitulo
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 10pt;
+    FONT-FAMILY: TAHOMA;
+    BACKGROUND: #81A7BC;
+    COLOR: #2D424D;
+    HEIGHT: 24;
+}
+.claTablaEncabezado
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 8pt;
+    FONT-FAMILY: TAHOMA;
+    BACKGROUND: #81A7BC;
+    COLOR: #2D424D;
+    HEIGHT: 20;    
+}
+.claTablaPie
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 10pt;
+    FONT-FAMILY: TAHOMA;
+    BACKGROUND: #81A7BC;
+    COLOR: #2D424D;
+    HEIGHT: 24;
+    TEXT-ALIGN: RIGHT;
+}
+.claLeyenda
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 9pt;
+    FONT-FAMILY: TAHOMA;
+    BACKGROUND: #E3EAEE;
+    COLOR: #2D424D;
+}
+.claLeyenda2
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 9pt;
+    FONT-FAMILY: TAHOMA;   
+    COLOR: #2D424D;
+}
+
+.claPregunta
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 8pt;
+    FONT-FAMILY: TAHOMA;
+    BACKGROUND: #F8F9FA;
+    COLOR: #2D424D;
+}
+.claRenglonPar
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 8pt;
+    FONT-FAMILY: TAHOMA;
+    BACKGROUND: #EDF2FA;
+    COLOR: #2D424D;
+}
+.claRenglonNon
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 8pt;
+    FONT-FAMILY: TAHOMA;
+    BACKGROUND: #F7F9FD;
+    COLOR: #2D424D;
+}
+.claInvisible
+{
+	DISPLAY: none;
+}
+.claVisible
+{
+	 
+}
+.claEspacio
+{
+ background-color : transparent;
+ width:100px;
+}
+.claObjeto
+{
+    BORDER: 1px SOLID #2D424D; 	
+    background-color:Blue;	
+    width :100px;
+}
+
+.claRepTitulo
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 14pt;
+    FONT-FAMILY: TAHOMA;
+    BACKGROUND: #FFFFFF;
+    COLOR: #000000;
+    TEXT-ALIGN: center;
+}
+.claRepSubTitulo
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 10pt;
+    FONT-FAMILY: TAHOMA;
+    BACKGROUND: #FFFFFF;
+    COLOR: #000000;
+}
+.claRepTablaLineas
+{
+    BACKGROUND: #000000;
+	BORDER-COLLAPSE: collapse;
+}
+.claRepTablaLineasDetalle
+{
+    BACKGROUND: #000000;
+}
+.claRepConcepto
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 8pt;
+    FONT-FAMILY: TAHOMA;
+    BACKGROUND: #EEEEEE;
+    COLOR: #000000;
+}
+.claRepCampo
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 8pt;
+    FONT-FAMILY: TAHOMA;
+    BACKGROUND: #FFFFFF;
+    COLOR: #000000;
+}
+.claRepEncabezado
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 8pt;
+    FONT-FAMILY: TAHOMA;
+    BACKGROUND: #EEEEEE;
+    COLOR: #000000;
+    HEIGHT: 24;
+}
+.claRepPiePagina
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 8pt;
+    FONT-FAMILY: TAHOMA;
+    FONT-STYLE: Italic;
+    BACKGROUND: #EEEEEE;
+    COLOR: #000000;
+    TEXT-ALIGN: center;
+}
+.claLink
+{
+    FONT-WEIGHT: Normal;
+    FONT-SIZE: 8pt;
+    FONT-FAMILY: TAHOMA;
+    FONT-STYLE: Italic;
+    COLOR: #0000FF;
+	TEXT-DECORATION: underline;
+	CURSOR: hand;
+}
+.normall { font:Arial, Helvetica, sans-serif background-color: #ffffff; color: #000000; }
+.focuss  { background-color: #ffff00; color: #000000; }
+.style1 
+{
+	width: 32;
+	height:30;
+	text-align:center;
+	background-color:Blue;
+	color:Fuchsia;
+	 
+	background-color:#E3EAEE;
+}
+.claStandZZ
+{
+border-right: black 1px solid; 
+border-top: black 1px solid; 
+border-left: black 1px solid;
+border-bottom: black 1px solid; 
+width: 80px; 
+
+background-color: #ffcc66;
+text-align:center;
+font-size:9px;
+font-family: Arial Baltic,Arial;
+font-weight:bold;
+color:White;
+}
+.claStand
+{
+	margin-bottom: 20px;
+	border-bottom: 1px dotted #D1D1D1;
+	background: url(images/img04.jpg) repeat-x left bottom;
+	border-right: black 1px solid; 
+	border-top: black 1px solid; 
+	border-left: black 1px solid;
+	border-bottom: black 1px solid; 
+	font-size:10px;
+    font-family  : Arial Baltic,Arial;
+    text-align:center;
+}
+
+
+
+
+.ddd
+{
+background-color: #ffcc66;
+}
+
+.claStand2
+{
+ border-right: black 1px solid; 
+ border-top: black 1px solid; 
+ border-left: black 1px solid;
+ width: 100px; 
+ border-bottom: black 1px solid;
+ background-color: #ffcc66;
+}
+
+.claStandObjeto
+{
+width: 100px; 
+border-right: white thin outset; 
+border-top: white thin outset; 
+border-left: white thin outset; 
+border-bottom: white thin outset; 
+background-color: silver;
+font-family:Arial Baltic,Arial;
+color:Black;
+}
+
+.tabs {
+	float:left;
+	width:100%;
+	background:#E3ECF3;
+	font-size:93%;
+	line-height:normal;
+	}
+
+
+
+.tabsa {
+	float:left;
+	background:url("tableft.gif") no-repeat left top;
+	margin:0;
+	padding:0 0 0 4px;
+	text-decoration:none;
+}
+
+.tabsaspan {
+	float:left;
+	display:block;
+	background:url("tabright.gif") no-repeat right top;
+	padding:5px 15px 4px 6px;
+	color:#FFF;
+	}
+	
+	
+.tablaX 
+{
+	background:url("/images/img03.jpg") top;
+}
+
+.tablaR 
+{
+	
+	background-image:url("/images/img03.jpg")  ;
+}
+
+.claTablaR
+{
+    
+    BORDER: 1px SOLID #2D424D; 	
+	FONT-WEIGHT: normal;
+    FONT-SIZE: 19pt;
+    FONT-FAMILY: TAHOMA;
+    BACKGROUND: #E3EAEE;    
+    background-image:url("img03.jpg")  ;
+    COLOR: #2D424D;
+}
+
+.body2 {
+	margin: 0;
+	padding: 0;
+	background: url(images/img01.gif) repeat-x left top;	
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #333333;
+}
+
+
+h1, h2, h3 {
+	margin: 0;
+	text-transform: lowercase;
+	font-weight: normal;
+	color: #7D7D7D;
+}
+
+
+h2 {
+	font-size: 16px;
+}
+
+h1 {
+	letter-spacing: -1px;
+	font-size: 24px;
+}
+
+#logo {
+	clear: both;
+	width: 860px;
+	height: 80px;
+	margin: 0 auto;
+	background: url(images/img02.gif) no-repeat left top;
+}
+
+#logo h1, #logo h2 {
+	margin: 0;
+	padding: 0 0 0 75px;
+	line-height: normal;
+}
+
+#logo h1 { }
+
+#logo h1 a {
+	text-decoration: none;
+	color: #FFFFFF;	
+}
+.XXX
+{
+	text-decoration: none;
+	color: #FFFFFF;	
+	
+}
+
+
+p {
+	margin: 0;
+	line-height: normal;
+	color: #999999;
+}
+
+
+.body3 {
+	background: url(images3/img01.jpg) repeat-x left top;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	text-align: justify;
+	font-size: 13px;
+	color: #8A7F7F;
+}

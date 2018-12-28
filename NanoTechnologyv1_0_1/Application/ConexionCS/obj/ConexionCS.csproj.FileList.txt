@@ -1,0 +1,5 @@
+bin\Debug\ConexionCS.dll
+bin\Debug\ConexionCS.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\ConexionCS.dll
+obj\Debug\ConexionCS.pdb

@@ -1,0 +1,376 @@
+﻿body {
+	margin:0px;
+  	padding:0px;
+	background-image: url(images/fondo_rayas.gif);
+	margin-top: 0px;
+	margin-bottom: 0px;
+	background-position: center top;
+	background-repeat: repeat;
+}
+
+a {color:#036CA9;}
+a:hover { text-decoration:none}
+
+.tituloGrande {
+	font-family: "Trebuchet MS", Verdana, sans-serif;
+	color: #000000;     /*#FC0303;*/
+	font-size: 24px;
+	font-weight:bold;
+}
+.titulos { text-decoration:none; font-weight:bold; font-size:14px;}
+.titulos_color { font-family: "Trebuchet MS", Verdana, sans-serif; text-decoration:none; font-size:18px; color:#FC0303;}
+.titulos_portada { font-family: "Trebuchet MS", Verdana, sans-serif; text-decoration:none; font-size:20px; color:#666666; font-weight:bold;}
+.subTit_blanco {
+	font-family: Verdana Ref;
+	color: #FFFFFF;
+	font-size:12px;
+	font-weight:bold;
+	}
+	
+.txt_chico{ color:#5D6770; font-size:10px}
+.txt_blanco { color:#FFFFFF; font-size:11px; font-weight:bold}
+
+table { }
+.table_resultados{
+
+}
+td{
+	font-size:11px;
+    font-family:Tahoma;
+	color:#41474D;
+	line-height:normal;
+	vertical-align:top;
+}
+.td_premium{
+	background-color:#CBEAFF;
+	border:#0099CC 1px solid;
+}
+.td_preferido{
+	background-color:#FEFDAB;
+	border:#FFCC00 1px solid;
+}
+.td_normal{
+	background-color:#F2F2F2;
+	border:#CCCCCC 1px solid;
+}
+.td_titulo_resultados{
+	background-color: #006699;
+	color:#FFFFFF; font-size:11px;
+	font-weight:bold;
+	vertical-align:middle;	
+}
+.td_titulo_input{
+	background-color:#006699;
+	color:#FFFFFF; font-size:11px;
+	font-weight:bold;
+	vertical-align:middle;
+}
+.td_input
+{
+    background-color: #2C4C6B;
+    color: #FFFFFF;
+    font-size: 11px;
+    font-weight: bold;
+    vertical-align: middle;
+}
+
+/*estilos para reportes por renglon*/
+.td_input_header{
+	background-color:#FFFFFF;  /*#00AFC6;*/
+	color:#000000; font-size:11px;
+	font-weight:bold;
+	vertical-align:middle;
+	text-align:left;
+}
+.td_input_body{
+	background-color:#189eff;  /*#00AFC6;*/
+	color:#FFFFFF; font-size:11px;
+	font-weight:bold;
+	vertical-align:middle;
+	text-align:right;
+}
+.td_input_body_Data{	
+	color:#000000; font-size:11px;	
+	vertical-align:middle;
+	text-align:left;
+}
+.grd_header{
+	background-color:#189eff;  /*#00AFC6;*/
+	color:#FFFFFF; font-size:11px;
+	font-weight:bold;
+	vertical-align:middle;
+	text-align:center;
+}
+
+/*estilos para reportes por renglon*/
+
+
+
+.td_caramelo1{
+	background-color:#EEFBFF;
+}
+.td_caramelo2{
+	background-color:#CCF0FF;
+}
+.back { background:URL(images/back1.gif) no-repeat right}
+.txt_Color { color:#5D8602; text-decoration:none; font-weight:bold; margin-right:7px}
+.txt_Gris { color:#BFBFBF;}
+.txt_bgColor  {
+	color:#F6F6F6; 
+	background-color:#B3B6B9;
+	font-size:10px
+ } 
+.txt_bgColor a{
+	color:#F6F6F6; 
+	text-decoration:none
+}
+.txt_bgColor a:hover{ text-decoration:underline}
+
+.txt_NombreDoctor{
+	font-size:13px;
+	font-weight:bold;
+}
+.txt_NombreDoctor_big{
+	font-size:15px;
+	font-weight:bold;
+}
+.footer	{ 
+	font-size : 10px; 
+	color : #888888; 
+	line-height:14px; 
+	font-family: Verdana, Arial, Helvetica, sans-serif }
+a.footer:link{
+	color: #888888;
+	text-decoration:none;
+}
+a.footer:visited	{ 
+	color: #888888; 
+	text-decoration: none; 
+	}
+a.footer:hover	{ 
+	color: #FC0303; 
+	text-decoration: underline; 
+	}
+
+.menu { color:#5D8602; text-decoration:none; font-weight:bold; margin-right:7px}
+.menu:hover { text-decoration:underline} 
+
+form{
+ 	margin:0px;
+  	padding:0px;
+	}
+select { 
+font-family: Verdana, Arial, Helvetica, sans-serif; 
+font-size: 8pt; 
+border: 1 solid #FFD5D5;
+background: #FFFFFF; 
+color: #330066; 
+}
+.input{
+ 		/*height:22px; width:250px;*/
+		/* border: 1 solid #00AFC6; */
+		font-size:11px;
+		font-family:Tahoma;
+		color:#41474D;
+		vertical-align:middle;
+		}
+.input_chico{
+ 		height:22px; width:30px;
+		/* border: 1 solid #00AFC6; */
+		font-size:11px;
+		font-family:Tahoma;
+		color:#41474D;
+		padding:2 0 0 5px;
+		vertical-align:middle;
+		}
+.input_mediano{
+ 		height:22px; width:100px;
+		/* border: 1 solid #00AFC6; */
+		font-size:11px;
+		font-family:Tahoma;
+		color:#41474D;
+		padding:2 0 0 5px;
+		vertical-align:middle;
+		}
+.input_mediano_2{
+ 		height:22px; width:50px;
+		/* border: 1 solid #00AFC6; */
+		font-size:11px;
+		font-family:Tahoma;
+		color:#41474D;
+		padding:2 0 0 5px;
+		vertical-align:middle;
+		}
+.input_nombre{
+ 		height:22px; width:190px;
+		/* border: 1 solid #00AFC6; */
+		font-size:11px;
+		font-family:Tahoma;
+		color:#41474D;
+		padding:2 0 0 5px;
+		vertical-align:middle;
+		}
+.input_titulos{
+ 		height:22px; width:55px;
+		/* border: 1 solid #00AFC6; */
+		font-size:11px;
+		font-family:Tahoma;
+		color:#41474D;
+		padding:2 0 0 5px;
+		vertical-align:middle;
+		}
+.textarea{
+ 		height:102px; width:250px;
+		background-color:#FFFFFF; 
+		font-size:11px;
+		font-family:Tahoma;
+		color:#4D5359;
+		padding:2 0 0 5px;
+		overflow:auto;
+		}
+.button, INPUT.button { 
+
+    border-left: solid 1px #336699; 
+    border-top: solid 1px #336699; 
+    border-right: solid 1px #666666; 
+    border-bottom: solid 1px #666666; 
+    font-family: 'Arial', 'Helvetica'; 
+    font-weight: bold; 
+    font-size: 8pt; 
+    color: #FFFFFF; 
+    cursor: hand; 
+    background-color: #003366; 
+}
+.buttonDisabled { 
+    border-left: solid 1px #c6c6c6; 
+    border-top: solid 1px #c6c6c6; 
+    border-right: solid 1px #c6c6c6; 
+    border-bottom: solid 1px #c6c6c6; 
+    font-family: 'Arial', 'Helvetica'; 
+    font-weight: bold; 
+    font-size: 8pt; 
+    color: #c6c6c6; 
+    cursor: default; 
+    background-color: #eaeaea; 
+}
+		
+.email	{ 
+	font-size : 10px; 
+	color : #BCC56A; 
+	font-family: Verdana Ref;
+	text-decoration: underline;
+	}
+a.email:visited	{ 
+	color: #BCC56A; 
+	text-decoration: none; 
+	}
+a.email:hover	{ 
+	color: #BCC56A; 
+	text-decoration: none; 
+	}
+.ulFormat { 
+	list-style-type:square; 
+	margin-left:25px;
+	margin-bottom:0px;
+}
+UL.vineta  { 
+	list-style:url(images/vineta.gif);
+	margin:0 0 0 0px;
+}
+
+/*GRIDVIEW BY JESUS FIGUEROA///////////////////
+.gridview { background-color:#003366;
+                font-family:Arial;
+                font-size:12pt;
+                font-weight:bold;
+               
+             }*/
+
+
+.GridViewRowStyle td, .GridViewAlternatingRowStyle td
+{
+    /* style for the td*/
+    /* color:White;*/
+    
+}
+
+.GridViewStyle
+{    
+    border-right: 2px solid #A7A6AA;
+    border-bottom: 2px solid #A7A6AA;
+    border-left: 2px solid white;
+    border-top: 2px solid white;
+    padding: 4px;
+
+    
+}
+
+.GridViewStyle a
+{
+    color: #FFFFFF;
+}
+
+.GridViewHeaderStyle
+{
+	/*background-color: #2C4C6B;
+	border-left: 1px solid #2C4C6B;
+	border-right: 1px solid #2C4C6B;
+	color: white;*/
+}
+
+.MyHeader TH{
+ color: #ffffff;
+background : green !Important;
+} 
+
+.GridViewFooterStyle
+{
+    background-color: #5D7B9D;
+    font-weight: bold;
+    color: #F7F7F7;
+}
+
+.GridViewRowStyle
+{
+    background-color: #DFDFDF;
+    color: Black;
+}
+
+.GridViewAlternatingRowStyle 
+{
+    background-color: #FFFFFF;
+    color: #284775;
+}
+
+.GridViewRowStyle td, .GridViewAlternatingRowStyle td
+{
+    border: 1px solid #EBE9ED;
+}
+
+.GridViewSelectedRowStyle
+{
+    background-color: #E2DED6;
+    font-weight: bold;
+    color: #333333;
+}
+
+.GridViewPagerStyle
+{
+    background-color: #284775;
+    color: #FFFFFF;
+}
+
+.GridViewPagerStyle table /* to center the paging links*/
+{
+    margin: 0 auto 0 auto;
+}
+
+.Contenedor
+{
+	border:#2C4C6B 1px solid;
+	border-style:dashed;
+}
+
+ 
+
+

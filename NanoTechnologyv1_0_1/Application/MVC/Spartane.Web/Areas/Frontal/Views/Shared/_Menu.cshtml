@@ -1,0 +1,78 @@
+﻿@using System.Globalization
+@using System.Linq
+@using Spartane.Web
+@using Spartane.Web.Helpers
+@model  Spartane.Core.Domain.SpartanModule.RecursiveObject
+<li>
+
+    @if (Model.children.Any() || Model.Objects.Any())
+    {
+        <a href="#"><i class="fa fa-edit"></i><span class="nav-label">@Resources.Modules.GetModuleValueById(Model.id)</span><span class="fa arrow"></span></a>
+    }
+    else if (Model.AdditionalMenu.Any() || !string.IsNullOrWhiteSpace(Model.Link))
+    {
+        if (string.IsNullOrWhiteSpace(Model.Link))
+        {
+            <a href="#"><i class="fa fa-edit"></i><span class="nav-label">@Model.text</span><span class="fa arrow"></span></a>
+        }
+        else
+        {
+            /*if (Url.RequestContext.HttpContext.Request.Path.Contains("Frontal"))
+            {
+                <a href="@Url.Content("~/" + Model.Link.Replace("Frontal/", ""))">@Model.text</a>
+            }
+            else
+            {*/
+                <a href="@Url.Content("~/" + Model.Link)">@Model.text</a>
+            //}
+        }
+    }
+    else
+    {
+        <a href="#"><i class="fa "></i><span class="nav-label">@Resources.Modules.GetModuleValueById(Model.id)</span></a>
+    }
+    @if (Model.children.Any() || Model.Objects.Any())
+    {
+        <ul class="nav nav-second-level collapse">
+            @if (Model.children.Any())
+                {
+
+                    foreach (var childMenu in Model.children)
+                    {
+                        Html.RenderPartial("_Menu", childMenu);
+                    }
+
+                }
+
+            @if (Model.Objects.Any())
+                {
+                    foreach (var objectData in Model.Objects)
+                    {
+                    <li>
+                        <a href="@Url.Content("~/Frontal/" + objectData.URL + "?ModuleId=" + Model.id)">@Resources.Objects.GetObjectValueById(objectData.Object_Id)</a>
+
+                    </li>
+                }
+
+            }
+        </ul>
+    }
+
+    @if (Model.AdditionalMenu != null && Model.AdditionalMenu.Any())
+    {
+        <ul class="nav nav-second-level collapse">
+            @foreach (var item in Model.AdditionalMenu)
+                {
+                    Html.RenderPartial("_Menu", item);
+                }
+
+            @if (!string.IsNullOrWhiteSpace(Model.Link))
+                {
+                <li>
+                    <a href="@Model.Link.Replace("Home/","")">@Model.text</a>
+                </li>
+            }
+        </ul>
+    }
+</li>
+

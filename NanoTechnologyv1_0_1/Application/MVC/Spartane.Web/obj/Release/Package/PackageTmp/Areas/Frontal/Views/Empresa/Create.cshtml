@@ -1,0 +1,674 @@
+﻿@using System
+@using System.Collections.Generic
+@using System.Globalization
+@using Spartane.Core.Domain.Permission
+@using Spartane.Core.Domain.Spartane_File
+@using Spartane.Web.Helpers
+@model Spartane.Web.Areas.Frontal.Models.EmpresaModel
+@{
+
+
+
+    Permission permissionDetalle_Sucursal_de_Empresa = ViewBag.PermissionDetalle_Sucursal_de_Empresa;
+
+    Permission permission = ViewBag.Permission;
+}
+
+<div class="modal fade in" id="dvAttributeValue" style="background-color:rgba(0, 0, 0, 0.7);">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-body">
+                <div class="form-group">
+                    <label class="col-sm-3 control-label" id="lblAttributeType">Value</label>
+                    <div class="col-sm-7">
+                        <input type="text" title="Value" class="form-control" id="txtAttributeValue" />
+                    </div>
+                    <div class="col-sm-2">
+                        <a class="btn btn-primary" onclick="SaveValue()">Submit</a>
+                    </div>
+                    <input type="hidden" id="hdnAttributType" />
+                    <input type="hidden" id="hdnAttributElement" />
+                    <input type="hidden" id="hdnAttributNumber" />
+                    <input type="hidden" id="hdnElementType" />
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row wrapper border-bottom white-bg page-heading">
+
+    <div class="row">
+        <div class="col-lg-10">
+            <h2>
+                Empresa
+                <button onclick="EmpresaGetBusinessRule('', 'Abrir Pantalla', '0')" type="button" class="btn btn-info btn-lg displayBusinessProperyButton displayRuleButton" data-toggle="modal" data-target="#EmpresaBusinessRule-form">
+                    <a class="top" title="" data-placement="right" data-toggle="tooltip" href="#" data-original-title="@Resources.Resources.BusinessRuleToBegin">
+                        <i class="fa fa-cogs fa-spin"></i>
+                    </a>
+                </button>
+            </h2>
+            <ol class="breadcrumb">
+                <li>
+                    <a href="@Url.Action("Index", "Home")">@Resources.Resources.Home</a>
+                </li>
+                <li class="">
+                    <label>@Resources.EmpresaResources.Empresa</label>
+                </li>
+                <li class="active">
+                    <strong>@Resources.Resources.Create</strong>
+                </li>
+            </ol>
+        </div>
+        <div class="col-lg-2">
+
+            @{
+                if (Convert.ToInt32(Spartane.Web.SessionHelper.Role) == (int)Spartane.Core.Enums.SpartanRoleEnum.Admin)
+                {
+                    <h2>&nbsp;</h2>
+                    <button onclick="EmpresaDisplayBusinessRule()" type="button" class="btn btn-info btn-lg displayBusinessProperyButton">
+                        <i class="fa fa-cogs fa-spin"></i>
+                    </button>
+
+                    <div aria-hidden="true" class="modal fade in EmpresaPropertyBusinessModal" id="EmpresaPropertyBusinessModal-form" style="display: none; background-color:rgba(0, 0, 0, 0.7);">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h4 class="modal-title">
+                                        Property & Business Rules
+                                        <button data-dismiss="modal" class="close" type="button"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
+                                    </h4>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="row">
+                                        <div class="col-sm-12">
+                                            <a class="btn btn-primary full-width" data-dismiss="modal" data-toggle="modal" data-target="#PropertyModal-form" onclick="GetPropertyBag()">Properties</a>
+                                        </div>
+                                        <div class="clearfix col-sm-12">&nbsp;</div>
+                                        <div class="col-sm-12">
+                                            <a class="btn btn-primary full-width" data-dismiss="modal" data-toggle="modal" data-target="#EmpresaBusinessRule-form" onclick="EmpresaGetBusinessRule()">Business Rule</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                     <div aria-hidden="true" data-backdrop="static" class="modal fade in PropertyModal" id="PropertyModal-form" style="display: none; background-color:rgba(0, 0, 0, 0.7);">
+					</div>
+					<div aria-hidden="true" data-backdrop="static" class="modal fade in EmpresaBusinessRuleModal" id="EmpresaBusinessRule-form" style="display: none; background-color:rgba(0, 0, 0, 0.7);">
+					</div>
+					<div aria-hidden="true" data-backdrop="static" class="modal fade in EmpresaAddBusinessRuleModal" id="AddBusinessRule-form" style="display: none; background-color:rgba(0, 0, 0, 0.7);">
+					</div>
+
+                    <div aria-hidden="true" class="modal fade in AddDetalle_Sucursal_de_EmpresaModal" id="AddDetalle_Sucursal_de_Empresa-form" style="display: none; background-color:rgba(0, 0, 0, 0.7);">
+                    </div>
+
+
+                }
+            }
+        </div>
+    </div>
+
+<div class="wrapper wrapper-content animated fadeInRight">
+    <div class="ibox float-e-margins">
+        <div class="ibox-content">
+            @using (Html.BeginForm("Post", "Empresa", FormMethod.Post, new { id = "CreateEmpresa", @readonly = "true", @class = "form-horizontal", enctype = "multipart/form-data" }))
+            {
+				<input type="hidden" id="hdnObjectId" name="hdnObjectId" value="@ViewBag.ObjectId" />
+                <span id="popupNotification"></span>
+                <div class="container-fluid EmpresaCreateForm" id="viewmodeledit">
+			<div class="tabs-container">
+                        	<ul class="nav nav-tabs">
+<li class="active"><a data-toggle="tab" href="#tabDatos_Generales"> Datos Generales</a></li>
+
+                        	</ul>
+	                	<div class="tab-content">
+                            <div id="tabDatos_Generales" class="tab-pane active">
+                                <div class="panel-body">
+                            <div class="form-group" id="divClave">
+                                <label class="col-sm-2 control-label">@Resources.EmpresaResources.Clave</label>
+                                <div class="col-sm-8" data-field-id="Clave" data-attribute="157604" data-field-name="@Resources.EmpresaResources.Clave">
+                                    <label class="form-control" for="Clave" id="lblClave">@Model.Clave</label>
+                                </div>
+                            </div>
+                            <div class="form-group" id="divDescripcion">
+                                <label class="col-sm-2 control-label">@Resources.EmpresaResources.Descripcion</label>
+                                <div class="col-sm-8" data-field-id="Descripcion" data-attribute="157606" data-field-name="@Resources.EmpresaResources.Descripcion">
+                                    <input class="form-control" id="Descripcion" name="Descripcion" type="text" value="@Model.Descripcion">
+                                    @*<span class="field-validation-valid" data-valmsg-for="Descripcion" data-valmsg-replace="true"></span>*@
+                                </div>
+                            </div>
+                            <div class="ibox-title">
+                                <h5>@Resources.Detalle_Sucursal_de_EmpresaResources.Detalle_Sucursal_de_Empresa</h5>
+                                <div class="ibox-tools">
+                                </div>
+                            </div>
+                            <div class="ibox-content">
+                                <div class="">
+                                    <a onclick="Detalle_Sucursal_de_EmpresafnClickAddRow();" href="javascript:void(0);" title="@Resources.Resources.AddNewRow" class="btn btn-primary @( !permissionDetalle_Sucursal_de_Empresa.New || ViewBag.Consult ? "disabled" : "")">
+                                    <i class="glyphicon glyphicon-plus"></i>
+                                    </a>
+									<button onclick="GetBusinessRule('', 'Al Agregar Row', '1')" type="button" class="btn btn-info btn-lg displayBusinessProperyButton displayRuleButton" data-toggle="modal" data-target="#BusinessRule-form">
+                                        <a class="top" title="" data-placement="right" data-toggle="tooltip" href="#" data-original-title="@Resources.Resources.BusinessRuleToCreateGrid">
+                                            <i class="fa fa-cogs fa-spin"></i>
+                                        </a>
+                                    </button>
+                                    <a onclick="Detalle_Sucursal_de_EmpresafnOpenAddRowPopUp();" data-toggle="modal" title="@Resources.Resources.AddNewRow" data-target="#AddDetalle_Sucursal_de_Empresa-form" data-backdrop="static" data-keyboard="false" class="btn btn-primary @( !permissionDetalle_Sucursal_de_Empresa.New || ViewBag.Consult ? "disabled" : "")">
+                                    <i class="glyphicon glyphicon-new-window"></i>
+                                    </a>
+                                </div>
+
+                                <br />
+
+                                <div style='overflow-x: auto;'>
+                                    <table class="table table-striped table-bordered table-hover childValidateTable" id="Detalle_Sucursal_de_EmpresaGrid">
+                                        <thead>
+                                            <tr>
+                                                <th class="ActionHeader"><span>@Resources.Resources.Actions</span></th>
+                                                <th class="NombreHeader"><span>
+<button type="button" data-attribute="157621" data-field-id="Detalle_Sucursal_de_EmpresaNombre" data-field-name="@Resources.Detalle_Sucursal_de_EmpresaResources.Nombre" data-toggle="modal" data-target="#Detalle_Sucursal_de_EmpresaPropertyBusinessModal-form" class="btn btn-info btn-lg displayBusinessProperyButton displayRuleButton btnPopupBusinessRules">
+                                                            <a class="top" title="" data-placement="right" data-toggle="tooltip" href="#" data-original-title="@Resources.Resources.BusinessRuleFor@Resources.Detalle_Sucursal_de_EmpresaResources.Nombre">
+                                                                <i class="fa fa-cogs fa-spin"></i>
+                                                            </a>
+                                                        </button>@Resources.Detalle_Sucursal_de_EmpresaResources.Nombre</span></th>
+                                                <th class="DireccionHeader"><span>
+<button type="button" data-attribute="157623" data-field-id="Detalle_Sucursal_de_EmpresaDireccion" data-field-name="@Resources.Detalle_Sucursal_de_EmpresaResources.Direccion" data-toggle="modal" data-target="#Detalle_Sucursal_de_EmpresaPropertyBusinessModal-form" class="btn btn-info btn-lg displayBusinessProperyButton displayRuleButton btnPopupBusinessRules">
+                                                            <a class="top" title="" data-placement="right" data-toggle="tooltip" href="#" data-original-title="@Resources.Resources.BusinessRuleFor@Resources.Detalle_Sucursal_de_EmpresaResources.Direccion">
+                                                                <i class="fa fa-cogs fa-spin"></i>
+                                                            </a>
+                                                        </button>@Resources.Detalle_Sucursal_de_EmpresaResources.Direccion</span></th>
+                                                <th class="CiudadHeader"><span>
+<button type="button" data-attribute="157627" data-field-id="Detalle_Sucursal_de_EmpresaCiudad" data-field-name="@Resources.Detalle_Sucursal_de_EmpresaResources.Ciudad" data-toggle="modal" data-target="#Detalle_Sucursal_de_EmpresaPropertyBusinessModal-form" class="btn btn-info btn-lg displayBusinessProperyButton displayRuleButton btnPopupBusinessRules">
+                                                            <a class="top" title="" data-placement="right" data-toggle="tooltip" href="#" data-original-title="@Resources.Resources.BusinessRuleFor@Resources.Detalle_Sucursal_de_EmpresaResources.Ciudad">
+                                                                <i class="fa fa-cogs fa-spin"></i>
+                                                            </a>
+                                                        </button>@Resources.Detalle_Sucursal_de_EmpresaResources.Ciudad</span></th>
+
+                                            </tr>
+                                        </thead>
+                                    </table>
+                                </div>
+                            </div>
+                            </div>
+                                </div>
+
+				</div>	
+			</div>
+                    <br />
+                            <div class="form-actions fluid">
+                                <input type="hidden" value="@Model.Clave" id="ReferenceClave" />
+                                <input type="hidden" value="@Model.Clave" name="Clave" id="ClaveId" />
+                                <input type="hidden" value="@ViewBag.Operation" name="Operation" id="Operation" />
+                                @if (!ViewBag.Consult)
+                                {
+                                    <input type="button" value="@Resources.Resources.Guardar" id="EmpresaGuardar" class="btn btn-w-m btn-primary" onclick="return checkClientValidate('EmpresaCreateForm');"  />
+									<button onclick="EmpresaGetBusinessRule('', 'Al Guardar', '2')" type="button" class="btn btn-info btn-lg displayBusinessProperyButton displayRuleButton" data-toggle="modal" data-target="#EmpresaBusinessRule-form">
+                                        <a class="top" title="" data-placement="right" data-toggle="tooltip" href="#" data-original-title="@Resources.Resources.BusinessRuleBeforeSave">
+                                            <i class="fa fa-cogs fa-spin"></i>
+                                        </a>
+                                    </button>
+                                    <button type="button" class="btn btn-info btn-lg displayBusinessProperyButton displayRuleButton">
+                                        <i class="fa fa-cogs fa-spin"></i>
+                                    </button>
+
+                                    <input type="button" value="@Resources.Resources.GuardarNuevo" id="EmpresaGuardarYNuevo" onclick="return checkClientValidate('EmpresaCreateForm');" data-bind="    click: saveAndNew" class="btn btn-w-m btn-success"  />
+                                    <input type="button" value="@Resources.Resources.GuardarCopia" id="EmpresaGuardarYCopia" onclick="return checkClientValidate('EmpresaCreateForm');" data-bind="    click: saveAndNew" class="btn btn-w-m btn-success"  />
+                                    <a title="@Resources.Resources.Configure" id="ConfigureSave" name="ConfigureSave" onclick="SaveElementAttributes()" class="btn btn-success">@Resources.Resources.Configure</a>
+                                }
+
+                                <input type="hidden" id="hdnConfigureType" />
+								<input type="hidden" id="hdnEmpresaBusinessRuleFieldId" />
+                                <input type="hidden" id="hdnEmpresaBusinessRuleFieldName" />
+                                <input type="hidden" id="hdnEmpresaBusinessRuleAttribute" />
+
+                                <input type="button" value="@Resources.Resources.Cancelar" id="EmpresaCancelar" name="EmpresaCancelar" class="btn btn-danger noConsult" data-bind="click: cancel" tabindex="16" />
+
+                                <button onclick="EmpresaGetBusinessRule('', 'Al Cancelar', '3')" type="button" class="btn btn-info btn-lg displayBusinessProperyButton displayRuleButton" data-toggle="modal" data-target="#EmpresaBusinessRule-form">
+                                    <a class="top" title="" data-placement="right" data-toggle="tooltip" href="#" data-original-title="@Resources.Resources.BusinessRuleToBegin">
+                                        <i class="fa fa-cogs fa-spin"></i>
+                                    </a>
+                                </button>
+                            </div>
+                        </div>
+                }
+
+            </div>
+        </div>
+    </div>
+</div>
+<input id="hdnApplicationDirectory" type="hidden" value="@Url.Content("~/")" />
+
+@section Styles {
+<link href="@Url.Content("~/Content/BootstrapDatePicker/bootstrap-datetimepicker.min.css")" rel="stylesheet" />
+    @Styles.Render("~/Content/plugins/dataTables/dataTablesStyles")
+    @Styles.Render("~/plugins/dateRangeStyles")
+    @Styles.Render("~/plugins/dataPickerStyles")
+    @Styles.Render("~/plugins/clockpickerStyles")
+    @Styles.Render("~/plugins/awesomeCheckboxStyles")
+    @Styles.Render("~/plugins/select2Styles")
+<style>
+    .dataTables_filter {
+        display: none;
+    }
+    .select2-results{background-color:#fff;}
+    .select2-container .select2-dropdown{height:auto !important;}
+
+    div.dataTables_info {
+        display: inline-block;
+        float: right;
+    }
+        i {
+        font-size: 25px !important;
+        display: block;
+        color: #676a6c;
+        margin-left: 6px;
+        margin-right: 6px;
+    }
+
+    .fullWidth {
+        width: 100%;
+    }
+</style>
+}
+
+<script type="text/javascript" src="~/Uploads/Scripts/Empresa.js?v=@DateTime.Now.ToString("ddMMyyyyhhmmss")"></script>
+<script type="text/javascript" src="~/Scripts/Custom/EmpresaGeneral.js?v=@DateTime.Now.ToString("ddMMyyyyhhmmss")"></script>
+<script type="text/javascript" src="~/Uploads/Scripts/Rules/EmpresaCreateRules.js?v=@DateTime.Now.ToString("ddMMyyyyhhmmss")"></script>
+
+@section Scripts {
+
+
+    <script type="text/javascript">
+        
+
+
+
+        $(document).ready(function () {
+
+
+            GetDetalle_Sucursal_de_Empresa_CiudadItem();
+
+            getDetalle_Sucursal_de_EmpresaData();
+
+            initiateUIControls();
+			$('a').tooltip();
+			EjecutarValidacionesAlComienzo();
+        });
+
+        var Detalle_Sucursal_de_EmpresainsertRowCurrentIndex = -1;
+        var Detalle_Sucursal_de_EmpresaDataDataTable;
+        function getDetalle_Sucursal_de_EmpresaData() {
+            $.ajax({
+                url: "@Url.Content("~/Frontal/Empresa/GetDetalle_Sucursal_de_Empresa")" + "?draw=1&start=1&length=2147483647" + ($("#ReferenceClave").val() != "" ? "&RelationId=" + $("#ReferenceClave").val() : ""),
+                type: 'GET',
+                dataType: "json",
+                async: false,
+                success: function (result) {
+                    Detalle_Sucursal_de_EmpresaDataDataTable = result.data;
+                    showDetalle_Sucursal_de_EmpresaGrid(result.data);
+                },
+                error: function (result) {
+                    showNotification("@Resources.Resources.ErrorContactingServer", "error");
+                }
+            });
+        }
+        function Detalle_Sucursal_de_EmpresaGetUpdateRowControls(data, nameOfTable, rowIndex) {
+
+            var columnData = [];
+            var counter = 0;
+            var inputData = "<input type='text' class='fullWidth form-control' />";
+            if ($('.Nombre' + 'Header').css('display') != 'none') columnData[counter++] = $($($.parseHTML(inputData)).val(data.Nombre)).addClass('Nombre');
+            if ($('.Direccion' + 'Header').css('display') != 'none') columnData[counter++] = $($($.parseHTML(inputData)).val(data.Direccion)).addClass('Direccion');
+            if ($('.Ciudad' + 'Header').css('display') != 'none') columnData[counter++] = $($(GetDetalle_Sucursal_de_Empresa_CiudadDropDown()).val(data.Ciudad)).addClass('Ciudad');
+
+            return columnData;
+        }
+
+        var removedDetalle_Sucursal_de_EmpresaData = [];
+        function Detalle_Sucursal_de_EmpresaDeleteRow(rowIndex) {
+            if (!permission.Delete || isConsultMode)
+                return;
+            if (EjecutarValidacionesAlEliminarMR()) {
+            if (confirm("@Resources.Resources.DeleteConfirm")) {
+                var prevData = Detalle_Sucursal_de_EmpresaTable.fnGetData(rowIndex);
+                removedDetalle_Sucursal_de_EmpresaData.push(prevData);
+                Detalle_Sucursal_de_EmpresaTable.fnDeleteRow(rowIndex);
+            }
+            }
+        }
+
+        function Detalle_Sucursal_de_EmpresarowCreationGrid(row, data, index) {
+            //debugger;
+            var Detalle_Sucursal_de_EmpresaRowElement = "Detalle_Sucursal_de_Empresa_" + index.toString();
+            $(row).addClass(Detalle_Sucursal_de_EmpresaRowElement);
+
+            row.innerHTML = "";
+
+            if (data.IsInsertRow) {
+
+                if (row.childNodes.length != 0) {
+                    for (var i = 0; i < row.childNodes.length; i++) {
+                        row.childNodes[i].remove();
+                    }
+                }
+                var controls = GetInsertDetalle_Sucursal_de_EmpresaRowControls(index);
+
+                var actionColInsert = $('<td>');
+
+                var abc = "if(dynamicFieldValidation('" + Detalle_Sucursal_de_EmpresaRowElement + "')){ Detalle_Sucursal_de_EmpresaInsertRow(" + index + "); }";
+                var insertRowHTML = '<a  onclick="' + abc + '">';
+                $('<i class="fa fa-check">').appendTo($(insertRowHTML).appendTo(actionColInsert));
+				$('<i class="fa fa-times">').appendTo($("<a  onclick='Detalle_Sucursal_de_EmpresaCancelRow(" + index + ")'>").appendTo(actionColInsert));
+                actionColInsert.appendTo(row);
+
+                for (i = 0; i < controls.length; i++) {
+					var idHeader = $(controls[i]).data('field') + 'Header';
+					if($(controls[i]).length > 1)
+					{
+						idHeader = $($(controls[i])[1]).data('field') + 'Header';
+					}					
+					if($('.' + idHeader ).css('display') != 'none')
+					{
+						$(controls[i]).appendTo($('<td>').appendTo(row));
+					}
+                }
+                return;
+            }
+
+            var actionCol = $('<td>');
+            $('<i class="fa fa-pencil">').appendTo($("<a title='Edit' class='" + (!permission.Edit || isConsultMode ? " disabled" : "") + "' onclick='Detalle_Sucursal_de_EmpresaEditRow(" + index + ")'>").appendTo(actionCol));
+            @*$('<i class="fa fa-edit">').appendTo($("<a title='Edit' data-toggle='modal' data-target='#AddDetalle_Sucursal_de_Empresa-form' class='" + (!permission.Edit || isConsultMode ? " disabled" : "") + "' onclick='Detalle_Sucursal_de_EmpresaEditRowPopup(" + index + ")'>").appendTo(actionCol));*@
+            $('<i class="fa fa-trash-o">').appendTo($("<a title='Delete' class='" + (!permission.Delete || isConsultMode ? " disabled" : "") + "' onclick='Detalle_Sucursal_de_EmpresaDeleteRow(" + index + ")'>").appendTo(actionCol));
+            actionCol.appendTo(row);
+            if ($('.Nombre' + 'Header').css('display') != 'none')
+                $('<td>').text(data.Nombre).appendTo(row);
+            if ($('.Direccion' + 'Header').css('display') != 'none')
+                $('<td>').text(data.Direccion).appendTo(row);
+            if ($('.Ciudad' + 'Header').css('display') != 'none')
+                $('<td>').text(GetDetalle_Sucursal_de_Empresa_CiudadName(data.Ciudad)).appendTo(row);
+
+        }
+
+        var Detalle_Sucursal_de_EmpresaTable;
+        function showDetalle_Sucursal_de_EmpresaGrid(dataSet) {
+            removedDetalle_Sucursal_de_EmpresaData = [];
+            Detalle_Sucursal_de_EmpresaTable = $('#Detalle_Sucursal_de_EmpresaGrid').dataTable({
+                dom: '<"html5buttons"B>lTgitp',
+                buttons: [
+                ],
+                "createdRow": Detalle_Sucursal_de_EmpresarowCreationGrid,
+                "lengthMenu": [[5, 10, 20, 50, -1], [5, 10, 20, 50, "All"]],
+                data: dataSet,
+                "columns": [
+                    { "data": null, 'visible': true, "orderable": false },
+                    { "data": "Nombre", "orderable": false },
+                    { "data": "Direccion", "orderable": false },
+                    { "data": "Ciudad", "orderable": false },
+
+                ],
+                "order": [[0, "asc"]],
+                "language": {
+                    "lengthMenu": "@Resources.Resources.Display" + " _MENU_ " + "@Resources.Resources.RecordsPerPage",
+                    "zeroRecords": "@Resources.Resources.NothingFound",
+                    "info": "@Resources.Resources.ShowingPages" + " _PAGE_ " + "@Resources.Resources.of" + " _PAGES_",
+                    "infoEmpty": "@Resources.Resources.NoRecords",
+                    "infoFiltered": "(" + "@Resources.Resources.FilteredFrom" + " _MAX_ " + "@Resources.Resources.TotalRecords" + ")",
+                    "sSearch": "@Resources.Resources.Search",
+                    "paginate": {
+                        "previous": "@Resources.Resources.Previous",
+                        "next": "@Resources.Resources.Next"
+                    }
+                },
+                "fnDrawCallback": function (settings) {
+                    setDetalle_Sucursal_de_EmpresaValidation();
+                }
+            });
+        }
+
+    var Detalle_Sucursal_de_Empresa_CiudadItems;
+        function GetDetalle_Sucursal_de_Empresa_CiudadItem() {
+            Detalle_Sucursal_de_Empresa_CiudadItems = null;
+            var ajaxUrl = "@Url.Content("~/Frontal/Empresa/GetDetalle_Sucursal_de_Empresa_CiudadAll")";
+            $.ajax({
+                url: ajaxUrl,
+                type: 'GET',
+                dataType: "json",
+                async: false,
+                global: false,
+                success: function (result) {
+                    Detalle_Sucursal_de_Empresa_CiudadItems = result;
+                },
+                error: function (result) {
+                    showNotification("@Resources.Resources.ErrorContactingServer", "error");
+                }
+            });
+        }
+
+        var Detalle_Sucursal_de_EmpresaData = [];
+        var Detalle_Sucursal_de_EmpresadeletedItem = [];
+        var Detalle_Sucursal_de_EmpresaDataMain = [];
+        var Detalle_Sucursal_de_EmpresaDataMainPages = [];
+        var Detalle_Sucursal_de_EmpresanewItemCount = 0;
+        var Detalle_Sucursal_de_EmpresamaxItemIndex = 0;
+        var Detalle_Sucursal_de_EmpresaDataMainInitialized = false;
+
+        function SendDetalle_Sucursal_de_Empresa(callBack, ClaveId) {
+            Detalle_Sucursal_de_EmpresaData = GetDetalle_Sucursal_de_EmpresaFromDataTable();
+
+            if (Detalle_Sucursal_de_EmpresaData.length > 0 || $("#ReferenceClave").val() != ClaveId) {
+                $.ajax({
+                    url: '@Url.Content("~/Frontal/Empresa/PostDetalle_Sucursal_de_Empresa?MasterId=")' + ClaveId + "&referenceId=" + $("#ReferenceClave").val(),
+                    type: 'POST',
+                    data: GetDetalle_Sucursal_de_Empresa(),
+                    async: true,
+                    success: function (result) {
+
+                    },
+                    error: function (result) {
+                        showNotification("@Resources.Resources.ErrorContactingServer", "error");
+                    },
+                    cache: false,
+                    contentType: false,
+                    processData: false
+                });
+            } else {
+                //showNotification("@Resources.Resources.SaveSuccess", "success");
+                //callBack(ClaveId);
+            }
+            return true;
+        }
+
+        function GetAddDetalle_Sucursal_de_EmpresaPopup(currentRowIndex, mode) {
+
+            $.ajax({
+                url: "@Url.Action("AddDetalle_Sucursal_de_Empresa", "Detalle_Sucursal_de_Empresa")",
+                type: "GET",
+                async: false,
+                data: { rowIndex: currentRowIndex, functionMode: mode },
+                success: function (data) {
+                    $(".AddDetalle_Sucursal_de_EmpresaModal").html(data);
+                },
+                error: function () {
+
+                }
+            });
+
+            @*$.get('@Url.Action("AddDetalle_Sucursal_de_Empresa", "Detalle_Sucursal_de_Empresa")', { rowIndex: currentRowIndex }, function (data) {
+                $(".AddDetalle_Sucursal_de_EmpresaModal").html(data);
+            });*@
+        }
+
+
+        function initiateUIControls() {
+             $('.gridDatePicker').datepicker({
+                todayBtn: "linked",
+                keyboardNavigation: false,
+                forceParse: false,
+                calendarWeeks: true,
+                autoclose: true,
+                format: "@ConfigurationProperty.DateFormatDatePicker"
+            });
+            //Time Picker
+            $('.gridTimePicker').clockpicker();
+
+
+        }
+
+    </script>
+
+<script type="text/javascript">
+
+        function SendEmpresaData(callBack) {
+            var formData = new FormData($("form#CreateEmpresa")[0]);
+            if (checkClientValidate('EmpresaCreateForm')) {
+                $.ajax({
+                    url: '@Url.Content("~/Frontal/Empresa/Post?IsNew="+ViewBag.IsNew+"")',
+                    type: 'POST',
+                    data: formData,
+                    async: true,
+                    success: function (result) {
+                        if (result < 0) {
+                            showNotification("@Resources.Resources.ErrorSave", "error");
+                        } else {
+                            SendDetalle_Sucursal_de_Empresa(callBack, result);
+
+                            showNotification("@Resources.Resources.SaveSuccess", "success");
+                            callBack(result);
+                        }
+                    },
+                    error: function (result) {
+                        showNotification("@Resources.Resources.ErrorContactingServer", "error");
+                    },
+                    cache: false,
+                    contentType: false,
+                    processData: false
+                });
+            }
+            return false;
+        };
+        function GetPropertyBag() {
+            $.get('@Url.Action("EmpresaPropertyBag", "Empresa")', function (data) {
+                $(".PropertyModal").html(data);
+            });
+        }
+        function EmpresaGetBusinessRule(FieldId, FieldName, Attribute) {
+			if (FieldId != null && FieldName != null)
+			{
+				$('#hdnEmpresaBusinessRuleFieldId').val(FieldId);
+				$('#hdnEmpresaBusinessRuleFieldName').val(FieldName);
+				$('#hdnEmpresaBusinessRuleAttribute').val(Attribute);
+			}
+            $.get('@Url.Action("BusinessRule", "BussinessRule")', { FieldId: $('#hdnEmpresaBusinessRuleFieldId').val(), FieldName: $('#hdnEmpresaBusinessRuleFieldName').val(), ObjectId: $('#hdnObjectId').val(), Attribute: $('#hdnEmpresaBusinessRuleAttribute').val() }, function (data) {
+                $(".EmpresaBusinessRuleModal").html(data);
+            });
+        }
+        function GetAddBusinessRule(RuleId, FieldId, FieldName, Attribute) {
+			if (FieldId != null && FieldName != null) {
+				$('#hdnEmpresaBusinessRuleFieldId').val(FieldId);
+				$('#hdnEmpresaBusinessRuleFieldName').val(FieldName);
+				$('#hdnEmpresaBusinessRuleAttribute').val(Attribute);
+			}
+            $.get('@Url.Action("AddBusinessRule", "BussinessRule")', { BusinessRuleId: RuleId, FieldId: $('#hdnEmpresaBusinessRuleFieldId').val(), FieldName: $('#hdnEmpresaBusinessRuleFieldName').val(), ObjectId: $('#hdnObjectId').val(), Attribute: $('#hdnEmpresaBusinessRuleAttribute').val(), Screen: 'Empresa' }, function (data) {
+                $(".EmpresaAddBusinessRuleModal").html(data);
+                $(".datatable").DataTable();
+            });
+        }
+		function RemoveBusinessRule(RuleId) {
+			$.get('@Url.Action("RemoveBusinessRule", "BussinessRule")', { BusinessRuleId: RuleId, FieldId: $('#hdnEmpresaBusinessRuleFieldId').val(), FieldName: $('#hdnEmpresaBusinessRuleFieldName').val(), ObjectId: $('#hdnObjectId').val(), Attribute: $('#hdnEmpresaBusinessRuleAttribute').val(), Screen: 'Empresa' }, function (data) {
+				$(".EmpresaBusinessRuleModal").html(data);
+			});
+		}
+
+    var permission = {
+        Consult: '@permission.Consult' == 'True',
+        New: '@permission.New' == 'True',
+        Edit: '@permission.Edit' == 'True',
+        Delete: '@permission.Delete' == 'True',
+        Export: '@permission.Export' == 'True',
+        Print: '@permission.Print' == 'True',
+        Configure: '@permission.Configure' == 'True',
+    };
+
+    
+    //MR-var statusItems;
+    //MR-var stateItems;
+    //MR-var cityItems = [];
+    var isConsultMode = "@ViewBag.Consult" == "True";
+    Consult(isConsultMode);
+        function Consult(val) {
+            if (val) {
+                $(':input').attr('readonly', 'readonly');
+                $(':input').attr('disabled', 'true');
+                $('.noConsult').removeAttr('readonly');
+                $('.noConsult').removeAttr('disabled');
+            }
+        }
+
+    function BackToGrid() {
+        location.href = "@Url.Content("~/Frontal/Empresa/")";
+    }
+	
+	function ReadScriptSettings(callback)
+    {
+        $.post("@Url.Content("~/Frontal/Empresa/ReadScriptSettings")", function (data) {
+            mainElementObject = JSON.parse(data.MainElement);
+			if (data.ChildElement != null) {
+                childElementObject = JSON.parse(data.ChildElement);
+            }
+            callback();
+        });
+    }
+
+    function SaveSettingsWithoutReload() {
+        $.post("@Url.Content("~/Frontal/Empresa/WriteScriptSettings")", { CustomModuleAttributeList: mainElementObject, ChildModuleAttributeList: childElementObject }, function (data) {
+            //$('#hdnConfigureType').val("0");
+        }, "json");
+    }
+	
+        function SaveElementAttributes() {
+            if ($('#hdnConfigureType').val() == "1") {
+                $.post("@Url.Content("~/Frontal/Empresa/WriteScriptSettings")", { CustomModuleAttributeList: mainElementObject, ChildModuleAttributeList: childElementObject }, function (data) {
+                    $('#hdnConfigureType').val("0");
+                    location.reload(true);
+                }, "json");
+            } else {
+                $.post("@Url.Content("~/Frontal/Empresa/ReadScriptSettings")", function (data) {
+                    mainElementObject = JSON.parse(data.MainElement);
+                    childElementObject = JSON.parse(data.ChildElement);
+
+                    for (var i = 0; i < mainElementObject.length; i++) {
+                        var mainElementAttributes = '<div class="col-sm-2">';
+                        mainElementAttributes += '<div class="displayAttributes requiredAttribute"><a class="requiredClick" title="' + (mainElementObject[i].IsRequired == true ? "Required" : "Not Required") + '" onclick="setRequired(' + i.toString() + ', this, 1)"><img src="' + (mainElementObject[i].IsRequired == true ? "@Url.Content("~/Images/Required.png")" : "@Url.Content("~/Images/Not-Required.png")") + '" alt="" /></a></div>';
+                        mainElementAttributes += '<div class="displayAttributes visibleAttribute"><a class="visibleClick" title="' + (mainElementObject[i].IsVisible == true ? "Visible" : "In Visible") + '" onclick="setVisible(' + i.toString() + ', this, 1)"><img src="' + (mainElementObject[i].IsVisible == true ? "@Url.Content("~/Images/Visible.png")" : "@Url.Content("~/Images/InVisible.png")") + '" alt="" /></a></div>';
+                        mainElementAttributes += '<div class="displayAttributes readOnlyAttribute"><a class="readOnlyClick" title="' + (mainElementObject[i].IsReadOnly == true ? "Disabled" : "Enabled") + '" onclick="setReadOnly(' + i.toString() + ', this, 1)"><img src="' + (mainElementObject[i].IsReadOnly == true ? "@Url.Content("~/Images/Disabled.png")" : "@Url.Content("~/Images/Enabled.png")") + '" alt="" /></a></div>';
+                        mainElementAttributes += '<div class="displayAttributes defaultValueAttribute"><a id="hlDefaultValue_' + i.toString() + '" class="defaultValueClick" title="' + (mainElementObject[i].DefaultValue) + '" onclick="setDefaultValue(' + i.toString() + ', this, 1)"><img src="' + (mainElementObject[i].DefaultValue != '' && mainElementObject[i].DefaultValue != null ? "@Url.Content("~/Images/default-value.png")" : "@Url.Content("~/Images/Not-Default-Value.png")") + '" alt="" /></a></div>';
+                        mainElementAttributes += '<div class="displayAttributes helpTextAttribute"><a id="hlHelpText_' + i.toString() + '" class="helpTextClick" title="' + (mainElementObject[i].HelpText) + '" onclick="setHelpText(' + i.toString() + ', this, 1)"><img src="' + (mainElementObject[i].HelpText != '' && mainElementObject[i].HelpText != null ? "@Url.Content("~/Images/green-help.png")" : "@Url.Content("~/Images/red-help.jpg")") + '" alt="" /></a></div>';
+                        mainElementAttributes += '</div>';
+                        $('#' + mainElementObject[i].inputId).parent().closest('.form-group').show();
+
+                        $('#' + mainElementObject[i].inputId).closest('.col-sm-8').after(mainElementAttributes);
+                    }
+					if (childElementObject != null) {
+						for (var i = 0; i < childElementObject.length; i++) {
+							$('.' + childElementObject[i].inputId + 'Header').show();
+							$('.' + childElementObject[i].inputId).parent().show();
+							$('.' + childElementObject[i].inputId + 'Header').append(returnAttributeHTML(i));
+						}
+					}
+                    $('#ConfigureSave').text('Save Settings');
+                    $('#hdnConfigureType').val("1");
+                });
+            }
+        }
+		$('#CreateEmpresa').on('click', '.btnPopupBusinessRules', function () {
+			var fieldId = $(this).data('field-id');
+			var fieldName = $(this).data('field-name');
+			var attribute = $(this).data('attribute');
+			$('#hdnEmpresaBusinessRuleFieldId').val(fieldId);
+			$('#hdnEmpresaBusinessRuleFieldName').val(fieldName);
+			$('#hdnEmpresaBusinessRuleAttribute').val(attribute);
+		});
+    </script>
+}
+

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" standalone="yes"?>
+<resources>
+  <resource culture="en-us" name="Spartan_BR_Action" value="Business Rule Action"></resource>
+  <resource culture="en-US" name="ActionId" value="Id"></resource>
+  <resource culture="en-US" name="Description" value="Description"></resource>
+  <resource culture="en-US" name="Classification" value="Classification"></resource>
+  <resource culture="en-US" name="Implementation_Code" value="Implementation Code"></resource>
+  <resource culture="en-US" name="Configuration" value="Configuration"></resource>
+  <resource culture="en-US" name="Attribute_Restrictions" value="Attribute Restrictions"></resource>
+  <resource culture="en-US" name="Operation_Restrictions" value="Operation Restrictions"></resource>
+  <resource culture="en-US" name="Process_Event_Restrictions" value="Process Event Restrictions"></resource>
+
+</resources>

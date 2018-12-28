@@ -1,0 +1,60 @@
+﻿@using System
+@using Spartane.Web
+@using Spartane.Web.Helpers
+@{
+    var roleMenus = MenuHelper.GetCurrentRoleMenus();
+    //var base64 = Convert.ToBase64String(SessionHelper.UserImage);
+    var userImage = MenuHelper.GetImageBase64(SessionHelper.UserImage);//String.Format("data:image/gif;base64,{0}", base64);
+}
+<nav class="navbar-default navbar-static-side" role="navigation">
+    <div class="sidebar-collapse">
+        <ul class="nav" id="side-menu">
+          <li class="nav-header">
+                    <div class="dropdown profile-element">
+                        <span>
+                            <img alt="image" class="img-circle" style="width: 48px" src="@userImage" />
+                        </span>
+<a href="#">
+                            <span class="clear">
+                                <span class="block m-t-xs">
+                                    <strong class="font-bold">@SessionHelper.UserEntity.Name</strong>
+                                </span> <span class="text-muted text-xs block">@SessionHelper.UserEntity.Role_Spartan_User_Role.Description <b class="caret"></b></span>
+                            </span>
+                        </a>
+                        <ul class="dropdown-menu animated fadeInRight m-t-xs">
+                            <li><a href="@Url.Action("Profile", "AppViews")">Profile</a></li>
+                            <li><a href="@Url.Action("Contacts", "AppViews")">Contacts</a></li>
+                            <li><a href="@Url.Action("Inbox", "Mailbox")">Mailbox</a></li>
+                            <li class="divider"></li>
+                            @*<li>
+                            @using (Html.BeginForm("LogOff", "Account", new { area = "" }, FormMethod.Post, new { id = "userLogoutForm" }))
+                            {
+                                @Html.AntiForgeryToken()
+                                <a href="javascript: document.getElementById('userLogoutForm').submit()">Logout</a>
+                            }
+                            </li>*@
+
+
+                            
+
+
+                        </ul>
+                    </div>
+                    <div class="logo-element">
+                        IN+
+                    </div>
+                </li>
+            @{
+                foreach (var roleMenu in roleMenus)
+                {
+                    Html.RenderPartial("_Menu", roleMenu);
+                }
+               
+            }
+            
+           
+        </ul>
+    </div>
+</nav>
+
+

@@ -1,0 +1,573 @@
+D:\spartanemvc\oAuth.WebApi\bin\oAuth.WebApi.dll.config
+D:\spartanemvc\oAuth.WebApi\bin\oAuth.WebApi.dll
+D:\spartanemvc\oAuth.WebApi\bin\oAuth.WebApi.pdb
+D:\spartanemvc\oAuth.WebApi\bin\Autofac.Configuration.dll
+D:\spartanemvc\oAuth.WebApi\bin\Autofac.dll
+D:\spartanemvc\oAuth.WebApi\bin\Autofac.Integration.WebApi.dll
+D:\spartanemvc\oAuth.WebApi\bin\EntityFramework.dll
+D:\spartanemvc\oAuth.WebApi\bin\EntityFramework.SqlServer.dll
+D:\spartanemvc\oAuth.WebApi\bin\Microsoft.AspNet.Identity.Core.dll
+D:\spartanemvc\oAuth.WebApi\bin\Microsoft.Owin.Cors.dll
+D:\spartanemvc\oAuth.WebApi\bin\Microsoft.Owin.dll
+D:\spartanemvc\oAuth.WebApi\bin\Microsoft.Owin.Security.Cookies.dll
+D:\spartanemvc\oAuth.WebApi\bin\Microsoft.Owin.Security.Jwt.dll
+D:\spartanemvc\oAuth.WebApi\bin\Newtonsoft.Json.dll
+D:\spartanemvc\oAuth.WebApi\bin\Owin.dll
+D:\spartanemvc\oAuth.WebApi\bin\SendGrid.SmtpApi.dll
+D:\spartanemvc\oAuth.WebApi\bin\SendGridMail.dll
+D:\spartanemvc\oAuth.WebApi\bin\Spartane.Core.dll
+D:\spartanemvc\oAuth.WebApi\bin\Spartane.Data.dll
+D:\spartanemvc\oAuth.WebApi\bin\Spartane.Services.dll
+D:\spartanemvc\oAuth.WebApi\bin\System.IdentityModel.Tokens.Jwt.dll
+D:\spartanemvc\oAuth.WebApi\bin\System.Net.Http.Formatting.dll
+D:\spartanemvc\oAuth.WebApi\bin\System.Web.Cors.dll
+D:\spartanemvc\oAuth.WebApi\bin\System.Web.Http.dll
+D:\spartanemvc\oAuth.WebApi\bin\System.Web.Http.WebHost.dll
+D:\spartanemvc\oAuth.WebApi\bin\Thinktecture.IdentityModel.Core.dll
+D:\spartanemvc\oAuth.WebApi\bin\log4net.dll
+D:\spartanemvc\oAuth.WebApi\bin\SqlLinq.dll
+D:\spartanemvc\oAuth.WebApi\bin\Autofac.Integration.Mvc.dll
+D:\spartanemvc\oAuth.WebApi\bin\System.Web.Mvc.dll
+D:\spartanemvc\oAuth.WebApi\bin\System.Linq.Dynamic.dll
+D:\spartanemvc\oAuth.WebApi\bin\GoldParser.dll
+D:\spartanemvc\oAuth.WebApi\bin\Kackman.RuntimeTypeLoader.dll
+D:\spartanemvc\oAuth.WebApi\bin\System.Web.Razor.dll
+D:\spartanemvc\oAuth.WebApi\bin\System.Web.WebPages.Razor.dll
+D:\spartanemvc\oAuth.WebApi\bin\System.Web.WebPages.dll
+D:\spartanemvc\oAuth.WebApi\bin\System.Web.WebPages.Deployment.dll
+D:\spartanemvc\oAuth.WebApi\bin\Spartane.Core.pdb
+D:\spartanemvc\oAuth.WebApi\bin\Spartane.Data.pdb
+D:\spartanemvc\oAuth.WebApi\bin\Spartane.Services.pdb
+D:\spartanemvc\oAuth.WebApi\bin\Autofac.xml
+D:\spartanemvc\oAuth.WebApi\bin\Autofac.Configuration.xml
+D:\spartanemvc\oAuth.WebApi\bin\Autofac.Integration.WebApi.xml
+D:\spartanemvc\oAuth.WebApi\bin\EntityFramework.xml
+D:\spartanemvc\oAuth.WebApi\bin\EntityFramework.SqlServer.xml
+D:\spartanemvc\oAuth.WebApi\bin\Microsoft.AspNet.Identity.Core.xml
+D:\spartanemvc\oAuth.WebApi\bin\Microsoft.Owin.xml
+D:\spartanemvc\oAuth.WebApi\bin\Microsoft.Owin.Cors.xml
+D:\spartanemvc\oAuth.WebApi\bin\Microsoft.Owin.Security.Cookies.xml
+D:\spartanemvc\oAuth.WebApi\bin\Microsoft.Owin.Security.Jwt.xml
+D:\spartanemvc\oAuth.WebApi\bin\Newtonsoft.Json.xml
+D:\spartanemvc\oAuth.WebApi\bin\System.IdentityModel.Tokens.Jwt.xml
+D:\spartanemvc\oAuth.WebApi\bin\System.Net.Http.Formatting.xml
+D:\spartanemvc\oAuth.WebApi\bin\System.Web.Http.xml
+D:\spartanemvc\oAuth.WebApi\bin\System.Web.Http.WebHost.xml
+D:\spartanemvc\oAuth.WebApi\bin\Thinktecture.IdentityModel.Core.pdb
+D:\spartanemvc\oAuth.WebApi\bin\log4net.xml
+D:\spartanemvc\oAuth.WebApi\bin\Autofac.Integration.Mvc.xml
+D:\spartanemvc\oAuth.WebApi\bin\System.Web.Mvc.xml
+D:\spartanemvc\oAuth.WebApi\bin\System.Web.Razor.xml
+D:\spartanemvc\oAuth.WebApi\bin\System.Web.WebPages.Razor.xml
+D:\spartanemvc\oAuth.WebApi\bin\System.Web.WebPages.xml
+D:\spartanemvc\oAuth.WebApi\bin\System.Web.WebPages.Deployment.xml
+D:\spartanemvc\oAuth.WebApi\obj\Release\oAuth.WebApi.csprojResolveAssemblyReference.cache
+D:\spartanemvc\oAuth.WebApi\obj\Release\Spartane.WebApi.Migrations.InitialCreate.resources
+D:\spartanemvc\oAuth.WebApi\obj\Release\AspNetIdentity.WebApi.Migrations.DepartmentDetails.resources
+D:\spartanemvc\oAuth.WebApi\obj\Release\AspNetIdentity.WebApi.Migrations.EmpleadoDetails.resources
+D:\spartanemvc\oAuth.WebApi\obj\Release\oAuth.WebApi.csproj.GenerateResource.Cache
+D:\spartanemvc\oAuth.WebApi\obj\Release\oAuth.WebApi.dll
+D:\spartanemvc\oAuth.WebApi\obj\Release\oAuth.WebApi.pdb
+G:\Ricardo\spartanemvc\oAuth.WebApi\bin\oAuth.WebApi.dll.config
+G:\Ricardo\spartanemvc\oAuth.WebApi\bin\oAuth.WebApi.dll
+G:\Ricardo\spartanemvc\oAuth.WebApi\bin\oAuth.WebApi.pdb
+G:\Ricardo\spartanemvc\oAuth.WebApi\bin\Autofac.Configuration.dll
+G:\Ricardo\spartanemvc\oAuth.WebApi\bin\Autofac.dll
+G:\Ricardo\spartanemvc\oAuth.WebApi\bin\Autofac.Integration.WebApi.dll
+G:\Ricardo\spartanemvc\oAuth.WebApi\bin\EntityFramework.dll
+G:\Ricardo\spartanemvc\oAuth.WebApi\bin\EntityFramework.SqlServer.dll
+G:\Ricardo\spartanemvc\oAuth.WebApi\bin\Microsoft.AspNet.Identity.Core.dll
+G:\Ricardo\spartanemvc\oAuth.WebApi\bin\Microsoft.Owin.Cors.dll
+G:\Ricardo\spartanemvc\oAuth.WebApi\bin\Microsoft.Owin.dll
+G:\Ricardo\spartanemvc\oAuth.WebApi\bin\Microsoft.Owin.Security.Cookies.dll
+G:\Ricardo\spartanemvc\oAuth.WebApi\bin\Microsoft.Owin.Security.Jwt.dll
+G:\Ricardo\spartanemvc\oAuth.WebApi\bin\Newtonsoft.Json.dll
+G:\Ricardo\spartanemvc\oAuth.WebApi\bin\Owin.dll
+G:\Ricardo\spartanemvc\oAuth.WebApi\bin\SendGrid.SmtpApi.dll
+G:\Ricardo\spartanemvc\oAuth.WebApi\bin\SendGridMail.dll
+G:\Ricardo\spartanemvc\oAuth.WebApi\bin\Spartane.Core.dll
+G:\Ricardo\spartanemvc\oAuth.WebApi\bin\Spartane.Data.dll
+G:\Ricardo\spartanemvc\oAuth.WebApi\bin\Spartane.Services.dll
+G:\Ricardo\spartanemvc\oAuth.WebApi\bin\System.IdentityModel.Tokens.Jwt.dll
+G:\Ricardo\spartanemvc\oAuth.WebApi\bin\System.Net.Http.Formatting.dll
+G:\Ricardo\spartanemvc\oAuth.WebApi\bin\System.Web.Cors.dll
+G:\Ricardo\spartanemvc\oAuth.WebApi\bin\System.Web.Http.dll
+G:\Ricardo\spartanemvc\oAuth.WebApi\bin\System.Web.Http.WebHost.dll
+G:\Ricardo\spartanemvc\oAuth.WebApi\bin\Thinktecture.IdentityModel.Core.dll
+G:\Ricardo\spartanemvc\oAuth.WebApi\bin\log4net.dll
+G:\Ricardo\spartanemvc\oAuth.WebApi\bin\SqlLinq.dll
+G:\Ricardo\spartanemvc\oAuth.WebApi\bin\Autofac.Integration.Mvc.dll
+G:\Ricardo\spartanemvc\oAuth.WebApi\bin\System.Web.Mvc.dll
+G:\Ricardo\spartanemvc\oAuth.WebApi\bin\System.Linq.Dynamic.dll
+G:\Ricardo\spartanemvc\oAuth.WebApi\bin\GoldParser.dll
+G:\Ricardo\spartanemvc\oAuth.WebApi\bin\Kackman.RuntimeTypeLoader.dll
+G:\Ricardo\spartanemvc\oAuth.WebApi\bin\System.Web.Razor.dll
+G:\Ricardo\spartanemvc\oAuth.WebApi\bin\System.Web.WebPages.Razor.dll
+G:\Ricardo\spartanemvc\oAuth.WebApi\bin\System.Web.WebPages.dll
+G:\Ricardo\spartanemvc\oAuth.WebApi\bin\System.Web.WebPages.Deployment.dll
+G:\Ricardo\spartanemvc\oAuth.WebApi\bin\Spartane.Core.pdb
+G:\Ricardo\spartanemvc\oAuth.WebApi\bin\Spartane.Data.pdb
+G:\Ricardo\spartanemvc\oAuth.WebApi\bin\Spartane.Services.pdb
+G:\Ricardo\spartanemvc\oAuth.WebApi\bin\Autofac.xml
+G:\Ricardo\spartanemvc\oAuth.WebApi\bin\Autofac.Configuration.xml
+G:\Ricardo\spartanemvc\oAuth.WebApi\bin\Autofac.Integration.WebApi.xml
+G:\Ricardo\spartanemvc\oAuth.WebApi\bin\EntityFramework.xml
+G:\Ricardo\spartanemvc\oAuth.WebApi\bin\EntityFramework.SqlServer.xml
+G:\Ricardo\spartanemvc\oAuth.WebApi\bin\Microsoft.AspNet.Identity.Core.xml
+G:\Ricardo\spartanemvc\oAuth.WebApi\bin\Microsoft.Owin.xml
+G:\Ricardo\spartanemvc\oAuth.WebApi\bin\Microsoft.Owin.Cors.xml
+G:\Ricardo\spartanemvc\oAuth.WebApi\bin\Microsoft.Owin.Security.Cookies.xml
+G:\Ricardo\spartanemvc\oAuth.WebApi\bin\Microsoft.Owin.Security.Jwt.xml
+G:\Ricardo\spartanemvc\oAuth.WebApi\bin\Newtonsoft.Json.xml
+G:\Ricardo\spartanemvc\oAuth.WebApi\bin\System.IdentityModel.Tokens.Jwt.xml
+G:\Ricardo\spartanemvc\oAuth.WebApi\bin\System.Net.Http.Formatting.xml
+G:\Ricardo\spartanemvc\oAuth.WebApi\bin\System.Web.Http.xml
+G:\Ricardo\spartanemvc\oAuth.WebApi\bin\System.Web.Http.WebHost.xml
+G:\Ricardo\spartanemvc\oAuth.WebApi\bin\Thinktecture.IdentityModel.Core.pdb
+G:\Ricardo\spartanemvc\oAuth.WebApi\bin\log4net.xml
+G:\Ricardo\spartanemvc\oAuth.WebApi\bin\Autofac.Integration.Mvc.xml
+G:\Ricardo\spartanemvc\oAuth.WebApi\bin\System.Web.Mvc.xml
+G:\Ricardo\spartanemvc\oAuth.WebApi\bin\System.Web.Razor.xml
+G:\Ricardo\spartanemvc\oAuth.WebApi\bin\System.Web.WebPages.Razor.xml
+G:\Ricardo\spartanemvc\oAuth.WebApi\bin\System.Web.WebPages.xml
+G:\Ricardo\spartanemvc\oAuth.WebApi\bin\System.Web.WebPages.Deployment.xml
+G:\Ricardo\spartanemvc\oAuth.WebApi\obj\Release\oAuth.WebApi.csprojResolveAssemblyReference.cache
+G:\Ricardo\spartanemvc\oAuth.WebApi\obj\Release\Spartane.WebApi.Migrations.InitialCreate.resources
+G:\Ricardo\spartanemvc\oAuth.WebApi\obj\Release\AspNetIdentity.WebApi.Migrations.DepartmentDetails.resources
+G:\Ricardo\spartanemvc\oAuth.WebApi\obj\Release\AspNetIdentity.WebApi.Migrations.EmpleadoDetails.resources
+G:\Ricardo\spartanemvc\oAuth.WebApi\obj\Release\AspNetIdentity.WebApi.Migrations.ListSelAll.resources
+G:\Ricardo\spartanemvc\oAuth.WebApi\obj\Release\AspNetIdentity.WebApi.Migrations.sp_ListSelAll_Departamento.resources
+G:\Ricardo\spartanemvc\oAuth.WebApi\obj\Release\AspNetIdentity.WebApi.Migrations.UpdateStoredProcedure.resources
+G:\Ricardo\spartanemvc\oAuth.WebApi\obj\Release\AspNetIdentity.WebApi.Migrations.UpdateStoredProcedure2.resources
+G:\Ricardo\spartanemvc\oAuth.WebApi\obj\Release\AspNetIdentity.WebApi.Migrations.UpdateStoredProcedure3.resources
+G:\Ricardo\spartanemvc\oAuth.WebApi\obj\Release\oAuth.WebApi.csproj.GenerateResource.Cache
+G:\Ricardo\spartanemvc\oAuth.WebApi\obj\Release\oAuth.WebApi.dll
+G:\Ricardo\spartanemvc\oAuth.WebApi\obj\Release\oAuth.WebApi.pdb
+G:\Ricardo\spartanemvc\oAuth.WebApi\obj\Release\AspNetIdentity.WebApi.Migrations.sp_DelEmpleado.resources
+G:\Ricardo\spartanemvc\oAuth.WebApi\obj\Release\AspNetIdentity.WebApi.Migrations.sp_DelDepartamento.resources
+C:\inetpub\proyectos\Spartane\CodigoFuente NUEVOMVC\APiOnly\oAuth.WebApi\bin\oAuth.WebApi.dll.config
+C:\inetpub\proyectos\Spartane\CodigoFuente NUEVOMVC\APiOnly\oAuth.WebApi\bin\oAuth.WebApi.dll
+C:\inetpub\proyectos\Spartane\CodigoFuente NUEVOMVC\APiOnly\oAuth.WebApi\bin\oAuth.WebApi.pdb
+C:\inetpub\proyectos\Spartane\CodigoFuente NUEVOMVC\APiOnly\oAuth.WebApi\bin\Autofac.Configuration.dll
+C:\inetpub\proyectos\Spartane\CodigoFuente NUEVOMVC\APiOnly\oAuth.WebApi\bin\Autofac.dll
+C:\inetpub\proyectos\Spartane\CodigoFuente NUEVOMVC\APiOnly\oAuth.WebApi\bin\Autofac.Integration.WebApi.dll
+C:\inetpub\proyectos\Spartane\CodigoFuente NUEVOMVC\APiOnly\oAuth.WebApi\bin\EntityFramework.dll
+C:\inetpub\proyectos\Spartane\CodigoFuente NUEVOMVC\APiOnly\oAuth.WebApi\bin\EntityFramework.SqlServer.dll
+C:\inetpub\proyectos\Spartane\CodigoFuente NUEVOMVC\APiOnly\oAuth.WebApi\bin\Microsoft.AspNet.Identity.Core.dll
+C:\inetpub\proyectos\Spartane\CodigoFuente NUEVOMVC\APiOnly\oAuth.WebApi\bin\Microsoft.Owin.Cors.dll
+C:\inetpub\proyectos\Spartane\CodigoFuente NUEVOMVC\APiOnly\oAuth.WebApi\bin\Microsoft.Owin.dll
+C:\inetpub\proyectos\Spartane\CodigoFuente NUEVOMVC\APiOnly\oAuth.WebApi\bin\Microsoft.Owin.Security.Cookies.dll
+C:\inetpub\proyectos\Spartane\CodigoFuente NUEVOMVC\APiOnly\oAuth.WebApi\bin\Microsoft.Owin.Security.Jwt.dll
+C:\inetpub\proyectos\Spartane\CodigoFuente NUEVOMVC\APiOnly\oAuth.WebApi\bin\Newtonsoft.Json.dll
+C:\inetpub\proyectos\Spartane\CodigoFuente NUEVOMVC\APiOnly\oAuth.WebApi\bin\Owin.dll
+C:\inetpub\proyectos\Spartane\CodigoFuente NUEVOMVC\APiOnly\oAuth.WebApi\bin\SendGrid.SmtpApi.dll
+C:\inetpub\proyectos\Spartane\CodigoFuente NUEVOMVC\APiOnly\oAuth.WebApi\bin\SendGridMail.dll
+C:\inetpub\proyectos\Spartane\CodigoFuente NUEVOMVC\APiOnly\oAuth.WebApi\bin\Spartane.Core.dll
+C:\inetpub\proyectos\Spartane\CodigoFuente NUEVOMVC\APiOnly\oAuth.WebApi\bin\Spartane.Data.dll
+C:\inetpub\proyectos\Spartane\CodigoFuente NUEVOMVC\APiOnly\oAuth.WebApi\bin\Spartane.Services.dll
+C:\inetpub\proyectos\Spartane\CodigoFuente NUEVOMVC\APiOnly\oAuth.WebApi\bin\System.IdentityModel.Tokens.Jwt.dll
+C:\inetpub\proyectos\Spartane\CodigoFuente NUEVOMVC\APiOnly\oAuth.WebApi\bin\System.Net.Http.Formatting.dll
+C:\inetpub\proyectos\Spartane\CodigoFuente NUEVOMVC\APiOnly\oAuth.WebApi\bin\System.Web.Cors.dll
+C:\inetpub\proyectos\Spartane\CodigoFuente NUEVOMVC\APiOnly\oAuth.WebApi\bin\System.Web.Http.Cors.dll
+C:\inetpub\proyectos\Spartane\CodigoFuente NUEVOMVC\APiOnly\oAuth.WebApi\bin\System.Web.Http.dll
+C:\inetpub\proyectos\Spartane\CodigoFuente NUEVOMVC\APiOnly\oAuth.WebApi\bin\System.Web.Http.WebHost.dll
+C:\inetpub\proyectos\Spartane\CodigoFuente NUEVOMVC\APiOnly\oAuth.WebApi\bin\Thinktecture.IdentityModel.Core.dll
+C:\inetpub\proyectos\Spartane\CodigoFuente NUEVOMVC\APiOnly\oAuth.WebApi\bin\log4net.dll
+C:\inetpub\proyectos\Spartane\CodigoFuente NUEVOMVC\APiOnly\oAuth.WebApi\bin\SqlLinq.dll
+C:\inetpub\proyectos\Spartane\CodigoFuente NUEVOMVC\APiOnly\oAuth.WebApi\bin\Autofac.Integration.Mvc.dll
+C:\inetpub\proyectos\Spartane\CodigoFuente NUEVOMVC\APiOnly\oAuth.WebApi\bin\System.Web.Mvc.dll
+C:\inetpub\proyectos\Spartane\CodigoFuente NUEVOMVC\APiOnly\oAuth.WebApi\bin\System.Linq.Dynamic.dll
+C:\inetpub\proyectos\Spartane\CodigoFuente NUEVOMVC\APiOnly\oAuth.WebApi\bin\GoldParser.dll
+C:\inetpub\proyectos\Spartane\CodigoFuente NUEVOMVC\APiOnly\oAuth.WebApi\bin\Kackman.RuntimeTypeLoader.dll
+C:\inetpub\proyectos\Spartane\CodigoFuente NUEVOMVC\APiOnly\oAuth.WebApi\bin\System.Web.Razor.dll
+C:\inetpub\proyectos\Spartane\CodigoFuente NUEVOMVC\APiOnly\oAuth.WebApi\bin\System.Web.WebPages.Razor.dll
+C:\inetpub\proyectos\Spartane\CodigoFuente NUEVOMVC\APiOnly\oAuth.WebApi\bin\System.Web.WebPages.dll
+C:\inetpub\proyectos\Spartane\CodigoFuente NUEVOMVC\APiOnly\oAuth.WebApi\bin\System.Web.WebPages.Deployment.dll
+C:\inetpub\proyectos\Spartane\CodigoFuente NUEVOMVC\APiOnly\oAuth.WebApi\bin\Spartane.Core.pdb
+C:\inetpub\proyectos\Spartane\CodigoFuente NUEVOMVC\APiOnly\oAuth.WebApi\bin\Spartane.Data.pdb
+C:\inetpub\proyectos\Spartane\CodigoFuente NUEVOMVC\APiOnly\oAuth.WebApi\bin\Spartane.Services.pdb
+C:\inetpub\proyectos\Spartane\CodigoFuente NUEVOMVC\APiOnly\oAuth.WebApi\bin\Autofac.xml
+C:\inetpub\proyectos\Spartane\CodigoFuente NUEVOMVC\APiOnly\oAuth.WebApi\bin\Autofac.Configuration.xml
+C:\inetpub\proyectos\Spartane\CodigoFuente NUEVOMVC\APiOnly\oAuth.WebApi\bin\Autofac.Integration.WebApi.xml
+C:\inetpub\proyectos\Spartane\CodigoFuente NUEVOMVC\APiOnly\oAuth.WebApi\bin\EntityFramework.xml
+C:\inetpub\proyectos\Spartane\CodigoFuente NUEVOMVC\APiOnly\oAuth.WebApi\bin\EntityFramework.SqlServer.xml
+C:\inetpub\proyectos\Spartane\CodigoFuente NUEVOMVC\APiOnly\oAuth.WebApi\bin\Microsoft.AspNet.Identity.Core.xml
+C:\inetpub\proyectos\Spartane\CodigoFuente NUEVOMVC\APiOnly\oAuth.WebApi\bin\Microsoft.Owin.xml
+C:\inetpub\proyectos\Spartane\CodigoFuente NUEVOMVC\APiOnly\oAuth.WebApi\bin\Microsoft.Owin.Cors.xml
+C:\inetpub\proyectos\Spartane\CodigoFuente NUEVOMVC\APiOnly\oAuth.WebApi\bin\Microsoft.Owin.Security.Cookies.xml
+C:\inetpub\proyectos\Spartane\CodigoFuente NUEVOMVC\APiOnly\oAuth.WebApi\bin\Microsoft.Owin.Security.Jwt.xml
+C:\inetpub\proyectos\Spartane\CodigoFuente NUEVOMVC\APiOnly\oAuth.WebApi\bin\Newtonsoft.Json.xml
+C:\inetpub\proyectos\Spartane\CodigoFuente NUEVOMVC\APiOnly\oAuth.WebApi\bin\System.IdentityModel.Tokens.Jwt.xml
+C:\inetpub\proyectos\Spartane\CodigoFuente NUEVOMVC\APiOnly\oAuth.WebApi\bin\System.Net.Http.Formatting.xml
+C:\inetpub\proyectos\Spartane\CodigoFuente NUEVOMVC\APiOnly\oAuth.WebApi\bin\System.Web.Http.xml
+C:\inetpub\proyectos\Spartane\CodigoFuente NUEVOMVC\APiOnly\oAuth.WebApi\bin\System.Web.Http.Cors.xml
+C:\inetpub\proyectos\Spartane\CodigoFuente NUEVOMVC\APiOnly\oAuth.WebApi\bin\System.Web.Http.WebHost.xml
+C:\inetpub\proyectos\Spartane\CodigoFuente NUEVOMVC\APiOnly\oAuth.WebApi\bin\Thinktecture.IdentityModel.Core.pdb
+C:\inetpub\proyectos\Spartane\CodigoFuente NUEVOMVC\APiOnly\oAuth.WebApi\bin\log4net.xml
+C:\inetpub\proyectos\Spartane\CodigoFuente NUEVOMVC\APiOnly\oAuth.WebApi\bin\Autofac.Integration.Mvc.xml
+C:\inetpub\proyectos\Spartane\CodigoFuente NUEVOMVC\APiOnly\oAuth.WebApi\bin\System.Web.Mvc.xml
+C:\inetpub\proyectos\Spartane\CodigoFuente NUEVOMVC\APiOnly\oAuth.WebApi\bin\System.Web.Razor.xml
+C:\inetpub\proyectos\Spartane\CodigoFuente NUEVOMVC\APiOnly\oAuth.WebApi\bin\System.Web.WebPages.Razor.xml
+C:\inetpub\proyectos\Spartane\CodigoFuente NUEVOMVC\APiOnly\oAuth.WebApi\bin\System.Web.WebPages.xml
+C:\inetpub\proyectos\Spartane\CodigoFuente NUEVOMVC\APiOnly\oAuth.WebApi\bin\System.Web.WebPages.Deployment.xml
+C:\inetpub\proyectos\Spartane\CodigoFuente NUEVOMVC\APiOnly\oAuth.WebApi\obj\Release\oAuth.WebApi.csprojResolveAssemblyReference.cache
+C:\inetpub\proyectos\Spartane\CodigoFuente NUEVOMVC\APiOnly\oAuth.WebApi\obj\Release\Spartane.WebApi.Migrations.InitialCreate.resources
+C:\inetpub\proyectos\Spartane\CodigoFuente NUEVOMVC\APiOnly\oAuth.WebApi\obj\Release\AspNetIdentity.WebApi.Migrations.DepartmentDetails.resources
+C:\inetpub\proyectos\Spartane\CodigoFuente NUEVOMVC\APiOnly\oAuth.WebApi\obj\Release\AspNetIdentity.WebApi.Migrations.EmpleadoDetails.resources
+C:\inetpub\proyectos\Spartane\CodigoFuente NUEVOMVC\APiOnly\oAuth.WebApi\obj\Release\AspNetIdentity.WebApi.Migrations.ListSelAll.resources
+C:\inetpub\proyectos\Spartane\CodigoFuente NUEVOMVC\APiOnly\oAuth.WebApi\obj\Release\AspNetIdentity.WebApi.Migrations.sp_ListSelAll_Departamento.resources
+C:\inetpub\proyectos\Spartane\CodigoFuente NUEVOMVC\APiOnly\oAuth.WebApi\obj\Release\AspNetIdentity.WebApi.Migrations.UpdateStoredProcedure.resources
+C:\inetpub\proyectos\Spartane\CodigoFuente NUEVOMVC\APiOnly\oAuth.WebApi\obj\Release\AspNetIdentity.WebApi.Migrations.UpdateStoredProcedure2.resources
+C:\inetpub\proyectos\Spartane\CodigoFuente NUEVOMVC\APiOnly\oAuth.WebApi\obj\Release\AspNetIdentity.WebApi.Migrations.UpdateStoredProcedure3.resources
+C:\inetpub\proyectos\Spartane\CodigoFuente NUEVOMVC\APiOnly\oAuth.WebApi\obj\Release\AspNetIdentity.WebApi.Migrations.sp_DelEmpleado.resources
+C:\inetpub\proyectos\Spartane\CodigoFuente NUEVOMVC\APiOnly\oAuth.WebApi\obj\Release\AspNetIdentity.WebApi.Migrations.sp_DelDepartamento.resources
+C:\inetpub\proyectos\Spartane\CodigoFuente NUEVOMVC\APiOnly\oAuth.WebApi\obj\Release\AspNetIdentity.WebApi.Migrations.sp_UpdDepartamentoAndEmployeado.resources
+C:\inetpub\proyectos\Spartane\CodigoFuente NUEVOMVC\APiOnly\oAuth.WebApi\obj\Release\AspNetIdentity.WebApi.Migrations.sp_ListSelCount.resources
+C:\inetpub\proyectos\Spartane\CodigoFuente NUEVOMVC\APiOnly\oAuth.WebApi\obj\Release\AspNetIdentity.WebApi.Migrations.sp_ListSelAll_Empleado.resources
+C:\inetpub\proyectos\Spartane\CodigoFuente NUEVOMVC\APiOnly\oAuth.WebApi\obj\Release\oAuth.WebApi.csproj.GenerateResource.Cache
+C:\inetpub\proyectos\Spartane\CodigoFuente NUEVOMVC\APiOnly\oAuth.WebApi\obj\Release\oAuth.WebApi.dll
+C:\inetpub\proyectos\Spartane\CodigoFuente NUEVOMVC\APiOnly\oAuth.WebApi\obj\Release\oAuth.WebApi.pdb
+C:\Proyectos\Georgios Voyatzis\xpicksv1_0_2\Application\WebApi\oAuth.WebApi\bin\oAuth.WebApi.dll.config
+C:\Proyectos\Georgios Voyatzis\xpicksv1_0_2\Application\WebApi\oAuth.WebApi\bin\oAuth.WebApi.dll
+C:\Proyectos\Georgios Voyatzis\xpicksv1_0_2\Application\WebApi\oAuth.WebApi\bin\oAuth.WebApi.pdb
+C:\Proyectos\Georgios Voyatzis\xpicksv1_0_2\Application\WebApi\oAuth.WebApi\bin\Autofac.Configuration.dll
+C:\Proyectos\Georgios Voyatzis\xpicksv1_0_2\Application\WebApi\oAuth.WebApi\bin\Autofac.dll
+C:\Proyectos\Georgios Voyatzis\xpicksv1_0_2\Application\WebApi\oAuth.WebApi\bin\Autofac.Integration.WebApi.dll
+C:\Proyectos\Georgios Voyatzis\xpicksv1_0_2\Application\WebApi\oAuth.WebApi\bin\EntityFramework.dll
+C:\Proyectos\Georgios Voyatzis\xpicksv1_0_2\Application\WebApi\oAuth.WebApi\bin\EntityFramework.SqlServer.dll
+C:\Proyectos\Georgios Voyatzis\xpicksv1_0_2\Application\WebApi\oAuth.WebApi\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Proyectos\Georgios Voyatzis\xpicksv1_0_2\Application\WebApi\oAuth.WebApi\bin\Microsoft.Owin.Cors.dll
+C:\Proyectos\Georgios Voyatzis\xpicksv1_0_2\Application\WebApi\oAuth.WebApi\bin\Microsoft.Owin.dll
+C:\Proyectos\Georgios Voyatzis\xpicksv1_0_2\Application\WebApi\oAuth.WebApi\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Proyectos\Georgios Voyatzis\xpicksv1_0_2\Application\WebApi\oAuth.WebApi\bin\Microsoft.Owin.Security.Jwt.dll
+C:\Proyectos\Georgios Voyatzis\xpicksv1_0_2\Application\WebApi\oAuth.WebApi\bin\Newtonsoft.Json.dll
+C:\Proyectos\Georgios Voyatzis\xpicksv1_0_2\Application\WebApi\oAuth.WebApi\bin\Owin.dll
+C:\Proyectos\Georgios Voyatzis\xpicksv1_0_2\Application\WebApi\oAuth.WebApi\bin\SendGrid.SmtpApi.dll
+C:\Proyectos\Georgios Voyatzis\xpicksv1_0_2\Application\WebApi\oAuth.WebApi\bin\SendGridMail.dll
+C:\Proyectos\Georgios Voyatzis\xpicksv1_0_2\Application\WebApi\oAuth.WebApi\bin\Spartane.Core.dll
+C:\Proyectos\Georgios Voyatzis\xpicksv1_0_2\Application\WebApi\oAuth.WebApi\bin\Spartane.Data.dll
+C:\Proyectos\Georgios Voyatzis\xpicksv1_0_2\Application\WebApi\oAuth.WebApi\bin\Spartane.Services.dll
+C:\Proyectos\Georgios Voyatzis\xpicksv1_0_2\Application\WebApi\oAuth.WebApi\bin\System.IdentityModel.Tokens.Jwt.dll
+C:\Proyectos\Georgios Voyatzis\xpicksv1_0_2\Application\WebApi\oAuth.WebApi\bin\System.Net.Http.Formatting.dll
+C:\Proyectos\Georgios Voyatzis\xpicksv1_0_2\Application\WebApi\oAuth.WebApi\bin\System.Web.Cors.dll
+C:\Proyectos\Georgios Voyatzis\xpicksv1_0_2\Application\WebApi\oAuth.WebApi\bin\System.Web.Http.Cors.dll
+C:\Proyectos\Georgios Voyatzis\xpicksv1_0_2\Application\WebApi\oAuth.WebApi\bin\System.Web.Http.dll
+C:\Proyectos\Georgios Voyatzis\xpicksv1_0_2\Application\WebApi\oAuth.WebApi\bin\System.Web.Http.WebHost.dll
+C:\Proyectos\Georgios Voyatzis\xpicksv1_0_2\Application\WebApi\oAuth.WebApi\bin\Thinktecture.IdentityModel.Core.dll
+C:\Proyectos\Georgios Voyatzis\xpicksv1_0_2\Application\WebApi\oAuth.WebApi\bin\log4net.dll
+C:\Proyectos\Georgios Voyatzis\xpicksv1_0_2\Application\WebApi\oAuth.WebApi\bin\SqlLinq.dll
+C:\Proyectos\Georgios Voyatzis\xpicksv1_0_2\Application\WebApi\oAuth.WebApi\bin\Autofac.Integration.Mvc.dll
+C:\Proyectos\Georgios Voyatzis\xpicksv1_0_2\Application\WebApi\oAuth.WebApi\bin\System.Linq.Dynamic.dll
+C:\Proyectos\Georgios Voyatzis\xpicksv1_0_2\Application\WebApi\oAuth.WebApi\bin\GoldParser.dll
+C:\Proyectos\Georgios Voyatzis\xpicksv1_0_2\Application\WebApi\oAuth.WebApi\bin\Kackman.RuntimeTypeLoader.dll
+C:\Proyectos\Georgios Voyatzis\xpicksv1_0_2\Application\WebApi\oAuth.WebApi\bin\System.Web.Razor.dll
+C:\Proyectos\Georgios Voyatzis\xpicksv1_0_2\Application\WebApi\oAuth.WebApi\bin\System.Web.WebPages.Razor.dll
+C:\Proyectos\Georgios Voyatzis\xpicksv1_0_2\Application\WebApi\oAuth.WebApi\bin\System.Web.WebPages.dll
+C:\Proyectos\Georgios Voyatzis\xpicksv1_0_2\Application\WebApi\oAuth.WebApi\bin\System.Web.WebPages.Deployment.dll
+C:\Proyectos\Georgios Voyatzis\xpicksv1_0_2\Application\WebApi\oAuth.WebApi\bin\Spartane.Core.pdb
+C:\Proyectos\Georgios Voyatzis\xpicksv1_0_2\Application\WebApi\oAuth.WebApi\bin\Spartane.Data.pdb
+C:\Proyectos\Georgios Voyatzis\xpicksv1_0_2\Application\WebApi\oAuth.WebApi\bin\Spartane.Services.pdb
+C:\Proyectos\Georgios Voyatzis\xpicksv1_0_2\Application\WebApi\oAuth.WebApi\bin\Autofac.xml
+C:\Proyectos\Georgios Voyatzis\xpicksv1_0_2\Application\WebApi\oAuth.WebApi\bin\Autofac.Configuration.xml
+C:\Proyectos\Georgios Voyatzis\xpicksv1_0_2\Application\WebApi\oAuth.WebApi\bin\Autofac.Integration.WebApi.xml
+C:\Proyectos\Georgios Voyatzis\xpicksv1_0_2\Application\WebApi\oAuth.WebApi\bin\EntityFramework.xml
+C:\Proyectos\Georgios Voyatzis\xpicksv1_0_2\Application\WebApi\oAuth.WebApi\bin\EntityFramework.SqlServer.xml
+C:\Proyectos\Georgios Voyatzis\xpicksv1_0_2\Application\WebApi\oAuth.WebApi\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Proyectos\Georgios Voyatzis\xpicksv1_0_2\Application\WebApi\oAuth.WebApi\bin\Microsoft.Owin.xml
+C:\Proyectos\Georgios Voyatzis\xpicksv1_0_2\Application\WebApi\oAuth.WebApi\bin\Microsoft.Owin.Cors.xml
+C:\Proyectos\Georgios Voyatzis\xpicksv1_0_2\Application\WebApi\oAuth.WebApi\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Proyectos\Georgios Voyatzis\xpicksv1_0_2\Application\WebApi\oAuth.WebApi\bin\Microsoft.Owin.Security.Jwt.xml
+C:\Proyectos\Georgios Voyatzis\xpicksv1_0_2\Application\WebApi\oAuth.WebApi\bin\Newtonsoft.Json.xml
+C:\Proyectos\Georgios Voyatzis\xpicksv1_0_2\Application\WebApi\oAuth.WebApi\bin\System.IdentityModel.Tokens.Jwt.xml
+C:\Proyectos\Georgios Voyatzis\xpicksv1_0_2\Application\WebApi\oAuth.WebApi\bin\System.Net.Http.Formatting.xml
+C:\Proyectos\Georgios Voyatzis\xpicksv1_0_2\Application\WebApi\oAuth.WebApi\bin\System.Web.Http.xml
+C:\Proyectos\Georgios Voyatzis\xpicksv1_0_2\Application\WebApi\oAuth.WebApi\bin\System.Web.Http.Cors.xml
+C:\Proyectos\Georgios Voyatzis\xpicksv1_0_2\Application\WebApi\oAuth.WebApi\bin\System.Web.Http.WebHost.xml
+C:\Proyectos\Georgios Voyatzis\xpicksv1_0_2\Application\WebApi\oAuth.WebApi\bin\Thinktecture.IdentityModel.Core.pdb
+C:\Proyectos\Georgios Voyatzis\xpicksv1_0_2\Application\WebApi\oAuth.WebApi\bin\log4net.xml
+C:\Proyectos\Georgios Voyatzis\xpicksv1_0_2\Application\WebApi\oAuth.WebApi\bin\Autofac.Integration.Mvc.xml
+C:\Proyectos\Georgios Voyatzis\xpicksv1_0_2\Application\WebApi\oAuth.WebApi\bin\System.Web.Razor.xml
+C:\Proyectos\Georgios Voyatzis\xpicksv1_0_2\Application\WebApi\oAuth.WebApi\bin\System.Web.WebPages.Razor.xml
+C:\Proyectos\Georgios Voyatzis\xpicksv1_0_2\Application\WebApi\oAuth.WebApi\bin\System.Web.WebPages.xml
+C:\Proyectos\Georgios Voyatzis\xpicksv1_0_2\Application\WebApi\oAuth.WebApi\bin\System.Web.WebPages.Deployment.xml
+C:\Proyectos\Georgios Voyatzis\xpicksv1_0_2\Application\WebApi\oAuth.WebApi\obj\Release\oAuth.WebApi.csprojResolveAssemblyReference.cache
+C:\Proyectos\Georgios Voyatzis\xpicksv1_0_2\Application\WebApi\oAuth.WebApi\obj\Release\oAuth.WebApi.dll
+C:\Proyectos\Georgios Voyatzis\xpicksv1_0_2\Application\WebApi\oAuth.WebApi\obj\Release\oAuth.WebApi.pdb
+C:\Proyectos\Farmacias Similares\AppSupervisionv1_0_13\Application\WebApi\oAuth.WebApi\bin\oAuth.WebApi.dll.config
+C:\Proyectos\Farmacias Similares\AppSupervisionv1_0_13\Application\WebApi\oAuth.WebApi\bin\oAuth.WebApi.dll
+C:\Proyectos\Farmacias Similares\AppSupervisionv1_0_13\Application\WebApi\oAuth.WebApi\bin\oAuth.WebApi.pdb
+C:\Proyectos\Farmacias Similares\AppSupervisionv1_0_13\Application\WebApi\oAuth.WebApi\bin\Autofac.Configuration.dll
+C:\Proyectos\Farmacias Similares\AppSupervisionv1_0_13\Application\WebApi\oAuth.WebApi\bin\Autofac.dll
+C:\Proyectos\Farmacias Similares\AppSupervisionv1_0_13\Application\WebApi\oAuth.WebApi\bin\Autofac.Integration.WebApi.dll
+C:\Proyectos\Farmacias Similares\AppSupervisionv1_0_13\Application\WebApi\oAuth.WebApi\bin\EntityFramework.dll
+C:\Proyectos\Farmacias Similares\AppSupervisionv1_0_13\Application\WebApi\oAuth.WebApi\bin\EntityFramework.SqlServer.dll
+C:\Proyectos\Farmacias Similares\AppSupervisionv1_0_13\Application\WebApi\oAuth.WebApi\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Proyectos\Farmacias Similares\AppSupervisionv1_0_13\Application\WebApi\oAuth.WebApi\bin\Microsoft.Owin.Cors.dll
+C:\Proyectos\Farmacias Similares\AppSupervisionv1_0_13\Application\WebApi\oAuth.WebApi\bin\Microsoft.Owin.dll
+C:\Proyectos\Farmacias Similares\AppSupervisionv1_0_13\Application\WebApi\oAuth.WebApi\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Proyectos\Farmacias Similares\AppSupervisionv1_0_13\Application\WebApi\oAuth.WebApi\bin\Microsoft.Owin.Security.Jwt.dll
+C:\Proyectos\Farmacias Similares\AppSupervisionv1_0_13\Application\WebApi\oAuth.WebApi\bin\Newtonsoft.Json.dll
+C:\Proyectos\Farmacias Similares\AppSupervisionv1_0_13\Application\WebApi\oAuth.WebApi\bin\Owin.dll
+C:\Proyectos\Farmacias Similares\AppSupervisionv1_0_13\Application\WebApi\oAuth.WebApi\bin\RestSharp.dll
+C:\Proyectos\Farmacias Similares\AppSupervisionv1_0_13\Application\WebApi\oAuth.WebApi\bin\SendGrid.SmtpApi.dll
+C:\Proyectos\Farmacias Similares\AppSupervisionv1_0_13\Application\WebApi\oAuth.WebApi\bin\SendGridMail.dll
+C:\Proyectos\Farmacias Similares\AppSupervisionv1_0_13\Application\WebApi\oAuth.WebApi\bin\Spartane.Core.dll
+C:\Proyectos\Farmacias Similares\AppSupervisionv1_0_13\Application\WebApi\oAuth.WebApi\bin\Spartane.Data.dll
+C:\Proyectos\Farmacias Similares\AppSupervisionv1_0_13\Application\WebApi\oAuth.WebApi\bin\Spartane.Services.dll
+C:\Proyectos\Farmacias Similares\AppSupervisionv1_0_13\Application\WebApi\oAuth.WebApi\bin\System.IdentityModel.Tokens.Jwt.dll
+C:\Proyectos\Farmacias Similares\AppSupervisionv1_0_13\Application\WebApi\oAuth.WebApi\bin\System.Net.Http.Formatting.dll
+C:\Proyectos\Farmacias Similares\AppSupervisionv1_0_13\Application\WebApi\oAuth.WebApi\bin\System.Web.Cors.dll
+C:\Proyectos\Farmacias Similares\AppSupervisionv1_0_13\Application\WebApi\oAuth.WebApi\bin\System.Web.Http.Cors.dll
+C:\Proyectos\Farmacias Similares\AppSupervisionv1_0_13\Application\WebApi\oAuth.WebApi\bin\System.Web.Http.dll
+C:\Proyectos\Farmacias Similares\AppSupervisionv1_0_13\Application\WebApi\oAuth.WebApi\bin\System.Web.Http.WebHost.dll
+C:\Proyectos\Farmacias Similares\AppSupervisionv1_0_13\Application\WebApi\oAuth.WebApi\bin\Thinktecture.IdentityModel.Core.dll
+C:\Proyectos\Farmacias Similares\AppSupervisionv1_0_13\Application\WebApi\oAuth.WebApi\bin\log4net.dll
+C:\Proyectos\Farmacias Similares\AppSupervisionv1_0_13\Application\WebApi\oAuth.WebApi\bin\SqlLinq.dll
+C:\Proyectos\Farmacias Similares\AppSupervisionv1_0_13\Application\WebApi\oAuth.WebApi\bin\Autofac.Integration.Mvc.dll
+C:\Proyectos\Farmacias Similares\AppSupervisionv1_0_13\Application\WebApi\oAuth.WebApi\bin\System.Linq.Dynamic.dll
+C:\Proyectos\Farmacias Similares\AppSupervisionv1_0_13\Application\WebApi\oAuth.WebApi\bin\GoldParser.dll
+C:\Proyectos\Farmacias Similares\AppSupervisionv1_0_13\Application\WebApi\oAuth.WebApi\bin\Kackman.RuntimeTypeLoader.dll
+C:\Proyectos\Farmacias Similares\AppSupervisionv1_0_13\Application\WebApi\oAuth.WebApi\bin\System.Web.Razor.dll
+C:\Proyectos\Farmacias Similares\AppSupervisionv1_0_13\Application\WebApi\oAuth.WebApi\bin\System.Web.WebPages.Razor.dll
+C:\Proyectos\Farmacias Similares\AppSupervisionv1_0_13\Application\WebApi\oAuth.WebApi\bin\System.Web.WebPages.dll
+C:\Proyectos\Farmacias Similares\AppSupervisionv1_0_13\Application\WebApi\oAuth.WebApi\bin\System.Web.WebPages.Deployment.dll
+C:\Proyectos\Farmacias Similares\AppSupervisionv1_0_13\Application\WebApi\oAuth.WebApi\bin\Spartane.Core.pdb
+C:\Proyectos\Farmacias Similares\AppSupervisionv1_0_13\Application\WebApi\oAuth.WebApi\bin\Spartane.Data.pdb
+C:\Proyectos\Farmacias Similares\AppSupervisionv1_0_13\Application\WebApi\oAuth.WebApi\bin\Spartane.Services.pdb
+C:\Proyectos\Farmacias Similares\AppSupervisionv1_0_13\Application\WebApi\oAuth.WebApi\bin\Autofac.xml
+C:\Proyectos\Farmacias Similares\AppSupervisionv1_0_13\Application\WebApi\oAuth.WebApi\bin\Autofac.Configuration.xml
+C:\Proyectos\Farmacias Similares\AppSupervisionv1_0_13\Application\WebApi\oAuth.WebApi\bin\Autofac.Integration.WebApi.xml
+C:\Proyectos\Farmacias Similares\AppSupervisionv1_0_13\Application\WebApi\oAuth.WebApi\bin\EntityFramework.xml
+C:\Proyectos\Farmacias Similares\AppSupervisionv1_0_13\Application\WebApi\oAuth.WebApi\bin\EntityFramework.SqlServer.xml
+C:\Proyectos\Farmacias Similares\AppSupervisionv1_0_13\Application\WebApi\oAuth.WebApi\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Proyectos\Farmacias Similares\AppSupervisionv1_0_13\Application\WebApi\oAuth.WebApi\bin\Microsoft.Owin.xml
+C:\Proyectos\Farmacias Similares\AppSupervisionv1_0_13\Application\WebApi\oAuth.WebApi\bin\Microsoft.Owin.Cors.xml
+C:\Proyectos\Farmacias Similares\AppSupervisionv1_0_13\Application\WebApi\oAuth.WebApi\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Proyectos\Farmacias Similares\AppSupervisionv1_0_13\Application\WebApi\oAuth.WebApi\bin\Microsoft.Owin.Security.Jwt.xml
+C:\Proyectos\Farmacias Similares\AppSupervisionv1_0_13\Application\WebApi\oAuth.WebApi\bin\Newtonsoft.Json.xml
+C:\Proyectos\Farmacias Similares\AppSupervisionv1_0_13\Application\WebApi\oAuth.WebApi\bin\RestSharp.xml
+C:\Proyectos\Farmacias Similares\AppSupervisionv1_0_13\Application\WebApi\oAuth.WebApi\bin\System.IdentityModel.Tokens.Jwt.xml
+C:\Proyectos\Farmacias Similares\AppSupervisionv1_0_13\Application\WebApi\oAuth.WebApi\bin\System.Net.Http.Formatting.xml
+C:\Proyectos\Farmacias Similares\AppSupervisionv1_0_13\Application\WebApi\oAuth.WebApi\bin\System.Web.Http.xml
+C:\Proyectos\Farmacias Similares\AppSupervisionv1_0_13\Application\WebApi\oAuth.WebApi\bin\System.Web.Http.Cors.xml
+C:\Proyectos\Farmacias Similares\AppSupervisionv1_0_13\Application\WebApi\oAuth.WebApi\bin\System.Web.Http.WebHost.xml
+C:\Proyectos\Farmacias Similares\AppSupervisionv1_0_13\Application\WebApi\oAuth.WebApi\bin\Thinktecture.IdentityModel.Core.pdb
+C:\Proyectos\Farmacias Similares\AppSupervisionv1_0_13\Application\WebApi\oAuth.WebApi\bin\log4net.xml
+C:\Proyectos\Farmacias Similares\AppSupervisionv1_0_13\Application\WebApi\oAuth.WebApi\bin\Autofac.Integration.Mvc.xml
+C:\Proyectos\Farmacias Similares\AppSupervisionv1_0_13\Application\WebApi\oAuth.WebApi\bin\System.Web.Razor.xml
+C:\Proyectos\Farmacias Similares\AppSupervisionv1_0_13\Application\WebApi\oAuth.WebApi\bin\System.Web.WebPages.Razor.xml
+C:\Proyectos\Farmacias Similares\AppSupervisionv1_0_13\Application\WebApi\oAuth.WebApi\bin\System.Web.WebPages.xml
+C:\Proyectos\Farmacias Similares\AppSupervisionv1_0_13\Application\WebApi\oAuth.WebApi\bin\System.Web.WebPages.Deployment.xml
+C:\Proyectos\Farmacias Similares\AppSupervisionv1_0_13\Application\WebApi\oAuth.WebApi\obj\Release\oAuth.WebApi.csprojResolveAssemblyReference.cache
+C:\Proyectos\Farmacias Similares\AppSupervisionv1_0_13\Application\WebApi\oAuth.WebApi\obj\Release\oAuth.WebApi.dll
+C:\Proyectos\Farmacias Similares\AppSupervisionv1_0_13\Application\WebApi\oAuth.WebApi\obj\Release\oAuth.WebApi.pdb
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\WebApi\oAuth.WebApi\obj\Release\oAuth.WebApi.dll
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\WebApi\oAuth.WebApi\obj\Release\oAuth.WebApi.pdb
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\WebApi\oAuth.WebApi\bin\oAuth.WebApi.dll.config
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\WebApi\oAuth.WebApi\bin\oAuth.WebApi.dll
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\WebApi\oAuth.WebApi\bin\oAuth.WebApi.pdb
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\WebApi\oAuth.WebApi\bin\Autofac.Configuration.dll
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\WebApi\oAuth.WebApi\bin\Autofac.dll
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\WebApi\oAuth.WebApi\bin\Autofac.Integration.WebApi.dll
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\WebApi\oAuth.WebApi\bin\EntityFramework.dll
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\WebApi\oAuth.WebApi\bin\EntityFramework.SqlServer.dll
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\WebApi\oAuth.WebApi\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\WebApi\oAuth.WebApi\bin\Microsoft.Owin.Cors.dll
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\WebApi\oAuth.WebApi\bin\Microsoft.Owin.dll
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\WebApi\oAuth.WebApi\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\WebApi\oAuth.WebApi\bin\Microsoft.Owin.Security.Jwt.dll
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\WebApi\oAuth.WebApi\bin\Newtonsoft.Json.dll
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\WebApi\oAuth.WebApi\bin\Owin.dll
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\WebApi\oAuth.WebApi\bin\PushSharp.Amazon.dll
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\WebApi\oAuth.WebApi\bin\PushSharp.Apple.dll
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\WebApi\oAuth.WebApi\bin\PushSharp.Blackberry.dll
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\WebApi\oAuth.WebApi\bin\PushSharp.Core.dll
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\WebApi\oAuth.WebApi\bin\PushSharp.Firefox.dll
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\WebApi\oAuth.WebApi\bin\PushSharp.Google.dll
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\WebApi\oAuth.WebApi\bin\PushSharp.Windows.dll
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\WebApi\oAuth.WebApi\bin\RestSharp.dll
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\WebApi\oAuth.WebApi\bin\SendGrid.SmtpApi.dll
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\WebApi\oAuth.WebApi\bin\SendGridMail.dll
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\WebApi\oAuth.WebApi\bin\Spartane.Core.dll
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\WebApi\oAuth.WebApi\bin\Spartane.Data.dll
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\WebApi\oAuth.WebApi\bin\Spartane.Services.dll
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\WebApi\oAuth.WebApi\bin\System.IdentityModel.Tokens.Jwt.dll
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\WebApi\oAuth.WebApi\bin\System.Net.Http.Formatting.dll
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\WebApi\oAuth.WebApi\bin\System.Web.Cors.dll
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\WebApi\oAuth.WebApi\bin\System.Web.Http.Cors.dll
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\WebApi\oAuth.WebApi\bin\System.Web.Http.dll
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\WebApi\oAuth.WebApi\bin\System.Web.Http.WebHost.dll
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\WebApi\oAuth.WebApi\bin\Thinktecture.IdentityModel.Core.dll
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\WebApi\oAuth.WebApi\bin\log4net.dll
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\WebApi\oAuth.WebApi\bin\SqlLinq.dll
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\WebApi\oAuth.WebApi\bin\Autofac.Integration.Mvc.dll
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\WebApi\oAuth.WebApi\bin\System.Web.Mvc.dll
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\WebApi\oAuth.WebApi\bin\System.Linq.Dynamic.dll
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\WebApi\oAuth.WebApi\bin\GoldParser.dll
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\WebApi\oAuth.WebApi\bin\Kackman.RuntimeTypeLoader.dll
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\WebApi\oAuth.WebApi\bin\System.Web.Razor.dll
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\WebApi\oAuth.WebApi\bin\System.Web.WebPages.Razor.dll
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\WebApi\oAuth.WebApi\bin\System.Web.WebPages.dll
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\WebApi\oAuth.WebApi\bin\System.Web.WebPages.Deployment.dll
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\WebApi\oAuth.WebApi\bin\Spartane.Core.pdb
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\WebApi\oAuth.WebApi\bin\Spartane.Data.pdb
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\WebApi\oAuth.WebApi\bin\Spartane.Services.pdb
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\WebApi\oAuth.WebApi\bin\Autofac.xml
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\WebApi\oAuth.WebApi\bin\Autofac.Configuration.xml
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\WebApi\oAuth.WebApi\bin\Autofac.Integration.WebApi.xml
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\WebApi\oAuth.WebApi\bin\EntityFramework.xml
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\WebApi\oAuth.WebApi\bin\EntityFramework.SqlServer.xml
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\WebApi\oAuth.WebApi\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\WebApi\oAuth.WebApi\bin\Microsoft.Owin.xml
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\WebApi\oAuth.WebApi\bin\Microsoft.Owin.Cors.xml
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\WebApi\oAuth.WebApi\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\WebApi\oAuth.WebApi\bin\Microsoft.Owin.Security.Jwt.xml
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\WebApi\oAuth.WebApi\bin\Newtonsoft.Json.xml
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\WebApi\oAuth.WebApi\bin\RestSharp.xml
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\WebApi\oAuth.WebApi\bin\System.IdentityModel.Tokens.Jwt.xml
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\WebApi\oAuth.WebApi\bin\System.Net.Http.Formatting.xml
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\WebApi\oAuth.WebApi\bin\System.Web.Http.xml
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\WebApi\oAuth.WebApi\bin\System.Web.Http.Cors.xml
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\WebApi\oAuth.WebApi\bin\System.Web.Http.WebHost.xml
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\WebApi\oAuth.WebApi\bin\Thinktecture.IdentityModel.Core.pdb
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\WebApi\oAuth.WebApi\bin\log4net.xml
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\WebApi\oAuth.WebApi\bin\Autofac.Integration.Mvc.xml
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\WebApi\oAuth.WebApi\bin\System.Web.Mvc.xml
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\WebApi\oAuth.WebApi\bin\System.Web.Razor.xml
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\WebApi\oAuth.WebApi\bin\System.Web.WebPages.Razor.xml
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\WebApi\oAuth.WebApi\bin\System.Web.WebPages.xml
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\WebApi\oAuth.WebApi\bin\System.Web.WebPages.Deployment.xml
+C:\Proyectos\NanoTechnologyCluster\NanoTechnology\Application\WebApi\oAuth.WebApi\obj\Release\oAuth.WebApi.csprojResolveAssemblyReference.cache
+c:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\oAuth.WebApi\bin\oAuth.WebApi.dll.config
+c:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\oAuth.WebApi\bin\oAuth.WebApi.dll
+c:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\oAuth.WebApi\bin\oAuth.WebApi.pdb
+c:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\oAuth.WebApi\bin\Autofac.Configuration.dll
+c:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\oAuth.WebApi\bin\Autofac.dll
+c:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\oAuth.WebApi\bin\Autofac.Integration.WebApi.dll
+c:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\oAuth.WebApi\bin\EntityFramework.dll
+c:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\oAuth.WebApi\bin\EntityFramework.SqlServer.dll
+c:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\oAuth.WebApi\bin\Microsoft.AspNet.Identity.Core.dll
+c:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\oAuth.WebApi\bin\Microsoft.Owin.Cors.dll
+c:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\oAuth.WebApi\bin\Microsoft.Owin.dll
+c:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\oAuth.WebApi\bin\Microsoft.Owin.Security.Cookies.dll
+c:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\oAuth.WebApi\bin\Microsoft.Owin.Security.Jwt.dll
+c:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\oAuth.WebApi\bin\Newtonsoft.Json.dll
+c:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\oAuth.WebApi\bin\Owin.dll
+c:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\oAuth.WebApi\bin\PushSharp.Amazon.dll
+c:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\oAuth.WebApi\bin\PushSharp.Apple.dll
+c:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\oAuth.WebApi\bin\PushSharp.Blackberry.dll
+c:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\oAuth.WebApi\bin\PushSharp.Core.dll
+c:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\oAuth.WebApi\bin\PushSharp.Firefox.dll
+c:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\oAuth.WebApi\bin\PushSharp.Google.dll
+c:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\oAuth.WebApi\bin\PushSharp.Windows.dll
+c:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\oAuth.WebApi\bin\RestSharp.dll
+c:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\oAuth.WebApi\bin\SendGrid.SmtpApi.dll
+c:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\oAuth.WebApi\bin\SendGridMail.dll
+c:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\oAuth.WebApi\bin\Spartane.Core.dll
+c:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\oAuth.WebApi\bin\Spartane.Data.dll
+c:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\oAuth.WebApi\bin\Spartane.Services.dll
+c:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\oAuth.WebApi\bin\System.IdentityModel.Tokens.Jwt.dll
+c:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\oAuth.WebApi\bin\System.Net.Http.Formatting.dll
+c:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\oAuth.WebApi\bin\System.Web.Cors.dll
+c:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\oAuth.WebApi\bin\System.Web.Http.Cors.dll
+c:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\oAuth.WebApi\bin\System.Web.Http.dll
+c:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\oAuth.WebApi\bin\System.Web.Http.WebHost.dll
+c:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\oAuth.WebApi\bin\Thinktecture.IdentityModel.Core.dll
+c:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\oAuth.WebApi\bin\log4net.dll
+c:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\oAuth.WebApi\bin\SqlLinq.dll
+c:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\oAuth.WebApi\bin\Autofac.Integration.Mvc.dll
+c:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\oAuth.WebApi\bin\System.Web.Mvc.dll
+c:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\oAuth.WebApi\bin\System.Linq.Dynamic.dll
+c:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\oAuth.WebApi\bin\GoldParser.dll
+c:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\oAuth.WebApi\bin\Kackman.RuntimeTypeLoader.dll
+c:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\oAuth.WebApi\bin\System.Web.Razor.dll
+c:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\oAuth.WebApi\bin\System.Web.WebPages.Razor.dll
+c:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\oAuth.WebApi\bin\System.Web.WebPages.dll
+c:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\oAuth.WebApi\bin\System.Web.WebPages.Deployment.dll
+c:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\oAuth.WebApi\bin\Spartane.Core.pdb
+c:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\oAuth.WebApi\bin\Spartane.Data.pdb
+c:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\oAuth.WebApi\bin\Spartane.Services.pdb
+c:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\oAuth.WebApi\bin\Autofac.xml
+c:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\oAuth.WebApi\bin\Autofac.Configuration.xml
+c:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\oAuth.WebApi\bin\Autofac.Integration.WebApi.xml
+c:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\oAuth.WebApi\bin\EntityFramework.xml
+c:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\oAuth.WebApi\bin\EntityFramework.SqlServer.xml
+c:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\oAuth.WebApi\bin\Microsoft.AspNet.Identity.Core.xml
+c:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\oAuth.WebApi\bin\Microsoft.Owin.xml
+c:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\oAuth.WebApi\bin\Microsoft.Owin.Cors.xml
+c:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\oAuth.WebApi\bin\Microsoft.Owin.Security.Cookies.xml
+c:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\oAuth.WebApi\bin\Microsoft.Owin.Security.Jwt.xml
+c:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\oAuth.WebApi\bin\Newtonsoft.Json.xml
+c:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\oAuth.WebApi\bin\RestSharp.xml
+c:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\oAuth.WebApi\bin\System.IdentityModel.Tokens.Jwt.xml
+c:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\oAuth.WebApi\bin\System.Net.Http.Formatting.xml
+c:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\oAuth.WebApi\bin\System.Web.Http.xml
+c:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\oAuth.WebApi\bin\System.Web.Http.Cors.xml
+c:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\oAuth.WebApi\bin\System.Web.Http.WebHost.xml
+c:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\oAuth.WebApi\bin\Thinktecture.IdentityModel.Core.pdb
+c:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\oAuth.WebApi\bin\log4net.xml
+c:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\oAuth.WebApi\bin\Autofac.Integration.Mvc.xml
+c:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\oAuth.WebApi\bin\System.Web.Mvc.xml
+c:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\oAuth.WebApi\bin\System.Web.Razor.xml
+c:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\oAuth.WebApi\bin\System.Web.WebPages.Razor.xml
+c:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\oAuth.WebApi\bin\System.Web.WebPages.xml
+c:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\oAuth.WebApi\bin\System.Web.WebPages.Deployment.xml
+c:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\oAuth.WebApi\obj\Release\oAuth.WebApi.csprojResolveAssemblyReference.cache
+c:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\oAuth.WebApi\obj\Release\oAuth.WebApi.dll
+c:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\oAuth.WebApi\obj\Release\oAuth.WebApi.pdb
+c:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\oAuth.WebApi\obj\Release\Package\PackageTmp\bin\oAuth.WebApi.dll
+c:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\oAuth.WebApi\obj\Release\Package\PackageTmp\Global.asax
+c:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\oAuth.WebApi\obj\Release\Package\PackageTmp\Uploads\TTArchivos\Files.txt
+c:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\oAuth.WebApi\obj\Release\Package\PackageTmp\packages.config
+c:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\oAuth.WebApi\obj\Release\Package\PackageTmp\Certificates\CertificatesDevelopment.p12
+c:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\oAuth.WebApi\obj\Release\Package\PackageTmp\Certificates\CertificatesProduction.p12
+c:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\oAuth.WebApi\obj\Release\Package\PackageTmp\bin\Autofac.Configuration.dll
+c:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\oAuth.WebApi\obj\Release\Package\PackageTmp\bin\Autofac.dll
+c:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\oAuth.WebApi\obj\Release\Package\PackageTmp\bin\Autofac.Integration.WebApi.dll
+c:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\oAuth.WebApi\obj\Release\Package\PackageTmp\bin\EntityFramework.dll
+c:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\oAuth.WebApi\obj\Release\Package\PackageTmp\bin\EntityFramework.SqlServer.dll
+c:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\oAuth.WebApi\obj\Release\Package\PackageTmp\bin\Microsoft.AspNet.Identity.Core.dll
+c:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\oAuth.WebApi\obj\Release\Package\PackageTmp\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+c:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\oAuth.WebApi\obj\Release\Package\PackageTmp\bin\Microsoft.AspNet.Identity.Owin.dll
+c:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\oAuth.WebApi\obj\Release\Package\PackageTmp\bin\Microsoft.Owin.Cors.dll
+c:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\oAuth.WebApi\obj\Release\Package\PackageTmp\bin\Microsoft.Owin.dll
+c:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\oAuth.WebApi\obj\Release\Package\PackageTmp\bin\Microsoft.Owin.Host.SystemWeb.dll
+c:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\oAuth.WebApi\obj\Release\Package\PackageTmp\bin\Microsoft.Owin.Security.Cookies.dll
+c:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\oAuth.WebApi\obj\Release\Package\PackageTmp\bin\Microsoft.Owin.Security.dll
+c:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\oAuth.WebApi\obj\Release\Package\PackageTmp\bin\Microsoft.Owin.Security.Jwt.dll
+c:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\oAuth.WebApi\obj\Release\Package\PackageTmp\bin\Microsoft.Owin.Security.OAuth.dll
+c:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\oAuth.WebApi\obj\Release\Package\PackageTmp\bin\Newtonsoft.Json.dll
+c:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\oAuth.WebApi\obj\Release\Package\PackageTmp\bin\Owin.dll
+c:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\oAuth.WebApi\obj\Release\Package\PackageTmp\bin\PushSharp.Amazon.dll
+c:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\oAuth.WebApi\obj\Release\Package\PackageTmp\bin\PushSharp.Apple.dll
+c:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\oAuth.WebApi\obj\Release\Package\PackageTmp\bin\PushSharp.Blackberry.dll
+c:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\oAuth.WebApi\obj\Release\Package\PackageTmp\bin\PushSharp.Core.dll
+c:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\oAuth.WebApi\obj\Release\Package\PackageTmp\bin\PushSharp.Firefox.dll
+c:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\oAuth.WebApi\obj\Release\Package\PackageTmp\bin\PushSharp.Google.dll
+c:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\oAuth.WebApi\obj\Release\Package\PackageTmp\bin\PushSharp.Windows.dll
+c:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\oAuth.WebApi\obj\Release\Package\PackageTmp\bin\RestSharp.dll
+c:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\oAuth.WebApi\obj\Release\Package\PackageTmp\bin\SendGrid.SmtpApi.dll
+c:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\oAuth.WebApi\obj\Release\Package\PackageTmp\bin\SendGridMail.dll
+c:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\oAuth.WebApi\obj\Release\Package\PackageTmp\bin\Spartane.Core.dll
+c:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\oAuth.WebApi\obj\Release\Package\PackageTmp\bin\Spartane.Data.dll
+c:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\oAuth.WebApi\obj\Release\Package\PackageTmp\bin\Spartane.Services.dll
+c:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\oAuth.WebApi\obj\Release\Package\PackageTmp\bin\System.IdentityModel.Tokens.Jwt.dll
+c:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\oAuth.WebApi\obj\Release\Package\PackageTmp\bin\System.Net.Http.Formatting.dll
+c:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\oAuth.WebApi\obj\Release\Package\PackageTmp\bin\System.Web.Cors.dll
+c:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\oAuth.WebApi\obj\Release\Package\PackageTmp\bin\System.Web.Http.Cors.dll
+c:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\oAuth.WebApi\obj\Release\Package\PackageTmp\bin\System.Web.Http.dll
+c:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\oAuth.WebApi\obj\Release\Package\PackageTmp\bin\System.Web.Http.Owin.dll
+c:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\oAuth.WebApi\obj\Release\Package\PackageTmp\bin\System.Web.Http.WebHost.dll
+c:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\oAuth.WebApi\obj\Release\Package\PackageTmp\bin\Thinktecture.IdentityModel.Core.dll
+c:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\oAuth.WebApi\obj\Release\Package\PackageTmp\bin\log4net.dll
+c:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\oAuth.WebApi\obj\Release\Package\PackageTmp\bin\SqlLinq.dll
+c:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\oAuth.WebApi\obj\Release\Package\PackageTmp\bin\Autofac.Integration.Mvc.dll
+c:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\oAuth.WebApi\obj\Release\Package\PackageTmp\bin\System.Web.Mvc.dll
+c:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\oAuth.WebApi\obj\Release\Package\PackageTmp\bin\System.Linq.Dynamic.dll
+c:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\oAuth.WebApi\obj\Release\Package\PackageTmp\bin\GoldParser.dll
+c:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\oAuth.WebApi\obj\Release\Package\PackageTmp\bin\Kackman.RuntimeTypeLoader.dll
+c:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\oAuth.WebApi\obj\Release\Package\PackageTmp\bin\System.Web.Razor.dll
+c:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\oAuth.WebApi\obj\Release\Package\PackageTmp\bin\System.Web.WebPages.Razor.dll
+c:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\oAuth.WebApi\obj\Release\Package\PackageTmp\bin\System.Web.WebPages.dll
+c:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\oAuth.WebApi\obj\Release\Package\PackageTmp\bin\System.Web.WebPages.Deployment.dll
+c:\Proyectos\NanoTechnologyCluster\NanoTechnologyv1_0_1\Application\WebApi\oAuth.WebApi\obj\Release\Package\PackageTmp\Web.config

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Modules>
+  <Module culture="en-us" Id="1" value="Catalogs"></Module>
+  <Module culture="es-es" Id="1" value="Catálogos"></Module>
+  <Module culture="en-us" Id="23" value="Security"></Module>
+  <Module culture="es-es" Id="23" value="Seguridad"></Module>
+  <Module culture="en-us" Id="34" value="Print Formats"></Module>
+  <Module culture="es-es" Id="34" value="Formatos de Impresión"></Module>
+  <Module culture="en-us" Id="38" value="Reportes"></Module>
+  <Module culture="es-es" Id="38" value="Reportes"></Module>
+  <Module culture="en-us" Id="39" value="Flujos de Trabajo"></Module>
+  <Module culture="es-es" Id="39" value="Flujos de Trabajo"></Module>
+  <Module culture="en-us" Id="45" value="Spartane Language"></Module>
+  <Module culture="es-es" Id="45" value="Spartane Lenguajes"></Module>
+</Modules>

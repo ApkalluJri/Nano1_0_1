@@ -1,0 +1,16 @@
+C:\Proyectos\DFK\ObjectBussiness\obj\Debug\ResolveAssemblyReference.cache
+C:\Proyectos\DFK\ObjectBussiness\obj\Debug\LibraryDLLObjectBusiness.dll
+C:\Proyectos\DFK\ObjectBussiness\bin\Debug\LibraryDLLObjectBusiness.dll
+C:\Proyectos\DFK\ObjectBussiness\bin\Debug\LibraryDLLObjectBusiness.pdb
+C:\Proyectos\DFK\ObjectBussiness\bin\Debug\TTVersion.dll
+C:\Proyectos\DFK\ObjectBussiness\bin\Debug\TTTraductor.pdb
+C:\Proyectos\DFK\ObjectBussiness\bin\Debug\TTVersion.pdb
+C:\Proyectos\DFK\ObjectBussiness\obj\Debug\LibraryDLLObjectBusiness.pdb
+E:\Proyectos\TOTAL CASE\ASP NET\Template en Blanco\ObjectBussiness\bin\Debug\LibraryDLLObjectBusiness.dll
+E:\Proyectos\TOTAL CASE\ASP NET\Template en Blanco\ObjectBussiness\bin\Debug\LibraryDLLObjectBusiness.pdb
+E:\Proyectos\TOTAL CASE\ASP NET\Template en Blanco\ObjectBussiness\bin\Debug\TTVersion.dll
+E:\Proyectos\TOTAL CASE\ASP NET\Template en Blanco\ObjectBussiness\bin\Debug\TTTraductor.pdb
+E:\Proyectos\TOTAL CASE\ASP NET\Template en Blanco\ObjectBussiness\bin\Debug\TTVersion.pdb
+E:\Proyectos\TOTAL CASE\ASP NET\Template en Blanco\ObjectBussiness\obj\Debug\ResolveAssemblyReference.cache
+E:\Proyectos\TOTAL CASE\ASP NET\Template en Blanco\ObjectBussiness\obj\Debug\LibraryDLLObjectBusiness.dll
+E:\Proyectos\TOTAL CASE\ASP NET\Template en Blanco\ObjectBussiness\obj\Debug\LibraryDLLObjectBusiness.pdb
